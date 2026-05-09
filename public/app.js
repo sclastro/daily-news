@@ -1,22 +1,25 @@
 /**
- * app.js — 前端邏輯
- * 讀取 ../data/news.json，渲染四個類別的新聞卡片
+ * app.js（最終版）
+ * - 五個新聞類別（加入財經）
+ * - 讀取 news.json 渲染新聞卡片
  */
 
-// 類別樣式設定
+// ── 五個類別設定 ──
 const CATEGORY_CONFIG = {
-  hk:    { emoji: '🇭🇰', colorClass: 'red',    label: '本地新聞（香港）' },
-  china: { emoji: '🇨🇳', colorClass: 'amber',  label: '大中華新聞' },
-  world: { emoji: '🌍',  colorClass: 'green',  label: '國際新聞' },
-  ai:    { emoji: '🤖',  colorClass: 'purple', label: 'AI 相關新聞' },
+  hk:      { emoji: '🇭🇰', colorClass: 'red',    label: '本地新聞（香港）' },
+  world:   { emoji: '🌍',  colorClass: 'green',  label: '國際新聞' },
+  finance: { emoji: '💹',  colorClass: 'blue',   label: '財經新聞' },
+  ai:      { emoji: '🤖',  colorClass: 'purple', label: 'AI 相關新聞' },
+  china:   { emoji: '🇨🇳', colorClass: 'amber',  label: '大中華新聞' },
 };
 
-// 顏色對應 Tailwind 類別（需預先定義，Tailwind CDN 模式不支援動態拼接）
+// ── 顏色對應 Tailwind 類別 ──
 const COLORS = {
   red:    { bg: 'bg-red-50',    text: 'text-red-700',    border: 'border-red-300',    badge: 'bg-red-100 text-red-700' },
-  amber:  { bg: 'bg-amber-50',  text: 'text-amber-700',  border: 'border-amber-300',  badge: 'bg-amber-100 text-amber-700' },
   green:  { bg: 'bg-green-50',  text: 'text-green-700',  border: 'border-green-300',  badge: 'bg-green-100 text-green-700' },
+  blue:   { bg: 'bg-blue-50',   text: 'text-blue-700',   border: 'border-blue-300',   badge: 'bg-blue-100 text-blue-700' },
   purple: { bg: 'bg-purple-50', text: 'text-purple-700', border: 'border-purple-300', badge: 'bg-purple-100 text-purple-700' },
+  amber:  { bg: 'bg-amber-50',  text: 'text-amber-700',  border: 'border-amber-300',  badge: 'bg-amber-100 text-amber-700' },
 };
 
 let allNewsData = {};
@@ -24,12 +27,15 @@ let allNewsData = {};
 // ── 頁面載入 ──
 document.addEventListener('DOMContentLoaded', async () => {
   try {
-    const response = await fetch('../data/news.json');
+    const response = await fetch('data/news.json');
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     allNewsData = await response.json();
 
     const dates = Object.keys(allNewsData).sort().reverse();
-    if (dates.length === 0) { showError('暫無新聞資料，請等待每日自動更新。'); return; }
+    if (dates.length === 0) {
+      showError('暫無新聞資料，請等待每日自動更新。');
+      return;
+    }
 
     populateDateSelect(dates);
     renderNews(dates[0]);
@@ -38,7 +44,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       `✅ 最後更新：${dates[0]}　|　每日香港時間早上 6 時自動更新`;
 
   } catch (err) {
-    showError(`載入失敗：${err.message}。請確認 data/news.json 存在，並由 GitHub Actions 正確執行。`);
+    showError(`載入失敗：${err.message}。請確認 data/news.json 存在。`);
   }
 });
 
@@ -73,7 +79,7 @@ function renderNews(date) {
             ${i + 1}
           </span>
           <div class="flex-1 min-w-0">
-            <h3 class="font-semibold text-gray-900 text-sm leading-snug mb-2 line-clamp-2">
+            <h3 class="font-semibold text-gray-900 text-sm leading-snug mb-2">
               ${escapeHtml(article.title)}
             </h3>
             <p class="text-xs text-gray-600 leading-relaxed mb-3">
@@ -109,7 +115,7 @@ function renderNews(date) {
   container.innerHTML = html || '<p class="text-gray-400 text-center py-20">此日期暫無資料</p>';
 }
 
-// ── 跳轉到類別 ──
+// ── 快速跳轉 ──
 function scrollToCategory(catId) {
   document.getElementById(`cat-${catId}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
@@ -118,7 +124,8 @@ function scrollToCategory(catId) {
 function formatTime(isoString) {
   try {
     return new Date(isoString).toLocaleString('zh-HK', {
-      month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit'
+      month: 'numeric', day: 'numeric',
+      hour: '2-digit', minute: '2-digit'
     });
   } catch { return '未知時間'; }
 }
