@@ -88,22 +88,23 @@ async function summarizeWithGemini(articles, categoryName) {
     `[${i + 1}] 標題: ${a.title}\n內容: ${a.description || '無'}\n來源: ${a.source_id || '未知'}\n連結: ${a.link || a.url || ''}`
   ).join('\n\n');
 
-  const prompt = `
-你是一位專業新聞編輯。以下是今日「${categoryName}」的新聞列表：
+const prompt = `
+你是一位專業新聞編輯，精通繁體中文。以下是今日「${categoryName}」的新聞列表：
 
 ${articleList}
 
 請完成以下任務：
-1. 從以上新聞中選出最重要、最具代表性的 5 篇（避免選重複題材）
-2. 為每篇新聞撰寫 1-2 句繁體中文摘要（簡潔清晰，說明事件核心）
-3. 如果新聞是英文，標題和摘要都請翻譯成繁體中文
+1. 選出最重要、最具代表性的 5 篇（避免重複題材）
+2. 所有輸出必須使用**繁體中文**
+3. 標題如果是英文或簡體中文，必須翻譯成繁體中文
+4. 每篇撰寫 2 句摘要：第一句說明事件，第二句說明影響或背景
 
-請以 JSON 格式回覆，只回覆 JSON，不要任何其他文字或 markdown 格式：
+只回覆 JSON，不要其他文字：
 [
   {
-    "title": "新聞標題（繁體中文）",
-    "summary": "1-2 句摘要",
-    "source": "來源媒體名稱",
+    "title": "繁體中文標題",
+    "summary": "第一句說明事件。第二句說明影響或背景。",
+    "source": "來源媒體",
     "url": "完整連結",
     "publishedAt": "發佈時間"
   }
