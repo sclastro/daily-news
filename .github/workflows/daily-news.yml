@@ -1,0 +1,38 @@
+name: 每日新聞自動更新
+
+on:
+  # 每日 UTC 22:00 = 香港時間 06:00
+  schedule:
+    - cron: '0 22 * * *'
+  # 允許手動從 GitHub 網頁觸發（測試用）
+  workflow_dispatch:
+
+jobs:
+  fetch-news:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout 代碼
+        uses: actions/checkout@v4
+
+      - name: 設定 Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 安裝依賴套件
+        run: npm install
+
+      - name: 執行新聞抓取腳本
+        env:
+          NEWSDATA_API_KEY: ${{ secrets.NEWSDATA_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node scripts/fetch-news.js
+
+      - name: Commit 並推送更新後的新聞資料
+        run: |
+          git config --local user.email "github-actions@github.com"
+          git config --local user.name "GitHub Actions Bot"
+          git add data/news.json
+          git diff --staged --quiet || git commit -m "📰 自動更新新聞：$(date +%Y-%m-%d)"
+          git push
