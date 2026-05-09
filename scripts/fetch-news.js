@@ -20,30 +20,32 @@ const genAI     = new GoogleGenerativeAI(GEMINI_API_KEY);
 const model     = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
 
 // ── 新聞類別設定 ──
+
+// 將 CATEGORIES 改成以下版本
 const CATEGORIES = [
   {
     id: 'hk',
     name: '本地新聞（香港）',
-    newsdata: { country: 'hk', language: 'zh' },
-    rssKeyword: '香港 新聞',
+    newsdata: { q: '香港', language: 'zh' },  // 去掉 country
+    rssKeyword: '香港 新聞 site:hk',
   },
   {
     id: 'china',
     name: '大中華新聞',
-    newsdata: { country: 'cn,tw', language: 'zh' },
+    newsdata: { q: '中國 OR 台灣 OR 北京', language: 'zh' },
     rssKeyword: '中國 台灣 新聞',
   },
   {
     id: 'world',
     name: '國際新聞',
-    newsdata: { language: 'zh', category: 'world' },
-    rssKeyword: '國際新聞 世界',
+    newsdata: { q: 'world news international', language: 'en' },
+    rssKeyword: '國際新聞',
   },
   {
     id: 'ai',
     name: 'AI 相關新聞',
-    newsdata: { language: 'en', q: 'artificial intelligence AI' },
-    rssKeyword: 'artificial intelligence AI news',
+    newsdata: { q: 'artificial intelligence ChatGPT Gemini', language: 'en' },
+    rssKeyword: 'AI artificial intelligence 2026',
   },
 ];
 
