@@ -18,7 +18,7 @@ jobs:
       - name: 設定 Node.js 20
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24'
 
       - name: 安裝依賴套件
         run: npm install
