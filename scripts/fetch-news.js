@@ -1,9 +1,10 @@
 /**
  * fetch-news.js（最終版）
  * - 五個新聞類別
- * - Gemini 2.0 Flash Lite（配額更寬鬆）
+ * - Gemini 2.0 Flash Lite
  * - 同日資料強制覆蓋
- * - 強制繁體中文輸出
+ * - 自動重試機制（最多 3 次，每次等 30 秒）
+ * - 類別間等待 15 秒避免 rate limit
  */
 
 const axios = require('axios');
@@ -88,7 +89,7 @@ async function fetchFromGoogleRSS(keyword) {
   }
 }
 
-// ── 用 Gemini 總結並翻譯成繁體中文 ──
+// ── 用 Gemini 總結（含重試機制）──
 async function summarizeWithGemini(articles, categoryName) {
   const articleList = articles.map((a, i) =>
     `[${i + 1}] 標題: ${a.title}\n內容: ${a.description || '無'}\n來源: ${a.source_id || '未知'}\n連結: ${a.link || a.url || ''}`
@@ -117,21 +118,34 @@ ${articleList}
   }
 ]`;
 
-  try {
-    const result = await model.generateContent(prompt);
-    const text = result.response.text();
-    const cleaned = text.replace(/```json|```/g, '').trim();
-    return JSON.parse(cleaned);
-  } catch (err) {
-    console.warn(`Gemini 總結失敗: ${err.message}，使用備援方案`);
-    return articles.slice(0, 5).map(a => ({
-      title: a.title || '無標題',
-      summary: (a.description || '暫無摘要').slice(0, 150),
-      source: a.source_id || '未知來源',
-      url: a.link || a.url || '#',
-      publishedAt: a.pubDate || new Date().toISOString(),
-    }));
+  // 最多重試 3 次
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    try {
+      console.log(`  Gemini 嘗試第 ${attempt} 次...`);
+      const result = await model.generateContent(prompt);
+      const text = result.response.text();
+      const cleaned = text.replace(/```json|```/g, '').trim();
+      const parsed = JSON.parse(cleaned);
+      console.log(`  ✅ Gemini 第 ${attempt} 次成功`);
+      return parsed;
+    } catch (err) {
+      console.warn(`  Gemini 第 ${attempt} 次失敗: ${err.message}`);
+      if (attempt < 3) {
+        console.log(`  等待 30 秒後重試...`);
+        await new Promise(r => setTimeout(r, 30000));
+      }
+    }
   }
+
+  // 三次都失敗，使用備援方案（直接用原文前 5 篇）
+  console.warn('  Gemini 三次都失敗，使用備援方案');
+  return articles.slice(0, 5).map(a => ({
+    title: a.title || '無標題',
+    summary: (a.description || '暫無摘要').slice(0, 150),
+    source: a.source_id || '未知來源',
+    url: a.link || a.url || '#',
+    publishedAt: a.pubDate || new Date().toISOString(),
+  }));
 }
 
 // ── 主流程 ──
@@ -161,11 +175,13 @@ async function main() {
   for (const cat of CATEGORIES) {
     console.log(`\n📰 處理類別: ${cat.name}`);
 
+    // 並行抓取兩個來源
     const [ndArticles, rssArticles] = await Promise.all([
       fetchFromNewsData(cat.newsdata),
       fetchFromGoogleRSS(cat.rssKeyword),
     ]);
 
+    // 合併去重
     const allArticles = [...ndArticles, ...rssArticles];
     const seen = new Set();
     const unique = allArticles.filter(a => {
@@ -183,8 +199,9 @@ async function main() {
       articles: top5,
     };
 
-    // 等 4 秒避免 rate limit
-    await new Promise(r => setTimeout(r, 4000));
+    // 每個類別之間等 15 秒，避免 rate limit
+    console.log(`  完成，等待 15 秒處理下一個類別...`);
+    await new Promise(r => setTimeout(r, 15000));
   }
 
   // 累加歷史（最多 90 天）
@@ -194,6 +211,7 @@ async function main() {
     allDates.slice(90).forEach(d => delete history[d]);
   }
 
+  // 寫入 JSON
   fs.mkdirSync(path.dirname(dataPath), { recursive: true });
   fs.writeFileSync(dataPath, JSON.stringify(history, null, 2), 'utf8');
   console.log(`\n✅ 完成！今日 ${today} 新聞已儲存。`);
