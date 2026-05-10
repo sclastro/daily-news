@@ -1,24 +1,24 @@
 /**
- * fetch-news.js（Mistral 版本）
- * - 改用 Mistral AI（免費、無需信用卡、香港可用）
+ * fetch-news.js（Gemini 最終版）
+ * - 使用 Gemini 2.0 Flash Lite
  * - 五個新聞類別
  * - 同日資料強制覆蓋
- * - 自動重試機制
+ * - 自動重試 3 次
  */
 
 const axios = require('axios');
 const Parser = require('rss-parser');
+const { GoogleGenerativeAI } = require('@google/generative-ai');
 const fs = require('fs');
 const path = require('path');
 
-// ── 環境變數 ──
 const NEWSDATA_API_KEY = process.env.NEWSDATA_API_KEY;
-const MISTRAL_API_KEY  = process.env.MISTRAL_API_KEY;
+const GEMINI_API_KEY   = process.env.GEMINI_API_KEY;
 
-// ── 初始化 ──
 const rssParser = new Parser();
+const genAI     = new GoogleGenerativeAI(GEMINI_API_KEY);
+const model     = genAI.getGenerativeModel({ model: 'gemini-2.0-flash-lite' });
 
-// ── 五個新聞類別 ──
 const CATEGORIES = [
   {
     id: 'hk',
@@ -52,7 +52,6 @@ const CATEGORIES = [
   },
 ];
 
-// ── 從 NewsData.io 抓取 ──
 async function fetchFromNewsData(params) {
   try {
     const response = await axios.get('https://newsdata.io/api/1/news', {
@@ -66,7 +65,6 @@ async function fetchFromNewsData(params) {
   }
 }
 
-// ── 從 Google News RSS 抓取 ──
 async function fetchFromGoogleRSS(keyword) {
   try {
     const encoded = encodeURIComponent(keyword);
@@ -85,8 +83,7 @@ async function fetchFromGoogleRSS(keyword) {
   }
 }
 
-// ── 用 Mistral 總結（含重試）──
-async function summarizeWithMistral(articles, categoryName) {
+async function summarizeWithGemini(articles, categoryName) {
   const articleList = articles.map((a, i) =>
     `[${i + 1}] 標題: ${a.title}\n內容: ${a.description || '無'}\n來源: ${a.source_id || '未知'}\n連結: ${a.link || a.url || ''}`
   ).join('\n\n');
@@ -116,39 +113,22 @@ ${articleList}
 
   for (let attempt = 1; attempt <= 3; attempt++) {
     try {
-      console.log(`  Mistral 嘗試第 ${attempt} 次...`);
-      const response = await axios.post(
-        'https://api.mistral.ai/v1/chat/completions',
-        {
-          model: 'mistral-small-latest',
-          messages: [{ role: 'user', content: prompt }],
-          temperature: 0.3,
-        },
-        {
-          headers: {
-            'Authorization': `Bearer ${MISTRAL_API_KEY}`,
-            'Content-Type': 'application/json',
-          },
-          timeout: 60000,
-        }
-      );
-
-      const text = response.data.choices[0].message.content;
+      console.log(`  Gemini 嘗試第 ${attempt} 次...`);
+      const result = await model.generateContent(prompt);
+      const text = result.response.text();
       const cleaned = text.replace(/```json|```/g, '').trim();
       const parsed = JSON.parse(cleaned);
-      console.log(`  ✅ Mistral 第 ${attempt} 次成功`);
+      console.log(`  ✅ Gemini 第 ${attempt} 次成功`);
       return parsed;
-
     } catch (err) {
-      console.warn(`  Mistral 第 ${attempt} 次失敗: ${err.message}`);
+      console.warn(`  Gemini 第 ${attempt} 次失敗: ${err.message}`);
       if (attempt < 3) {
-        console.log(`  等待 10 秒後重試...`);
-        await new Promise(r => setTimeout(r, 10000));
+        console.log(`  等待 60 秒後重試...`);
+        await new Promise(r => setTimeout(r, 60000));
       }
     }
   }
 
-  // 備援方案
   console.warn('  三次都失敗，使用備援方案');
   return articles.slice(0, 5).map(a => ({
     title: a.title || '無標題',
@@ -159,7 +139,6 @@ ${articleList}
   }));
 }
 
-// ── 主流程 ──
 async function main() {
   console.log('🚀 開始抓取今日新聞...');
   const today = new Date().toISOString().split('T')[0];
@@ -174,7 +153,6 @@ async function main() {
     }
   }
 
-  // 同日強制覆蓋
   if (history[today]) {
     console.log(`⚠️ 今日 ${today} 已有資料，強制覆蓋更新。`);
     delete history[today];
@@ -199,19 +177,18 @@ async function main() {
       return true;
     });
 
-    console.log(`  找到 ${unique.length} 篇，交給 AI 選出 Top 5...`);
-    const top5 = await summarizeWithMistral(unique, cat.name);
+    console.log(`  找到 ${unique.length} 篇，交給 Gemini 選出 Top 5...`);
+    const top5 = await summarizeWithGemini(unique, cat.name);
 
     todayData[cat.id] = {
       categoryName: cat.name,
       articles: top5,
     };
 
-    console.log(`  完成，等待 5 秒...`);
-    await new Promise(r => setTimeout(r, 5000));
+    console.log(`  完成，等待 20 秒...`);
+    await new Promise(r => setTimeout(r, 20000));
   }
 
-  // 累加歷史（最多 90 天）
   history[today] = todayData;
   const allDates = Object.keys(history).sort().reverse();
   if (allDates.length > 90) {
