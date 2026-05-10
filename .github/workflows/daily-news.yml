@@ -1,21 +1,22 @@
 name: 每日新聞自動更新
 
 on:
-  # 每日 UTC 22:00 = 香港時間 06:00
   schedule:
-    - cron: '0 22 * * *'
-  # 允許手動從 GitHub 網頁觸發（測試用）
+    - cron: '0 20 * * *'   # UTC 20:00 = HKT 04:00
+    - cron: '0 22 * * *'   # UTC 22:00 = HKT 06:00
   workflow_dispatch:
 
 jobs:
   fetch-news:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout 代碼
         uses: actions/checkout@v4
 
-      - name: 設定 Node.js 20
+      - name: 設定 Node.js 24
         uses: actions/setup-node@v4
         with:
           node-version: '24'
