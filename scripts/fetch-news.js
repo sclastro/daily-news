@@ -1,6 +1,6 @@
 /**
- * fetch-news.js（OpenRouter 版本）
- * - 改用 OpenRouter 免費 AI（解決 Gemini 配額問題）
+ * fetch-news.js（Mistral 版本）
+ * - 改用 Mistral AI（免費、無需信用卡、香港可用）
  * - 五個新聞類別
  * - 同日資料強制覆蓋
  * - 自動重試機制
@@ -12,8 +12,8 @@ const fs = require('fs');
 const path = require('path');
 
 // ── 環境變數 ──
-const NEWSDATA_API_KEY   = process.env.NEWSDATA_API_KEY;
-const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY;
+const NEWSDATA_API_KEY = process.env.NEWSDATA_API_KEY;
+const MISTRAL_API_KEY  = process.env.MISTRAL_API_KEY;
 
 // ── 初始化 ──
 const rssParser = new Parser();
@@ -85,8 +85,8 @@ async function fetchFromGoogleRSS(keyword) {
   }
 }
 
-// ── 用 OpenRouter 總結（含重試）──
-async function summarizeWithOpenRouter(articles, categoryName) {
+// ── 用 Mistral 總結（含重試）──
+async function summarizeWithMistral(articles, categoryName) {
   const articleList = articles.map((a, i) =>
     `[${i + 1}] 標題: ${a.title}\n內容: ${a.description || '無'}\n來源: ${a.source_id || '未知'}\n連結: ${a.link || a.url || ''}`
   ).join('\n\n');
@@ -114,22 +114,20 @@ ${articleList}
   }
 ]`;
 
-  // 最多重試 3 次
   for (let attempt = 1; attempt <= 3; attempt++) {
     try {
-      console.log(`  OpenRouter 嘗試第 ${attempt} 次...`);
+      console.log(`  Mistral 嘗試第 ${attempt} 次...`);
       const response = await axios.post(
-        'https://openrouter.ai/api/v1/chat/completions',
+        'https://api.mistral.ai/v1/chat/completions',
         {
-          model: 'meta-llama/llama-3.3-70b-instruct:free',
+          model: 'mistral-small-latest',
           messages: [{ role: 'user', content: prompt }],
           temperature: 0.3,
         },
         {
           headers: {
-            'Authorization': `Bearer ${OPENROUTER_API_KEY}`,
+            'Authorization': `Bearer ${MISTRAL_API_KEY}`,
             'Content-Type': 'application/json',
-            'HTTP-Referer': 'https://github.com',
           },
           timeout: 60000,
         }
@@ -138,19 +136,19 @@ ${articleList}
       const text = response.data.choices[0].message.content;
       const cleaned = text.replace(/```json|```/g, '').trim();
       const parsed = JSON.parse(cleaned);
-      console.log(`  ✅ OpenRouter 第 ${attempt} 次成功`);
+      console.log(`  ✅ Mistral 第 ${attempt} 次成功`);
       return parsed;
 
     } catch (err) {
-      console.warn(`  OpenRouter 第 ${attempt} 次失敗: ${err.message}`);
+      console.warn(`  Mistral 第 ${attempt} 次失敗: ${err.message}`);
       if (attempt < 3) {
-        console.log(`  等待 15 秒後重試...`);
-        await new Promise(r => setTimeout(r, 15000));
+        console.log(`  等待 10 秒後重試...`);
+        await new Promise(r => setTimeout(r, 10000));
       }
     }
   }
 
-  // 三次都失敗，使用備援
+  // 備援方案
   console.warn('  三次都失敗，使用備援方案');
   return articles.slice(0, 5).map(a => ({
     title: a.title || '無標題',
@@ -202,14 +200,13 @@ async function main() {
     });
 
     console.log(`  找到 ${unique.length} 篇，交給 AI 選出 Top 5...`);
-    const top5 = await summarizeWithOpenRouter(unique, cat.name);
+    const top5 = await summarizeWithMistral(unique, cat.name);
 
     todayData[cat.id] = {
       categoryName: cat.name,
       articles: top5,
     };
 
-    // 類別間等 5 秒
     console.log(`  完成，等待 5 秒...`);
     await new Promise(r => setTimeout(r, 5000));
   }
