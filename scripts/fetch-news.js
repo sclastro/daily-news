@@ -170,11 +170,11 @@ async function main() {
     }
   }
 
-  // 今日已有資料就跳過，節省配額
-  if (history[today]) {
-    console.log(`✅ 今日 ${today} 已有資料，跳過。`);
-    process.exit(0);
-  }
+  // 同日資料強制覆蓋
+if (history[today]) {
+  console.log(`⚠️ 今日 ${today} 已有資料，強制覆蓋更新。`);
+  delete history[today];
+}
 
   const todayData = {};
 
