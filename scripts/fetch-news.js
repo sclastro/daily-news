@@ -1,8 +1,10 @@
 /**
- * fetch-news.js（GitHub Models 版本）
- * - 使用 GitHub Models 免費 AI（無需信用卡）
+ * fetch-news.js（GitHub Models 最終版）
+ * - 使用 GitHub Models API（免費，無需信用卡）
+ * - 正確 endpoint：models.github.ai
  * - 五個新聞類別
- * - 今日有資料就跳過（節省配額）
+ * - 同日資料強制覆蓋
+ * - 自動重試 3 次
  * - 香港時間生成日期
  */
 
@@ -112,9 +114,9 @@ ${articleList}
     try {
       console.log(`  GitHub Models 嘗試第 ${attempt} 次...`);
       const response = await axios.post(
-        'https://models.inference.ai.azure.com/chat/completions',
+        'https://models.github.ai/inference/chat/completions',
         {
-          model: 'gpt-4o-mini',
+          model: 'openai/gpt-4o-mini',
           messages: [{ role: 'user', content: prompt }],
           temperature: 0.3,
           max_tokens: 2000,
@@ -156,7 +158,6 @@ ${articleList}
 async function main() {
   console.log('🚀 開始抓取今日新聞...');
 
-  // 用香港時間生成日期
   const today = new Date(Date.now() + 8 * 60 * 60 * 1000).toISOString().split('T')[0];
   console.log(`📅 今日日期（香港時間）：${today}`);
 
@@ -170,11 +171,10 @@ async function main() {
     }
   }
 
-  // 同日資料強制覆蓋
-if (history[today]) {
-  console.log(`⚠️ 今日 ${today} 已有資料，強制覆蓋更新。`);
-  delete history[today];
-}
+  if (history[today]) {
+    console.log(`⚠️ 今日 ${today} 已有資料，強制覆蓋更新。`);
+    delete history[today];
+  }
 
   const todayData = {};
 
