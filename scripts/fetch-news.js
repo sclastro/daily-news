@@ -1,7 +1,6 @@
 /**
- * fetch-news.js（GitHub Models 最終版）
- * - 使用 GitHub Models API（免費，無需信用卡）
- * - 正確 endpoint：models.github.ai
+ * fetch-news.js（Gemini 最終版）
+ * - 使用 Gemini 2.0 Flash
  * - 五個新聞類別
  * - 同日資料強制覆蓋
  * - 自動重試 3 次
@@ -10,13 +9,16 @@
 
 const axios = require('axios');
 const Parser = require('rss-parser');
+const { GoogleGenerativeAI } = require('@google/generative-ai');
 const fs = require('fs');
 const path = require('path');
 
 const NEWSDATA_API_KEY = process.env.NEWSDATA_API_KEY;
-const GH_TOKEN_AI     = process.env.GH_TOKEN_AI;
+const GEMINI_API_KEY   = process.env.GEMINI_API_KEY;
 
 const rssParser = new Parser();
+const genAI     = new GoogleGenerativeAI(GEMINI_API_KEY);
+const model     = genAI.getGenerativeModel({ model: 'gemini-2.0-flash' });
 
 const CATEGORIES = [
   {
@@ -82,7 +84,7 @@ async function fetchFromGoogleRSS(keyword) {
   }
 }
 
-async function summarizeWithGitHubModels(articles, categoryName) {
+async function summarizeWithGemini(articles, categoryName) {
   const articleList = articles.map((a, i) =>
     `[${i + 1}] 標題: ${a.title}\n內容: ${a.description || '無'}\n來源: ${a.source_id || '未知'}\n連結: ${a.link || a.url || ''}`
   ).join('\n\n');
@@ -112,35 +114,18 @@ ${articleList}
 
   for (let attempt = 1; attempt <= 3; attempt++) {
     try {
-      console.log(`  GitHub Models 嘗試第 ${attempt} 次...`);
-      const response = await axios.post(
-        'https://models.github.ai/inference/chat/completions',
-        {
-          model: 'openai/gpt-4o-mini',
-          messages: [{ role: 'user', content: prompt }],
-          temperature: 0.3,
-          max_tokens: 2000,
-        },
-        {
-          headers: {
-            'Authorization': `Bearer ${GH_TOKEN_AI}`,
-            'Content-Type': 'application/json',
-          },
-          timeout: 60000,
-        }
-      );
-
-      const text = response.data.choices[0].message.content;
+      console.log(`  Gemini 嘗試第 ${attempt} 次...`);
+      const result = await model.generateContent(prompt);
+      const text = result.response.text();
       const cleaned = text.replace(/```json|```/g, '').trim();
       const parsed = JSON.parse(cleaned);
-      console.log(`  ✅ GitHub Models 第 ${attempt} 次成功`);
+      console.log(`  ✅ Gemini 第 ${attempt} 次成功`);
       return parsed;
-
     } catch (err) {
-      console.warn(`  GitHub Models 第 ${attempt} 次失敗: ${err.message}`);
+      console.warn(`  Gemini 第 ${attempt} 次失敗: ${err.message}`);
       if (attempt < 3) {
-        console.log(`  等待 10 秒後重試...`);
-        await new Promise(r => setTimeout(r, 10000));
+        console.log(`  等待 60 秒後重試...`);
+        await new Promise(r => setTimeout(r, 60000));
       }
     }
   }
@@ -195,16 +180,16 @@ async function main() {
       return true;
     });
 
-    console.log(`  找到 ${unique.length} 篇，交給 AI 選出 Top 5...`);
-    const top5 = await summarizeWithGitHubModels(unique, cat.name);
+    console.log(`  找到 ${unique.length} 篇，交給 Gemini 選出 Top 5...`);
+    const top5 = await summarizeWithGemini(unique, cat.name);
 
     todayData[cat.id] = {
       categoryName: cat.name,
       articles: top5,
     };
 
-    console.log(`  完成，等待 5 秒...`);
-    await new Promise(r => setTimeout(r, 5000));
+    console.log(`  完成，等待 20 秒...`);
+    await new Promise(r => setTimeout(r, 20000));
   }
 
   history[today] = todayData;
