@@ -141,7 +141,8 @@ ${articleList}
 
 async function main() {
   console.log('🚀 開始抓取今日新聞...');
-  const today = new Date().toISOString().split('T')[0];
+  const today = new Date(Date.now() + 8 * 60 * 60 * 1000)
+  .toISOString().split('T')[0];
 
   const dataPath = path.join(__dirname, '../data/news.json');
   let history = {};
