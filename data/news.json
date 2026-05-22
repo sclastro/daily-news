@@ -2826,5 +2826,207 @@
         }
       ]
     }
+  },
+  "2026-05-23": {
+    "hk": {
+      "categoryName": "本地新聞（香港）",
+      "articles": [
+        {
+          "title": "八部门联合打击非法跨境炒股,存量投资者可在两年内卖出",
+          "summary": "两年集中整治期满后,境外机构全面关停境内网站、交易软件及配套服务,禁止为存量投资者在境内非法提供交易等服务。",
+          "source": "jiemian",
+          "url": "https://www.jiemian.com/article/14472089.html",
+          "publishedAt": "2026-05-22 11:45:40"
+        },
+        {
+          "title": "遇見小面(02408)5月22日斥資151.26萬港元回購36.25萬股",
+          "summary": "點擊連結閱讀全文",
+          "source": "investing_hk",
+          "url": "https://hk.investing.com/news/stock-market-news/article-1476396",
+          "publishedAt": "2026-05-22 11:45:27"
+        },
+        {
+          "title": "KEEP(03650)5月22日斥資28.2萬港元回購10萬股",
+          "summary": "點擊連結閱讀全文",
+          "source": "investing_hk",
+          "url": "https://hk.investing.com/news/stock-market-news/article-1476391",
+          "publishedAt": "2026-05-22 11:45:26"
+        },
+        {
+          "title": "中裕能源(03633)5月22日斥資272.31萬港元回購100萬股",
+          "summary": "點擊連結閱讀全文",
+          "source": "investing_hk",
+          "url": "https://hk.investing.com/news/stock-market-news/article-1476392",
+          "publishedAt": "2026-05-22 11:45:26"
+        },
+        {
+          "title": "香港探秘地圖|倪嘉雯7大造型上陣勁搶眼 多元表情獲讚好cute",
+          "summary": "《香港探秘地圖》是由王偉仁(Simon)監製、李昊、陳可兒編審的靈異輕喜劇,逢星期一至五晚八點半翡翠台播映。主要演員有黎耀祥、龔嘉欣、丁子朗、",
+          "source": "hk01",
+          "url": "https://www.hk01.com/%E5%8D%B3%E6%99%82%E5%A8%9B%E6%A8%82/60352678/%E9%A6%99%E6%B8%AF%E6%8E%A2%E7%A7%98%E5%9C%B0%E5%9C%96-%E5%80%AA%E5%98%89%E9%9B%AF7%E5%A4%A7%E9%80%A0%E5%9E%8B%E4%B8%8A%E9%99%A3%E5%8B%81%E6%90%B6%E7%9C%BC-%E5%A4%9A%E5%85%83%E8%A1%A8%E6%83%85%E7%8D%B2%E8%AE%9A%E5%A5%BDcute",
+          "publishedAt": "2026-05-22 11:45:14"
+        }
+      ]
+    },
+    "world": {
+      "categoryName": "國際新聞",
+      "articles": [
+        {
+          "title": "The world's power will gather in Delhi! New face of global balance of power will be seen on India's stage in QUAD Summit",
+          "summary": "The whole world is keeping an eye on the QUAD Foreign Ministers meeting to be held on May 26 in New Delhi. Amidst China's increasing aggression, Indo-Pacific tensions and the global balance of power, ",
+          "source": "newsaddaindia",
+          "url": "https://newsaddaindia.com/news/the-worlds-power-will-gather-in-delhi-new-face-of-",
+          "publishedAt": "2026-05-22 11:38:15"
+        },
+        {
+          "title": "Gorimbo Bows Out of UFC",
+          "summary": "By Sports Reporter — Zimbabwean mixed martial arts star Temba Gorimbo has announced his retirement from professional fighting, ending one ... Continue reading \"Gorimbo Bows Out of UFC\"",
+          "source": "zimeye",
+          "url": "https://www.zimeye.net/2026/05/22/gorimbo-bows-out-of-ufc/",
+          "publishedAt": "2026-05-22 11:35:24"
+        },
+        {
+          "title": "Bucks County's most prominent people of the past 250 years, Part IV",
+          "summary": "Featured in this installment: musical prodigies, famed literary figures and \"Mr. Levittown.\"",
+          "source": "phillyburbs",
+          "url": "https://www.phillyburbs.com/story/news/history/2026/05/22/bucks-countys-most-famous-people-pearl-buck-hal-lefcourt-gigi-hadid-pink-oscar-hammerstein/89401569007/",
+          "publishedAt": "2026-05-22 11:34:08"
+        },
+        {
+          "title": "The lost Leonard Cohen concerts in Israel may finally see the light of day",
+          "summary": "A court ruling could clear the way for the release of Leonard Cohen’s long-hidden Israel concerts and archives.",
+          "source": "jpost",
+          "url": "https://www.jpost.com/israel-news/culture/article-896775",
+          "publishedAt": "2026-05-22 11:33:22"
+        },
+        {
+          "title": "Vyshyvanka Day celebrates Ukrainian identity amid Russia’s genocidal war",
+          "summary": "Ukraine's annual Vyshyvanka Day holiday has emerged as a simple yet profound grassroots celebration of Ukrainian national identity at a time when Russia is attempting to destroy Ukraine as a state and",
+          "source": "atlanticcouncil",
+          "url": "https://www.atlanticcouncil.org/blogs/ukrainealert/vyshyvanka-day-celebrates-ukrainian-identity-amid-russias-genocidal-war/",
+          "publishedAt": "2026-05-22 11:30:59"
+        }
+      ]
+    },
+    "finance": {
+      "categoryName": "財經新聞",
+      "articles": [
+        {
+          "title": "Crypto Industry's Quantum Threat",
+          "summary": "Wall Street Breakfast covers today’s stock market updates: crypto “Q-Day” quantum risk, and key headlines and earnings.",
+          "source": "seekingalpha",
+          "url": "https://seekingalpha.com/article/4907892-crypto-industrys-quantum-threat",
+          "publishedAt": "2026-05-22 11:30:27"
+        },
+        {
+          "title": "This Jewish Community in the Caribbean Smuggled Gunpowder to the Patriots During the Revolution. A British Admiral Condemned the Island as a 'Nest of Vipers'",
+          "summary": "A new exhibition at the Weitzman National Museum of American Jewish History, in Philadelphia, spotlights the little-known wartime contributions of the Jews of St. Eustatius",
+          "source": "smithsonianmag",
+          "url": "https://www.smithsonianmag.com/history/this-jewish-community-in-the-caribbean-smuggled-gunpowder-to-the-patriots-during-the-revolution-a-british-admiral-condemned-the-island-as-a-nest-of-vipers-180988740/",
+          "publishedAt": "2026-05-22 11:30:00"
+        },
+        {
+          "title": "Yeebo Ramps Up AI Computing Expansion with Subsidiary Suanova’s TaaS Rollout at Cyberport",
+          "summary": "HONG KONG SAR - Media OutReach Newswire - 22 May 2026 - Yeebo (International Holdings) Limited (\"Yeebo\"; Stock Code: 00259.HK, together with its subsidiaries, the \"Group\") is pleased to announce that ",
+          "source": "thesun_my",
+          "url": "https://thesun.my/business/corporate-news/yeebo-ramps-up-ai-computing-expansion-with-subsidiary-suanovas-taas-rollout-at-cyberport/",
+          "publishedAt": "2026-05-22 11:22:25"
+        },
+        {
+          "title": "3D Printing Plastics Market Challenges and Future Business Opportunities",
+          "summary": "The global 3D printing plastics market size was estimated at USD 1.49 billion in 2025 and is projected to reach USD 9.59 billion by 2033, growing at [read full press release...]",
+          "source": "express_press_release_net",
+          "url": "https://express-press-release.net/news/2026/05/22/1754534",
+          "publishedAt": "2026-05-22 11:13:56"
+        },
+        {
+          "title": "Texas Capital's Dan Hoverman: From dotting I’s to driving deals",
+          "summary": "Dan Hoverman has built his career by understanding law and high finance, but the Texas Capital executive insists it was never the product of a master plan.",
+          "source": "dallasnews",
+          "url": "https://www.dallasnews.com/business/banking/article/texas-capital-s-dan-hoverman-dotting-i-s-22267178.php",
+          "publishedAt": "2026-05-22 11:00:00"
+        }
+      ]
+    },
+    "ai": {
+      "categoryName": "AI 相關新聞",
+      "articles": [
+        {
+          "title": "T Stamp (NASDAQ:IDAI) Upgraded to Hold at Zacks Research",
+          "summary": "Zacks Research upgraded shares of T Stamp (NASDAQ:IDAI – Free Report) to a hold rating in a report published on Wednesday morning,Zacks.com reports. Separately, Wall Street Zen cut T Stamp from a “hol",
+          "source": "zolmax",
+          "url": "https://zolmax.com/investing/t-stamp-nasdaqidai-upgraded-to-hold-at-zacks-research/11860282.html",
+          "publishedAt": "2026-05-22 11:46:59"
+        },
+        {
+          "title": "Edible Flake Market to Reach USD 50.06 Billion by 2033 at 8.21% CAGR, Reports DataHorizzon Research - Kellanova, General Mills, Nestlé, PepsiCo, Post Holdings Lead; Asia-Pacific Dominates",
+          "summary": "DataHorizzon Research has released a comprehensive study on the global Edible Flake Market, valued at USD 24.61 Billion in 2024 and projected to reach USD 50.06 Billion by 2033, growing at a CAGR of 8",
+          "source": "openpr",
+          "url": "https://www.openpr.com/news/4523368/edible-flake-market-to-reach-usd-50-06-billion-by-2033-at-8-21",
+          "publishedAt": "2026-05-22 11:45:57"
+        },
+        {
+          "title": "Non-phthalate Plasticizers Market Growth Across Consumer Goods Manufacturing",
+          "summary": "The global redispersible polymer powder market size was estimated at USD 118.71 million in 2025 and is projected to reach USD 225.29 million by 2033, growing at [read full press release...]",
+          "source": "express_press_release_net",
+          "url": "https://express-press-release.net/news/2026/05/22/1754543",
+          "publishedAt": "2026-05-22 11:45:31"
+        },
+        {
+          "title": "3 Monster Stocks That Are More Than Doubling Their Revenue",
+          "summary": "The future is bright for this trio, despite their already impressive growth rates.",
+          "source": "fool",
+          "url": "https://www.fool.com/investing/2026/05/22/monster-stock-doubling-revenue-ionq-mu-nbis/",
+          "publishedAt": "2026-05-22 11:45:00"
+        },
+        {
+          "title": "Trilegal Advised Blackstone, Ontario Teachers’ Pension Plan And Anchorage Scheme On CCI Approval For USD 1.2 Billion Investment In Neysa Networks",
+          "summary": "Trilegal advised investors on CCI approval for USD 1.2 billion acquisition in AI-focused Neysa Networks.",
+          "source": "legaleraonline",
+          "url": "https://www.legaleraonline.com/deal-street/trilegal-blackstone-ontario-teachers-pension-plan-anchorage-neyssa-networks-cci-approval-986175",
+          "publishedAt": "2026-05-22 11:45:00"
+        }
+      ]
+    },
+    "china": {
+      "categoryName": "大中華新聞",
+      "articles": [
+        {
+          "title": "外交部:美中元首外交求戰略穩定 戰略競爭本質不變",
+          "summary": "美國總統川普日前與中國國家主席習近平會面,外交部分析,現階段美中透過元首外交尋求戰略穩定關係,惟戰略競爭本質不變,中方搶先發新聞稿單方面談及台灣,欲操作輿論方向,美方在「川習會」前、中、後均傳遞美對...",
+          "source": "udnnews",
+          "url": "https://udn.com/news/story/124877/9520065",
+          "publishedAt": "2026-05-22 11:46:03"
+        },
+        {
+          "title": "林志玲辭文策院董事 呂秋遠揭高度輸周董",
+          "summary": "文化內容策進院(文策院)日前高調宣布,將延攬「台灣第一名模」林志玲出任董事,期望藉由她的國際高知名度與人脈,帶領台灣文化產業跨足國際。不料這項人事任命案對外公布僅僅9天,在各界輿論高度關注與質疑聲浪下,林志玲於21日無預警透過社群平台發聲明,宣布在經過深思熟慮後,決定不承接董事一職,並坦言「這個稱謂的重量,比想像中沉重很多很多」。對此,律師呂秋遠指出外界反彈的核心爭議,並非「逢中必反」或反對藝人赴",
+          "source": "setn",
+          "url": "https://www.setn.com/News.aspx?NewsID=1842691",
+          "publishedAt": "2026-05-22 11:45:04"
+        },
+        {
+          "title": "名古屋亞運棒球培訓24人名單 大學投手雷皓博入選",
+          "summary": "2026年名古屋亞運棒球項目代表隊由總教練湯登凱領軍,培訓隊經過6場藍白賽,今天賽後篩選出24人名單,唯一入選的大學球員為雷皓博。 《詳全文...》",
+          "source": "ettoday",
+          "url": "https://sports.ettoday.net/news/3170480",
+          "publishedAt": "2026-05-22 11:45:00"
+        },
+        {
+          "title": "真相大反轉?台男自稱赴泰國險遭「摘器官」 涉外官員揭內幕:泰方無法接受",
+          "summary": "一名我國籍林姓男子近期向媒體爆料,自稱4月在泰國芭達雅(Pattaya)失聯3天,期間遭到設局下藥、被當地醫院和警方控制,甚至懷疑差點被摘取器官,但相關說法均被泰方駁斥。對此,知情官員今(22)日表示,泰方已向我方表達該男子說法均不正確,且無法接受其造成的負面影響。涉外官員則說,該男子返國後不斷對外放話、騷擾我國駐處人員,已影響駐外館處協助國人急難救助。林男.........",
+          "source": "storm",
+          "url": "https://www.storm.mg/article/11134511",
+          "publishedAt": "2026-05-22 11:44:36"
+        },
+        {
+          "title": "【翻牆必看】山姆會員店開業 貨架現吃剩雞骨",
+          "summary": "近日,山東濟南、青島兩地的山姆會員店同步開業,吸引大量民眾湧入,現場出現混亂場面。多名網友發視頻稱,在新開業的濟南山姆和青島山姆店內發現,有人偷吃熟食,剩下的雞骨頭、空瓶飲料等商品被丟棄在購物區。(視頻截圖)",
+          "source": "epochtimes",
+          "url": "https://www.epochtimes.com/b5/26/5/22/n14772285.htm",
+          "publishedAt": "2026-05-22 11:44:33"
+        }
+      ]
+    }
   }
 }
