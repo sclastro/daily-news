@@ -3028,5 +3028,207 @@
         }
       ]
     }
+  },
+  "2026-05-24": {
+    "hk": {
+      "categoryName": "本地新聞（香港）",
+      "articles": [
+        {
+          "title": "陳慧琳胞弟神隱多年罕露面 腫一圈近況曝",
+          "summary": "49歲男星陳司翰是「樂壇天后」陳慧琳的親弟弟,早年跟隨姊姊腳步踏入演藝圈,不過發展卻沒有那麼順遂,如今陳司翰也選擇淡出螢光幕前,近日,他罕見露面接受節目訪問,外型對比之前相差甚遠,讓網友直呼:「完全不認得」。蔡佩伶報導",
+          "source": "setn",
+          "url": "https://www.setn.com/News.aspx?NewsID=1843114",
+          "publishedAt": "2026-05-23 10:36:52"
+        },
+        {
+          "title": "《大濛》全台賣破1億1200萬再曝新消息 旋風威力持續延燒",
+          "summary": "勇奪金馬獎5項大獎的電影《大濛》,自去年11月上映後熱潮持續延燒,不僅在台上映近7個月,還接連受邀赴世界各地放映。今(23)日舉辦「首輪最終場」,包括導演陳玉勳、監製葉如......",
+          "source": "ltn",
+          "url": "https://ent.ltn.com.tw/news/breakingnews/5447155",
+          "publishedAt": "2026-05-23 10:33:46"
+        },
+        {
+          "title": "足總盃 下季陣容或大變 堅Sir:先做好眼前使命",
+          "summary": "「冠忠巴士60週年足總盃」一連兩天上演4強戰,周六(23日)由大埔在旺角大球場對標準流浪。最後「綠戰士」以2比0淘汰流浪",
+          "source": "on",
+          "url": "https://hk.on.cc/hk/bkn/cnt/sport/20260523/bkn-20260523172746464-0523_00882_001.html",
+          "publishedAt": "2026-05-23 10:33:39"
+        },
+        {
+          "title": "神舟二十三號料周日晚升空 黎家盈成為首位香港航天員",
+          "summary": "神舟二十三號載人飛船瞄準在明晚11時08分發射,載荷專家黎家盈,獲選入航天員乘組,將乘坐飛船升空,成為首位參與飛行任務的香港航天員。 黎家盈說,感謝祖國及特區政府,她必定全力以赴完成任務,為祖國及民族發展貢獻力量,不會辜負祖國的重託,及香港市民的期望。 黎家盈又說,從小在香港長大,獅子山精神的逆境自强、永不言棄的信念,與載人航天精神相通,她寄語本港青少年,夢想不遙遠、不分出身,只要心懷家國、熱愛生",
+          "source": "rthk_ch",
+          "url": "https://news.rthk.hk/rthk/ch/component/k2/1855826-20260523.htm",
+          "publishedAt": "2026-05-23 10:31:52"
+        },
+        {
+          "title": "公務員加薪|增薪點評核擬改拉curve 至少8500人不獲跳point",
+          "summary": "公務員薪酬除了根據既定機制檢討以決定是否調整,還根據薪級表「增薪點」增加,俗稱「跳point」,社會近年有不少聲音認為,後者評核標準太過寛鬆。",
+          "source": "hk01",
+          "url": "https://www.hk01.com/%E6%94%BF%E6%83%85/60352929/%E5%85%AC%E5%8B%99%E5%93%A1%E5%8A%A0%E8%96%AA-%E5%A2%9E%E8%96%AA%E9%BB%9E%E8%A9%95%E6%A0%B8%E6%93%AC%E6%94%B9%E6%8B%89curve-%E8%87%B3%E5%B0%918500%E4%BA%BA%E4%B8%8D%E7%8D%B2%E8%B7%B3point",
+          "publishedAt": "2026-05-23 10:30:28"
+        }
+      ]
+    },
+    "world": {
+      "categoryName": "國際新聞",
+      "articles": [
+        {
+          "title": "Why China’s rise cannot be ignored",
+          "summary": "For thousands of years, China had stood among the world’s oldest civilisations.",
+          "source": "newshd24",
+          "url": "https://www.24newshd.tv/23-May-2026/china-s-rise-cannot-ignored",
+          "publishedAt": "2026-05-23 10:17:51"
+        },
+        {
+          "title": "Xi hosted Trump, then Putin, and showed where China’s leverage lies",
+          "summary": "In Beijing, the choreography said almost as much as the communiques. Air Force One had barely left Chinese airspace before Vladimir Putin’s plane touched down. The flags, guards and banquet halls were",
+          "source": "invezz",
+          "url": "https://invezz.com/news/2026/05/23/xi-hosted-trump-then-putin-and-showed-where-chinas-leverage-lies/",
+          "publishedAt": "2026-05-23 10:15:00"
+        },
+        {
+          "title": "The deepest fears of San Diego's religious communities were realized in Islamic Center shooting",
+          "summary": "Mosque members embrace in the parking lot of the Islamic Center of San Diego (ICSD) on May 19, 2026 in San Diego, California.",
+          "source": "nbcsandiego",
+          "url": "https://www.nbcsandiego.com/news/national-international/deepest-fears-san-diegos-religious-communities-realized-in-islamic-center-shooting/4028082/",
+          "publishedAt": "2026-05-23 10:10:07"
+        },
+        {
+          "title": "The World Cup will turn liberal cities into Little Singapores",
+          "summary": "Perspective: If officials want clean, low-crime, functioning cities, they can have them. It shouldn't need FIFA urbanism.",
+          "source": "headtopics",
+          "url": "https://us.headtopics.com/news/the-world-cup-will-turn-liberal-cities-into-little-83688620",
+          "publishedAt": "2026-05-23 10:05:35"
+        },
+        {
+          "title": "From Colonialism to Queer Desire: Why Taiwanese Literature Feels So Urgent Today",
+          "summary": "Taiwanese writers ask questions that resonate beyond the island: How do we live with histories we didn’t choose?",
+          "source": "thequint",
+          "url": "https://www.thequint.com/opinion/taiwanese-literature-long-overshadowed-by-china-is-having-a-global-breakthrough",
+          "publishedAt": "2026-05-23 10:04:03"
+        }
+      ]
+    },
+    "finance": {
+      "categoryName": "財經新聞",
+      "articles": [
+        {
+          "title": "Taiwan: The Small Superpower",
+          "summary": "If the island nation’s chip production were to be interrupted, the global economy would stop in its tracks. That’s real leverage.",
+          "source": "nationalreview",
+          "url": "https://www.nationalreview.com/2026/05/taiwan-the-small-superpower/",
+          "publishedAt": "2026-05-23 10:30:51"
+        },
+        {
+          "title": "CCC Intelligent Solutions Enters Next AI Phase as Products Scale With Major Customers",
+          "summary": "CCC Intelligent Solutions Holdings Inc. Common Stock (NASDAQ:CCC) management said the company is entering its next phase with artificial intelligence moving from evaluation and testing into broader pr",
+          "source": "baseballnewssource",
+          "url": "https://baseballnewssource.com/2026/05/23/ccc-intelligent-solutions-enters-next-ai-phase-as-products-scale-with-major-customers/11132501.html",
+          "publishedAt": "2026-05-23 10:03:03"
+        },
+        {
+          "title": "Can Europe and Asia break the grip of US bond markets?",
+          "summary": "An often-overlooked reason stock markets are prone to bouts of irrational exuberance, as is the case now, is that there is too much money chasing too few investment opportunities around the world. Cou",
+          "source": "scmp",
+          "url": "https://www.scmp.com/opinion/world-opinion/article/3354373/can-europe-and-asia-break-grip-us-bond-markets",
+          "publishedAt": "2026-05-23 08:30:05"
+        },
+        {
+          "title": "Defence, exports and platform companies among top market themes: Envision’s Nilesh Shah",
+          "summary": "Envision Capital founder Nilesh Shah says strong earnings, improving cash flows and long-term structural trends are driving confidence in India’s platform companies. He also highlights defence, EVs, e",
+          "source": "cnbctv18",
+          "url": "https://www.cnbctv18.com/market/envision-capital-paytm-fintech-honasa-swiggy-zomato-maruti-centum-electronics-bajaj-finance-platform-companies-19911946.htm",
+          "publishedAt": "2026-05-23 08:29:31"
+        },
+        {
+          "title": "ADB eyes TA to develop urban public rail transport in Azerbaijan",
+          "summary": "The Asian Development Bank (ADB) is exploring the possibility of providing technical assistance (TA) for a project to support the development of urban public rail transport in Azerbaijan, Report infor",
+          "source": "report_az",
+          "url": "https://report.az/en/infrastructure/adb-eyes-ta-to-develop-urban-public-rail-transport-in-azerbaijan",
+          "publishedAt": "2026-05-23 07:47:03"
+        }
+      ]
+    },
+    "ai": {
+      "categoryName": "AI 相關新聞",
+      "articles": [
+        {
+          "title": "General : Smart Farming, AI To Take Centre Stage At MAHA 2026",
+          "summary": "JASIN, May 23 (Bernama) -- Artificial intelligence (AI) and smart farming technology will be among the key highlights of the Malaysia Agriculture, Horticulture and Agrotourism Exhibition 2026 (MAHA 20",
+          "source": "bernama",
+          "url": "http://www.bernama.com/en/news.php?id=2560734",
+          "publishedAt": "2026-05-23 10:37:37"
+        },
+        {
+          "title": "China Launches AI Robot Maid Capable Of Cooking, Mopping, Folding Clothes And More | Watch",
+          "summary": "China is taking another major step in the field of artificial intelligence and robotics with the launch of a humanoid robot designed to help with household work. Chinese robotics company GigaAI has in",
+          "source": "oneindia",
+          "url": "https://www.oneindia.com/international/china-launches-ai-robot-maid-capable-of-cooking-mopping-folding-clothes-and-more-watch-8096735.html",
+          "publishedAt": "2026-05-23 10:37:29"
+        },
+        {
+          "title": "Moisturizing Gel Market Analysis By Application, Type, Technology, and Geography - Global Industry Outlook and Forecast 2026-2033",
+          "summary": "The Moisturizing Gel Market reached a valuation of 6.53 billion in 2026 and is anticipated to expand at a CAGR of 8.37% during the forecast period from 2026 to 2035, ultimately attaining an estimated ",
+          "source": "openpr",
+          "url": "https://www.openpr.com/news/4524107/moisturizing-gel-market-analysis-by-application-type",
+          "publishedAt": "2026-05-23 10:37:17"
+        },
+        {
+          "title": "Opinion: Can California’s new online platform help rebuild democracy?",
+          "summary": "Public discourse if often mired in chaos. A tech tool may help cut through the noise in discussions of AI job loss.",
+          "source": "headtopics",
+          "url": "https://us.headtopics.com/news/opinion-can-california-s-new-online-platform-help-rebuild-83689868",
+          "publishedAt": "2026-05-23 10:36:43"
+        },
+        {
+          "title": "Representatives of Tesla India meet Minister Sridhar Babu in Hyderabad.",
+          "summary": "Tesla representatives met with Minister Sridhar Babu and expressed their keen interest in starting sales operations in Hyderabad.",
+          "source": "etvbharat",
+          "url": "https://www.etvbharat.com/en/bharat/tesla-to-set-up-sales-and-service-center-in-hyderabad-enn26052301637",
+          "publishedAt": "2026-05-23 10:36:42"
+        }
+      ]
+    },
+    "china": {
+      "categoryName": "大中華新聞",
+      "articles": [
+        {
+          "title": "陳慧琳胞弟神隱多年罕露面 腫一圈近況曝",
+          "summary": "49歲男星陳司翰是「樂壇天后」陳慧琳的親弟弟,早年跟隨姊姊腳步踏入演藝圈,不過發展卻沒有那麼順遂,如今陳司翰也選擇淡出螢光幕前,近日,他罕見露面接受節目訪問,外型對比之前相差甚遠,讓網友直呼:「完全不認得」。蔡佩伶報導",
+          "source": "setn",
+          "url": "https://www.setn.com/News.aspx?NewsID=1843114",
+          "publishedAt": "2026-05-23 10:36:52"
+        },
+        {
+          "title": "兆豐保險響應國際生物多樣性日 號召近百位志工投入高雄淺山復育",
+          "summary": "響應國際生物多樣性日,兆豐保險於23日號召兆豐金融集團旗下各子公司近百名志工,前往高雄半屏山投入淺山天然植群復育行動。活動由兆豐保險副總經理張弘欣攜手林保署屏東分署分署長李政賢、國家自然公園管理處處長張登文、高雄市政府農業局副局長高鎮遠、台灣山林復育協會執行長蔡智豪及中鴻鋼鐵副總經理黃紋萍等共同辦理,以實際行動支持生物多樣性保育與天然生態復育。 高雄淺山多屬高位珊瑚礁地形,因早期採礦與人為開",
+          "source": "ctee_tw",
+          "url": "https://www.ctee.com.tw/news/20260523700592-430305",
+          "publishedAt": "2026-05-23 10:36:20"
+        },
+        {
+          "title": "《大濛》全台賣破1億1200萬再曝新消息 旋風威力持續延燒",
+          "summary": "勇奪金馬獎5項大獎的電影《大濛》,自去年11月上映後熱潮持續延燒,不僅在台上映近7個月,還接連受邀赴世界各地放映。今(23)日舉辦「首輪最終場」,包括導演陳玉勳、監製葉如......",
+          "source": "ltn",
+          "url": "https://ent.ltn.com.tw/news/breakingnews/5447155",
+          "publishedAt": "2026-05-23 10:33:46"
+        },
+        {
+          "title": "「仁來瘋」提前引爆 黃仁勳證實將見張忠謀 是否赴北士科動土回應有玄機",
+          "summary": "人工智慧(AI)晶片龍頭大廠輝達執行長黃仁勳今(23)日提前抵達台灣,引發各界高度關注。黃仁勳在接受媒體聯訪時透露,此行提前抵台是為了在台北國際電腦展(COMPUTEX)開幕前,先與台灣的客戶、合作夥伴以及內部員工會面。他同時證實將會和台積創辦人張忠謀、董事長魏哲家見面,並強調對未來中央處理器(CPU)市場與下一代AI晶片抱持極大信心。",
+          "source": "worldjournal",
+          "url": "https://www.worldjournal.com/wj/story/121347/9521420",
+          "publishedAt": "2026-05-23 10:33:18"
+        },
+        {
+          "title": "結合科技「平板講戰術」 台北市拚聽障籃球男子組金牌",
+          "summary": "115年全國身心障礙國民運動會,聽覺障礙籃球在三重國民運動中心點燃戰火,男子組焦點隊伍之一為尋求重返榮耀的臺北市,今天首場以76:46打敗高雄市,漂亮開出紅盤,明天對陣屏東縣將尋求2連勝晉級。 《詳全文...》",
+          "source": "ettoday",
+          "url": "https://sports.ettoday.net/news/3170910",
+          "publishedAt": "2026-05-23 10:33:00"
+        }
+      ]
+    }
   }
 }
