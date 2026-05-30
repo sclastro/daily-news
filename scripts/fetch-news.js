@@ -17,9 +17,8 @@ const CATEGORIES = [
     id: 'hk',
     name: '本地新聞（香港）',
     feeds: [
-      { url: 'https://rthk.hk/rss/rthk10.xml', source: 'RTHK 香港電台' },
-      { url: 'https://www.hk01.com/rss/', source: '香港01' },
       { url: `https://news.google.com/rss/search?q=${encodeURIComponent('香港新聞')}&hl=zh-HK&gl=HK&ceid=HK:zh-Hant`, source: 'Google News HK' },
+      { url: 'https://rthk.hk/rss/rthk9.xml', source: 'RTHK 香港電台' },
     ],
   },
   {
@@ -27,17 +26,19 @@ const CATEGORIES = [
     name: '國際新聞',
     feeds: [
       { url: 'https://feeds.bbci.co.uk/zhongwen/trad/rss.xml', source: 'BBC 中文' },
+      { url: 'https://feeds.bbci.co.uk/news/world/rss.xml', source: 'BBC World' },
       { url: 'https://rss.dw.com/rdf/rss-chi-all', source: 'DW 德國之聲' },
       { url: 'https://www.rfi.fr/cn/rss', source: 'RFI 法廣' },
+      { url: 'https://www.aljazeera.com/xml/rss/all.xml', source: 'Al Jazeera' },
     ],
   },
   {
     id: 'finance',
     name: '財經新聞',
     feeds: [
-      { url: 'https://www.cna.com.tw/rss/afinance.aspx', source: 'CNA 中央社財經' },
-      { url: 'https://udn.com/rssfeed/news/2/6638', source: '聯合新聞網財經' },
       { url: `https://news.google.com/rss/search?q=${encodeURIComponent('財經股市')}&hl=zh-TW&gl=TW&ceid=TW:zh-Hant`, source: 'Google News 財經' },
+      { url: 'https://feeds.marketwatch.com/marketwatch/topstories/', source: 'MarketWatch' },
+      { url: `https://news.google.com/rss/search?q=${encodeURIComponent('finance economy')}&hl=en&gl=US&ceid=US:en`, source: 'Google News Finance' },
     ],
   },
   {
@@ -45,16 +46,16 @@ const CATEGORIES = [
     name: 'AI 相關新聞',
     feeds: [
       { url: 'https://www.ithome.com.tw/rss', source: 'iThome' },
-      { url: `https://news.google.com/rss/search?q=${encodeURIComponent('人工智能 AI科技')}&hl=zh-TW&gl=TW&ceid=TW:zh-Hant`, source: 'Google News AI' },
+      { url: `https://news.google.com/rss/search?q=${encodeURIComponent('人工智能 AI科技')}&hl=zh-TW&gl=TW&ceid=TW:zh-Hant`, source: 'Google News AI 中文' },
+      { url: `https://news.google.com/rss/search?q=${encodeURIComponent('artificial intelligence AI')}&hl=en&gl=US&ceid=US:en`, source: 'Google News AI' },
     ],
   },
   {
     id: 'china',
     name: '大中華新聞',
     feeds: [
-      { url: 'https://www.cna.com.tw/rss/aall.aspx', source: 'CNA 中央社' },
-      { url: 'https://www.ltn.com.tw/rss/news.xml', source: '自由時報' },
-      { url: 'https://udn.com/rssfeed/news/1/1001', source: '聯合新聞網' },
+      { url: `https://news.google.com/rss/search?q=${encodeURIComponent('台灣 兩岸')}&hl=zh-TW&gl=TW&ceid=TW:zh-Hant`, source: 'Google News 台灣兩岸' },
+      { url: `https://news.google.com/rss/search?q=${encodeURIComponent('中國新聞')}&hl=zh-TW&gl=TW&ceid=TW:zh-Hant`, source: 'Google News 中國' },
     ],
   },
 ];

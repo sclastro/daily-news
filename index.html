@@ -6,16 +6,16 @@
   <title>每日新聞摘要 📰</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    /* 自訂 Google Fonts */
     @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap');
     body { font-family: 'Noto Sans TC', sans-serif; }
     .card-hover { transition: transform 0.2s, box-shadow 0.2s; }
     .card-hover:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.1); }
+    html { scroll-padding-top: 115px; }
   </style>
 </head>
 <body class="bg-gray-50 min-h-screen">
 
-  <!-- 頂部導覽列 -->
+  <!-- 頂部導覽列（含分類按鈕，整塊 sticky） -->
   <header class="bg-white shadow-sm sticky top-0 z-50 border-b border-gray-200">
     <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between flex-wrap gap-3">
       <div class="flex items-center gap-2">
@@ -32,37 +32,34 @@
         </select>
       </div>
     </div>
+    <!-- 分類快速跳轉（隨 header 一起 sticky） -->
+    <div class="max-w-6xl mx-auto px-4 pb-2 flex gap-2 flex-wrap border-t border-gray-100">
+      <button onclick="scrollToCategory('hk')"
+        class="px-3 py-1.5 bg-red-50 text-red-700 border border-red-200 rounded-full text-sm font-medium hover:bg-red-100 transition">
+        🇭🇰 香港本地
+      </button>
+      <button onclick="scrollToCategory('china')"
+        class="px-3 py-1.5 bg-amber-50 text-amber-700 border border-amber-200 rounded-full text-sm font-medium hover:bg-amber-100 transition">
+        🇨🇳 大中華
+      </button>
+      <button onclick="scrollToCategory('world')"
+        class="px-3 py-1.5 bg-green-50 text-green-700 border border-green-200 rounded-full text-sm font-medium hover:bg-green-100 transition">
+        🌍 國際
+      </button>
+      <button onclick="scrollToCategory('finance')"
+        class="px-3 py-1.5 bg-blue-50 text-blue-700 border border-blue-200 rounded-full text-sm font-medium hover:bg-blue-100 transition">
+        💹 財經
+      </button>
+      <button onclick="scrollToCategory('ai')"
+        class="px-3 py-1.5 bg-purple-50 text-purple-700 border border-purple-200 rounded-full text-sm font-medium hover:bg-purple-100 transition">
+        🤖 AI 科技
+      </button>
+    </div>
   </header>
 
   <!-- 更新提示條 -->
   <div class="bg-blue-600 text-white text-xs text-center py-2 px-4">
     <span id="updateInfo">⏳ 載入中...</span>
-  </div>
-
-  <!-- 快速跳轉按鈕 -->
-  <div class="max-w-6xl mx-auto px-4 mt-5">
-    <div class="flex gap-2 flex-wrap">
-      <button onclick="scrollToCategory('hk')"
-        class="px-4 py-2 bg-red-50 text-red-700 border border-red-200 rounded-full text-sm font-medium hover:bg-red-100 transition">
-        🇭🇰 香港本地
-      </button>
-      <button onclick="scrollToCategory('world')"
-        class="px-4 py-2 bg-green-50 text-green-700 border border-green-200 rounded-full text-sm font-medium hover:bg-green-100 transition">
-        🌍 國際
-      </button>
-      <button onclick="scrollToCategory('finance')"
-        class="px-4 py-2 bg-blue-50 text-blue-700 border border-blue-200 rounded-full text-sm font-medium hover:bg-blue-100 transition">
-        💹 財經
-      </button>
-      <button onclick="scrollToCategory('ai')"
-        class="px-4 py-2 bg-purple-50 text-purple-700 border border-purple-200 rounded-full text-sm font-medium hover:bg-purple-100 transition">
-        🤖 AI 科技
-      </button>
-      <button onclick="scrollToCategory('china')"
-        class="px-4 py-2 bg-amber-50 text-amber-700 border border-amber-200 rounded-full text-sm font-medium hover:bg-amber-100 transition">
-        🇨🇳 大中華
-      </button>
-    </div>
   </div>
 
   <!-- 主要新聞內容 -->
