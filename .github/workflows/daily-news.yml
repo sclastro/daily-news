@@ -11,7 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      models: read
 
     steps:
       - name: Checkout 代碼
@@ -26,9 +25,6 @@ jobs:
         run: npm install
 
       - name: 執行新聞抓取腳本
-        env:
-          NEWSDATA_API_KEY: ${{ secrets.NEWSDATA_API_KEY }}
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: node scripts/fetch-news.js
 
       - name: Commit 並推送更新後的新聞資料
