@@ -18,6 +18,7 @@ const CATEGORIES = [
     name: '本地新聞（香港）',
     feeds: [
       { url: `https://news.google.com/rss/search?q=${encodeURIComponent('香港新聞')}&hl=zh-HK&gl=HK&ceid=HK:zh-Hant`, source: 'Google News HK' },
+      { url: 'https://www.hk01.com/rss/zone/12', source: '香港01' },
       { url: 'https://rthk.hk/rss/rthk9.xml', source: 'RTHK 香港電台' },
     ],
   },
