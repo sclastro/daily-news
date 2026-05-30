@@ -103,7 +103,7 @@ function renderNews(date) {
         <div class="flex items-center gap-3 mb-5 pb-3 border-b-2 ${color.border}">
           <span class="text-3xl">${config.emoji}</span>
           <h2 class="text-xl font-bold text-gray-800">${config.label}</h2>
-          <span class="ml-auto text-xs font-medium ${color.text} ${color.bg} px-2.5 py-1 rounded-full">Top 5</span>
+          <span class="ml-auto text-xs font-medium ${color.text} ${color.bg} px-2.5 py-1 rounded-full">Top 8</span>
         </div>
         <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           ${cards}

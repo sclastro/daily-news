@@ -3,62 +3,164 @@ const Parser = require('rss-parser');
 const fs = require('fs');
 const path = require('path');
 
-const NEWSDATA_API_KEY = process.env.NEWSDATA_API_KEY;
-const rssParser = new Parser();
+const rssParser = new Parser({ timeout: 15000 });
+
+const HTTP_HEADERS = {
+  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+  'Accept': 'application/rss+xml, application/xml, text/xml, */*',
+  'Accept-Language': 'zh-TW,zh;q=0.9,en;q=0.8',
+  'Cache-Control': 'no-cache',
+};
 
 const CATEGORIES = [
-  { id: 'hk', name: '本地新聞（香港）', newsdata: { q: '香港', language: 'zh' }, rssKeyword: '香港新聞' },
-  { id: 'world', name: '國際新聞', newsdata: { q: 'world international politics', language: 'en' }, rssKeyword: '國際新聞' },
-  { id: 'finance', name: '財經新聞', newsdata: { q: 'economy finance stock', language: 'en' }, rssKeyword: '財經新聞 股市' },
-  { id: 'ai', name: 'AI 相關新聞', newsdata: { q: 'artificial intelligence AI', language: 'en' }, rssKeyword: 'AI 人工智能' },
-  { id: 'china', name: '大中華新聞', newsdata: { q: '中國 台灣', language: 'zh' }, rssKeyword: '中國 台灣新聞' },
+  {
+    id: 'hk',
+    name: '本地新聞（香港）',
+    feeds: [
+      { url: 'https://rthk.hk/rss/rthk10.xml', source: 'RTHK 香港電台' },
+      { url: 'https://www.hk01.com/rss/', source: '香港01' },
+      { url: `https://news.google.com/rss/search?q=${encodeURIComponent('香港新聞')}&hl=zh-HK&gl=HK&ceid=HK:zh-Hant`, source: 'Google News HK' },
+    ],
+  },
+  {
+    id: 'world',
+    name: '國際新聞',
+    feeds: [
+      { url: 'https://feeds.bbci.co.uk/zhongwen/trad/rss.xml', source: 'BBC 中文' },
+      { url: 'https://rss.dw.com/rdf/rss-chi-all', source: 'DW 德國之聲' },
+      { url: 'https://www.rfi.fr/cn/rss', source: 'RFI 法廣' },
+    ],
+  },
+  {
+    id: 'finance',
+    name: '財經新聞',
+    feeds: [
+      { url: 'https://www.cna.com.tw/rss/afinance.aspx', source: 'CNA 中央社財經' },
+      { url: 'https://udn.com/rssfeed/news/2/6638', source: '聯合新聞網財經' },
+      { url: `https://news.google.com/rss/search?q=${encodeURIComponent('財經股市')}&hl=zh-TW&gl=TW&ceid=TW:zh-Hant`, source: 'Google News 財經' },
+    ],
+  },
+  {
+    id: 'ai',
+    name: 'AI 相關新聞',
+    feeds: [
+      { url: 'https://www.ithome.com.tw/rss', source: 'iThome' },
+      { url: `https://news.google.com/rss/search?q=${encodeURIComponent('人工智能 AI科技')}&hl=zh-TW&gl=TW&ceid=TW:zh-Hant`, source: 'Google News AI' },
+    ],
+  },
+  {
+    id: 'china',
+    name: '大中華新聞',
+    feeds: [
+      { url: 'https://www.cna.com.tw/rss/aall.aspx', source: 'CNA 中央社' },
+      { url: 'https://www.ltn.com.tw/rss/news.xml', source: '自由時報' },
+      { url: 'https://udn.com/rssfeed/news/1/1001', source: '聯合新聞網' },
+    ],
+  },
 ];
 
-async function fetchFromNewsData(params) {
+function isEnglish(text) {
+  if (!text || text.length === 0) return false;
+  const cjkCount = (text.match(/[一-鿿]/g) || []).length;
+  return (cjkCount / text.length) < 0.1;
+}
+
+function normalizeUrl(url) {
   try {
-    const response = await axios.get('https://newsdata.io/api/1/news', {
-      params: { apikey: NEWSDATA_API_KEY, ...params, size: 10 },
-      timeout: 15000,
-    });
-    return response.data.results || [];
-  } catch (err) {
-    console.warn(`NewsData.io 失敗: ${err.message}`);
-    return [];
+    const u = new URL(url);
+    return u.hostname + u.pathname.replace(/\/$/, '');
+  } catch {
+    return url;
   }
 }
 
-async function fetchFromGoogleRSS(keyword) {
+async function translateToZhTW(text) {
+  if (!text || !isEnglish(text)) return text;
+  const truncated = text.slice(0, 500);
+
+  // Tier 1: Google Translate unofficial API (best quality)
   try {
-    const encoded = encodeURIComponent(keyword);
-    const url = `https://news.google.com/rss/search?q=${encoded}&hl=zh-HK&gl=HK&ceid=HK:zh-Hant`;
-    const feed = await rssParser.parseURL(url);
-    return (feed.items || []).slice(0, 10).map(item => ({
-      title: item.title,
-      description: item.contentSnippet || '',
-      link: item.link,
-      pubDate: item.pubDate,
-      source_id: item.creator || 'Google News',
+    const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-TW&dt=t&q=${encodeURIComponent(truncated)}`;
+    const res = await axios.get(url, { timeout: 8000 });
+    const translated = (res.data?.[0] || []).map(seg => seg[0]).join('');
+    if (translated && translated.trim()) return translated;
+  } catch {}
+
+  // Tier 2: MyMemory API (stable fallback)
+  try {
+    const url = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(truncated)}&langpair=en|zh-TW`;
+    const res = await axios.get(url, { timeout: 8000 });
+    const translated = res.data?.responseData?.translatedText;
+    if (translated && res.data?.responseStatus === 200) return translated;
+  } catch {}
+
+  return text;
+}
+
+function scoreArticle(article) {
+  let score = 0;
+  const link = article.link || '';
+
+  const tier1 = ['rthk.hk', 'bbc.co.uk', 'cna.com.tw'];
+  const tier2 = ['hk01.com', 'ltn.com.tw', 'udn.com', 'ithome.com.tw', 'dw.com', 'rfi.fr'];
+  if (tier1.some(d => link.includes(d))) score += 3;
+  else if (tier2.some(d => link.includes(d))) score += 2;
+
+  const pubDate = new Date(article.pubDate);
+  if (!isNaN(pubDate.getTime())) {
+    const ageHours = (Date.now() - pubDate.getTime()) / 3600000;
+    if (ageHours < 6) score += 2;
+    else if (ageHours < 12) score += 1;
+  }
+
+  if (!isEnglish(article.title || '')) score += 1;
+
+  return score;
+}
+
+async function fetchFeed(feedConfig) {
+  try {
+    const res = await axios.get(feedConfig.url, {
+      headers: HTTP_HEADERS,
+      timeout: 15000,
+      responseType: 'text',
+    });
+    const feed = await rssParser.parseString(res.data);
+    return (feed.items || []).map(item => ({
+      title: item.title || '',
+      description: item.contentSnippet || item.content || '',
+      link: item.link || '',
+      pubDate: item.pubDate || item.isoDate || new Date().toISOString(),
+      source: feedConfig.source,
     }));
   } catch (err) {
-    console.warn(`Google RSS 失敗: ${err.message}`);
+    console.warn(`  ⚠️  ${feedConfig.source} 失敗: ${err.message}`);
     return [];
   }
 }
 
-function selectTop5(articles) {
+async function fetchCategory(cat) {
+  console.log(`\n📰 處理: ${cat.name}`);
+  const results = await Promise.allSettled(cat.feeds.map(f => fetchFeed(f)));
+
+  const all = [];
+  results.forEach(r => { if (r.status === 'fulfilled') all.push(...r.value); });
+  console.log(`  ✓ 共抓取 ${all.length} 篇原始文章`);
+
   const seen = new Set();
-  return articles.filter(a => {
-    const key = (a.title || '').slice(0, 30);
-    if (seen.has(key)) return false;
+  const unique = all.filter(a => {
+    const key = normalizeUrl(a.link);
+    if (!key || seen.has(key)) return false;
     seen.add(key);
     return true;
-  }).slice(0, 5).map(a => ({
-    title: a.title || '無標題',
-    summary: (a.description || '點擊連結閱讀全文').slice(0, 200),
-    source: a.source_id || '未知來源',
-    url: a.link || a.url || '#',
-    publishedAt: a.pubDate || new Date().toISOString(),
-  }));
+  });
+
+  const top8 = unique
+    .sort((a, b) => scoreArticle(b) - scoreArticle(a))
+    .slice(0, 8);
+
+  console.log(`  ✓ 去重後 ${unique.length} 篇，評分後取 ${top8.length} 篇`);
+  return top8;
 }
 
 async function main() {
@@ -70,27 +172,43 @@ async function main() {
   let history = {};
   if (fs.existsSync(dataPath)) {
     try { history = JSON.parse(fs.readFileSync(dataPath, 'utf8')); }
-    catch (e) { console.warn('讀取失敗，重新開始'); }
+    catch (e) { console.warn('讀取 news.json 失敗，重新開始'); }
   }
 
-  if (history[today]) {
-    console.log(`⚠️ 今日已有資料，強制覆蓋。`);
-    delete history[today];
-  }
+  delete history[today];
 
   const todayData = {};
+  let totalTranslated = 0;
+  let totalKeptChinese = 0;
+
   for (const cat of CATEGORIES) {
-    console.log(`\n📰 處理: ${cat.name}`);
-    const [nd, rss] = await Promise.all([
-      fetchFromNewsData(cat.newsdata),
-      fetchFromGoogleRSS(cat.rssKeyword),
-    ]);
-    todayData[cat.id] = {
-      categoryName: cat.name,
-      articles: selectTop5([...nd, ...rss]),
-    };
-    await new Promise(r => setTimeout(r, 2000));
+    const articles = await fetchCategory(cat);
+
+    const processed = [];
+    for (const a of articles) {
+      const titleIsEn = isEnglish(a.title);
+      const summaryIsEn = isEnglish(a.description);
+
+      const translatedTitle = titleIsEn ? await translateToZhTW(a.title) : a.title;
+      const translatedSummary = summaryIsEn ? await translateToZhTW(a.description) : a.description;
+
+      if (titleIsEn) totalTranslated++;
+      else totalKeptChinese++;
+
+      processed.push({
+        title: translatedTitle || a.title || '無標題',
+        summary: (translatedSummary || a.description || '點擊連結閱讀全文').slice(0, 200),
+        source: a.source,
+        url: a.link || '#',
+        publishedAt: a.pubDate || new Date().toISOString(),
+      });
+    }
+
+    todayData[cat.id] = { categoryName: cat.name, articles: processed };
+    await new Promise(r => setTimeout(r, 1500));
   }
+
+  console.log(`\n📊 翻譯統計：翻譯 ${totalTranslated} 篇，保留中文 ${totalKeptChinese} 篇`);
 
   history[today] = todayData;
   const dates = Object.keys(history).sort().reverse();
