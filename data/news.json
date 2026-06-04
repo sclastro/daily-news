@@ -6025,5 +6025,312 @@
         }
       ]
     }
+  },
+  "2026-06-05": {
+    "hk": {
+      "categoryName": "本地新聞（香港）",
+      "articles": [
+        {
+          "title": "香港逾半人口「唔使做」 - 信報網站",
+          "summary": "香港逾半人口「唔使做」  信報網站",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQYUstQjFtOWhERDkyYTNBd01kRUFHU3ZCa0lEb3I3Zlg2ZklZMDNIdDlYZ25ZS3ZVUEMtdHRDbTRsTXhxdE1veUllSFlLS1J2VlNRMUpWeDEzZlRKNXF0d1BRcEF6bFRtajVPeHBpMzQwbUxUaTRiLUlkYnRCTVVQTkh1V0s5TWN2bVEyazFhUVR5bzhsdXhnVlNjVDRNYTdDdkxKQWdKTm5rM3o5ZmwzTmRrdUNwRml0N04tRFQwTzY2ZGtUU0JkU3NHRWowUndPTmpWdVE1MlBvczltMVZnS01MSzhXTFR5RlE?oc=5",
+          "publishedAt": "Thu, 04 Jun 2026 18:04:39 GMT"
+        },
+        {
+          "title": "專訪/烏茲別克斯坦新聞與大眾傳媒大學學者：香港可當連接中國與中亞「法律橋樑」 - 大公文匯網",
+          "summary": "專訪/烏茲別克斯坦新聞與大眾傳媒大學學者：香港可當連接中國與中亞「法律橋樑」  大公文匯網",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5pNUZFMW9SMUpYY0Y2bm5ReElTTmlIUFFsb1ZBU3gwUUNmdWhwMGVjNkFubzYtcXNqSjI4Vlh6MzFwd0N6NTRYNklLdXQxMk9Ba1h1SURGVGg0aDBHZHJlOUVKb0U4Y3g0c1FaRTBhemNMQkhs?oc=5",
+          "publishedAt": "Thu, 04 Jun 2026 20:33:46 GMT"
+        },
+        {
+          "title": "李家超：香港可為烏茲別克在黃金貿易儲備配置等提供強力支援 - 香港電台新聞網",
+          "summary": "李家超：香港可為烏茲別克在黃金貿易儲備配置等提供強力支援  香港電台新聞網",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1HTTlYTFFRazR1cHh4dkk1aXB3NGd2NWRpcVcza2hwYUh5a19tcUtCZzd6UU5KQUlaLWZJbTJ1YTdJRVBRU2J0MWF4TTFjbzF2dFZqWjV2RHdvR0ZzWEFqeTN1dVZEWTdvY2YyZ0Q3NA?oc=5",
+          "publishedAt": "Thu, 04 Jun 2026 16:14:00 GMT"
+        },
+        {
+          "title": "現貨黃金報4480.84 - etnet 經濟通",
+          "summary": "現貨黃金報4480.84  etnet 經濟通",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPanNfOXd0X0V4ZEMyY0RtUU9BR1pFZkI5LU1TRW94XzJreHRDQ1lOZjNTZ0w1VlhzZ3o4RDNqQWVVWEY4NDBMaUtfLTFwYVpkczFLOWtpeUFtNEw5SFVjOF9EUjdzcl9VRjZWdDljY0t1WXpoTVRjTG9aQ0RwbUY5MGItTjJYT0IzdWFjNmR3UTJCc3NHNHZDdTM1OEFBWHM?oc=5",
+          "publishedAt": "Thu, 04 Jun 2026 20:41:59 GMT"
+        },
+        {
+          "title": "特首中亞行｜陳美寶：烏茲別克物流業擴大開放港企可從發展中得益- 香港 - 大公文匯網",
+          "summary": "特首中亞行｜陳美寶：烏茲別克物流業擴大開放港企可從發展中得益- 香港  大公文匯網",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1TR25IZzZNQ1NyQjNOSFUxMkZ3cWVVbWlLX08wS19MNXNRbEJLU0hEcHBucHZCdXAxSk5OSEMwd0wtckhPSmJ1dUxlVjQ4cTZMZ21UbmRjSzJFcEljWVJoWGtWRGZBWDJWQjEtRnZNRFk?oc=5",
+          "publishedAt": "Thu, 04 Jun 2026 15:27:20 GMT"
+        },
+        {
+          "title": "新聞背後/中亞之行拓新局 香港多元賦能高質量發展\\鄭曼晴 - 大公文匯網",
+          "summary": "新聞背後/中亞之行拓新局 香港多元賦能高質量發展\\鄭曼晴  大公文匯網",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5NUVVKX0tFU3FUZWRMb2JQaWtoRmQxWGNkakVvaE5Ca2pSR2NWSUhxUlJsY09ackExR19pQ0ZFUmI3QnJmNDk5VE5wbE0xNDdHM3d5eUZqTTRLQVROa1psYzliX2ZURzJvRGVDQnJlYUo0N3ZR?oc=5",
+          "publishedAt": "Thu, 04 Jun 2026 20:31:15 GMT"
+        },
+        {
+          "title": "鳳德邨女子飛墮簷篷 當場不治 - on.cc東網",
+          "summary": "鳳德邨女子飛墮簷篷 當場不治  on.cc東網",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVGllZ0d3enRuRzlsa1ZhcmU3UGxtMkdiXzNvdFV2MkVfc1ZXOVo2NXZFZ0NmeDBKNm5KWWkwMVpOOWxGV0ZZXzJ6RmZ3ZzBvb2R4cWdWOHRUaWhKQ01RNlhaU0s0RTJRWWhDZXNNRGx1aldFQ3BWWndIOEthQWpDdjhId0hoUkNaUUFn?oc=5",
+          "publishedAt": "Thu, 04 Jun 2026 15:27:17 GMT"
+        },
+        {
+          "title": "大灣區航空推烏魯木齊季節性航班 9.3至10.7每周3班往返香港 - 香港01",
+          "summary": "大灣區航空推烏魯木齊季節性航班 9.3至10.7每周3班往返香港  香港01",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMilgNBVV95cUxQUDRuU0tSVHBtanlmNXpQY1BYeGlhSWh5N20wNTJYakpNNllBUHZJZDFGLVd1Q2NzdzkxRzZIZDM0bklranNMVUFMbDNWTGpFZTI3R3dNYXRiZWRYemNUeExUdXlkbmkyUG9tYlVkZWxzeF9IUUNVTzM0YnlMbmdEREpiYnhPdnIzRV82X3oxWHRlREtILU5UWTRrZFh5Zm0ybGRWV1llMVpwNWU4WVlySTFHLWtnQmZFOC1qTEFLTU5zdzZLVkpQelRLdElxdXBya2lDY2FpWmU4alFsSnhnNDk1XzlhY3dWZ1pqUFFDX3I0aGR3TUhYblQwRnpMMXcyMW0tZHlMWnkxeVJqdzBZT2NqcWxKdEEwM0IwNUhzVl8wMi0yaUhWRFYtTUQ5azJYWkZrWHJpcExkSnYwSzlKYjRYZlNlR3huUGZFTjZ1NS00VnhST3Y2dXpDUFpCd0tXNzQzSWgyMWlibW9nUEhYNWs2eXpMNUpSQnJIMXhBSXhqMVVOcUg5alNVbUhrOVlXNXpQaUdB?oc=5",
+          "publishedAt": "Thu, 04 Jun 2026 17:26:48 GMT"
+        }
+      ]
+    },
+    "world": {
+      "categoryName": "國際新聞",
+      "articles": [
+        {
+          "title": "美政要齐悼六四37周年 吁中共停止掩盖历史真相",
+          "summary": "六四天安门事件37周年，美国政府高层、国会两党议员纷纷发表声明与谈话，悼念1989年北京天安门民主运动死难者，批评中国共产党持续封锁历史真相，并呼吁停止对言论自由与纪念活动的打压。",
+          "source": "RFI 法廣",
+          "url": "https://www.rfi.fr/cn/%E4%B8%AD%E5%9B%BD/20260604-%E7%BE%8E%E6%94%BF%E8%A6%81%E9%BD%90%E6%82%BC%E5%85%AD%E5%9B%9B37%E5%91%A8%E5%B9%B4-%E5%90%81%E4%B8%AD%E5%85%B1%E5%81%9C%E6%AD%A2%E6%8E%A9%E7%9B%96%E5%8E%86%E5%8F%B2%E7%9C%9F%E7%9B%B8",
+          "publishedAt": "Thu, 04 Jun 2026 21:11:35 GMT"
+        },
+        {
+          "title": "港人受压下仍不忘悼念六四 惟人数进一步减少 七人被警方带走",
+          "summary": "今天是六四事件37周年纪念日，亦是香港连续第七年不可在维园点燃烛光，在警纵处处的情况下，港人以持花丶打「六四」手势丶默念丶诵经等方法悼念六四；被禁止踏足维园及其所在的铜锣湾区人士，则继续以乘电车的方式途经维园来坚持悼念，部分人被警方以有煽动意图为由遭到阻止，当中五男两女被指涉嫌作出扰乱秩序行为而被带离现场作调查，其後获准离开，暂时未有人被捕。相关人数，与逐年减少的悼念市民人数成正向关系。",
+          "source": "RFI 法廣",
+          "url": "https://www.rfi.fr/cn/%E4%B8%AD%E5%9B%BD/20260604-%E6%B8%AF%E4%BA%BA%E5%8F%97%E5%8E%8B%E4%B8%8B%E4%BB%8D%E4%B8%8D%E5%BF%98%E6%82%BC%E5%BF%B5%E5%85%AD%E5%9B%9B-%E6%83%9F%E4%BA%BA%E6%95%B0%E8%BF%9B%E4%B8%80%E6%AD%A5%E5%87%8F%E5%B0%91-%E4%B8%83%E4%BA%BA%E8%A2%AB%E8%AD%A6%E6%96%B9%E5%B8%A6%E8%B5%B0",
+          "publishedAt": "Thu, 04 Jun 2026 18:55:21 GMT"
+        },
+        {
+          "title": "台湾悼念六四 赖清德总统呼吁北京正视六四事件",
+          "summary": "六四事件37周年之际，台湾多个民间团体在中正纪念堂举办哀悼晚会。同日，台湾总统赖清德呼吁北京正视六四事件，承认真相。",
+          "source": "RFI 法廣",
+          "url": "https://www.rfi.fr/cn/%E4%B8%AD%E5%9B%BD/20260604-%E5%8F%B0%E6%B9%BE%E6%82%BC%E5%BF%B5%E5%85%AD%E5%9B%9B-%E8%B5%96%E6%B8%85%E5%BE%B7%E6%80%BB%E7%BB%9F%E5%91%BC%E5%90%81%E5%8C%97%E4%BA%AC%E6%AD%A3%E8%A7%86%E5%85%AD%E5%9B%9B%E4%BA%8B%E4%BB%B6",
+          "publishedAt": "Thu, 04 Jun 2026 19:24:08 GMT"
+        },
+        {
+          "title": "柏林《每日镜报》：北京至今对“六四”讳莫如深",
+          "summary": "德国多份媒体对“六四”37周年表示了关注。德国电视一台和《明镜》周刊等发表了台湾和美国纪念“六四”、批评中国始终不正视历史的报道。",
+          "source": "RFI 法廣",
+          "url": "https://www.rfi.fr/cn/%E4%B8%AD%E5%9B%BD/20260604-%E6%9F%8F%E6%9E%97-%E6%AF%8F%E6%97%A5%E9%95%9C%E6%8A%A5-%E5%8C%97%E4%BA%AC%E8%87%B3%E4%BB%8A%E5%AF%B9-%E5%85%AD%E5%9B%9B-%E8%AE%B3%E8%8E%AB%E5%A6%82%E6%B7%B1",
+          "publishedAt": "Thu, 04 Jun 2026 16:33:44 GMT"
+        },
+        {
+          "title": "多国驻港领事发图文悼六四 独缺欧盟办事处",
+          "summary": "美丶英丶澳洲及加拿大等至少六个欧美国家驻港领使馆保持《港区国安法》後传统，於六四事件纪念日把脸书置顶图片改为具悼念意义的烛光，又或发布短片或文章予以纪念，美国驻港澳总领事馆更於晚上在所有窗前摆放蜡烛，以兹悼念；不过，与香港关系回暖的欧盟驻港办事处，表现变得冷淡，既没有在窗前燃点蜡烛，更没有发文，反而是法丶德两个成员国在港脸书转发欧盟外交与安全政策发言人和人权专员的言论，以示不忘六四。",
+          "source": "RFI 法廣",
+          "url": "https://www.rfi.fr/cn/%E4%B8%AD%E5%9B%BD/20260604-%E5%A4%9A%E5%9B%BD%E9%A9%BB%E6%B8%AF%E9%A2%86%E4%BA%8B%E5%8F%91%E5%9B%BE%E6%96%87%E6%82%BC%E5%85%AD%E5%9B%9B-%E7%8B%AC%E7%BC%BA%E6%AC%A7%E7%9B%9F%E5%8A%9E%E4%BA%8B%E5%A4%84",
+          "publishedAt": "Thu, 04 Jun 2026 16:28:55 GMT"
+        },
+        {
+          "title": "五眼联盟：中国间谍正通过招聘网站瞄准西方公务员",
+          "summary": "由英国、美国和加拿大等国组成的“五眼联盟”情报机构警告称，中国间谍正通过招聘网站瞄准西方公务员、军人以及任何能够接触机密或保密信息的人员。",
+          "source": "RFI 法廣",
+          "url": "https://www.rfi.fr/cn/%E5%9B%BD%E9%99%85/20260604-%E4%BA%94%E7%9C%BC%E8%81%94%E7%9B%9F-%E4%B8%AD%E5%9B%BD%E9%97%B4%E8%B0%8D%E6%AD%A3%E9%80%9A%E8%BF%87%E6%8B%9B%E8%81%98%E7%BD%91%E7%AB%99%E7%9E%84%E5%87%86%E8%A5%BF%E6%96%B9%E5%85%AC%E5%8A%A1%E5%91%98",
+          "publishedAt": "Thu, 04 Jun 2026 17:03:12 GMT"
+        },
+        {
+          "title": "北京对曾访台湾的新西兰议员实施入境禁令 台湾谴责该报复措施称与中国“互不隶属”",
+          "summary": "中国对四名曾赴台湾的新西兰国会议员实施了入境禁令，中国驻惠灵顿大使馆认为新西兰议员此举构成对中国的“干涉”。",
+          "source": "RFI 法廣",
+          "url": "https://www.rfi.fr/cn/%E5%9B%BD%E9%99%85/20260604-%E5%8C%97%E4%BA%AC%E5%AF%B9%E6%9B%BE%E8%AE%BF%E5%8F%B0%E6%B9%BE%E7%9A%84%E6%96%B0%E8%A5%BF%E5%85%B0%E8%AE%AE%E5%91%98%E5%AE%9E%E6%96%BD%E5%85%A5%E5%A2%83%E7%A6%81%E4%BB%A4-%E5%8F%B0%E6%B9%BE%E8%B0%B4%E8%B4%A3%E8%AF%A5%E6%8A%A5%E5%A4%8D%E6%8E%AA%E6%96%BD%E7%A7%B0%E4%B8%8E%E4%B8%AD%E5%9B%BD-%E4%BA%92%E4%B8%8D%E9%9A%B6%E5%B1%9E",
+          "publishedAt": "Thu, 04 Jun 2026 15:35:18 GMT"
+        },
+        {
+          "title": "五眼联盟：中国特工借招聘平台招募线人 中国：恶意诽谤",
+          "summary": "由美国、英国、加拿大、澳大利亚和新西兰组成的“五眼联盟”安全机构警告称，中国情报部门正通过职业社交平台和网络招聘网站，以虚假招聘信息为掩护，积极接触并招募能够接触敏感信息的人员，以获取军事、政治和经济情报。",
+          "source": "DW 德國之聲",
+          "url": "https://www.dw.com/zh/五眼联盟：中国特工借招聘平台招募线人-中国：恶意诽谤/a-77424097?maca=chi-rss-chi-all-1127-rdf",
+          "publishedAt": "2026-06-04T14:13:00.000Z"
+        }
+      ]
+    },
+    "finance": {
+      "categoryName": "財經新聞",
+      "articles": [
+        {
+          "title": "中東局勢推升油價，全球股市面臨沉重賣壓-財經焦點情報站 - CMoney投資網誌",
+          "summary": "中東局勢推升油價，全球股市面臨沉重賣壓-財經焦點情報站  CMoney投資網誌",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTTAxZWlHZ216X3poZmZRY2JSeUs4ZWNMN21JckJwcVFXRG9WcTBnZXRtbkk2TUxSTk14aFNLM2RCRXFRd19UcG9ueERoMEZvT2ZLdmY4a3ZUcXhnMjlCUHlkQ1htQmdPSDRPdGpyRmdYa0ZscVk3ODM0SFBRMDFMNVZB?oc=5",
+          "publishedAt": "Thu, 04 Jun 2026 20:14:57 GMT"
+        },
+        {
+          "title": "中東局勢變數未除　歐洲股市仍收紅 - 自由財經",
+          "summary": "中東局勢變數未除　歐洲股市仍收紅  自由財經",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE41RExFLVI2UXBZVzJxaE5yUFRNWmV5amFWZS1oUWNNdGVfckhHanVFM2RiTWtrcDlqYmRIanRCTlAyeWRzRVlGZXJ3NDNSTzI2cEwxYnJpV0l6Rl9TVE5V0gFkQVVfeXFMT1Q5c2dVZFNJWmNxekRaT3dBTmJrdGo1TWE5VmtOUWN2MXNXa2hOVHRSTFdBRkxOQXNKUnhTT3ZyM1hUQWpxYk5BbE9UQlU5TXNrRktOV0hhRkdCWm9iZ3JWSWJ5Qg?oc=5",
+          "publishedAt": "Thu, 04 Jun 2026 17:12:04 GMT"
+        },
+        {
+          "title": "中東局勢變數未除歐洲股市仍收紅| 全球財經| 全球 - UDN",
+          "summary": "中東局勢變數未除歐洲股市仍收紅| 全球財經| 全球  UDN",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5Zby1SNG1fMkdmVlZlMGVOSVRjUnU3amVZSEkxOG81b0R1SUFGVXpNcENPRGc1QVNjUGZjUzlzR183WFVkRjBTblhiQmNmdUh0?oc=5",
+          "publishedAt": "Thu, 04 Jun 2026 17:16:44 GMT"
+        },
+        {
+          "title": "老牌紡織大廠南紡6天漲近30%遭列注意股！自結4月每股獲利年增146% - Yahoo股市",
+          "summary": "老牌紡織大廠南紡6天漲近30%遭列注意股！自結4月每股獲利年增146%  Yahoo股市",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMinANBVV95cUxPOHA0c1NMbXBnMGI3UXF4ZlZaNHVweWtMVndiblFFTXhmcUdWSjN2QUlYdXZyWm1ub1NHUmhDSzhaekFnSGI5WXZrSG9qMzhsYUx4RTgxLS01ZnhHRXV4MV9TMDBQVk94ZG9zTVBDQW95YWhHXzJnZmtQbVQyNkRQVU1od29GX09VVjVXZnNTZE1aLVRRcFJWQ3NiNmFhY1hDSVQ3R1hqSGJKZkJsSVE4QkMySHJMTWpCUzI0V2puMDBwc0Z4LUZYS2QzOWJjWEx0eEVRSHlDejh6aXozSFNUZndQT0dBcjRlakhnMzR4eXFUdlk1WThxaDFIZjBIUXBGTjJLMF8tNE9MQTF2VVMwTjZxOEFwaXkyTUh6U3RQRWhLRURjb0hYcTZ6UC1VTUZSWUNMQmNUVzhQNlNLanlnUVUyNmUtNWVORDVpRUtxXzlIVTRFMG41ek9mdnpRa1dLMWc3ZVdyc3k5RkNjUnpsRnF4T1JYZm5LLVpiWFU5Q2FMSW4tZDFCaGFSMElCRHZPZVJ4aWJTY0tFclAt?oc=5",
+          "publishedAt": "Thu, 04 Jun 2026 10:13:45 GMT"
+        },
+        {
+          "title": "促進AI了解在地金融服務 國泰金運用開源小型語言模型 精準判斷客戶意圖 - 壹蘋新聞網",
+          "summary": "促進AI了解在地金融服務 國泰金運用開源小型語言模型 精準判斷客戶意圖  壹蘋新聞網",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPMDVUUVBlamp3NzBsY2QyMUFrOFB0dDYyNzA1MzNETGRZdlBueU1MdUpCOHd5bkFaUmpXeG1YenJMdnVWQld0U1JsXzRJdUJXYVp4ZEh0MS1BclRUSmpMQVN1UUhmRnhHNlA1QnZFTXJKQ2tETVNSeEJjcHF2X3A5T0hR?oc=5",
+          "publishedAt": "Thu, 04 Jun 2026 10:54:00 GMT"
+        },
+        {
+          "title": "創新高！群聯5月營收228億元 年增300% - Yahoo股市",
+          "summary": "創新高！群聯5月營收228億元 年增300%  Yahoo股市",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQaHc0b3o4VnpqcFlpUTlHM0RvVmlaanR3SlZKZWxZY09rZkRnNVJUOEZrc2xSR2wtTjRvSnU4VGh6OG1VM3IwTlVfbmJaU1ktelhhSHdxbHMtTVJXb0lLbmZuZzVCQkcyQmx1LTlXQTJfU1JZdndCS251cWcwUUhGd2wxb1AxM25ycnVQaWViNzdpUk9NSWZqeW9jQUw5a1Rvc2tmM1V3OGMzU3oyYlluV0xQeldKcFQwWFhXbXo0SDk1Z1NtNjhPeWltU1BVQWdNTnpYNFltZFdGOGlhU2FYbWFRbThJOHlnS2RiOGt2U2hnQ09XQlF3WkZZanplMTItQlE?oc=5",
+          "publishedAt": "Thu, 04 Jun 2026 10:12:27 GMT"
+        },
+        {
+          "title": "大盤屢創新高該獲利了結嗎？不賣變紙上富貴、賣了又怕少賺？一文看懂3大「賣股時機」，拒絕抱過一座山！｜投資診聊室 - Yahoo股市",
+          "summary": "大盤屢創新高該獲利了結嗎？不賣變紙上富貴、賣了又怕少賺？一文看懂3大「賣股時機」，拒絕抱過一座山！｜投資診聊室  Yahoo股市",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMi5AVBVV95cUxPZmpCd0QtZHlqYV9HbFVPWUp4WUpyWUlvNHVJZFQxeW1zaEszRDZSRjVzdkNqX0RUX25TUWI3M1g1d1RRQ21mZWttSVNEbnIwdDdNS3g1N24xbnZCREpyNEllbVlYSXk3d3dvaW9IeXFweWFFbS1JeFhpWGxBem9SOW1pdWxvTi1HZzR6Nkc0a0FiYnhQV0UxR2xYVjZkY2t2Y2pjREwzalpRc2NSaHNpUm96QWtxT3BsYTNrYmJVakhJd19LOW9NWXJOY1M4RENpUmE0SHdueUlNeldIcHRNSG9zcFVkdFhlVk9mdy1tRkNld25TYmdUbzN6WTlRTnJxY0VrR25fbDlvYVJGX194cUtPZVJZQk5scVFYMDBUMmZPWmllVFhmQVp4MDc4TG05Y1pjeFNoc2ZyS3JLLXYxU1dZUlc4cHNuVXpjeGJMQTRaaERKOUN0VzBpVDlncUJORWh6NVhCY1YtMC05UEtDVmRLS0FaekJGTThHbEd0bWNsbkxhMGJOQkxSb185VzBqMldmb3ZoOGQySXVFdVdYZ2ZOUUJacmViME1oZ3I1bHpkbkZ6Tm5GMFRWYTJWd2laNnJpRnZQb25VS3hPMVRzS1IxQUFzTzhHZU9Vc3BFN3pGa05PWVlRTHVqNWxlcHBqTmVvSVJyVmxXcWppNTNibkhkQTZNT016NW5GOXZJa1Q1TWZSc21EVy1HRE5KSG0tSW9kMHpYdGgyWXR1RDE3TkZNWDZ1djNDUUF5RXFKQVg3YnlTYW9wbFNzTlNCNDJZQV9qM2FhblYzUTA2ZllMZEF6ak01X2o3YjdWM3NPZklBZFhyWU9SbmNyemVjZTkybURCVzZaQlRhcVU0aEc3M2V1SmppdDlfQ3lRM0pzVkxiRlNFdHhCdUlDc0hsVjNKeGZjNkJqSHkwSlo4WmQ5aUt0RlB2NWxKcVR1dlMzY1dfelhtU1BpblAtTTZ1QmQwcXpmMQ?oc=5",
+          "publishedAt": "Thu, 04 Jun 2026 10:00:00 GMT"
+        },
+        {
+          "title": "華碩6天瘋漲30%遭列注意股 自結4月每股盈餘7.15元 - Yahoo股市",
+          "summary": "華碩6天瘋漲30%遭列注意股 自結4月每股盈餘7.15元  Yahoo股市",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxPaHRUdU1CTmpSd2xwSkRKaUplcTJwTjhpRENhLVdqd3NSN1FYRkd5ZjRlZDlhYkdObjNiM0VyRDZ1WUswVVJLbU9reW5MZGZnN0VfQ2ZLOGhibjYzanpCZkZjYWlTOF90WF9vTS1NR0c5SUIxdGxjWVVqZTktNC1qc3djTjdRTVRxWjdyMjlJR244UmhWUWpjay1mMlpWVDZUczd0d1RzbjVQNEhvUjBWZ2I5WFozLTRKaTZMd3dqUzRxRWMwZUxMREVLODl5RjYxVjBBaEdyVmh3b0VJUVdGVGpPckUwWjVibURBcEloRWhNbUU0RFYzQ0NmZzR2c2lra3RWTHMtdXFHbEctR0FjYXdwYXBVUExkOElIMm1PUVB6UHU5TTVUMjNnVEE1UE1fVHRLLVBiMG5KT3JZVVE?oc=5",
+          "publishedAt": "Thu, 04 Jun 2026 13:16:48 GMT"
+        }
+      ]
+    },
+    "ai": {
+      "categoryName": "AI 相關新聞",
+      "articles": [
+        {
+          "title": "駭客利用美國愛國者形象經營社群頻道，掩護詐騙活動，結合生成式AI擴大攻擊行動",
+          "summary": "透過生成式AI的協助，以往需要一組團隊才能完成的複雜網路攻擊行動，現在單一攻擊者便能執行。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/176363",
+          "publishedAt": "2026-06-04  12:06:22"
+        },
+        {
+          "title": "4年前的Linux核心漏洞已遭利用，恐被用於供應鏈攻擊",
+          "summary": "6月2日美國網路安全與基礎設施安全局（CISA）警告，幾年前揭露的Linux核心權限提升漏洞CVE-2022-0492已遭到積極利用，他們將其納入已遭利用漏洞名單（KEV），要求聯邦機構於6月5日前",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/176353",
+          "publishedAt": "2026-06-04  12:06:28"
+        },
+        {
+          "title": "Google發布ChromeOS長期支援版更新，修補多項重大記憶體安全漏洞",
+          "summary": "Google推出ChromeOS作業系統長期支援版LTS-144的更新版144.0.7559.254，當中修補了15項漏洞，當中分別有3項漏洞被評為有重大風險，11項有高風險，1項有中度風險。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/176356",
+          "publishedAt": "2026-06-04  11:06:43"
+        },
+        {
+          "title": "英國要求Google提供AI Overviews獨立退出權限",
+          "summary": "英國競爭與市場管理局（Competition and Markets Authority，CMA）周三（6/3）宣布，對Google搜尋服務祭出新的行為要求（Conduct Requirement），正式要求Google讓出版商能夠單獨選擇退出（Opt-out）AI Overviews等AI搜尋功能對其內容的使用，同時不得影響其內容出現在一般搜尋結果中的資格。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/176354",
+          "publishedAt": "2026-06-04  10:06:48"
+        },
+        {
+          "title": "老舊系統威脅持續惡化，歐洲逾半數工業組織的資安事件涉及舊版Windows系統",
+          "summary": "工業環境中的老舊系統（Legacy Systems）風險持續成焦點，TXOne Networks近期針對歐洲揭露其2026年度OT資安報告研究細節，解析當地工業領域面臨的挑戰。報告指出，過去一年有超過半數（51%）的歐洲工業組織，曾經歷涉及老舊Windows系統的資安事件，這項數據相較於2025年的43%有明顯增長。值得注意的是，約25%受訪者表示相關資安事故在一年內發生不只一次，反映出舊系統漏洞",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/176352",
+          "publishedAt": "2026-06-04  10:06:09"
+        },
+        {
+          "title": "美國政府證實Magento快取外掛Mirasvit Cache Warmer重大漏洞已遭利用",
+          "summary": "上週資安公司Sansec提出警告，Magento網頁快取外掛程式Mirasvit Cache Warmer存在重大漏洞CVE-2026-45247，攻擊者在未經身分驗證的情況下，可在PHP物件進行注入，CVSS風險評為9.8分，用戶應儘速更新因應。本週美國網路安全與基礎設施安全局（CISA）指出，他們已掌握漏洞遭積極利用的證據。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/176350",
+          "publishedAt": "2026-06-04  10:06:12"
+        },
+        {
+          "title": "CISA將Android框架零時差漏洞列入已遭利用漏洞名單",
+          "summary": "Google發布6月Android例行更新（Android Security Bulletin），修補的對象包含存在於Android框架的權限提升漏洞CVE-2025-48595，公告指出該漏洞已被鎖定目標的局部活動所利用，隨後美國網路安全與基礎設施安全局（CISA）也證實CVE-2025-48595被用於實際攻擊的情況。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/176349",
+          "publishedAt": "2026-06-04  10:06:53"
+        },
+        {
+          "title": "駭客入侵大型證券交易所高層電子郵件帳號，潛伏5個月竊取商業情報",
+          "summary": "對駭客來說，比起在企業中橫向移動、大規模擴散，若有辦法控制單一高階主管的郵件帳號，或許能藉此獲取更高的價值。Broadcom旗下Symantec與Carbon Black團隊，近日揭露一起鎖定全球大型證券交易所的網路間諜活動，攻擊者成功入侵高階主管電子郵件帳號，並在長達5個月的期間持續竊取郵件資料。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/176375",
+          "publishedAt": "2026-06-04  05:06:14"
+        }
+      ]
+    },
+    "china": {
+      "categoryName": "大中華新聞",
+      "articles": [
+        {
+          "title": "陝西旅遊(603402.SH)2025年年度權益分派：每股派利2.00元 - AASTOCKS.com",
+          "summary": "陝西旅遊(603402.SH)2025年年度權益分派：每股派利2.00元  AASTOCKS.com",
+          "source": "Google News 中國",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNeURJRlhKeXlsNVdMOFQ2aXpucklWdVUyZlgzMWJLZW84NV8tZkFVY1RUa3pRLXZvOXRNZkRIc2hvZ3dEMk5JbnczdFAydEVwTzBMQmR6NmdvYlBEWGhpdXE3Z3JtZE45NERrNVRudllVQlpqRmRkQ2Z3NDRzNDJkLURZOTZfdG8xUGZSNWl5eXp2dHdhWllqU0MzMUJ4U3dwWFhUM0d5aw?oc=5",
+          "publishedAt": "Thu, 04 Jun 2026 15:45:00 GMT"
+        },
+        {
+          "title": "時評》兩岸不好日菲欺台- 中時社論- 言論 - 中時新聞網",
+          "summary": "時評》兩岸不好日菲欺台- 中時社論- 言論  中時新聞網",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9PeFlqaFpzOVN6dXdhRV93cW02akw5VTNaUDdtaHhuTUxXZGllR0JpNkVEd3ZrUEx4ZktNRDEwWUxGcXFYUmZXU1o5cXpmamFmYm1KS0ZDcUlJVFJjWTdQLTlnMWJYc2s?oc=5",
+          "publishedAt": "Thu, 04 Jun 2026 11:43:57 GMT"
+        },
+        {
+          "title": "國台辦稱兩岸同屬一中是現狀 梁文傑：互不隸屬才是現狀 - UDN",
+          "summary": "國台辦稱兩岸同屬一中是現狀 梁文傑：互不隸屬才是現狀  UDN",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1INktvU09lVkYzZGpBZlZGdXdPZ0lIdExNUWhQanNHejBteEtVWkJsR3dFRWxYYnA5dTB1bHBpQy0yQ1JDc2RHM3ppeWZNX3VM0gFWQVVfeXFMTmYtX2N0NGR5aHhRYkJpYVBITXU3N3F0WUpCeUxFMGpCcS1zUDM4LWFJd1ZodHo2T00wZGpKa25QWGFnTDNYME9iMDE0Qk5YOURELUJsUVE?oc=5",
+          "publishedAt": "Thu, 04 Jun 2026 10:52:35 GMT"
+        },
+        {
+          "title": "鄭麗文訪美兩岸和平繁榮之鏈 台灣不該只是大國博弈的棋子 - 焦點時報",
+          "summary": "鄭麗文訪美兩岸和平繁榮之鏈 台灣不該只是大國博弈的棋子  焦點時報",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5FNk9xX3RvdUpWWldnT0ZNMi04WVZub1F4d1NKREQ3eDI2VUR1TWNfdXBUeGNqZ1RtYXZCb1dRWTJCM0hBX2FTZl84UG5pMWVCQUlDbkMxUQ?oc=5",
+          "publishedAt": "Thu, 04 Jun 2026 12:21:23 GMT"
+        },
+        {
+          "title": "梁文傑談六四：兩岸最根本問題是民主與專制水火不容 - 大纪元",
+          "summary": "梁文傑談六四：兩岸最根本問題是民主與專制水火不容  大纪元",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBPcnk3a2g5aVE5NE5vdjVmSWFjZlpBTUY4NEpEdTE5LXNvUDNmclIwMjdPLUJGSTNua3BfWmN2WW5LcV9aTlRfdmdVTHZSeEx0ekVpZEIyR3R2MXRDZmpz0gFkQVVfeXFMTmFVeHFOTVhWS1pQRmlsQlNpUXNieTFzWm5vYmZqNEM2SElIWW83dVpLTWdNRWdNYWRWN2J6c2h4TmJSTVFYWWFwSHJiTjJwZTFEeE9CLTJEVzF3cUVJMl9uTDJPZw?oc=5",
+          "publishedAt": "Thu, 04 Jun 2026 11:07:00 GMT"
+        },
+        {
+          "title": "〈社論〉賴清德民調低盪，何不走向兩岸開放？ | 中華日報 - LINE TODAY",
+          "summary": "〈社論〉賴清德民調低盪，何不走向兩岸開放？ | 中華日報  LINE TODAY",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE05dzd3VFNjbE5KYUVpWmJqUzFDanRLeXhPSWpxSVVXVHdEZnpqTlV3UjluanNudElvVVpLeDJaOEphaHQ4My04ZmlENnhSN2RaTnJ3X1pn?oc=5",
+          "publishedAt": "Thu, 04 Jun 2026 14:49:09 GMT"
+        },
+        {
+          "title": "一分鐘看政治》日菲稱海域談判不影響我主權 鄭麗文：兩岸是戰是和2028 前是關鍵 - MSN",
+          "summary": "一分鐘看政治》日菲稱海域談判不影響我主權 鄭麗文：兩岸是戰是和2028 前是關鍵  MSN",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMirARBVV95cUxQRVBTbmVFbktYY3h5UVZLekplUkIyQVlPU1Axd0RFSHNVR1VXSnB5N3VHM2xRX3FURWJxT2JyZFpqU2UxZGhGQ3ZTWFJzb2FQSkZBRnV1THFtQ1djT2R1bTF2SEk0MHdjODctVTlLRWE4NzlwM0VqX213RVhUcWdZcmg2R2ZBSVphdTJnYXhKQ2VhWF9CWnhvZVRYdjlZdlozOWROd1NzNTVKamFabWdYcThfc2ZJVlJzYUptRDBtemlMemw5S2JKT3M4OGp3VTB6SVhqRUZfbGVaaWZjZ0czN0gyWXBYOEpGM0FwRE1GRG9EZGhtQ0xKX1l3ZUU5cDFRQ0FVZHhsTUZ4a0lOc09wWUJ3STFiZlZnX19yQmI4cm02ZHBaenl0R1lWQk1JSUNoYjVCa1JNTXJESUFMbmxzNnp5bWZnSmNLbDcxVERlOHp5bXpNUWVfbzlsWm9OM0hJbUFpenM1UE44ZUxmcFRJZnpzaTc2RTFia1JXNmVpdVV3ZlBkZWNyQzItMXRjc2s2YjV2ZmQ3Y21SaUtxdlIxenRyMC1wdGRpQXZqUFdDZTcxZWVJRVFEU0pFS1dfNHNMdUVfU0IxR3lMWjRLTXVHZ2VQakxTSlNfN2Zvc3RNbVNOdUxtZ3RCOFBGeDFVSEVLandTQzBTNnNKOGpnQ0VYcWNxMkZrbEl2YkExU0VUTVhtQzA0Z0hJWWtxVGUyUENCNXBmcE84Ynh5enQt?oc=5",
+          "publishedAt": "Thu, 04 Jun 2026 15:03:08 GMT"
+        },
+        {
+          "title": "六四37週年　梁文傑：兩岸民主與專制水火不容 - 經濟日報",
+          "summary": "六四37週年　梁文傑：兩岸民主與專制水火不容  經濟日報",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9CbzZoc2plV1BBZ1hkbjhLM0VDMGF0RFRCaVF3dlJrSEc2R2V1WXBqY3ZxTHNpeEdKcFgxMndlSzVSMEctdllzMEhLNFc2ZWtEcHR3R1VFdFBtUdIBX0FVX3lxTE5xdXlKeWpNam56VWlTZWkweHotVUdpU1NxX0hINGowOHNqWVdCVEh4cjhTX3BjbE12aWZ0cl9kTGZYTENmRzhnMW8wRzBORFlPNi0xc1Vwb2NrUXZGVkE0?oc=5",
+          "publishedAt": "Thu, 04 Jun 2026 09:46:32 GMT"
+        }
+      ]
+    }
   }
 }
