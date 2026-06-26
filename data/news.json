@@ -12779,5 +12779,198 @@
         }
       ]
     }
+  },
+  "2026-06-27": {
+    "hk": {
+      "categoryName": "本地新聞（香港）",
+      "articles": []
+    },
+    "world": {
+      "categoryName": "國際新聞",
+      "articles": [
+        {
+          "title": "委內瑞拉地震中母親救女兒身亡",
+          "summary": "埃克托·貝洛在社交媒體上寫道，在這場造成至少 920 人死亡的地震中，「你們為我們的女兒獻出了自己的生命」。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c0jydyz8z6jo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Fri, 26 Jun 2026 18:36:32 GMT"
+        },
+        {
+          "title": "霍爾木茲海峽襲擊後川普指責伊朗違反停火",
+          "summary": "週四，一艘懸掛新加坡國旗的船隻在穿越水道時被撞，導致大規模疏散行動暫停。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/ckg54g0ry0vo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Fri, 26 Jun 2026 18:03:32 GMT"
+        },
+        {
+          "title": "剛果民主共和國就數十年衝突將盧安達告上國際法庭",
+          "summary": "金沙薩指責其鄰國自 1994 年盧安達種族滅絕以來犯下各種違法行為。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c8724zn3491o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Fri, 26 Jun 2026 17:05:22 GMT"
+        },
+        {
+          "title": "歐洲致命熱浪打破德國記錄並導致公共活動暫停",
+          "summary": "德國有史以來最高氣溫為攝氏 41.3 度，暫時記錄在與法國接壤的薩爾布呂肯。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cx2knzzwprgo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Fri, 26 Jun 2026 18:14:36 GMT"
+        },
+        {
+          "title": "前川普顧問約翰·博爾頓承認不當處理機密文件",
+          "summary": "檢察官稱，博爾頓面臨最高五年的監禁，並同意支付 225 萬美元的罰款。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/czxqwg4nrvlo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Fri, 26 Jun 2026 16:45:21 GMT"
+        },
+        {
+          "title": "以色列和黎巴嫩在美國斡旋會談後簽署框架協議",
+          "summary": "先前以色列和真主黨之間的停火仍然幾乎每天都會發生跨境襲擊",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cg5315n1v5go?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Fri, 26 Jun 2026 19:29:31 GMT"
+        },
+        {
+          "title": "塞拉利昂四名因童婚而被拘留的男子出現在具有里程碑意義的法庭案件中",
+          "summary": "這起案件涉及一名 17 歲女孩，如果罪名成立，包括她父親和丈夫在內的四名男子將面臨數年監禁。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c9q212y8p21o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Fri, 26 Jun 2026 15:34:39 GMT"
+        },
+        {
+          "title": "飛機撞上北京第一高樓 碎片掉落",
+          "summary": "社群媒體影片顯示，一架小型飛機撞上北京最高的摩天大樓後，殘骸墜落地面。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/videos/c8j2rjrzjero?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Fri, 26 Jun 2026 18:36:42 GMT"
+        }
+      ]
+    },
+    "finance": {
+      "categoryName": "財經新聞",
+      "articles": [
+        {
+          "title": "戰爭險保費暴跌之際，伊朗船舶襲擊事件考驗航運保險市場",
+          "summary": "最近幾天，戰爭險保費大幅收窄，但可能會再次上升。",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/irans-ship-attack-tests-the-shipping-insurance-market-just-as-war-risk-premiums-had-plunged-8c4ef14d?mod=mw_rss_topstories",
+          "publishedAt": "Fri, 26 Jun 2026 21:06:00 GMT"
+        },
+        {
+          "title": "隨著投資者對人工智慧狂熱踩剎車，SpaceX 的新債券發出了警告信號",
+          "summary": "馬斯克 (Elon Musk) 的公司本週稍早以 250 億美元的債券交易引起轟動，距離籌集數百億美元現金不到兩週。",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/spacexs-new-bonds-are-flashing-a-warning-sign-as-investors-pump-the-brakes-on-ai-frenzy-752ad44b?mod=mw_rss_topstories",
+          "publishedAt": "Fri, 26 Jun 2026 20:42:00 GMT"
+        },
+        {
+          "title": "隨著通膨的爆發，債券殖利率正在下降。沃什領導下的聯準會強硬言論正在發揮作用。",
+          "summary": "新任聯準會主席凱文沃什(Kevin Warsh)正在透過對通膨的強硬言論來幫助降低美國公債殖利率。",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/bond-yields-are-falling-as-inflation-pops-the-feds-tough-talk-under-warsh-is-helping-7d538b3b?mod=mw_rss_topstories",
+          "publishedAt": "Fri, 26 Jun 2026 20:38:00 GMT"
+        },
+        {
+          "title": "聯準會卡什卡里預計今年將升息一次。這就是改變他想法的原因。",
+          "summary": "明尼阿波利斯聯邦儲備銀行主席表示，對美伊和平協議和人工智慧建設的疑慮意味著升息是可能的。",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/feds-kashkari-projects-one-interest-rate-hike-this-year-heres-what-changed-his-mind-3a6b428c?mod=mw_rss_topstories",
+          "publishedAt": "Fri, 26 Jun 2026 20:27:00 GMT"
+        },
+        {
+          "title": "醫療保健股已成為投資人拋棄科技股的避風港",
+          "summary": "艾伯維（AbbVie）、禮來（Eli Lilly）和強生（Johnson & Johnson）的股價週五有望創下歷史新高，這是投資者對生物製藥行業興趣回歸的最新信號。",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/healthcare-stocks-have-become-a-haven-for-investors-ditching-tech-81c544d0?mod=mw_rss_topstories",
+          "publishedAt": "Fri, 26 Jun 2026 20:25:00 GMT"
+        },
+        {
+          "title": "住房法案重回成為法律的軌道。這就是它對負擔能力的作用。",
+          "summary": "兩黨住房一攬子計劃似乎再次接近成為美國法律，儘管在唐納德·特朗普總統週三取消該法案的簽字儀式後有所延遲。",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/the-housing-bills-back-on-track-to-becoming-law-heres-what-it-does-for-affordability-14f4c7ba?mod=mw_rss_topstories",
+          "publishedAt": "Fri, 26 Jun 2026 20:14:00 GMT"
+        },
+        {
+          "title": "失去兒子後，賣掉新買的房子搬到老家會不會是錯？",
+          "summary": "“我作為一個單身母親在那裡撫養了我的孩子，這是我兒子意外去世之前住的最後一個家。”",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/my-son-passed-away-am-i-crazy-to-move-to-my-former-home-and-sell-a-house-i-bought-in-september-f1f5f41a?mod=mw_rss_topstories",
+          "publishedAt": "Fri, 26 Jun 2026 20:09:00 GMT"
+        },
+        {
+          "title": "為什麼道指被拋售是這隻股票或任何股票的最終買進訊號",
+          "summary": "「道瓊斯指數詛咒」現在對 Verizon 有利，而不是 Alphabet。",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/why-getting-dumped-from-the-dow-is-the-ultimate-buy-signal-for-this-stock-1d5a9342?mod=mw_rss_topstories",
+          "publishedAt": "Fri, 26 Jun 2026 20:02:00 GMT"
+        }
+      ]
+    },
+    "ai": {
+      "categoryName": "AI 相關新聞",
+      "articles": [
+        {
+          "title": "Klue供應鏈攻擊影響範圍擴大，AI營收情資平臺Gong的用戶也受到波及",
+          "summary": "上週Salesforce揭露Klue供應鏈攻擊，並宣布切斷Klue Battlecards應用程式與用戶的Salesforce系統連結因應。然而就在有許多受害公司證實他們的Salesforce因此出現未經授權存取的情形之際，有另一家公司指出，他們的用戶也可能遭到這波供應鏈事故波及。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/176898",
+          "publishedAt": "2026-06-26  12:06:55"
+        },
+        {
+          "title": "微軟悄悄展延Windows 10 ESU到2027年10月",
+          "summary": "本週微軟低調透過官方部落格公告，針對個人用Windows 10 PC提供的延伸安全更新（Extended Security Update,ESU）將再免費展延一年到2027年10月。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/176897",
+          "publishedAt": "2026-06-26  12:06:55"
+        },
+        {
+          "title": "Deno 2.9新增桌面應用工具，網頁專案可封裝成跨平臺應用程式",
+          "summary": "JavaScript與TypeScript執行環境Deno發布2.9版，新增實驗性的deno desktop工具，讓開發者可將JavaScript與TypeScript網頁專案封裝成桌面應用程式。該功能讓Deno從伺服器端與命令列執行環境，擴大到桌面程式開發，開發者可用既有網頁技術建立Windows、macOS與Linux應用。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/176895",
+          "publishedAt": "2026-06-26  12:06:53"
+        },
+        {
+          "title": "產品體驗平臺公司Pendo、雲端通訊服務廠商8×8受Klue供應鏈攻擊影響，並引發資料外洩",
+          "summary": "上週爆發的Klue供應鏈攻擊事故，已有超過10家公司證實受到影響，導致他們存放在Salesforce平臺的資料出現未經授權存取的現象，其中大部分是資安公司。如今有SaaS服務公司也受害。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/176896",
+          "publishedAt": "2026-06-26  12:06:57"
+        },
+        {
+          "title": "韓國全民創業計畫爆資安事故，5,000名晉級首輪的參賽者個資與創意外洩",
+          "summary": "由韓國政府主導的大規模創業海選計畫「全民創業」（모두의 창업），共吸引6.3萬人參與，但在6月17日傳出嚴重的個資外洩事件，根據韓國創業媒體《Unicorn Factory》報導，共有5,000名第一階段入選者的個資遭到外洩，流出內容更包含核心的創意摘要與評審意見。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/176891",
+          "publishedAt": "2026-06-26  12:06:08"
+        },
+        {
+          "title": "F5併購SurePath AI，延續與擴張公司長期發展的網路層資安防護策略，強化AI治理能見度與安全性",
+          "summary": "從傳統應用遞送（ADC）轉型、如今專注發展多雲應用安全與多雲網路（MCN）的 F5，本週發表AI資安平臺F5 AI Security Platform（AISP），為企業提供持續保護使用AI的能力，涵蓋探查（discovery）、安全性測試（security testing）、治理（governance）、AI執行階段防護（runtime protection），以及可觀測性（observabil",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/176893",
+          "publishedAt": "2026-06-26  12:06:42"
+        },
+        {
+          "title": "【資安週報】0622-0626，FortiBleed憑證外洩事件受矚目，Klue供應鏈攻擊風暴更延燒至多家資安業者",
+          "summary": "本週爆發兩起重大資安事故，包括FortiBleed大規模系統登入憑證外洩，以及Klue供應鏈攻擊導致多家資安業者的Salesforce資料外洩，相關消息不斷傳出引發業界高度關注。國內則有尼得科超眾、易發精機、耕興等3家上市櫃公司發布資安重訊。\n在漏洞修補態勢上，OpenAI發起Patch the Planet計畫，還有Chainguard成立Athena聯盟，顯現產業界有多方陣營正協助強化開源軟體",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/176892",
+          "publishedAt": "2026-06-26  12:06:04"
+        },
+        {
+          "title": "蘋果調漲Mac及iPad等硬體裝置價格，漲幅15%起",
+          "summary": "蘋果周四（6/25）調漲了旗下從HomePod、iPad、MacBook到iMac的價格，漲幅從15%到25%不等，臺灣蘋果線上商店的價格也已同步調漲，13吋MacBook Air的新售價為42,900元新臺幣，上周還只有35,900元新臺幣，一口氣漲了7,000元。此波蘋果硬體產品調漲並未波及iPhone。微軟亦於同一天宣布自8月1日起於全球調漲Xbox遊戲主機售價。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/176894",
+          "publishedAt": "2026-06-26  11:06:00"
+        }
+      ]
+    },
+    "china": {
+      "categoryName": "大中華新聞",
+      "articles": []
+    }
   }
 }
