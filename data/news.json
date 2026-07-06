@@ -15735,5 +15735,312 @@
       "categoryName": "大中華新聞",
       "articles": []
     }
+  },
+  "2026-07-07": {
+    "hk": {
+      "categoryName": "本地新聞（香港）",
+      "articles": [
+        {
+          "title": "香港前景滿希望 金融以外合作多 - 信報網站",
+          "summary": "香港前景滿希望 金融以外合作多  信報網站",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNdHh1VEl5UEdpMlhBeml2YloxSlVnSjlSQVpjOHhiSnBnV2hoWTJoVEVZUURha0lXNldUUjJ6MXIyR1A5QzZxdjNWV1JyWlFBYWhHQ1ZlNFh2SWVKeHQ4T2wzMWdSQll4a3JqTnc0eTNNQ2ZUSmE2cnBkbjV2THV6aDVuU1VHRzZicm1Zbk9lbXZ2ck1Ea1o4akM0WVV5ZkxSVVdsVDVoRlFtejNJN29rcUthTVlhTGtwZGpxd2g1OW10NEpPalB1S3BZdkk2NnBtcHBpTGdBMWZ1a1dYVm1TTnFWVVdjV2ppclQ1aS1kWm84NjhjazNuU05MUTZZc2dTNy1haE5fWmYtNUczNEdJ?oc=5",
+          "publishedAt": "Mon, 06 Jul 2026 17:56:57 GMT"
+        },
+        {
+          "title": "現貨黃金報4164.63 | 即時新聞 - 新聞 - etnet 經濟通",
+          "summary": "現貨黃金報4164.63 | 即時新聞 - 新聞  etnet 經濟通",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNjRhcjdLcm95YlRpNmpKU3ZVMEJsNkMyTHlsRWQ0RW9mbUNIN3NqNVNubXhTZ1lvakF5bDNIQnRmM1BOWmZFZkVsSUpBTTBKVVpLRVp3cWc5ZVFqS01jaENSLUllNDlTLUkwVmMyQmxYR2JQYXpFOENjSVUtWU1YZS04dTBXbWZfOHpEQVVGd0VFeHE1WE51U1kxQkFueFpv?oc=5",
+          "publishedAt": "Mon, 06 Jul 2026 21:02:07 GMT"
+        },
+        {
+          "title": "機構大戶人幣活動 63%選離岸滙豐：香港生態圈完善 市場基建佳 - 信報網站",
+          "summary": "機構大戶人幣活動 63%選離岸滙豐：香港生態圈完善 市場基建佳  信報網站",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQUWplVzJQb2tHYkF2OHRYdFp2MW9qRUdVZElFOHhtemJuSW9EZGU3UTlSYlNTQmRaYXN3dTRWVi1EZ3dpRnhaSW1mYWF6bmxXdE94UmhRalpJQXg1MmFDVUZ2bWJuX0FFUU9HSDYwZm1maXRHOTJEMTJkYXpHTUE4T1FmVnJMT3Jfc19rOVVtd0ZUNlFzMklsLXZQR0RmcExhS2dsSXUxMElCUFVtOXUybVhsN1Y0cjlTNldpWVhWNUE0eWkwV3JpX1M5RXNtWDNqODRjOHZYSVBiNVNsV2NEeDR3WVVtOFk2TzRtY0puWE9Ldw?oc=5",
+          "publishedAt": "Mon, 06 Jul 2026 17:56:57 GMT"
+        },
+        {
+          "title": "恒指夜期丨收報23571 低水45點 - 信報網站",
+          "summary": "恒指夜期丨收報23571 低水45點  信報網站",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPWkkzWkhpMzZyaW81VUpJZFY4dS0xTWh2SEN1eGJaZnRSeHlveGdtQXNFQzl4dzA2bTM3T3k1NjIxYzZIaWU0N0d1bmZ3T2lUdVR1Q1ZtenZxSTA5bjY3alBNQTJBUGlQM3NXUFFOb1BmNzZUV3Jlb2h3LU55ZDdZTGNlYjhPTGRhbVRiMTVrUU9tTGtpLUlVbmNuYldhajZCMjRIMWt3ZndIYTdXN052Mzloa1J5NEYwbFc0aHlnWXEtN3FRM0xNb2MwUWpMWWZoQm4ydjRzRzB3bGlqbEMyZUk4ZEcyM3Nm?oc=5",
+          "publishedAt": "Mon, 06 Jul 2026 19:26:47 GMT"
+        },
+        {
+          "title": "社評/繼續拆牆鬆綁 鼓勵跨境安老 - 大公文匯網",
+          "summary": "社評/繼續拆牆鬆綁 鼓勵跨境安老  大公文匯網",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE80R3BYRmlJeDVZUnl3aHFOcFFfTGVsX1haTkc5OWctcjBINWJpcTd4WE40Z1YyVHVpcW1WdElBZFdUN1Zjck1sTmkzbDNEdy1Ua3BpZl9QSkF5TUszRjhpbDV0UURneU42Z2hudllTN2J2WTNz?oc=5",
+          "publishedAt": "Mon, 06 Jul 2026 20:25:55 GMT"
+        },
+        {
+          "title": "矢板明夫被打傷！嫌犯持「中國香港」護照 日台交流協會回應了 - Yahoo新聞",
+          "summary": "矢板明夫被打傷！嫌犯持「中國香港」護照 日台交流協會回應了  Yahoo新聞",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMihANBVV95cUxPSHBSeGMxX0dzR2ktVmw1a3dib1RmMmNERHRqZEFKVmpRQ2tIRDFoSVoxLU85YVFWbW5YMEFFanlKSTYxZnpzcUpKMDMxN2l0ZE92LUR2NE1FUVVRLUNwRkFyaVdwY09XdjBrV1BrSlJVWEJ6MnAyeDFHN1BwRmZESkw3Z0xZVWs5UnJXSzBfYzJ0YTVoTHJUN2xFMjhJTE9kOHVOZlB5Z1ZEQm5mYW1ZUllDc1ViN0ZBSjUxLVZnYmlNd3VyN2tYWGJvYktOODkyVnZMSjB3Q1V0ODdiaUpDTzRtTGpyZFFicmxyamVRcENQSlQ2bkc1MlJrOEd5ZjdiMGlXQ0dCeVZHWGJKTHJVSVNnMGVidXFsYnV2b1VVMXBScWtqcEtfRjJjZk5HQmFPSnRodlJnUFNvcjE3SWRzNFI1bUpObl94aGFZdDlSTnQzV2VUYnZ5WmpEek1CSWhkeVprcjMydEFoam5fOTNJQVkyS1RwNC13N2VnTnhOY1duUzZx?oc=5",
+          "publishedAt": "Mon, 06 Jul 2026 10:43:00 GMT"
+        },
+        {
+          "title": "調查指63%機構投資者進行離岸人民幣活動 香港扮演重要樞紐角色 - i-cable.com",
+          "summary": "調查指63%機構投資者進行離岸人民幣活動 香港扮演重要樞紐角色  i-cable.com",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMi9wJBVV95cUxOZU1ONjlvWFItaWRvdGtzVjIzX1FHdzF2Tlg5dVpqaFZzSm92dFByMWo5aUt4cGdwVGJfUjNhNFliSXhxVmotYUllQ1UydlZkSURNcFhkUUh5cTRkckJxdXlfalJQb1doTmZxTVNoRXlueTNwWXhFRldaS1FZSXNpMzRlNGx3VXpkNFBWXy1ULThUWVZCbDBYcFQ0MzZxVzZ0TWRFZ1ItYzg5SUFrazRsNjBDRFZudWE5bTdJTUFMUFB6V3Z4NDQ3TVJCNWRUa2NvYlAyQ2loQWNvZmxscmc3dFNMU250bV9YX0M1N1pzYjk0QnFqbGM2cnBja3pUVVdnVXlPVzBVOUxrclpPeHZONmM2c19Da1dqU0hFYmhVRkdncnNHQlVkaEFiOHp5NC0wbjVQdEJheVVvSkZTemxEdENFdVRDZHcwZ0tQSlhkYlRjbXNVY3dVejJDTGw4SDE2UW5IcV9FUGxWcV9ZbHpodF9sM3lzQVE?oc=5",
+          "publishedAt": "Mon, 06 Jul 2026 11:12:26 GMT"
+        },
+        {
+          "title": "WTT香港青少年乒賽｜一連7日激戰開鑼 港隊四將挾亞青賽勇態闖U17女單8強 - 體路 Sportsroad",
+          "summary": "WTT香港青少年乒賽｜一連7日激戰開鑼 港隊四將挾亞青賽勇態闖U17女單8強  體路 Sportsroad",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxNalVIMXBfc1VfSmExaGoxUl9uX3puanQxaXYtNFMzeU1XbnBoenpGLVJBVUR6bDFoMkJLMW5mTGFlNno4d3FPZFVPOUZUQ1NQSUMtT2hJZnRQbkhpQUFTZEVFYndNSEJMVnllNUFJT3lJenhVRl9USVprcG5wQ3VwX0ROMGZqMjVncmI2TzczT05qT2ZlckthcVQwQzIxbkkzR0QwWnM4TW5fa0xhVVI5ek9oMVpEYzlHYWc0aXNmWUlObkpjXzhzU3E3dkkyQk40Ym9PSWk1M1d0a2w4NG5Cb25WQXZMU1J1TURWSjNqTUx4ZExXZGtkX29OY0dXRWhvaUdJVURQMll6c0gxMUVta09RTWU5Z3JidWI5eW1wVFBaenJJTUVQZ0hITkdZeTljV3d1Tks0X3ZHZ3VSUDY2d1NmTnpxT0lCbVJ5Wk12MERLa3Nma0VkUQ?oc=5",
+          "publishedAt": "Mon, 06 Jul 2026 14:54:08 GMT"
+        }
+      ]
+    },
+    "world": {
+      "categoryName": "國際新聞",
+      "articles": [
+        {
+          "title": "川普證實他要求國際足總審查巴洛貢禁令",
+          "summary": "唐納德·特朗普總統證實，他要求國際足總審查美國前鋒福拉林·巴洛貢在世界盃停賽一場的決定。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c1myykx0gmxo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Mon, 06 Jul 2026 19:06:34 GMT"
+        },
+        {
+          "title": "烏克蘭警告攔截飛彈短缺 基輔地區23人死亡",
+          "summary": "澤連斯基總統表示，俄羅斯週日對基輔發動的「大規模攻擊」包括 68 枚飛彈和 351 架無人機。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cewqqnd7zdwo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Mon, 06 Jul 2026 21:02:37 GMT"
+        },
+        {
+          "title": "查理·柯克的家人出席被指控謀殺的嫌疑人的聽證會",
+          "summary": "23 歲的泰勒羅賓遜 (Tyler Robinson) 被指控謀殺了川普的重要盟友、青年組織「美國轉折點」的創始人柯克。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c1myyyyjvx5o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Mon, 06 Jul 2026 19:06:26 GMT"
+        },
+        {
+          "title": "奧地利法院判定前敘利亞情報局長犯下酷刑和性虐待罪",
+          "summary": "兩名前敘利亞官員在奧地利維也納接受審判，被控對敘利亞前領導人巴沙爾·阿薩德的反對者犯下罪行",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cy8ddd1m3mpo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Mon, 06 Jul 2026 17:22:38 GMT"
+        },
+        {
+          "title": "德黑蘭街道擠滿了大批人群參加哈梅內伊的送葬隊伍",
+          "summary": "許多人揮舞著伊朗國旗和紅色橫幅，象徵著為這位前最高領袖的戰爭死亡復仇。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cdejj44kl70o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Mon, 06 Jul 2026 18:50:44 GMT"
+        },
+        {
+          "title": "全球打擊人口販賣行動逾千人被捕",
+          "summary": "國際刑警組織表示，在已確定的 2,070 名受害者或潛在受害者中，絕大多數是被販賣從事性交易的女性。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c5yzzzdwqjko?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Mon, 06 Jul 2026 17:24:31 GMT"
+        },
+        {
+          "title": "超強颱風巴威以狂風襲擊美國太平洋島嶼",
+          "summary": "風暴襲擊了馬裡亞納群島，襲擊了羅塔島，並促使關島發出緊急警報。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cr7xpgx50jxo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Mon, 06 Jul 2026 16:44:54 GMT"
+        },
+        {
+          "title": "「伊朗希望世界看到的奇觀」：德黑蘭的 Lyse Doucet",
+          "summary": "大批人群聚集在德黑蘭街道兩旁，參加伊朗已故最高領袖阿亞圖拉阿里·哈梅內伊的葬禮。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/videos/c78yyyl2ev4o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Mon, 06 Jul 2026 16:23:44 GMT"
+        }
+      ]
+    },
+    "finance": {
+      "categoryName": "財經新聞",
+      "articles": [
+        {
+          "title": "Q3怎麼投資？群益投信「GOAL」策略 台美股、科技ETF搭配高股息 - 壹蘋新聞網",
+          "summary": "Q3怎麼投資？群益投信「GOAL」策略 台美股、科技ETF搭配高股息  壹蘋新聞網",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSWNXbnBNNFdNRWFNYnhTN212QTdsc1VieDIwSFk1cTd6cUtlRUlfbWthN0h1YW9qYlU5ZGMtbmRpYzd1QjlKS252Y1ZBWnh5VzRFY193Nk5CMUM5Vk52VEcwQTMzampsNzlJd3BtakN3RHFadnZyWlhuMHZSVVBKbGdB?oc=5",
+          "publishedAt": "Mon, 06 Jul 2026 16:35:00 GMT"
+        },
+        {
+          "title": "軍工股逆勢突圍！00965受惠日本國防題材單週漲近6% - 壹蘋新聞網",
+          "summary": "軍工股逆勢突圍！00965受惠日本國防題材單週漲近6%  壹蘋新聞網",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPXzdRVldwTVV2N1FMTmlDSWYwYTRlQU1HRG10d25KUHR3bkJKUnVzaERyWWV6YmNjeWNCZ2RNR0ZJMkhNdldSZThQanZxN09IZU0ySnpuNlZqdkY3WlZ2ajdKNFBUUDBmcC00c2lFTmFXeXF2WmxZeW1NcFZLWDkyRmxR?oc=5",
+          "publishedAt": "Mon, 06 Jul 2026 16:52:00 GMT"
+        },
+        {
+          "title": "曝研華接班！劉克振：未來5年續推動傳承 最難的是創辦人願意放手 - 壹蘋新聞網",
+          "summary": "曝研華接班！劉克振：未來5年續推動傳承 最難的是創辦人願意放手  壹蘋新聞網",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOUl9kUjBqTk1LTldfd0ZFejhKWkNhYWo2Wnp4aDdQa1czZnZjekVXMUNSOHpvRjZNZFJMMVBWRFRqU1llUTlBMXBfbkZybGVPVGtFaGtQZ1dpSEtZc0pHYmhfN3hxR1NiUzNlQW9lUHlnRHM5N2I0dERRQkV3MHk1alB3?oc=5",
+          "publishedAt": "Mon, 06 Jul 2026 17:19:00 GMT"
+        },
+        {
+          "title": "耕興Q2營收12.42億創3年新高 AI、低軌衛星檢測需求同步升溫 - 壹蘋新聞網",
+          "summary": "耕興Q2營收12.42億創3年新高 AI、低軌衛星檢測需求同步升溫  壹蘋新聞網",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9XZHVTaDFYaEhiSEdDa01hVndjSm91bWFZbEo2NmNLaXlPQm9RUnYxVFZzZUM0Wm5LNnRlYnpRa0VWcC1YYWlWTW5qd0sxaVIxa08zTWpkS3Npd1pla1VEWjhnVS1vZ1AycVl4azFxQVhqb1hqUFducWlSS2VXdw?oc=5",
+          "publishedAt": "Mon, 06 Jul 2026 17:34:00 GMT"
+        },
+        {
+          "title": "不能只靠AI龍頭！台灣進入「大交棒時代」 家族企業迎考驗、共識成關鍵 - 壹蘋新聞網",
+          "summary": "不能只靠AI龍頭！台灣進入「大交棒時代」 家族企業迎考驗、共識成關鍵  壹蘋新聞網",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9meWFydWFrUWJWajhENHExSTNicm1VS2syRnZ5VjAzTElleE43cUNaX2p2Q0J4cVpTQ3E4MlRaZDBaNUZDYWZBVVJmMm1jcFFyb0M1a1VycEVHOC1VbG5GNWVPMk1la0lQZVRUQjRNRE5qdlJ1R0FaSzduN0JwQQ?oc=5",
+          "publishedAt": "Mon, 06 Jul 2026 17:05:00 GMT"
+        },
+        {
+          "title": "家族企業接班不只是找CEO！劉克振、楊弘仁：理念一致比職位更重要 - 壹蘋新聞網",
+          "summary": "家族企業接班不只是找CEO！劉克振、楊弘仁：理念一致比職位更重要  壹蘋新聞網",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE12aUx3clZfVS0yUGp0TDFXYmN3S0JkVnpiZWh4YVlKN0RrZEFReDFlbXVTVDlGNnh3SWQxbjd3bVB6VHl2VGJaTzQ3OEZvcEtlcDRXMGRyQmhOMUVzbVpSd25BUElieFRCbkdGYVlqRFhHczdkY3NNYXV2c1d1Zw?oc=5",
+          "publishedAt": "Mon, 06 Jul 2026 17:28:00 GMT"
+        },
+        {
+          "title": "盛弘楊弘仁談家族企業接班：制度比能力更重要 家庭與企業要分清角色 - 壹蘋新聞網",
+          "summary": "盛弘楊弘仁談家族企業接班：制度比能力更重要 家庭與企業要分清角色  壹蘋新聞網",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8yQ2dvT200R1ZVSHhGX3E0ZDNRVHUyY1ZIZFJlZ2FKdHJJLVlXcnliOEQ2WG9BZVdUZEhBdkVfa0VzMEZrXzJLV0JJZklXaldPV1dFeVNMT2xKZ0tjVnBHdW9ZNG1meVpybHVQajFJNXpyU3hiMmhhSDl3bTZ1dw?oc=5",
+          "publishedAt": "Mon, 06 Jul 2026 17:13:00 GMT"
+        },
+        {
+          "title": "6月淨匯入同期第一！外資上半年累計淨匯入2.4兆元刷新紀錄 - Yahoo股市",
+          "summary": "6月淨匯入同期第一！外資上半年累計淨匯入2.4兆元刷新紀錄  Yahoo股市",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMiiwNBVV95cUxNZk42S0pGTzdaOFhweDh2ZTBhS21BYmpPbElQcEpPdkpxd0twZjJSZXo0MU12RF9UQmR5NmFCZWVMYm9oc3YxdHdma0wzY1ZSRFNnODFxSGNNM0MxYkJIZURLcUoycl8xTXVWcDhIeTFGYzdCX1NMb0ZRdEYwcnRzSWtybUE2Sk4tQV9VaS1FTFdWMUlkVUlEUVhObHVDNE4zY08yaUdrN1B1RjBNbHB5dlJqZzlHdmpoSjQxb29lRWx0OWdyREkyQklVN3RlTno5dWRfT1BmWUJTczY1RlI2d1JJOHdfSmhTeXpTX3M5SmpBOGJ0anJtWkVwcWpBOXEyN0JCSlIybEpBcmJxR2RoZ0psdjJsWC1ESmVIcUc2UFczU1lPdFRHLUtEM3dVSjhTendvNFgzS3B5SXdsMF90SjJvYTNpQ1Z4U1NhcG5kNFZYYWtySUFXbVZmdG0xRjVCeGlxUHhaUng1RW9LX21BMzc2OUJyVjdCQ3JoblJkOEo0UnpvWXNNWEFDYw?oc=5",
+          "publishedAt": "Mon, 06 Jul 2026 09:35:02 GMT"
+        }
+      ]
+    },
+    "ai": {
+      "categoryName": "AI 相關新聞",
+      "articles": [
+        {
+          "title": "駭客團體Armored Likho鎖定政府機關、能源產業，散布竊資軟體BusySnake Stealer",
+          "summary": "資安公司卡巴斯基發現目標式網路釣魚活動，被稱為Armored Likho、Eagle Werewolf的APT駭客組織於俄羅斯、巴西與哈薩克從事攻擊，對象包括政府機構與電力部門組織，利用以Python打造的竊資軟體BusySnake Stealer，從事竊取帳密資料、Cookie，並在受害電腦建立反向SSH隧道進行通訊。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/177101",
+          "publishedAt": "2026-07-06  12:07:51"
+        },
+        {
+          "title": "JetBrains修補開發環境身分管理平臺重大漏洞，未更新恐導致帳號接管與權限提升 ",
+          "summary": "軟體開發工具業者JetBrains近日發布資安公告，修補其身分與存取管理平臺JetBrains Hub的三項重大漏洞。在JetBrains的開發環境中，JetBrains Hub用於提供使用者帳號、驗證、授權及單一登入（SSO）的集中管理，可為其他JetBrains產品提供身分驗證服務，一旦遭到入侵，可能影響整個開發環境的帳號與權限管理，用戶應儘速升級至已修補的2026.1到2024.2等分支版本",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/177100",
+          "publishedAt": "2026-07-06  12:07:09"
+        },
+        {
+          "title": "AWS為Amazon OpenSearch Service新增日誌分析引擎，改善儲存與查詢效率  ",
+          "summary": "7月1日AWS宣布，旗下託管式搜尋與分析服務Amazon OpenSearch Service新增專為日誌分析設計的最佳化引擎，協助企業降低大量日誌資料的分析與儲存成本。AWS表示，這項功能不會額外收取引擎費用，目標是改善大量日誌資料的攝取、查詢與儲存效率，因應企業可觀測性需求，以及安全監控資料量持續成長所帶來的壓力。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/177099",
+          "publishedAt": "2026-07-06  12:07:16"
+        },
+        {
+          "title": "Google與FBI打擊NetNut常駐代理網路，涉及至少200萬臺家用連網裝置",
+          "summary": "繼今年1月打擊IPIDEA常駐網路（residential proxy network）後，7月初Google宣布與美國聯邦調查局（FBI）、電信業者Lumen等單位合作，針對大型常駐代理網路NetNut採取行動，削弱其營運能力。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/177098",
+          "publishedAt": "2026-07-06  11:07:42"
+        },
+        {
+          "title": "研究人員未通報開發團隊即公開PoC，涉及SSH函式庫libssh2重大漏洞",
+          "summary": "資安媒體Infosecurity Magazine報導，一名匿名資安研究人員近日以bikini帳號，在GitHub公開名為Exploitarium的儲存庫，釋出多項漏洞研究與概念驗證（Proof of Concept，PoC）程式，至少涉及30項軟體產品與開源專案。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/177097",
+          "publishedAt": "2026-07-06  11:07:39"
+        },
+        {
+          "title": "思科修補開源防毒軟體ClamAV長達20年的資安漏洞",
+          "summary": "思科針對旗下開源防毒軟體ClamAV產品線，於7月1日發布安全更新1.5.3與1.4.5版，總共修補7項高風險資安漏洞，其中最受到關注的地方，在於大部分資安漏洞從約20年前被引入，影響眾多舊版用戶。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/177096",
+          "publishedAt": "2026-07-06  11:07:27"
+        },
+        {
+          "title": "Microsoft Teams加強控管外部機器人，經會議組織者確認後才放行",
+          "summary": "隨著AI會議助理、轉錄與筆記工具普及，企業線上會議也開始面臨「非人類與會者」的控管問題。微軟（Microsoft）6月29日宣布，Microsoft Teams推出新的外部機器人管理政策，當外部機器人嘗試加入會議時，須由會議組織者批准加入。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/177095",
+          "publishedAt": "2026-07-06  11:07:04"
+        },
+        {
+          "title": "開源遠端桌面工具UltraVNC修補重大漏洞，未更新可能導致遠端執行程式碼攻擊",
+          "summary": "開源遠端桌面管理工具UltraVNC近日發布1.8.2.4版，修補UltraVNC Repeater元件兩項重大漏洞CVE-2026-7839與CVE-2026-7840。UltraVNC是Windows平臺常見的開源遠端桌面管理工具，Repeater則是負責中繼遠端桌面連線的元件，可協助位於防火牆後方的主機建立遠端桌面存取，常部署於企業對外網路，因而相關漏洞更容易為遠端攻擊者利用，1.8.2.2",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/177094",
+          "publishedAt": "2026-07-06  11:07:36"
+        }
+      ]
+    },
+    "china": {
+      "categoryName": "大中華新聞",
+      "articles": [
+        {
+          "title": "陸美打打談談台灣淪籌碼- 兩岸新聞- 旺報 - 中時新聞網",
+          "summary": "陸美打打談談台灣淪籌碼- 兩岸新聞- 旺報  中時新聞網",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAyREVjWHkwNjFINmxyMWM5YkZITzQxSTRKbnVxVC1QVllZMlZVWFA2TlVFeGpKNGFoclIybUV3VVZaVXNIUEkzVVZXLWo3aXpGTm15QkFIQmlKTDc1MXNyczJFdmUxVURwMlUw?oc=5",
+          "publishedAt": "Mon, 06 Jul 2026 20:10:00 GMT"
+        },
+        {
+          "title": "看大勢/錨定歷史使命 走好融統之路 ─深入學習習近平總書記重要講話涉台論述\\楊親華 - 大公文匯網",
+          "summary": "看大勢/錨定歷史使命 走好融統之路 ─深入學習習近平總書記重要講話涉台論述\\楊親華  大公文匯網",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBJRW1KdVJpdmtUT3J0VTI5MUlSUTJ3bGtQVC1TZWFyemZDdUdrb0pDT1pYcmcxS2M1aFhJMXlOcWhvUklJcjJnc3JqdWIwak96ektZZFB2enJOdEJpVUpjUlhkdEpSNmw2UTNwQms3ckpGTGUx?oc=5",
+          "publishedAt": "Mon, 06 Jul 2026 20:21:30 GMT"
+        },
+        {
+          "title": "李大壯籲北京消除台胞對陸疑慮- 兩岸新聞- 旺報 - 中時新聞網",
+          "summary": "李大壯籲北京消除台胞對陸疑慮- 兩岸新聞- 旺報  中時新聞網",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE42d2FsbXdxS091bGlWaWk4MUdnWms4Q3F3dU96bThBZnRDRnZUcXJaN2FKY2NSWnVaN1pfMWFrQ2lZVFdyblNOZE5nUUFKd1h2NmJ3RVdkSHMtYVhhcWhyUWFhVzNjT0tmTy1N?oc=5",
+          "publishedAt": "Mon, 06 Jul 2026 20:10:00 GMT"
+        },
+        {
+          "title": "兩岸快遞／陸潛艦公海試射飛彈 秀軍事肌肉意圖明顯 - 經濟日報",
+          "summary": "兩岸快遞／陸潛艦公海試射飛彈 秀軍事肌肉意圖明顯  經濟日報",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBDbGlYb1VHTGJhM25UU1pIVkIydjkwYlhZYWFDQkljenBKaldmejJyNnU0UjJYelV3NEhRbm1pT0tlcktJMFFNODRDS1hKczMxSmJJVk5HRmdMQdIBX0FVX3lxTFBvWUg3cVdqdU9Pd3dHRE9aYWphV29iS3RyY2NiZUM1M0NJU0tOam1LNDk0c3RnUm5WZkFvcFphQnRRay1xZ3F2bDY5WGw4SUtQellEamt1WmNWSlAtT0kw?oc=5",
+          "publishedAt": "Mon, 06 Jul 2026 18:37:08 GMT"
+        },
+        {
+          "title": "漳州木偶 一塊樟木兩岸情 - taiwan-reports.com",
+          "summary": "漳州木偶 一塊樟木兩岸情  taiwan-reports.com",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5TX0ZMZ1F3dVN0U0laaUp2aXcyT0ZoaTlUc3IyYjJubXF1Nm1WdXFxTTRsME1ia1ZBVXpOd3VKcmoxTDBzckxTRng2VlRQVThRQk9sWnl6RTZydw?oc=5",
+          "publishedAt": "Mon, 06 Jul 2026 10:31:55 GMT"
+        },
+        {
+          "title": "《放．新聞／台灣要聞／兩岸國防》陸委會民調拒統比例升至61.7%！軍中恢復反共教育台灣社會國防認知升溫 - Yahoo新聞",
+          "summary": "《放．新聞／台灣要聞／兩岸國防》陸委會民調拒統比例升至61.7%！軍中恢復反共教育台灣社會國防認知升溫  Yahoo新聞",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxPdmFKZEF5eDZ2Qk9TUDhmeWNqWGJITzVEUzRDbXFnaFYtZUZXWnpYVEFKUG1iMkIwTkl2N3JkNHhHa1JGdXk3RS1YLVBObFNnd0pUQlFyRzVVV2hESzFMZlpUNXpKQXQ1RElVUnZ0Tlc5aGFHamprVzdSLVhWSlg2Sy1XbTVicXZFSlVkNHE5XzNra3l0REJpZ2RCYW5QaWxoTlVUMGRkeExiVU1kbkNJVHFQRnE4dXRZazhxRl9QOHE0em91c2dhSm44SnZURjhNa0RPdkRLVnR2RGw5bHdhdjlBVHZOcFBaU3I3dlppNXJ3X3pmQkNvdTRJM2xqMXotLTJkc1o1UFZrZmRDTnBLUExDZ1AxOWRKMWUtZElHNHpDbnJvRFNSWHBMc0NqMmZFc0M5Sk5QRzdQU0phbXhNUzJHRktfaEtCOFI4Q2ZxWUtHdzFqbWRKcGlsNG9RN3BzeUNJ?oc=5",
+          "publishedAt": "Mon, 06 Jul 2026 06:46:07 GMT"
+        },
+        {
+          "title": "高雄、寧波直航終於復飛！觀光界盼兩岸直航迅速推進到疫前水準 - udn",
+          "summary": "高雄、寧波直航終於復飛！觀光界盼兩岸直航迅速推進到疫前水準  udn",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1sNU1PZUY3VkNkWHoxWHNrOWcyOGwxR0pQMV9wcFRJSDFMZ2lpUHBEQWFXbW9lRW9KeHlicnV0NzFTZ2trUFRoRlh5QmM1TGxL0gFWQVVfeXFMTUI5QjNudElqb2RVQ21jWWc5VGxIVEpLWFpob0MxTmRFaXlVZXhNY1RpdGs3anZ5Y09FY3pxRk1CZUtvbHVvZ1lFVU1XU1JWaWg3ZkZQNXc?oc=5",
+          "publishedAt": "Mon, 06 Jul 2026 01:27:40 GMT"
+        },
+        {
+          "title": "記者編輯部| 【梅花專訪】張榮恭：川普高度警覺台獨動向與中共反獨升溫 - 梅花新聞網",
+          "summary": "記者編輯部| 【梅花專訪】張榮恭：川普高度警覺台獨動向與中共反獨升溫  梅花新聞網",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA2SXBkeWxfeG42QUxMRTBLenplS1JONFRURVBEeU05dEp2RklVVnQtdVlNLWdmZjVZQjRITF9kM0lna1NSMEFKUGRncVp0aGZlbXJRU05nRm0?oc=5",
+          "publishedAt": "Mon, 06 Jul 2026 08:15:00 GMT"
+        }
+      ]
+    }
   }
 }
