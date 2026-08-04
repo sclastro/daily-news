@@ -155,7 +155,7 @@
     <div class="h-top">
       <div>
         <h1>💰 定期存款追蹤器</h1>
-        <div class="sub">全部資料只存喺你部手機</div>
+        <div class="sub">所有資料只儲存於你的手機</div>
       </div>
       <button id="installBtn">📲 安裝</button>
     </div>
@@ -196,7 +196,7 @@
       <form id="form">
         <input type="hidden" id="editId" />
         <div class="field">
-          <label>銀行名 <span class="req">*</span></label>
+          <label>銀行名稱 <span class="req">*</span></label>
           <input id="f_bank" required placeholder="例如：滙豐 / 中銀 / Citibank" />
         </div>
         <div class="grid2">
@@ -213,15 +213,15 @@
           </div>
         </div>
         <div class="field">
-          <label>到期時間 <span class="req">*</span></label>
+          <label>到期日期 <span class="req">*</span></label>
           <input id="f_maturity" type="date" required />
         </div>
         <div class="field">
-          <label>開始存嘅時間（選填）</label>
+          <label>開始存款日期（選填）</label>
           <input id="f_start" type="date" />
         </div>
         <div class="field">
-          <label>存幾耐（選填）</label>
+          <label>存款期限（選填）</label>
           <div class="grid-dur">
             <input id="f_durNum" type="number" inputmode="numeric" step="1" min="0" placeholder="例如 12" />
             <select id="f_durUnit">
@@ -230,7 +230,7 @@
               <option value="year">年</option>
             </select>
           </div>
-          <div class="autonote">填咗「開始時間」＋「存幾耐」，如到期日未填會自動幫你計。</div>
+          <div class="autonote">填寫「開始存款日期」及「存款期限」後，若到期日期未填，系統會自動計算。</div>
         </div>
         <div class="field">
           <label>備註（選填）</label>
@@ -249,8 +249,8 @@
     </div>
     <input type="file" id="importFile" accept="application/json,.json" hidden />
     <div class="footnote">
-      資料儲存喺手機瀏覽器（localStorage）。<br>
-      建議間唔中匯出 JSON 備份，換機或清 cache 都唔怕唔見。
+      資料儲存於手機瀏覽器（localStorage）。<br>
+      建議定期匯出 JSON 備份，更換手機或清除快取後亦不會遺失。
     </div>
   </main>
 

@@ -105,19 +105,19 @@
     // 提醒 banner
     bannersEl.innerHTML = '';
     if (over > 0) {
-      addBanner('danger', '有 <b>' + over + '</b> 筆定期<b>已到期</b>，記得處理／轉存。');
+      addBanner('danger', '有 <b>' + over + '</b> 筆定期存款<b>已到期</b>，請盡快處理或轉存。');
     }
     if (soon > 0) {
-      var b = addBanner('warn', '有 <b>' + soon + '</b> 筆定期喺 <b>' + SOON_DAYS + ' 日內到期</b>，可以準備調動資金。');
+      var b = addBanner('warn', '有 <b>' + soon + '</b> 筆定期存款將於 <b>' + SOON_DAYS + ' 日內到期</b>，可準備調動資金。');
       maybeAddNotifyButton(b);
     }
 
     // 列表
     if (!sorted.length) {
-      listEl.innerHTML = '<div class="empty">仲未有定期記錄。<br>撳右下角 ＋ 加入第一筆 👇</div>';
+      listEl.innerHTML = '<div class="empty">尚未有定期存款記錄。<br>請按右下角 ＋ 新增第一筆 👇</div>';
       return;
     }
-    listEl.innerHTML = '<div class="section-title">全部定期（按到期日排序）</div>' +
+    listEl.innerHTML = '<div class="section-title">所有定期存款（按到期日排序）</div>' +
       sorted.map(cardHtml).join('');
 
     // 綁定卡片按鈕
@@ -137,9 +137,9 @@
       badge = '<span class="badge over">已到期 ' + (-du) + ' 日</span>';
     } else if (du != null && du <= SOON_DAYS) {
       cls += ' due-soon';
-      badge = '<span class="badge soon">' + (du === 0 ? '今日到期' : '仲有 ' + du + ' 日到期') + '</span>';
+      badge = '<span class="badge soon">' + (du === 0 ? '今日到期' : '尚餘 ' + du + ' 日到期') + '</span>';
     } else if (du != null) {
-      badge = '<span class="badge ok">仲有 ' + du + ' 日到期</span>';
+      badge = '<span class="badge ok">尚餘 ' + du + ' 日到期</span>';
     }
 
     var hkd = toHkd(d);
@@ -202,9 +202,9 @@
       if (!soonList.length) return;
       var body = soonList.map(function (d) {
         var du = daysUntil(d.maturity);
-        return '• ' + d.bank + '（' + (du === 0 ? '今日' : du + ' 日') + '）';
+        return '• ' + d.bank + '（' + (du === 0 ? '今日到期' : '尚餘 ' + du + ' 日') + '）';
       }).join('\n');
-      new Notification('💰 定期快到期', { body: body, icon: 'icons/icon-192.png', tag: 'fd-soon' });
+      new Notification('💰 定期存款即將到期', { body: body, icon: 'icons/icon-192.png', tag: 'fd-soon' });
     } catch (e) {}
   }
 
@@ -281,7 +281,7 @@
 
   function removeDeposit(id) {
     var d = deposits.find(function (x) { return x.id === id; });
-    if (!confirm('確定刪除「' + (d ? d.bank : '') + '」呢筆定期？')) return;
+    if (!confirm('確定刪除「' + (d ? d.bank : '') + '」這筆定期存款？')) return;
     deposits = deposits.filter(function (x) { return x.id !== id; });
     saveDeposits();
     render();
@@ -313,9 +313,9 @@
       try {
         var data = JSON.parse(reader.result);
         var incoming = Array.isArray(data) ? data : data.deposits;
-        if (!Array.isArray(incoming)) throw new Error('格式唔啱');
+        if (!Array.isArray(incoming)) throw new Error('檔案格式不正確');
         var mode = deposits.length
-          ? (confirm('匯入 ' + incoming.length + ' 筆。\n\n撳「確定」= 合併到現有記錄\n撳「取消」= 完全取代現有記錄') ? 'merge' : 'replace')
+          ? (confirm('將匯入 ' + incoming.length + ' 筆記錄。\n\n按「確定」＝ 合併至現有記錄\n按「取消」＝ 完全取代現有記錄') ? 'merge' : 'replace')
           : 'replace';
         // 正規化
         var norm = incoming.map(function (d) {
