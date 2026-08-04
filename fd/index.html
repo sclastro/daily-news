@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#0d5e52" />
+  <title>定期存款追蹤器 💰</title>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="apple-touch-icon" href="icons/icon-192.png" />
+  <style>
+    :root {
+      --brand: #0d5e52;
+      --brand-2: #107a6a;
+      --bg: #f4f6f5;
+      --card: #ffffff;
+      --text: #16211f;
+      --muted: #64756f;
+      --line: #e2e8e5;
+      --danger: #c0392b;
+      --warn: #b7791f;
+      --warn-bg: #fdf3e0;
+      --danger-bg: #fdecea;
+      --ok: #2f855a;
+      --shadow: 0 2px 10px rgba(0,0,0,.06);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #101614; --card: #17211e; --text: #e7efec; --muted: #93a49e;
+        --line: #263531; --warn-bg: #2c2415; --danger-bg: #2c1918; --shadow: 0 2px 12px rgba(0,0,0,.4);
+      }
+    }
+    * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+    body {
+      margin: 0; background: var(--bg); color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+      padding-bottom: env(safe-area-inset-bottom);
+    }
+    header {
+      background: linear-gradient(135deg, var(--brand), var(--brand-2));
+      color: #fff; padding: 16px 16px calc(14px + env(safe-area-inset-top)); padding-top: calc(16px + env(safe-area-inset-top));
+      position: sticky; top: 0; z-index: 20; box-shadow: 0 2px 8px rgba(0,0,0,.15);
+    }
+    .h-top { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+    .h-top h1 { font-size: 18px; margin: 0; font-weight: 700; }
+    .h-top .sub { font-size: 12px; opacity: .85; }
+    #installBtn {
+      display: none; background: rgba(255,255,255,.18); color: #fff; border: 1px solid rgba(255,255,255,.35);
+      border-radius: 999px; padding: 6px 12px; font-size: 13px; font-weight: 600;
+    }
+    .rate-row {
+      display: flex; align-items: center; gap: 8px; margin-top: 12px;
+      background: rgba(255,255,255,.14); border-radius: 12px; padding: 8px 12px;
+    }
+    .rate-row label { font-size: 13px; white-space: nowrap; }
+    .rate-row input {
+      width: 90px; border: none; border-radius: 8px; padding: 7px 10px; font-size: 15px; font-weight: 700;
+      text-align: right; background: #fff; color: var(--brand);
+    }
+    .rate-row .hint { font-size: 11px; opacity: .8; margin-left: auto; text-align: right; line-height: 1.3; }
+
+    main { max-width: 620px; margin: 0 auto; padding: 14px 14px 60px; }
+
+    .summary {
+      background: var(--card); border-radius: 16px; box-shadow: var(--shadow); padding: 16px;
+      display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 14px;
+    }
+    .summary .total { grid-column: 1 / -1; }
+    .summary .label { font-size: 12px; color: var(--muted); }
+    .summary .big { font-size: 26px; font-weight: 800; letter-spacing: .3px; margin-top: 2px; }
+    .summary .mid { font-size: 17px; font-weight: 700; margin-top: 2px; }
+    .summary .breakdown { grid-column: 1 / -1; font-size: 12px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 8px; }
+
+    .banner { border-radius: 14px; padding: 12px 14px; margin-bottom: 14px; font-size: 14px; line-height: 1.5; }
+    .banner.warn { background: var(--warn-bg); color: var(--warn); border: 1px solid rgba(183,121,31,.3); }
+    .banner.danger { background: var(--danger-bg); color: var(--danger); border: 1px solid rgba(192,57,43,.3); }
+    .banner b { font-weight: 700; }
+    .banner .notify-btn {
+      display: inline-block; margin-top: 8px; background: transparent; border: 1px solid currentColor;
+      color: inherit; border-radius: 999px; padding: 5px 12px; font-size: 12px; font-weight: 600;
+    }
+
+    .section-title { font-size: 13px; color: var(--muted); font-weight: 600; margin: 6px 2px 10px; }
+
+    .card {
+      background: var(--card); border-radius: 14px; box-shadow: var(--shadow); padding: 14px; margin-bottom: 12px;
+      border-left: 4px solid var(--line);
+    }
+    .card.due-soon { border-left-color: var(--warn); }
+    .card.overdue { border-left-color: var(--danger); }
+    .card .row1 { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
+    .card .bank { font-size: 16px; font-weight: 700; }
+    .card .amt { font-size: 16px; font-weight: 800; white-space: nowrap; }
+    .card .amt small { font-weight: 600; font-size: 12px; color: var(--muted); }
+    .card .hkd { font-size: 12px; color: var(--muted); margin-top: 2px; }
+    .card .meta { font-size: 13px; color: var(--muted); margin-top: 8px; line-height: 1.6; }
+    .card .meta .k { color: var(--text); opacity: .55; }
+    .badge { display: inline-block; font-size: 12px; font-weight: 700; border-radius: 999px; padding: 3px 9px; margin-top: 8px; }
+    .badge.ok { background: rgba(47,133,90,.12); color: var(--ok); }
+    .badge.soon { background: var(--warn-bg); color: var(--warn); }
+    .badge.over { background: var(--danger-bg); color: var(--danger); }
+    .card .actions { display: flex; gap: 8px; margin-top: 10px; }
+    .card .actions button {
+      flex: 0 0 auto; background: transparent; border: 1px solid var(--line); color: var(--muted);
+      border-radius: 8px; padding: 6px 12px; font-size: 13px; font-weight: 600;
+    }
+    .card .actions button.del { color: var(--danger); border-color: rgba(192,57,43,.3); }
+
+    .empty { text-align: center; color: var(--muted); padding: 40px 10px; font-size: 14px; }
+
+    /* Form */
+    .fab {
+      position: fixed; right: 18px; bottom: calc(18px + env(safe-area-inset-bottom)); z-index: 30;
+      width: 56px; height: 56px; border-radius: 50%; border: none; background: var(--brand);
+      color: #fff; font-size: 30px; line-height: 1; box-shadow: 0 6px 18px rgba(13,94,82,.45);
+    }
+    .sheet-back {
+      position: fixed; inset: 0; background: rgba(0,0,0,.45); z-index: 40; display: none;
+      align-items: flex-end; justify-content: center;
+    }
+    .sheet-back.open { display: flex; }
+    .sheet {
+      background: var(--card); width: 100%; max-width: 620px; border-radius: 20px 20px 0 0;
+      padding: 18px 18px calc(24px + env(safe-area-inset-bottom)); max-height: 92vh; overflow-y: auto;
+      animation: up .22s ease;
+    }
+    @keyframes up { from { transform: translateY(30px); opacity: .6; } to { transform: none; opacity: 1; } }
+    .sheet h2 { margin: 0 0 14px; font-size: 17px; }
+    .field { margin-bottom: 13px; }
+    .field label { display: block; font-size: 13px; color: var(--muted); margin-bottom: 5px; font-weight: 600; }
+    .field label .req { color: var(--danger); }
+    .field input, .field select, .field textarea {
+      width: 100%; border: 1px solid var(--line); border-radius: 10px; padding: 11px 12px; font-size: 15px;
+      background: var(--bg); color: var(--text); font-family: inherit;
+    }
+    .field textarea { resize: vertical; min-height: 44px; }
+    .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .grid-dur { display: grid; grid-template-columns: 1fr 100px; gap: 10px; }
+    .sheet .save {
+      width: 100%; background: var(--brand); color: #fff; border: none; border-radius: 12px;
+      padding: 14px; font-size: 16px; font-weight: 700; margin-top: 6px;
+    }
+    .sheet .cancel { width: 100%; background: transparent; color: var(--muted); border: none; padding: 12px; font-size: 14px; margin-top: 4px; }
+    .autonote { font-size: 11px; color: var(--muted); margin-top: 4px; }
+
+    .tools { display: flex; gap: 10px; margin-top: 20px; }
+    .tools button {
+      flex: 1; background: var(--card); border: 1px solid var(--line); color: var(--text);
+      border-radius: 12px; padding: 12px; font-size: 14px; font-weight: 600; box-shadow: var(--shadow);
+    }
+    .footnote { text-align: center; font-size: 11px; color: var(--muted); margin-top: 18px; line-height: 1.6; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="h-top">
+      <div>
+        <h1>💰 定期存款追蹤器</h1>
+        <div class="sub">全部資料只存喺你部手機</div>
+      </div>
+      <button id="installBtn">📲 安裝</button>
+    </div>
+    <div class="rate-row">
+      <label for="rate">美元 → 港元匯率</label>
+      <input id="rate" type="number" inputmode="decimal" step="0.0001" min="0" placeholder="7.8" />
+      <div class="hint">1 USD = <span id="rateEcho">7.8</span> HKD<br>手動輸入</div>
+    </div>
+  </header>
+
+  <main>
+    <div class="summary">
+      <div class="total">
+        <div class="label">總資產（港元）</div>
+        <div class="big" id="totalHkd">HK$ 0</div>
+      </div>
+      <div>
+        <div class="label">定期數目</div>
+        <div class="mid" id="count">0</div>
+      </div>
+      <div>
+        <div class="label">7 日內到期</div>
+        <div class="mid" id="soonCount">0</div>
+      </div>
+      <div class="breakdown" id="breakdown"></div>
+    </div>
+
+    <div id="banners"></div>
+
+    <div id="list"></div>
+  </main>
+
+  <button class="fab" id="fab" aria-label="新增定期">＋</button>
+
+  <div class="sheet-back" id="sheetBack">
+    <div class="sheet" id="sheet">
+      <h2 id="sheetTitle">新增定期</h2>
+      <form id="form">
+        <input type="hidden" id="editId" />
+        <div class="field">
+          <label>銀行名 <span class="req">*</span></label>
+          <input id="f_bank" required placeholder="例如：滙豐 / 中銀 / Citibank" />
+        </div>
+        <div class="grid2">
+          <div class="field">
+            <label>金額 <span class="req">*</span></label>
+            <input id="f_amount" type="number" inputmode="decimal" step="any" min="0" required placeholder="10000" />
+          </div>
+          <div class="field">
+            <label>貨幣 <span class="req">*</span></label>
+            <select id="f_currency">
+              <option value="USD" selected>美元 USD</option>
+              <option value="HKD">港元 HKD</option>
+            </select>
+          </div>
+        </div>
+        <div class="field">
+          <label>到期時間 <span class="req">*</span></label>
+          <input id="f_maturity" type="date" required />
+        </div>
+        <div class="field">
+          <label>開始存嘅時間（選填）</label>
+          <input id="f_start" type="date" />
+        </div>
+        <div class="field">
+          <label>存幾耐（選填）</label>
+          <div class="grid-dur">
+            <input id="f_durNum" type="number" inputmode="numeric" step="1" min="0" placeholder="例如 12" />
+            <select id="f_durUnit">
+              <option value="month" selected>個月</option>
+              <option value="day">日</option>
+              <option value="year">年</option>
+            </select>
+          </div>
+          <div class="autonote">填咗「開始時間」＋「存幾耐」，如到期日未填會自動幫你計。</div>
+        </div>
+        <div class="field">
+          <label>備註（選填）</label>
+          <textarea id="f_note" placeholder="例如：年息 4.5%、自動轉存……"></textarea>
+        </div>
+        <button type="submit" class="save">儲存</button>
+        <button type="button" class="cancel" id="cancelBtn">取消</button>
+      </form>
+    </div>
+  </div>
+
+  <main style="padding-top:0">
+    <div class="tools">
+      <button id="exportBtn">⬇️ 匯出 JSON 備份</button>
+      <button id="importBtn">⬆️ 匯入 JSON</button>
+    </div>
+    <input type="file" id="importFile" accept="application/json,.json" hidden />
+    <div class="footnote">
+      資料儲存喺手機瀏覽器（localStorage）。<br>
+      建議間唔中匯出 JSON 備份，換機或清 cache 都唔怕唔見。
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('sw.js').catch(() => {});
+      });
+    }
+  </script>
+</body>
+</html>
