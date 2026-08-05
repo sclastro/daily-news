@@ -6,6 +6,7 @@
   var STORE_KEY = 'fd.deposits.v1';
   var RATE_KEY = 'fd.rate.v1';
   var SOON_DAYS = 7; // 到期前幾日當「快到期」
+  var DEFAULT_BASIS = 360; // 預設計息基礎（美元定期多數銀行用 360 日）
 
   // ── 狀態 ──
   var deposits = load(STORE_KEY, []);
@@ -105,7 +106,7 @@
     if (!(r > 0)) return null;
     var days = termDays(dep);
     if (days == null) return null;
-    var basis = +dep.basis === 360 ? 360 : 365;
+    var basis = +dep.basis === 365 ? 365 : DEFAULT_BASIS;
     // 單利：本金 × 年利率 × 存期日數 ÷ 一年日數
     return { amount: (+dep.amount || 0) * (r / 100) * days / basis, manual: false, days: days, basis: basis };
   }
@@ -283,7 +284,7 @@
     $('editId').value = '';
     $('f_currency').value = 'USD';
     $('f_durUnit').value = 'month';
-    $('f_basis').value = '365';
+    $('f_basis').value = String(DEFAULT_BASIS);
     if (id) {
       var d = deposits.find(function (x) { return x.id === id; });
       if (d) {
@@ -297,7 +298,7 @@
         $('f_durNum').value = d.durNum || '';
         $('f_durUnit').value = d.durUnit || 'month';
         $('f_rate').value = d.rate != null ? d.rate : '';
-        $('f_basis').value = String(+d.basis === 360 ? 360 : 365);
+        $('f_basis').value = String(+d.basis === 365 ? 365 : DEFAULT_BASIS);
         $('f_interest').value = d.interest != null ? d.interest : '';
         $('f_note').value = d.note || '';
       }
@@ -366,7 +367,7 @@
       durNum: durNum ? +durNum : '',
       durUnit: durUnit,
       rate: $('f_rate').value !== '' ? parseFloat($('f_rate').value) : '',
-      basis: +$('f_basis').value === 360 ? 360 : 365,
+      basis: +$('f_basis').value === 365 ? 365 : DEFAULT_BASIS,
       interest: $('f_interest').value !== '' ? parseFloat($('f_interest').value) : '',
       note: $('f_note').value.trim()
     };
@@ -446,7 +447,7 @@
             durNum: d.durNum ? +d.durNum : '',
             durUnit: d.durUnit || 'month',
             rate: isFinite(parseFloat(d.rate)) ? parseFloat(d.rate) : '',
-            basis: +d.basis === 360 ? 360 : 365,
+            basis: +d.basis === 365 ? 365 : DEFAULT_BASIS,
             interest: isFinite(parseFloat(d.interest)) ? parseFloat(d.interest) : '',
             note: d.note || ''
           };
