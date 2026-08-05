@@ -65,10 +65,11 @@
     return dep.currency === 'HKD' ? amt : amt * rate;
   }
 
+  // 整數唔顯示小數點；有斗零就完整顯示兩位（唔可以四捨五入蓋住本金銀碼）
   function fmtMoney(n, cur) {
-    var s = Math.abs(n) >= 1000 || Number.isInteger(n)
-      ? Math.round(n).toLocaleString('en-US')
-      : n.toLocaleString('en-US', { maximumFractionDigits: 2 });
+    var s = Number.isInteger(n)
+      ? n.toLocaleString('en-US')
+      : n.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
     return (cur ? cur + ' ' : '') + s;
   }
   function fmtHkd(n) { return 'HK$ ' + Math.round(n).toLocaleString('en-US'); }
@@ -327,8 +328,12 @@
     };
     var it = interestOf(draft);
     if (it) {
+      // 同時顯示另一個計息基礎嘅金額，方便對銀行張單揀啱
+      draft.basis = it.basis === 365 ? 360 : 365;
+      var alt = interestOf(draft);
       el.textContent = '預計到期利息：' + cur + ' ' + fmt2(it.amount) +
-        '（存期 ' + it.days + ' 日 ÷ ' + it.basis + ' 日）';
+        '（存期 ' + it.days + ' 日 ÷ ' + it.basis + ' 日）' +
+        (alt ? '　·　若揀 ' + alt.basis + ' 日基礎則為 ' + cur + ' ' + fmt2(alt.amount) : '');
     } else if (parseFloat($('f_rate').value) > 0) {
       el.textContent = '需要「開始存款日期」或「存款期限」先計到存期日數，才可自動計算利息。';
     } else {
