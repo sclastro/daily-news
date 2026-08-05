@@ -23,12 +23,15 @@
       --ok: #2f855a;
       --ok-bg: rgba(47,133,90,.09);
       --shadow: 0 2px 10px rgba(0,0,0,.06);
+      /* 圖表：單一色相，對比度已用 dataviz 驗證器計過（5.23:1，需 ≥3:1）*/
+      --viz-bar: #107a6a;
     }
     @media (prefers-color-scheme: dark) {
       :root {
         --bg: #101614; --card: #17211e; --text: #e7efec; --muted: #93a49e;
         --line: #263531; --warn-bg: #2c2415; --danger-bg: #2c1918; --shadow: 0 2px 12px rgba(0,0,0,.4);
         --ok: #68d391; --ok-bg: rgba(104,211,145,.12);
+        --viz-bar: #2fbfa4;   /* 深色表面 7.16:1 */
       }
     }
     * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
@@ -117,6 +120,31 @@
     .summary .mid { font-size: 17px; font-weight: 700; margin-top: 2px; }
     .summary .pos { color: var(--ok); }
     .summary .breakdown { grid-column: 1 / -1; font-size: 12px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 8px; }
+
+    /* ── 圖表（預設收埋，唔想加長日常要碌嘅距離）── */
+    .charts { background: var(--card); border-radius: 16px; box-shadow: var(--shadow); margin-bottom: 14px; overflow: hidden; }
+    .ch-toggle {
+      width: 100%; display: flex; align-items: center; gap: 8px; background: transparent; border: none;
+      padding: 14px 16px; font-size: 14px; font-weight: 700; color: var(--text); font-family: inherit;
+    }
+    .ch-toggle .cnt { font-size: 12px; font-weight: 500; color: var(--muted); }
+    .ch-toggle .chev { margin-left: auto; color: var(--muted); font-size: 11px; transition: transform .18s; }
+    .charts.open .ch-toggle .chev { transform: rotate(180deg); }
+    .ch-body { display: none; padding: 0 16px 16px; }
+    .charts.open .ch-body { display: block; }
+    .ch-block + .ch-block { margin-top: 22px; border-top: 1px solid var(--line); padding-top: 16px; }
+    .ch-block h3 { font-size: 13px; margin: 0 0 3px; font-weight: 700; }
+    .ch-sub { font-size: 11px; color: var(--muted); margin: 0 0 12px; line-height: 1.5; }
+
+    /* 條形：≤24px 粗、資料端 4px 圓角、基線端方角 */
+    .bar-row { margin-bottom: 11px; }
+    .bar-row:last-child { margin-bottom: 0; }
+    .bar-top { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; margin-bottom: 4px; }
+    .bar-name { font-size: 12px; font-weight: 600; color: var(--text); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .bar-val { font-size: 11px; color: var(--muted); white-space: nowrap; font-variant-numeric: tabular-nums; }
+    .bar-track { height: 8px; background: var(--line); border-radius: 4px; }
+    .bar-fill { height: 100%; background: var(--viz-bar); border-radius: 0 4px 4px 0; min-width: 2px; }
+    .ch-empty { font-size: 12px; color: var(--muted); text-align: center; padding: 14px 0; }
 
     .banner { border-radius: 14px; padding: 12px 14px; margin-bottom: 14px; font-size: 14px; line-height: 1.5; }
     .banner.warn { background: var(--warn-bg); color: var(--warn); border: 1px solid rgba(183,121,31,.3); }
@@ -294,6 +322,29 @@
       </div>
       <div class="breakdown" id="breakdown"></div>
     </div>
+
+    <section class="charts" id="charts">
+      <button class="ch-toggle" id="chToggle" aria-expanded="false" aria-controls="chBody">
+        📊 圖表分析 <span class="cnt" id="chScope"></span><span class="chev">▼</span>
+      </button>
+      <div class="ch-body" id="chBody">
+        <div class="ch-block">
+          <h3>各銀行資產分佈</h3>
+          <p class="ch-sub" id="chBankSub">按港元價值由大到細</p>
+          <div id="chBanks"></div>
+        </div>
+        <div class="ch-block">
+          <h3>到期時間分佈</h3>
+          <p class="ch-sub">邊個月有資金到期，方便安排調動</p>
+          <div id="chMaturity"></div>
+        </div>
+        <div class="ch-block">
+          <h3>貨幣分佈</h3>
+          <p class="ch-sub" id="chCurSub">按港元價值計</p>
+          <div id="chCurrency"></div>
+        </div>
+      </div>
+    </section>
 
     <div id="banners"></div>
 

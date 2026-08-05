@@ -181,10 +181,12 @@
 
     // 列表（套用搜尋 / 篩選 / 排序）
     if (!sorted.length) {
+      renderCharts([]);   // 刪清所有記錄後唔可以留低舊圖表
       listEl.innerHTML = '<div class="empty">尚未有定期存款記錄。<br>請按右下角 ＋ 新增第一筆 👇</div>';
       return;
     }
     var shown = applyView(sorted);
+    renderCharts(shown);   // 圖表跟同一個篩選範圍（篩選列喺圖表上面）
     if (!shown.length) {
       listEl.innerHTML = '<div class="empty">冇符合條件嘅記錄。<br>試下清除搜尋或者揀「全部」。</div>';
       return;
@@ -202,6 +204,74 @@
     listEl.querySelectorAll('[data-del]').forEach(function (btn) {
       btn.addEventListener('click', function () { removeDeposit(btn.getAttribute('data-del')); });
     });
+  }
+
+  // ── 圖表 ──
+  // 全部用單一色相：銀行同月份都係名目類別，用深淺去分只會重覆編碼條形長度已經表達嘅嘢。
+  // 每條都直接標數值，所以數字唔會淨係靠顏色傳達。
+  function barRow(name, valText, ratio) {
+    return '<div class="bar-row">' +
+      '<div class="bar-top"><span class="bar-name">' + esc(name) + '</span>' +
+      '<span class="bar-val">' + valText + '</span></div>' +
+      '<div class="bar-track"><div class="bar-fill" style="width:' +
+        Math.max(0, Math.min(100, ratio * 100)).toFixed(2) + '%"></div></div>' +
+    '</div>';
+  }
+
+  function renderCharts(list) {
+    var scopeEl = $('chScope');
+    scopeEl.textContent = (view.filter !== 'all' || view.q)
+      ? '（只計目前篩選嘅 ' + list.length + ' 筆）' : '';
+
+    var total = list.reduce(function (s, d) { return s + toHkd(d); }, 0);
+    if (!list.length || total <= 0) {
+      var none = '<div class="ch-empty">冇資料</div>';
+      $('chBanks').innerHTML = none; $('chMaturity').innerHTML = none; $('chCurrency').innerHTML = none;
+      $('chBankSub').textContent = '按港元價值由大到細';
+      return;
+    }
+
+    // 1. 各銀行資產（合併同名銀行）
+    var byBank = {};
+    list.forEach(function (d) { byBank[d.bank] = (byBank[d.bank] || 0) + toHkd(d); });
+    var banks = Object.keys(byBank).map(function (k) { return { name: k, v: byBank[k] }; })
+      .sort(function (a, b) { return b.v - a.v; });
+    var top = banks[0];
+    $('chBankSub').textContent = '共 ' + banks.length + ' 間銀行　·　最集中一間佔 ' +
+      (top.v / total * 100).toFixed(1) + '%（' + top.name + '）';
+    $('chBanks').innerHTML = banks.map(function (b) {
+      return barRow(b.name, fmtHkd(b.v) + '　·　' + (b.v / total * 100).toFixed(1) + '%', b.v / top.v);
+    }).join('');
+
+    // 2. 到期時間分佈（按月，只列有定期嘅月份）
+    var byMonth = {};
+    list.forEach(function (d) {
+      if (!d.maturity) return;
+      var k = d.maturity.slice(0, 7);
+      if (!byMonth[k]) byMonth[k] = { v: 0, n: 0 };
+      byMonth[k].v += toHkd(d); byMonth[k].n++;
+    });
+    var months = Object.keys(byMonth).sort();
+    if (!months.length) {
+      $('chMaturity').innerHTML = '<div class="ch-empty">冇到期日資料</div>';
+    } else {
+      var maxM = Math.max.apply(null, months.map(function (k) { return byMonth[k].v; }));
+      $('chMaturity').innerHTML = months.map(function (k) {
+        var p = k.split('-');
+        return barRow(p[0] + ' 年 ' + (+p[1]) + ' 月',
+          fmtHkd(byMonth[k].v) + '　·　' + byMonth[k].n + ' 筆', byMonth[k].v / maxM);
+      }).join('');
+    }
+
+    // 3. 貨幣分佈
+    var cur = { USD: 0, HKD: 0 };
+    list.forEach(function (d) { cur[d.currency === 'HKD' ? 'HKD' : 'USD'] += toHkd(d); });
+    var maxC = Math.max(cur.USD, cur.HKD);
+    var rows = [];
+    if (cur.USD > 0) rows.push(barRow('美元 USD', fmtHkd(cur.USD) + '　·　' + (cur.USD / total * 100).toFixed(1) + '%', cur.USD / maxC));
+    if (cur.HKD > 0) rows.push(barRow('港元 HKD', fmtHkd(cur.HKD) + '　·　' + (cur.HKD / total * 100).toFixed(1) + '%', cur.HKD / maxC));
+    $('chCurrency').innerHTML = rows.join('');
+    $('chCurSub').textContent = '按港元價值計　·　美元以 @ ' + rate + ' 換算';
   }
 
   function setChip(f, n) {
@@ -582,6 +652,19 @@
     if (!c || c.disabled) return;
     view.filter = c.getAttribute('data-f');
     render();
+  });
+
+  // ── 圖表面板開合（記住狀態）──
+  var CHARTS_KEY = 'fd.charts.v1';
+  var chartsEl = $('charts'), chToggle = $('chToggle');
+  if (localStorage.getItem(CHARTS_KEY) === '1') {
+    chartsEl.classList.add('open');
+    chToggle.setAttribute('aria-expanded', 'true');
+  }
+  chToggle.addEventListener('click', function () {
+    var open = chartsEl.classList.toggle('open');
+    chToggle.setAttribute('aria-expanded', String(open));
+    localStorage.setItem(CHARTS_KEY, open ? '1' : '0');
   });
 
   // ── 碌動時頁首縮細（加滯後範圍，避免喺臨界點閃來閃去）──
