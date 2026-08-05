@@ -38,10 +38,24 @@
       padding-bottom: env(safe-area-inset-bottom);
     }
     header {
-      background: linear-gradient(135deg, var(--brand), var(--brand-2));
-      color: #fff; padding: 16px 16px calc(14px + env(safe-area-inset-top)); padding-top: calc(16px + env(safe-area-inset-top));
       position: sticky; top: 0; z-index: 20; box-shadow: 0 2px 8px rgba(0,0,0,.15);
     }
+    .h-full {
+      background: linear-gradient(135deg, var(--brand), var(--brand-2));
+      color: #fff; padding: 16px 16px 14px; padding-top: calc(16px + env(safe-area-inset-top));
+    }
+    /* 碌落之後縮成一條，總資產長期見到 */
+    .h-compact {
+      display: none; background: linear-gradient(135deg, var(--brand), var(--brand-2));
+      color: #fff; padding: 9px 14px; padding-top: calc(9px + env(safe-area-inset-top));
+      align-items: baseline; gap: 8px; cursor: pointer;
+    }
+    header.compact .h-full { display: none; }
+    header.compact .h-compact { display: flex; }
+    .h-compact .c-total { font-size: 17px; font-weight: 800; letter-spacing: .2px; }
+    .h-compact .c-meta { font-size: 11px; opacity: .85; }
+    .h-compact .c-rate { margin-left: auto; font-size: 11px; opacity: .85; white-space: nowrap; }
+    .h-compact .c-up { font-size: 12px; opacity: .9; }
     .h-top { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
     .h-top h1 { font-size: 18px; margin: 0; font-weight: 700; }
     .h-top .sub { font-size: 12px; opacity: .85; }
@@ -59,6 +73,37 @@
       text-align: right; background: #fff; color: var(--brand);
     }
     .rate-row .hint { font-size: 11px; opacity: .8; margin-left: auto; text-align: right; line-height: 1.3; }
+
+    /* 工具列：搜尋 / 排序 / 篩選，跟住頁首一齊 sticky */
+    .toolbar { background: var(--card); border-bottom: 1px solid var(--line); padding: 8px 14px; }
+    .tb-row { display: flex; gap: 8px; max-width: 620px; margin: 0 auto; }
+    .search { position: relative; flex: 1; display: flex; align-items: center; }
+    .search .ico { position: absolute; left: 10px; font-size: 13px; opacity: .5; pointer-events: none; }
+    .search input {
+      width: 100%; border: 1px solid var(--line); border-radius: 10px;
+      padding: 9px 30px 9px 30px; font-size: 14px; background: var(--bg); color: var(--text);
+      font-family: inherit; -webkit-appearance: none;
+    }
+    .search input::-webkit-search-cancel-button { display: none; }
+    .search .clr {
+      position: absolute; right: 4px; border: none; background: transparent; color: var(--muted);
+      font-size: 15px; padding: 6px 8px; line-height: 1;
+    }
+    #sortBy {
+      border: 1px solid var(--line); border-radius: 10px; padding: 9px 8px; font-size: 13px;
+      background: var(--bg); color: var(--text); font-family: inherit; max-width: 42%;
+    }
+    .chips { display: flex; gap: 7px; max-width: 620px; margin: 8px auto 0; }
+    .chip {
+      flex: 1; border: 1px solid var(--line); background: var(--bg); color: var(--muted);
+      border-radius: 999px; padding: 6px 4px; font-size: 12px; font-weight: 600; font-family: inherit;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    .chip b { font-weight: 800; }
+    .chip.on { background: var(--brand); border-color: var(--brand); color: #fff; }
+    .chip.on.soon { background: var(--warn); border-color: var(--warn); }
+    .chip.on.over { background: var(--danger); border-color: var(--danger); }
+    .chip:disabled { opacity: .4; }
 
     main { max-width: 620px; margin: 0 auto; padding: 14px 14px 60px; }
 
@@ -85,19 +130,31 @@
     .section-title { font-size: 13px; color: var(--muted); font-weight: 600; margin: 6px 2px 10px; }
 
     .card {
-      background: var(--card); border-radius: 14px; box-shadow: var(--shadow); padding: 14px; margin-bottom: 12px;
-      border-left: 4px solid var(--line);
+      background: var(--card); border-radius: 14px; box-shadow: var(--shadow); margin-bottom: 10px;
+      border-left: 4px solid var(--line); overflow: hidden;
     }
     .card.due-soon { border-left-color: var(--warn); }
     .card.overdue { border-left-color: var(--danger); }
+    /* 摺疊時只見 c-head；撳一下先展開 c-body */
+    .card .c-head { padding: 12px 14px; cursor: pointer; }
     .card .row1 { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
-    .card .bank { font-size: 16px; font-weight: 700; }
+    .card .bank { font-size: 16px; font-weight: 700; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
     .card .amt { font-size: 16px; font-weight: 800; white-space: nowrap; }
     .card .amt small { font-weight: 600; font-size: 12px; color: var(--muted); }
-    .card .hkd { font-size: 12px; color: var(--muted); margin-top: 2px; }
-    .card .meta { font-size: 13px; color: var(--muted); margin-top: 8px; line-height: 1.6; }
+    .card .row2 { display: flex; align-items: center; gap: 8px; margin-top: 7px; }
+    .card .row2 .sum-int { font-size: 13px; font-weight: 700; color: var(--ok); white-space: nowrap; }
+    .card .row2 .sum-int.none { color: var(--muted); font-weight: 600; }
+    .card .chev {
+      margin-left: auto; color: var(--muted); font-size: 11px; transition: transform .18s;
+      flex: 0 0 auto; padding-left: 6px;
+    }
+    .card.open .chev { transform: rotate(180deg); }
+    .card .c-body { display: none; padding: 0 14px 12px; }
+    .card.open .c-body { display: block; }
+    .card .hkd { font-size: 12px; color: var(--muted); }
+    .card .meta { font-size: 13px; color: var(--muted); margin-top: 8px; line-height: 1.7; }
     .card .meta .k { color: var(--text); opacity: .55; }
-    .badge { display: inline-block; font-size: 12px; font-weight: 700; border-radius: 999px; padding: 3px 9px; margin-top: 8px; }
+    .badge { display: inline-block; font-size: 12px; font-weight: 700; border-radius: 999px; padding: 3px 9px; }
     .badge.ok { background: rgba(47,133,90,.12); color: var(--ok); }
     .badge.soon { background: var(--warn-bg); color: var(--warn); }
     .badge.over { background: var(--danger-bg); color: var(--danger); }
@@ -171,18 +228,45 @@
   </style>
 </head>
 <body>
-  <header>
-    <div class="h-top">
-      <div>
-        <h1>💰 定期存款追蹤器</h1>
-        <div class="sub">所有資料只儲存於你的手機</div>
+  <header id="hdr">
+    <div class="h-full">
+      <div class="h-top">
+        <div>
+          <h1>💰 定期存款追蹤器</h1>
+          <div class="sub">所有資料只儲存於你的手機</div>
+        </div>
+        <button id="installBtn">📲 安裝</button>
       </div>
-      <button id="installBtn">📲 安裝</button>
+      <div class="rate-row">
+        <label for="rate">美元 → 港元匯率</label>
+        <input id="rate" type="number" inputmode="decimal" step="0.0001" min="0" placeholder="7.8" />
+        <div class="hint">1 USD = <span id="rateEcho">7.8</span> HKD<br>手動輸入</div>
+      </div>
     </div>
-    <div class="rate-row">
-      <label for="rate">美元 → 港元匯率</label>
-      <input id="rate" type="number" inputmode="decimal" step="0.0001" min="0" placeholder="7.8" />
-      <div class="hint">1 USD = <span id="rateEcho">7.8</span> HKD<br>手動輸入</div>
+    <div class="h-compact" id="hCompact" role="button" tabindex="0" title="返回頂部">
+      <span class="c-up">↑</span>
+      <span class="c-total" id="cTotal">HK$ 0</span>
+      <span class="c-meta" id="cMeta"></span>
+      <span class="c-rate" id="cRate"></span>
+    </div>
+    <div class="toolbar">
+      <div class="tb-row">
+        <div class="search">
+          <span class="ico">🔍</span>
+          <input id="q" type="search" placeholder="搜尋銀行名稱…" autocomplete="off" />
+          <button class="clr" id="qClear" hidden aria-label="清除搜尋">✕</button>
+        </div>
+        <select id="sortBy" aria-label="排序方式">
+          <option value="maturity">到期日（近先）</option>
+          <option value="amount">金額（大先）</option>
+          <option value="interest">利息（大先）</option>
+        </select>
+      </div>
+      <div class="chips" id="chips">
+        <button class="chip on" data-f="all">全部 <b>0</b></button>
+        <button class="chip soon" data-f="soon">快到期 <b>0</b></button>
+        <button class="chip over" data-f="over">已到期 <b>0</b></button>
+      </div>
     </div>
   </header>
 
