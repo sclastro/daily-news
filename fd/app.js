@@ -5,12 +5,16 @@
 
   var STORE_KEY = 'fd.deposits.v1';
   var RATE_KEY = 'fd.rate.v1';
+  var SORT_KEY = 'fd.sort.v1';
   var SOON_DAYS = 7; // 到期前幾日當「快到期」
   var DEFAULT_BASIS = 360; // 預設計息基礎（美元定期多數銀行用 360 日）
 
   // ── 狀態 ──
   var deposits = load(STORE_KEY, []);
   var rate = parseFloat(load(RATE_KEY, '7.8')) || 7.8;
+  // 檢視狀態：搜尋／篩選係即時性（重開回復預設），排序會記住
+  var view = { q: '', filter: 'all', sort: localStorage.getItem(SORT_KEY) || 'maturity' };
+  var expanded = {}; // 展開咗嘅卡片 id
 
   // ── DOM ──
   var $ = function (id) { return document.getElementById(id); };
@@ -18,6 +22,8 @@
   var listEl = $('list'), bannersEl = $('banners');
   var totalHkdEl = $('totalHkd'), countEl = $('count'), soonCountEl = $('soonCount'), breakdownEl = $('breakdown');
   var totalInterestEl = $('totalInterest'), totalWithInterestEl = $('totalWithInterest');
+  var hdrEl = $('hdr'), cTotalEl = $('cTotal'), cMetaEl = $('cMeta'), cRateEl = $('cRate');
+  var qEl = $('q'), qClearEl = $('qClear'), sortEl = $('sortBy'), chipsEl = $('chips');
   var sheetBack = $('sheetBack'), form = $('form'), sheetTitle = $('sheetTitle');
 
   // ── 工具 ──
@@ -163,21 +169,155 @@
       maybeAddNotifyButton(b);
     }
 
-    // 列表
+    // 縮小版頁首（碌落之後長期見到總數）
+    cTotalEl.textContent = fmtHkd(totalHkd);
+    cMetaEl.textContent = sorted.length + ' 筆' + (soon ? ' · ' + soon + ' 快到期' : '') + (over ? ' · ' + over + ' 已到期' : '');
+    cRateEl.textContent = '@ ' + rate;
+
+    // 篩選標籤計數
+    setChip('all', sorted.length);
+    setChip('soon', soon);
+    setChip('over', over);
+
+    // 列表（套用搜尋 / 篩選 / 排序）
     if (!sorted.length) {
+      renderCharts([]);   // 刪清所有記錄後唔可以留低舊圖表
       listEl.innerHTML = '<div class="empty">尚未有定期存款記錄。<br>請按右下角 ＋ 新增第一筆 👇</div>';
       return;
     }
-    listEl.innerHTML = '<div class="section-title">所有定期存款（按到期日排序）</div>' +
-      sorted.map(cardHtml).join('');
+    var shown = applyView(sorted);
+    renderCharts(shown);   // 圖表跟同一個篩選範圍（篩選列喺圖表上面）
+    if (!shown.length) {
+      listEl.innerHTML = '<div class="empty">冇符合條件嘅記錄。<br>試下清除搜尋或者揀「全部」。</div>';
+      return;
+    }
+    listEl.innerHTML = '<div class="section-title">' + viewTitle(shown.length, sorted.length) + '</div>' +
+      shown.map(cardHtml).join('');
 
-    // 綁定卡片按鈕
+    // 綁定卡片事件
+    listEl.querySelectorAll('.c-head').forEach(function (h) {
+      h.addEventListener('click', function () { toggleCard(h.getAttribute('data-id')); });
+    });
     listEl.querySelectorAll('[data-edit]').forEach(function (btn) {
       btn.addEventListener('click', function () { openForm(btn.getAttribute('data-edit')); });
     });
     listEl.querySelectorAll('[data-del]').forEach(function (btn) {
       btn.addEventListener('click', function () { removeDeposit(btn.getAttribute('data-del')); });
     });
+  }
+
+  // ── 圖表 ──
+  // 全部用單一色相：銀行同月份都係名目類別，用深淺去分只會重覆編碼條形長度已經表達嘅嘢。
+  // 每條都直接標數值，所以數字唔會淨係靠顏色傳達。
+  function barRow(name, valText, ratio) {
+    return '<div class="bar-row">' +
+      '<div class="bar-top"><span class="bar-name">' + esc(name) + '</span>' +
+      '<span class="bar-val">' + valText + '</span></div>' +
+      '<div class="bar-track"><div class="bar-fill" style="width:' +
+        Math.max(0, Math.min(100, ratio * 100)).toFixed(2) + '%"></div></div>' +
+    '</div>';
+  }
+
+  function renderCharts(list) {
+    var scopeEl = $('chScope');
+    scopeEl.textContent = (view.filter !== 'all' || view.q)
+      ? '（只計目前篩選嘅 ' + list.length + ' 筆）' : '';
+
+    var total = list.reduce(function (s, d) { return s + toHkd(d); }, 0);
+    if (!list.length || total <= 0) {
+      var none = '<div class="ch-empty">冇資料</div>';
+      $('chBanks').innerHTML = none; $('chMaturity').innerHTML = none; $('chCurrency').innerHTML = none;
+      $('chBankSub').textContent = '按港元價值由大到細';
+      return;
+    }
+
+    // 1. 各銀行資產（合併同名銀行）
+    var byBank = {};
+    list.forEach(function (d) { byBank[d.bank] = (byBank[d.bank] || 0) + toHkd(d); });
+    var banks = Object.keys(byBank).map(function (k) { return { name: k, v: byBank[k] }; })
+      .sort(function (a, b) { return b.v - a.v; });
+    var top = banks[0];
+    $('chBankSub').textContent = '共 ' + banks.length + ' 間銀行　·　最集中一間佔 ' +
+      (top.v / total * 100).toFixed(1) + '%（' + top.name + '）';
+    $('chBanks').innerHTML = banks.map(function (b) {
+      return barRow(b.name, fmtHkd(b.v) + '　·　' + (b.v / total * 100).toFixed(1) + '%', b.v / top.v);
+    }).join('');
+
+    // 2. 到期時間分佈（按月，只列有定期嘅月份）
+    var byMonth = {};
+    list.forEach(function (d) {
+      if (!d.maturity) return;
+      var k = d.maturity.slice(0, 7);
+      if (!byMonth[k]) byMonth[k] = { v: 0, n: 0 };
+      byMonth[k].v += toHkd(d); byMonth[k].n++;
+    });
+    var months = Object.keys(byMonth).sort();
+    if (!months.length) {
+      $('chMaturity').innerHTML = '<div class="ch-empty">冇到期日資料</div>';
+    } else {
+      var maxM = Math.max.apply(null, months.map(function (k) { return byMonth[k].v; }));
+      $('chMaturity').innerHTML = months.map(function (k) {
+        var p = k.split('-');
+        return barRow(p[0] + ' 年 ' + (+p[1]) + ' 月',
+          fmtHkd(byMonth[k].v) + '　·　' + byMonth[k].n + ' 筆', byMonth[k].v / maxM);
+      }).join('');
+    }
+
+    // 3. 貨幣分佈
+    var cur = { USD: 0, HKD: 0 };
+    list.forEach(function (d) { cur[d.currency === 'HKD' ? 'HKD' : 'USD'] += toHkd(d); });
+    var maxC = Math.max(cur.USD, cur.HKD);
+    var rows = [];
+    if (cur.USD > 0) rows.push(barRow('美元 USD', fmtHkd(cur.USD) + '　·　' + (cur.USD / total * 100).toFixed(1) + '%', cur.USD / maxC));
+    if (cur.HKD > 0) rows.push(barRow('港元 HKD', fmtHkd(cur.HKD) + '　·　' + (cur.HKD / total * 100).toFixed(1) + '%', cur.HKD / maxC));
+    $('chCurrency').innerHTML = rows.join('');
+    $('chCurSub').textContent = '按港元價值計　·　美元以 @ ' + rate + ' 換算';
+  }
+
+  function setChip(f, n) {
+    var c = chipsEl.querySelector('[data-f="' + f + '"]');
+    c.querySelector('b').textContent = n;
+    c.classList.toggle('on', view.filter === f);
+    c.disabled = (f !== 'all' && n === 0);
+    if (c.disabled && view.filter === f) { view.filter = 'all'; }
+  }
+
+  // 搜尋 → 篩選 → 排序
+  function applyView(list) {
+    var q = view.q.trim().toLowerCase();
+    var out = list.filter(function (d) {
+      if (q && (d.bank + ' ' + (d.note || '')).toLowerCase().indexOf(q) < 0) return false;
+      var du = daysUntil(d.maturity);
+      if (view.filter === 'soon') return du != null && du >= 0 && du <= SOON_DAYS;
+      if (view.filter === 'over') return du != null && du < 0;
+      return true;
+    });
+    if (view.sort === 'amount') {
+      out.sort(function (a, b) { return toHkd(b) - toHkd(a); });
+    } else if (view.sort === 'interest') {
+      out.sort(function (a, b) { return intHkdOf(b) - intHkdOf(a); });
+    }
+    return out; // maturity：已經按到期日排好
+  }
+
+  // 用港元計，等美元同港元可以公平比較
+  function intHkdOf(d) {
+    var it = interestOf(d);
+    if (!it) return -1;
+    return d.currency === 'HKD' ? it.amount : it.amount * rate;
+  }
+
+  function viewTitle(shownN, totalN) {
+    var byLabel = { maturity: '按到期日', amount: '按金額', interest: '按利息' }[view.sort];
+    var scope = { all: '所有定期存款', soon: '快到期', over: '已到期' }[view.filter];
+    var t = scope + '（' + byLabel + '排序）';
+    return shownN < totalN ? t + '　顯示 ' + shownN + ' / ' + totalN : t;
+  }
+
+  function toggleCard(id) {
+    if (expanded[id]) delete expanded[id]; else expanded[id] = true;
+    var el = listEl.querySelector('.card[data-id="' + id + '"]');
+    if (el) el.classList.toggle('open', !!expanded[id]);
   }
 
   function cardHtml(d) {
@@ -231,18 +371,27 @@
     if (it) meta.push('<span class="k">到期本利和：</span>' + esc(d.currency) + ' ' + fmt2((+d.amount || 0) + it.amount));
     if (d.note) meta.push('<span class="k">備註：</span>' + esc(d.note));
 
-    return '<div class="' + cls + '">' +
-      '<div class="row1">' +
-        '<div class="bank">' + esc(d.bank) + '</div>' +
-        '<div class="amt">' + fmtMoney(+d.amount || 0) + ' <small>' + esc(d.currency) + '</small></div>' +
+    // 摺疊時嘅一行摘要：利息（或「—」）
+    var sumInt = it
+      ? '<span class="sum-int">+ ' + esc(d.currency) + ' ' + fmt2(it.amount) + '</span>'
+      : '<span class="sum-int none">利息 —</span>';
+
+    return '<div class="' + cls + (expanded[d.id] ? ' open' : '') + '" data-id="' + d.id + '">' +
+      '<div class="c-head" data-id="' + d.id + '">' +
+        '<div class="row1">' +
+          '<div class="bank">' + esc(d.bank) + '</div>' +
+          '<div class="amt">' + fmtMoney(+d.amount || 0) + ' <small>' + esc(d.currency) + '</small></div>' +
+        '</div>' +
+        '<div class="row2">' + badge + sumInt + '<span class="chev">▼</span></div>' +
       '</div>' +
-      hkdLine +
-      badge +
-      intBlock +
-      '<div class="meta">' + meta.join('<br>') + '</div>' +
-      '<div class="actions">' +
-        '<button data-edit="' + d.id + '">✏️ 編輯</button>' +
-        '<button class="del" data-del="' + d.id + '">🗑 刪除</button>' +
+      '<div class="c-body">' +
+        hkdLine +
+        intBlock +
+        '<div class="meta">' + meta.join('<br>') + '</div>' +
+        '<div class="actions">' +
+          '<button data-edit="' + d.id + '">✏️ 編輯</button>' +
+          '<button class="del" data-del="' + d.id + '">🗑 刪除</button>' +
+        '</div>' +
       '</div>' +
     '</div>';
   }
@@ -481,6 +630,52 @@
       $('importFile').value = '';
     };
     reader.readAsText(file);
+  });
+
+  // ── 搜尋 / 篩選 / 排序 ──
+  qEl.addEventListener('input', function () {
+    view.q = qEl.value;
+    qClearEl.hidden = !view.q;
+    render();
+  });
+  qClearEl.addEventListener('click', function () {
+    qEl.value = ''; view.q = ''; qClearEl.hidden = true; render(); qEl.focus();
+  });
+  sortEl.value = view.sort;
+  sortEl.addEventListener('change', function () {
+    view.sort = sortEl.value;
+    localStorage.setItem(SORT_KEY, view.sort);
+    render();
+  });
+  chipsEl.addEventListener('click', function (e) {
+    var c = e.target.closest('.chip');
+    if (!c || c.disabled) return;
+    view.filter = c.getAttribute('data-f');
+    render();
+  });
+
+  // ── 圖表面板開合（記住狀態）──
+  var CHARTS_KEY = 'fd.charts.v1';
+  var chartsEl = $('charts'), chToggle = $('chToggle');
+  if (localStorage.getItem(CHARTS_KEY) === '1') {
+    chartsEl.classList.add('open');
+    chToggle.setAttribute('aria-expanded', 'true');
+  }
+  chToggle.addEventListener('click', function () {
+    var open = chartsEl.classList.toggle('open');
+    chToggle.setAttribute('aria-expanded', String(open));
+    localStorage.setItem(CHARTS_KEY, open ? '1' : '0');
+  });
+
+  // ── 碌動時頁首縮細（加滯後範圍，避免喺臨界點閃來閃去）──
+  var isCompact = false;
+  window.addEventListener('scroll', function () {
+    var y = window.pageYOffset;
+    if (!isCompact && y > 150) { isCompact = true; hdrEl.classList.add('compact'); }
+    else if (isCompact && y < 60) { isCompact = false; hdrEl.classList.remove('compact'); }
+  }, { passive: true });
+  $('hCompact').addEventListener('click', function () {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   });
 
   // ── FAB / sheet 事件 ──

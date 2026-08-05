@@ -1,6 +1,6 @@
 /* Service Worker：離線快取，令 App 可以「加去主畫面」後離線都用到。
    改版時記得 bump CACHE 版本號，令舊快取更新。*/
-var CACHE = 'fd-tracker-v3';
+var CACHE = 'fd-tracker-v4';
 var ASSETS = [
   './',
   './index.html',
