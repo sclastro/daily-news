@@ -16,6 +16,7 @@
   var rateInput = $('rate'), rateEcho = $('rateEcho');
   var listEl = $('list'), bannersEl = $('banners');
   var totalHkdEl = $('totalHkd'), countEl = $('count'), soonCountEl = $('soonCount'), breakdownEl = $('breakdown');
+  var totalInterestEl = $('totalInterest'), totalWithInterestEl = $('totalWithInterest');
   var sheetBack = $('sheetBack'), form = $('form'), sheetTitle = $('sheetTitle');
 
   // ── 工具 ──
@@ -27,19 +28,36 @@
   function saveRate() { localStorage.setItem(RATE_KEY, String(rate)); }
   function uid() { return Date.now().toString(36) + Math.random().toString(36).slice(2, 7); }
 
-  function todayStr() {
-    var d = new Date();
-    return d.getFullYear() + '-' + pad(d.getMonth() + 1) + '-' + pad(d.getDate());
-  }
   function pad(n) { return (n < 10 ? '0' : '') + n; }
+  function fmtDate(d) { return d.getFullYear() + '-' + pad(d.getMonth() + 1) + '-' + pad(d.getDate()); }
+  function parseDate(s) { var p = String(s).split('-'); return new Date(+p[0], +p[1] - 1, +p[2]); }
+  function todayStr() { return fmtDate(new Date()); }
 
-  // 以本地午夜計算相差日數（正 = 未到期，負 = 已過期）
-  function daysUntil(dateStr) {
-    if (!dateStr) return null;
-    var t = todayStr().split('-'), m = dateStr.split('-');
-    var a = new Date(+t[0], +t[1] - 1, +t[2]);
-    var b = new Date(+m[0], +m[1] - 1, +m[2]);
-    return Math.round((b - a) / 86400000);
+  // 以本地午夜計算相差日數
+  function diffDays(fromStr, toStr) {
+    return Math.round((parseDate(toStr) - parseDate(fromStr)) / 86400000);
+  }
+  // 距離到期日仲有幾多日（正 = 未到期，負 = 已過期）
+  function daysUntil(dateStr) { return dateStr ? diffDays(todayStr(), dateStr) : null; }
+
+  // 加／減月份時將日數夾實喺當月最後一日（例：1月31日 + 1個月 = 2月28日）
+  function addMonths(d, n) {
+    var day = d.getDate();
+    d.setDate(1);
+    d.setMonth(d.getMonth() + n);
+    var last = new Date(d.getFullYear(), d.getMonth() + 1, 0).getDate();
+    d.setDate(Math.min(day, last));
+    return d;
+  }
+
+  // 由某日期推前（sign = 1）或推後（sign = -1）一段存期
+  function shiftDate(dateStr, num, unit, sign) {
+    if (!dateStr || !num) return '';
+    var d = parseDate(dateStr), n = (+num) * sign;
+    if (unit === 'day') d.setDate(d.getDate() + n);
+    else if (unit === 'year') addMonths(d, n * 12);
+    else addMonths(d, n);
+    return fmtDate(d);
   }
 
   function toHkd(dep) {
@@ -54,6 +72,8 @@
     return (cur ? cur + ' ' : '') + s;
   }
   function fmtHkd(n) { return 'HK$ ' + Math.round(n).toLocaleString('en-US'); }
+  // 利息通常有斗零，固定顯示兩位小數
+  function fmt2(n) { return n.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }); }
 
   function unitLabel(u) { return u === 'day' ? '日' : u === 'year' ? '年' : '個月'; }
 
@@ -64,15 +84,29 @@
   }
 
   // 由開始日 + 存期計到期日
-  function calcMaturity(startStr, num, unit) {
-    if (!startStr || !num) return '';
-    var p = startStr.split('-');
-    var d = new Date(+p[0], +p[1] - 1, +p[2]);
-    num = +num;
-    if (unit === 'day') d.setDate(d.getDate() + num);
-    else if (unit === 'year') d.setFullYear(d.getFullYear() + num);
-    else d.setMonth(d.getMonth() + num);
-    return d.getFullYear() + '-' + pad(d.getMonth() + 1) + '-' + pad(d.getDate());
+  function calcMaturity(startStr, num, unit) { return shiftDate(startStr, num, unit, 1); }
+
+  // ── 利息計算 ──
+  // 存期日數：優先用「開始日期 → 到期日期」；若無開始日期，用到期日期倒推存款期限
+  function termDays(dep) {
+    if (!dep.maturity) return null;
+    var start = dep.start || shiftDate(dep.maturity, dep.durNum, dep.durUnit, -1);
+    if (!start) return null;
+    var days = diffDays(start, dep.maturity);
+    return days > 0 ? days : null;
+  }
+
+  // 回傳 { amount, manual, days, basis } 或 null（資料不足以計算）
+  function interestOf(dep) {
+    var manual = parseFloat(dep.interest);
+    if (isFinite(manual)) return { amount: manual, manual: true, days: termDays(dep), basis: null };
+    var r = parseFloat(dep.rate);
+    if (!(r > 0)) return null;
+    var days = termDays(dep);
+    if (days == null) return null;
+    var basis = +dep.basis === 360 ? 360 : 365;
+    // 單利：本金 × 年利率 × 存期日數 ÷ 一年日數
+    return { amount: (+dep.amount || 0) * (r / 100) * days / basis, manual: false, days: days, basis: basis };
   }
 
   // ── 渲染 ──
@@ -86,20 +120,35 @@
 
     // 統計
     var totalHkd = 0, usdSum = 0, hkdSum = 0, soon = 0, over = 0;
+    var intHkd = 0, intUsd = 0, intHkdOnly = 0, missingRate = 0;
     sorted.forEach(function (d) {
       totalHkd += toHkd(d);
       if (d.currency === 'HKD') hkdSum += +d.amount || 0; else usdSum += +d.amount || 0;
       var du = daysUntil(d.maturity);
       if (du != null && du < 0) over++;
       else if (du != null && du <= SOON_DAYS) soon++;
+
+      var it = interestOf(d);
+      if (it) {
+        intHkd += d.currency === 'HKD' ? it.amount : it.amount * rate;
+        if (d.currency === 'HKD') intHkdOnly += it.amount; else intUsd += it.amount;
+      } else {
+        missingRate++;
+      }
     });
 
     totalHkdEl.textContent = fmtHkd(totalHkd);
+    totalInterestEl.textContent = '+ ' + fmtHkd(intHkd);
+    totalWithInterestEl.textContent = fmtHkd(totalHkd + intHkd);
     countEl.textContent = sorted.length;
     soonCountEl.textContent = soon;
+
     var parts = [];
     if (usdSum) parts.push('美元本金合計：' + fmtMoney(usdSum, 'USD'));
     if (hkdSum) parts.push('港元本金合計：' + fmtMoney(hkdSum, 'HKD'));
+    if (intUsd) parts.push('美元利息合計：USD ' + fmt2(intUsd));
+    if (intHkdOnly) parts.push('港元利息合計：HKD ' + fmt2(intHkdOnly));
+    if (missingRate && sorted.length) parts.push('（' + missingRate + ' 筆未填年利率或存期，未計入利息）');
     breakdownEl.textContent = parts.join('　·　');
 
     // 提醒 banner
@@ -147,10 +196,28 @@
       ? '<div class="hkd">≈ ' + fmtHkd(hkd) + '（@ ' + rate + '）</div>'
       : '';
 
+    // 預期利息
+    var it = interestOf(d);
+    var intBlock = '';
+    if (it) {
+      var intHkd = d.currency === 'HKD' ? it.amount : it.amount * rate;
+      var tag = it.manual
+        ? '<span class="tag">手動輸入</span>'
+        : '<span class="tag">' + it.days + ' 日 ÷ ' + it.basis + '</span>';
+      intBlock = '<div class="int">' +
+        '<span class="lab">預期利息</span>' +
+        '<b>+ ' + esc(d.currency) + ' ' + fmt2(it.amount) + '</b>' +
+        (d.currency === 'USD' ? '<small>≈ ' + fmtHkd(intHkd) + '</small>' : '') +
+        tag +
+      '</div>';
+    }
+
     var meta = [];
     meta.push('<span class="k">到期：</span>' + esc(d.maturity || '—'));
     if (d.start) meta.push('<span class="k">開始：</span>' + esc(d.start));
     if (d.durNum) meta.push('<span class="k">存期：</span>' + esc(d.durNum) + ' ' + unitLabel(d.durUnit));
+    if (d.rate) meta.push('<span class="k">年利率：</span>' + esc(d.rate) + '%');
+    if (it) meta.push('<span class="k">到期本利和：</span>' + esc(d.currency) + ' ' + fmt2((+d.amount || 0) + it.amount));
     if (d.note) meta.push('<span class="k">備註：</span>' + esc(d.note));
 
     return '<div class="' + cls + '">' +
@@ -160,6 +227,7 @@
       '</div>' +
       hkdLine +
       badge +
+      intBlock +
       '<div class="meta">' + meta.join('<br>') + '</div>' +
       '<div class="actions">' +
         '<button data-edit="' + d.id + '">✏️ 編輯</button>' +
@@ -214,10 +282,11 @@
     $('editId').value = '';
     $('f_currency').value = 'USD';
     $('f_durUnit').value = 'month';
+    $('f_basis').value = '365';
     if (id) {
       var d = deposits.find(function (x) { return x.id === id; });
       if (d) {
-        sheetTitle.textContent = '編輯定期';
+        sheetTitle.textContent = '編輯定期存款';
         $('editId').value = d.id;
         $('f_bank').value = d.bank || '';
         $('f_amount').value = d.amount != null ? d.amount : '';
@@ -226,12 +295,45 @@
         $('f_start').value = d.start || '';
         $('f_durNum').value = d.durNum || '';
         $('f_durUnit').value = d.durUnit || 'month';
+        $('f_rate').value = d.rate != null ? d.rate : '';
+        $('f_basis').value = String(+d.basis === 360 ? 360 : 365);
+        $('f_interest').value = d.interest != null ? d.interest : '';
         $('f_note').value = d.note || '';
       }
     } else {
-      sheetTitle.textContent = '新增定期';
+      sheetTitle.textContent = '新增定期存款';
     }
+    updateInterestPreview();
     sheetBack.classList.add('open');
+  }
+
+  // 表單即時預覽利息
+  function updateInterestPreview() {
+    var el = $('interestPreview');
+    var manual = parseFloat($('f_interest').value);
+    var cur = $('f_currency').value;
+    if (isFinite(manual)) {
+      el.textContent = '已手動指定利息：' + cur + ' ' + fmt2(manual) + '（不會按年利率自動計算）';
+      return;
+    }
+    var draft = {
+      amount: parseFloat($('f_amount').value) || 0,
+      maturity: $('f_maturity').value || calcMaturity($('f_start').value, $('f_durNum').value, $('f_durUnit').value),
+      start: $('f_start').value,
+      durNum: $('f_durNum').value,
+      durUnit: $('f_durUnit').value,
+      rate: $('f_rate').value,
+      basis: $('f_basis').value
+    };
+    var it = interestOf(draft);
+    if (it) {
+      el.textContent = '預計到期利息：' + cur + ' ' + fmt2(it.amount) +
+        '（存期 ' + it.days + ' 日 ÷ ' + it.basis + ' 日）';
+    } else if (parseFloat($('f_rate').value) > 0) {
+      el.textContent = '需要「開始存款日期」或「存款期限」先計到存期日數，才可自動計算利息。';
+    } else {
+      el.textContent = '填寫年利率後會自動計算到期利息；若與銀行報價不同，可於此欄手動填寫覆寫。';
+    }
   }
   function closeForm() { sheetBack.classList.remove('open'); }
 
@@ -258,6 +360,9 @@
       start: start || '',
       durNum: durNum ? +durNum : '',
       durUnit: durUnit,
+      rate: $('f_rate').value !== '' ? parseFloat($('f_rate').value) : '',
+      basis: +$('f_basis').value === 360 ? 360 : 365,
+      interest: $('f_interest').value !== '' ? parseFloat($('f_interest').value) : '',
       note: $('f_note').value.trim()
     };
     if (!rec.bank || !(rec.amount >= 0)) return;
@@ -279,6 +384,13 @@
     $(id).addEventListener('change', autoFillMaturity);
   });
 
+  // 任何影響利息嘅欄位改動 → 即時更新預覽
+  ['f_amount', 'f_currency', 'f_maturity', 'f_start', 'f_durNum', 'f_durUnit', 'f_rate', 'f_basis', 'f_interest']
+    .forEach(function (id) {
+      $(id).addEventListener('input', updateInterestPreview);
+      $(id).addEventListener('change', updateInterestPreview);
+    });
+
   function removeDeposit(id) {
     var d = deposits.find(function (x) { return x.id === id; });
     if (!confirm('確定刪除「' + (d ? d.bank : '') + '」這筆定期存款？')) return;
@@ -295,7 +407,7 @@
 
   // ── 匯出 / 匯入 ──
   $('exportBtn').addEventListener('click', function () {
-    var payload = { app: 'fd-tracker', version: 1, exportedAt: new Date().toISOString(), rate: rate, deposits: deposits };
+    var payload = { app: 'fd-tracker', version: 2, exportedAt: new Date().toISOString(), rate: rate, deposits: deposits };
     var blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
     var a = document.createElement('a');
     a.href = URL.createObjectURL(blob);
@@ -328,6 +440,9 @@
             start: d.start || d.startDate || '',
             durNum: d.durNum ? +d.durNum : '',
             durUnit: d.durUnit || 'month',
+            rate: isFinite(parseFloat(d.rate)) ? parseFloat(d.rate) : '',
+            basis: +d.basis === 360 ? 360 : 365,
+            interest: isFinite(parseFloat(d.interest)) ? parseFloat(d.interest) : '',
             note: d.note || ''
           };
         });

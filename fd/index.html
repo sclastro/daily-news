@@ -21,12 +21,14 @@
       --warn-bg: #fdf3e0;
       --danger-bg: #fdecea;
       --ok: #2f855a;
+      --ok-bg: rgba(47,133,90,.09);
       --shadow: 0 2px 10px rgba(0,0,0,.06);
     }
     @media (prefers-color-scheme: dark) {
       :root {
         --bg: #101614; --card: #17211e; --text: #e7efec; --muted: #93a49e;
         --line: #263531; --warn-bg: #2c2415; --danger-bg: #2c1918; --shadow: 0 2px 12px rgba(0,0,0,.4);
+        --ok: #68d391; --ok-bg: rgba(104,211,145,.12);
       }
     }
     * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
@@ -68,6 +70,7 @@
     .summary .label { font-size: 12px; color: var(--muted); }
     .summary .big { font-size: 26px; font-weight: 800; letter-spacing: .3px; margin-top: 2px; }
     .summary .mid { font-size: 17px; font-weight: 700; margin-top: 2px; }
+    .summary .pos { color: var(--ok); }
     .summary .breakdown { grid-column: 1 / -1; font-size: 12px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 8px; }
 
     .banner { border-radius: 14px; padding: 12px 14px; margin-bottom: 14px; font-size: 14px; line-height: 1.5; }
@@ -98,6 +101,17 @@
     .badge.ok { background: rgba(47,133,90,.12); color: var(--ok); }
     .badge.soon { background: var(--warn-bg); color: var(--warn); }
     .badge.over { background: var(--danger-bg); color: var(--danger); }
+    .card .int {
+      margin-top: 9px; background: var(--ok-bg); border-radius: 10px; padding: 8px 10px;
+      font-size: 13px; display: flex; align-items: baseline; gap: 6px; flex-wrap: wrap;
+    }
+    .card .int .lab { color: var(--muted); }
+    .card .int b { color: var(--ok); font-size: 14px; }
+    .card .int small { color: var(--muted); }
+    .card .int .tag {
+      font-size: 11px; background: rgba(128,128,128,.18); border-radius: 999px;
+      padding: 1px 7px; color: var(--muted); margin-left: auto;
+    }
     .card .actions { display: flex; gap: 8px; margin-top: 10px; }
     .card .actions button {
       flex: 0 0 auto; background: transparent; border: 1px solid var(--line); color: var(--muted);
@@ -173,6 +187,14 @@
         <div class="big" id="totalHkd">HK$ 0</div>
       </div>
       <div>
+        <div class="label">預期利息（港元）</div>
+        <div class="mid pos" id="totalInterest">+ HK$ 0</div>
+      </div>
+      <div>
+        <div class="label">到期本利和（港元）</div>
+        <div class="mid" id="totalWithInterest">HK$ 0</div>
+      </div>
+      <div>
         <div class="label">定期數目</div>
         <div class="mid" id="count">0</div>
       </div>
@@ -231,6 +253,24 @@
             </select>
           </div>
           <div class="autonote">填寫「開始存款日期」及「存款期限」後，若到期日期未填，系統會自動計算。</div>
+        </div>
+        <div class="grid2">
+          <div class="field">
+            <label>年利率 %（選填）</label>
+            <input id="f_rate" type="number" inputmode="decimal" step="any" min="0" placeholder="例如 4.5" />
+          </div>
+          <div class="field">
+            <label>計息基礎</label>
+            <select id="f_basis">
+              <option value="365" selected>365 日</option>
+              <option value="360">360 日</option>
+            </select>
+          </div>
+        </div>
+        <div class="field">
+          <label>預期利息（選填）</label>
+          <input id="f_interest" type="number" inputmode="decimal" step="any" min="0" placeholder="留空則按年利率自動計算" />
+          <div class="autonote" id="interestPreview">填寫年利率後會自動計算到期利息；若與銀行報價不同，可於此欄手動填寫覆寫。</div>
         </div>
         <div class="field">
           <label>備註（選填）</label>
