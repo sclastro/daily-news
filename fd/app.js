@@ -212,6 +212,15 @@
         (d.currency === 'USD' ? '<small>≈ ' + fmtHkd(intHkd) + '</small>' : '') +
         tag +
       '</div>';
+    } else {
+      // 計唔到利息時要講明原因，唔可以靜靜雞當零
+      var why = parseFloat(d.rate) > 0
+        ? '未填開始存款日期或存款期限，無法計算存期'
+        : '未填年利率';
+      intBlock = '<div class="int missing">' +
+        '<span class="lab">預期利息</span><b>—</b>' +
+        '<small>' + why + '</small>' +
+      '</div>';
     }
 
     var meta = [];
@@ -314,6 +323,7 @@
     var el = $('interestPreview');
     var manual = parseFloat($('f_interest').value);
     var cur = $('f_currency').value;
+    el.className = 'autonote';
     if (isFinite(manual)) {
       el.textContent = '已手動指定利息：' + cur + ' ' + fmt2(manual) + '（不會按年利率自動計算）';
       return;
@@ -336,7 +346,9 @@
         '（存期 ' + it.days + ' 日 ÷ ' + it.basis + ' 日）' +
         (alt ? '　·　若揀 ' + alt.basis + ' 日基礎則為 ' + cur + ' ' + fmt2(alt.amount) : '');
     } else if (parseFloat($('f_rate').value) > 0) {
-      el.textContent = '需要「開始存款日期」或「存款期限」先計到存期日數，才可自動計算利息。';
+      el.className = 'autonote warn';
+      el.textContent = '⚠️ 已填年利率，但未填「開始存款日期」或「存款期限」，無法計算存期日數，' +
+        '利息會顯示為「—」。補填其中一項即可自動計算。';
     } else {
       el.textContent = '填寫年利率後會自動計算到期利息；若與銀行報價不同，可於此欄手動填寫覆寫。';
     }
