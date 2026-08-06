@@ -25,6 +25,11 @@
       --shadow: 0 2px 10px rgba(0,0,0,.06);
       /* 圖表：單一色相，對比度已用 dataviz 驗證器計過（5.23:1，需 ≥3:1）*/
       --viz-bar: #107a6a;
+      /* 環形圖 6 個分類色。已用 dataviz 驗證器核過（淺色表面 #ffffff）：
+         色盲相鄰分離度 ΔE 9.1、正常視覺 19.6，兩項都通過。
+         其中 3 個色低於 3:1 對比，規則要求配可見標籤補償 —— 圖例逐項列出金額同百分比。*/
+      --pie-1: #2a78d6; --pie-2: #eb6834; --pie-3: #1baf7a;
+      --pie-4: #eda100; --pie-5: #e87ba4; --pie-6: #008300;
     }
     @media (prefers-color-scheme: dark) {
       :root {
@@ -32,6 +37,9 @@
         --line: #263531; --warn-bg: #2c2415; --danger-bg: #2c1918; --shadow: 0 2px 12px rgba(0,0,0,.4);
         --ok: #68d391; --ok-bg: rgba(104,211,145,.12);
         --viz-bar: #2fbfa4;   /* 深色表面 7.16:1 */
+        /* 深色係另一組步階，唔係自動反轉。驗證器（表面 #17211e）全部通過，六個色都 ≥3:1 */
+        --pie-1: #3987e5; --pie-2: #d95926; --pie-3: #199e70;
+        --pie-4: #c98500; --pie-5: #d55181; --pie-6: #008300;
       }
     }
     * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
@@ -118,6 +126,7 @@
     }
     .summary .total { grid-column: 1 / -1; }
     .summary .label { font-size: 12px; color: var(--muted); }
+    .summary .lbl-note { font-size: 10px; opacity: .8; display: block; }
     .summary .big { font-size: 26px; font-weight: 800; letter-spacing: .3px; margin-top: 2px; }
     .summary .mid { font-size: 17px; font-weight: 700; margin-top: 2px; }
     .summary .pos { color: var(--ok); }
@@ -143,6 +152,19 @@
     .bar-row:last-child { margin-bottom: 0; }
     .bar-top { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; margin-bottom: 4px; }
     .bar-name { font-size: 12px; font-weight: 600; color: var(--text); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .bar-name em { font-style: normal; font-weight: 600; color: var(--muted); font-size: 11px; }
+
+    /* 環形圖：頭 5 間 + 其他。分段之間留 2px 表面空隙（唔用描邊分隔）*/
+    .donut { display: flex; justify-content: center; margin: 2px 0 14px; }
+    .donut svg { width: 170px; height: 170px; }
+    .donut .dn-t1 { font-size: 4.2px; font-weight: 800; text-anchor: middle; fill: var(--text); }
+    .donut .dn-t2 { font-size: 2.5px; text-anchor: middle; fill: var(--muted); }
+    .lg-row { display: flex; align-items: center; gap: 8px; font-size: 12px; margin-bottom: 7px; }
+    .lg-row .sw { width: 10px; height: 10px; border-radius: 3px; flex: 0 0 auto; }
+    .lg-name { color: var(--text); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .lg-val { margin-left: auto; color: var(--muted); white-space: nowrap; font-variant-numeric: tabular-nums; }
+    .ch-divider { border: 0; border-top: 1px solid var(--line); margin: 14px 0 12px; }
+    .ch-h4 { font-size: 12px; color: var(--muted); font-weight: 600; margin: 0 0 10px; }
     .bar-val { font-size: 11px; color: var(--muted); white-space: nowrap; font-variant-numeric: tabular-nums; }
     .bar-track { height: 8px; background: var(--line); border-radius: 4px; }
     .bar-fill { height: 100%; background: var(--viz-bar); border-radius: 0 4px 4px 0; min-width: 2px; }
@@ -196,6 +218,10 @@
     .card .int .lab { color: var(--muted); }
     .card .int b { color: var(--ok); font-size: 14px; }
     .card .int small { color: var(--muted); }
+    .card .idle {
+      margin-top: 9px; background: var(--danger-bg); color: var(--danger);
+      border-radius: 10px; padding: 8px 10px; font-size: 12px; line-height: 1.5;
+    }
     .card .int.missing { background: rgba(128,128,128,.10); }
     .card .int.missing b { color: var(--muted); }
     .card .int .tag {
@@ -336,7 +362,15 @@
         <div class="big" id="totalHkd">HK$ 0</div>
       </div>
       <div>
-        <div class="label">預期利息（港元）</div>
+        <div class="label">年化利息收入（每年）</div>
+        <div class="mid pos" id="annualInterest">+ HK$ 0</div>
+      </div>
+      <div>
+        <div class="label">加權平均年利率</div>
+        <div class="mid" id="avgRate">—</div>
+      </div>
+      <div>
+        <div class="label">到期利息合計<span class="lbl-note">（各筆存期內）</span></div>
         <div class="mid pos" id="totalInterest">+ HK$ 0</div>
       </div>
       <div>
@@ -362,6 +396,10 @@
         <div class="ch-block">
           <h3>各銀行資產分佈</h3>
           <p class="ch-sub" id="chBankSub">按港元價值由大至小排列</p>
+          <div class="donut" id="chDonut"></div>
+          <div id="chDonutLegend"></div>
+          <hr class="ch-divider">
+          <p class="ch-h4">全部銀行（銀行名稱後為該行加權平均年利率）</p>
           <div id="chBanks"></div>
         </div>
         <div class="ch-block">
