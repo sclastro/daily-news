@@ -165,6 +165,7 @@
     .card.overdue { border-left-color: var(--danger); }
     /* 摺疊時只見 c-head；撳一下先展開 c-body */
     .card .c-head { padding: 12px 14px; cursor: pointer; }
+    .card .c-head:focus-visible { outline: 2px solid var(--brand-2); outline-offset: -2px; border-radius: 10px; }
     .card .row1 { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
     .card .bank { font-size: 16px; font-weight: 700; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
     .card .amt { font-size: 16px; font-weight: 800; white-space: nowrap; }
@@ -285,14 +286,14 @@
           <button class="clr" id="qClear" hidden aria-label="清除搜尋">✕</button>
         </div>
         <select id="sortBy" aria-label="排序方式">
-          <option value="maturity">到期日（近先）</option>
-          <option value="amount">金額（大先）</option>
-          <option value="interest">利息（大先）</option>
+          <option value="maturity">到期日（由近至遠）</option>
+          <option value="amount">金額（由大至小）</option>
+          <option value="interest">利息（由大至小）</option>
         </select>
       </div>
       <div class="chips" id="chips">
         <button class="chip on" data-f="all">全部 <b>0</b></button>
-        <button class="chip soon" data-f="soon">快到期 <b>0</b></button>
+        <button class="chip soon" data-f="soon">即將到期 <b>0</b></button>
         <button class="chip over" data-f="over">已到期 <b>0</b></button>
       </div>
     </div>
@@ -330,12 +331,12 @@
       <div class="ch-body" id="chBody">
         <div class="ch-block">
           <h3>各銀行資產分佈</h3>
-          <p class="ch-sub" id="chBankSub">按港元價值由大到細</p>
+          <p class="ch-sub" id="chBankSub">按港元價值由大至小排列</p>
           <div id="chBanks"></div>
         </div>
         <div class="ch-block">
           <h3>到期時間分佈</h3>
-          <p class="ch-sub">邊個月有資金到期，方便安排調動</p>
+          <p class="ch-sub">各月份到期金額，方便安排資金調動</p>
           <div id="chMaturity"></div>
         </div>
         <div class="ch-block">
@@ -378,6 +379,7 @@
         <div class="field">
           <label>到期日期 <span class="req">*</span></label>
           <input id="f_maturity" type="date" required />
+          <div class="autonote warn" id="dateErr" hidden></div>
         </div>
         <div class="field">
           <label>開始存款日期（選填）</label>
