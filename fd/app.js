@@ -121,6 +121,21 @@
     return { amount: (+dep.amount || 0) * (r / 100) * days / basis, manual: false, days: days, basis: basis };
   }
 
+  // 年化年利率：用嚟比較唔同存期嘅定期。
+  // 「到期利息」係各筆喺自己存期內收到嘅錢，3 個月同 12 個月加埋根本唔同單位；
+  // 年化係假設一整年計，先至可以互相比較同加總。
+  function annualRateOf(d) {
+    var r = parseFloat(d.rate);
+    if (r > 0) return r;
+    // 淨係手動填咗利息金額嘅，用存期反推年利率
+    var manual = parseFloat(d.interest), days = termDays(d), p = +d.amount || 0;
+    if (isFinite(manual) && days && p > 0) {
+      var basis = +d.basis === 365 ? 365 : DEFAULT_BASIS;
+      return manual / p * (basis / days) * 100;
+    }
+    return null;
+  }
+
   // ── 渲染 ──
   function render() {
     rateInput.value = rate;
@@ -134,13 +149,16 @@
     var totalHkd = 0, usdSum = 0, hkdSum = 0, soon = 0, over = 0, active = 0;
     var intHkd = 0, intUsd = 0, intHkdOnly = 0, missingRate = 0;
     var doneN = 0, doneHkd = 0;
+    var annualHkd = 0, ratedBase = 0, maxIdle = 0;
     sorted.forEach(function (d) {
       if (isDone(d)) { doneN++; doneHkd += toHkd(d); return; }
       active++;
       totalHkd += toHkd(d);
+      var ar = annualRateOf(d);
+      if (ar != null) { ratedBase += toHkd(d); annualHkd += toHkd(d) * ar / 100; }
       if (d.currency === 'HKD') hkdSum += +d.amount || 0; else usdSum += +d.amount || 0;
       var du = daysUntil(d.maturity);
-      if (du != null && du < 0) over++;
+      if (du != null && du < 0) { over++; maxIdle = Math.max(maxIdle, -du); }
       else if (du != null && du <= SOON_DAYS) soon++;
 
       var it = interestOf(d);
@@ -155,6 +173,8 @@
     totalHkdEl.textContent = fmtHkd(totalHkd);
     totalInterestEl.textContent = '+ ' + fmtHkd(intHkd);
     totalWithInterestEl.textContent = fmtHkd(totalHkd + intHkd);
+    $('annualInterest').textContent = '+ ' + fmtHkd(annualHkd);
+    $('avgRate').textContent = ratedBase > 0 ? (annualHkd / ratedBase * 100).toFixed(2) + '%' : '—';
     countEl.textContent = active;
     soonCountEl.textContent = soon;
 
@@ -164,13 +184,17 @@
     if (intUsd) parts.push('美元利息合計：USD ' + fmt2(intUsd));
     if (intHkdOnly) parts.push('港元利息合計：HKD ' + fmt2(intHkdOnly));
     if (missingRate && active) parts.push('（' + missingRate + ' 筆未填年利率或存期，未計入利息）');
+    if (ratedBase > 0 && ratedBase < totalHkd) {
+      parts.push('（年化只計有年利率嘅 ' + fmtHkd(ratedBase) + '，佔 ' + (ratedBase / totalHkd * 100).toFixed(0) + '%）');
+    }
     if (doneN) parts.push('（另有 ' + doneN + ' 筆已處理，' + fmtHkd(doneHkd) + '，未計入總額）');
     breakdownEl.textContent = parts.join('　·　');
 
     // 提醒 banner
     bannersEl.innerHTML = '';
     if (over > 0) {
-      addBanner('danger', '有 <b>' + over + '</b> 筆定期存款<b>已到期</b>，請盡快處理或轉存。');
+      addBanner('danger', '有 <b>' + over + '</b> 筆定期存款<b>已到期</b>，請盡快處理或轉存。' +
+        (maxIdle > 0 ? '<br>最長一筆已閒置 <b>' + maxIdle + ' 日</b>，資金期間未必有定期息率。' : ''));
     }
     if (soon > 0) {
       var b = addBanner('warn', '有 <b>' + soon + '</b> 筆定期存款將於 <b>' + SOON_DAYS + ' 日內到期</b>，可準備調動資金。');
@@ -267,13 +291,55 @@
   // ── 圖表 ──
   // 全部用單一色相：銀行同月份都係名目類別，用深淺去分只會重覆編碼條形長度已經表達嘅嘢。
   // 每條都直接標數值，所以數字唔會淨係靠顏色傳達。
-  function barRow(name, valText, ratio) {
+  function barRow(name, valText, ratio, suffix) {
     return '<div class="bar-row">' +
-      '<div class="bar-top"><span class="bar-name">' + esc(name) + '</span>' +
+      '<div class="bar-top"><span class="bar-name">' + esc(name) +
+        (suffix ? ' <em>' + esc(suffix) + '</em>' : '') + '</span>' +
       '<span class="bar-val">' + valText + '</span></div>' +
       '<div class="bar-track"><div class="bar-fill" style="width:' +
         Math.max(0, Math.min(100, ratio * 100)).toFixed(2) + '%"></div></div>' +
     '</div>';
+  }
+
+  // 環形圖：頭 5 間 + 「其他」，最多 6 塊。
+  // 超過 6 塊就會有一堆細過 20° 嘅扇形，肉眼分唔到 —— 所以要摺埋做「其他」，
+  // 詳細數字交返俾下面嘅條形圖。
+  function renderDonut(banks, total) {
+    var svgEl = $('chDonut'), lgEl = $('chDonutLegend');
+    if (!banks.length || total <= 0) { svgEl.innerHTML = ''; lgEl.innerHTML = ''; return; }
+
+    var TOP = 5;
+    var segs = banks.slice(0, TOP).map(function (b) { return { name: b.name, v: b.v }; });
+    var rest = banks.slice(TOP);
+    if (rest.length) {
+      segs.push({
+        name: '其他 ' + rest.length + ' 間',
+        v: rest.reduce(function (s, b) { return s + b.v; }, 0)
+      });
+    }
+
+    var C = 100, GAP = 0.9, acc = 0, arcs = '', rows = '';
+    segs.forEach(function (s, i) {
+      var len = s.v / total * C;
+      var draw = Math.max(len - GAP, 0.4);   // 留返表面空隙，但唔好令細塊消失
+      arcs += '<circle cx="21" cy="21" r="15.9155" fill="none"' +
+        ' stroke="var(--pie-' + (i + 1) + ')" stroke-width="7"' +
+        ' stroke-dasharray="' + draw.toFixed(3) + ' ' + (C - draw).toFixed(3) + '"' +
+        ' stroke-dashoffset="' + (25 - acc).toFixed(3) + '"></circle>';
+      rows += '<div class="lg-row">' +
+        '<span class="sw" style="background:var(--pie-' + (i + 1) + ')"></span>' +
+        '<span class="lg-name">' + esc(s.name) + '</span>' +
+        '<span class="lg-val">' + fmtHkd(s.v) + '　·　' + (s.v / total * 100).toFixed(1) + '%</span>' +
+      '</div>';
+      acc += len;
+    });
+
+    svgEl.innerHTML = '<svg viewBox="0 0 42 42" role="img" aria-label="各銀行資產佔比環形圖">' +
+      arcs +
+      '<text x="21" y="20.6" class="dn-t1">' + banks.length + ' 間</text>' +
+      '<text x="21" y="24.4" class="dn-t2">銀行</text>' +
+    '</svg>';
+    lgEl.innerHTML = rows;
   }
 
   function renderCharts(list) {
@@ -285,21 +351,32 @@
     if (!list.length || total <= 0) {
       var none = '<div class="ch-empty">沒有資料</div>';
       $('chBanks').innerHTML = none; $('chMaturity').innerHTML = none; $('chCurrency').innerHTML = none;
+      renderDonut([], 0);
       $('chBankSub').textContent = '按港元價值由大至小排列';
       return;
     }
 
-    // 1. 各銀行資產（合併同名銀行）
+    // 1. 各銀行資產（合併同名銀行）＋ 該銀行嘅加權平均年利率
     var byBank = {};
-    list.forEach(function (d) { byBank[d.bank] = (byBank[d.bank] || 0) + toHkd(d); });
-    var banks = Object.keys(byBank).map(function (k) { return { name: k, v: byBank[k] }; })
-      .sort(function (a, b) { return b.v - a.v; });
+    list.forEach(function (d) {
+      var b = byBank[d.bank] || (byBank[d.bank] = { v: 0, rated: 0, ann: 0 });
+      var hkd = toHkd(d);
+      b.v += hkd;
+      var ar = annualRateOf(d);
+      if (ar != null) { b.rated += hkd; b.ann += hkd * ar / 100; }
+    });
+    var banks = Object.keys(byBank).map(function (k) {
+      var b = byBank[k];
+      return { name: k, v: b.v, rate: b.rated > 0 ? b.ann / b.rated * 100 : null };
+    }).sort(function (a, b) { return b.v - a.v; });
     var top = banks[0];
     $('chBankSub').textContent = '共 ' + banks.length + ' 間銀行　·　佔比最高一間為 ' +
       (top.v / total * 100).toFixed(1) + '%（' + top.name + '）';
     $('chBanks').innerHTML = banks.map(function (b) {
-      return barRow(b.name, fmtHkd(b.v) + '　·　' + (b.v / total * 100).toFixed(1) + '%', b.v / top.v);
+      return barRow(b.name, fmtHkd(b.v) + '　·　' + (b.v / total * 100).toFixed(1) + '%',
+        b.v / top.v, b.rate != null ? b.rate.toFixed(2) + '%' : '');
     }).join('');
+    renderDonut(banks, total);
 
     // 2. 到期時間分佈（按月，只列有定期嘅月份）
     var byMonth = {};
@@ -441,6 +518,12 @@
       ? '<span class="sum-int">+ ' + esc(d.currency) + ' ' + fmt2(it.amount) + '</span>'
       : '<span class="sum-int none">利息 —</span>';
 
+    // 已到期但仍未處理 —— 講明閒置咗幾耐，唔好等佢無聲無息躺喺度
+    var idleNote = (!isDone(d) && du != null && du < 0)
+      ? '<div class="idle">⏳ 已到期 <b>' + (-du) + ' 日</b>仍未處理。若銀行沒有自動續存，' +
+        '資金期間可能只按儲蓄戶口息率計息。</div>'
+      : '';
+
     return '<div class="' + cls + (expanded[d.id] ? ' open' : '') + '" data-id="' + d.id + '">' +
       '<div class="c-head" data-id="' + d.id + '" role="button" tabindex="0"' +
         ' aria-expanded="' + (expanded[d.id] ? 'true' : 'false') + '">' +
@@ -452,6 +535,7 @@
       '</div>' +
       '<div class="c-body">' +
         hkdLine +
+        idleNote +
         intBlock +
         '<div class="meta">' + meta.join('<br>') + '</div>' +
         actionsHtml(d, du) +
