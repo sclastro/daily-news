@@ -171,7 +171,7 @@
 
     // 縮小版頁首（碌落之後長期見到總數）
     cTotalEl.textContent = fmtHkd(totalHkd);
-    cMetaEl.textContent = sorted.length + ' 筆' + (soon ? ' · ' + soon + ' 快到期' : '') + (over ? ' · ' + over + ' 已到期' : '');
+    cMetaEl.textContent = sorted.length + ' 筆' + (soon ? ' · ' + soon + ' 即將到期' : '') + (over ? ' · ' + over + ' 已到期' : '');
     cRateEl.textContent = '@ ' + rate;
 
     // 篩選標籤計數
@@ -188,7 +188,7 @@
     var shown = applyView(sorted);
     renderCharts(shown);   // 圖表跟同一個篩選範圍（篩選列喺圖表上面）
     if (!shown.length) {
-      listEl.innerHTML = '<div class="empty">冇符合條件嘅記錄。<br>試下清除搜尋或者揀「全部」。</div>';
+      listEl.innerHTML = '<div class="empty">沒有符合條件的記錄。<br>請清除搜尋，或選擇「全部」。</div>';
       return;
     }
     listEl.innerHTML = '<div class="section-title">' + viewTitle(shown.length, sorted.length) + '</div>' +
@@ -197,6 +197,12 @@
     // 綁定卡片事件
     listEl.querySelectorAll('.c-head').forEach(function (h) {
       h.addEventListener('click', function () { toggleCard(h.getAttribute('data-id')); });
+      h.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter' || e.key === ' ' || e.key === 'Spacebar') {
+          e.preventDefault();
+          toggleCard(h.getAttribute('data-id'));
+        }
+      });
     });
     listEl.querySelectorAll('[data-edit]').forEach(function (btn) {
       btn.addEventListener('click', function () { openForm(btn.getAttribute('data-edit')); });
@@ -221,13 +227,13 @@
   function renderCharts(list) {
     var scopeEl = $('chScope');
     scopeEl.textContent = (view.filter !== 'all' || view.q)
-      ? '（只計目前篩選嘅 ' + list.length + ' 筆）' : '';
+      ? '（只計算目前篩選的 ' + list.length + ' 筆）' : '';
 
     var total = list.reduce(function (s, d) { return s + toHkd(d); }, 0);
     if (!list.length || total <= 0) {
-      var none = '<div class="ch-empty">冇資料</div>';
+      var none = '<div class="ch-empty">沒有資料</div>';
       $('chBanks').innerHTML = none; $('chMaturity').innerHTML = none; $('chCurrency').innerHTML = none;
-      $('chBankSub').textContent = '按港元價值由大到細';
+      $('chBankSub').textContent = '按港元價值由大至小排列';
       return;
     }
 
@@ -237,7 +243,7 @@
     var banks = Object.keys(byBank).map(function (k) { return { name: k, v: byBank[k] }; })
       .sort(function (a, b) { return b.v - a.v; });
     var top = banks[0];
-    $('chBankSub').textContent = '共 ' + banks.length + ' 間銀行　·　最集中一間佔 ' +
+    $('chBankSub').textContent = '共 ' + banks.length + ' 間銀行　·　佔比最高一間為 ' +
       (top.v / total * 100).toFixed(1) + '%（' + top.name + '）';
     $('chBanks').innerHTML = banks.map(function (b) {
       return barRow(b.name, fmtHkd(b.v) + '　·　' + (b.v / total * 100).toFixed(1) + '%', b.v / top.v);
@@ -253,7 +259,7 @@
     });
     var months = Object.keys(byMonth).sort();
     if (!months.length) {
-      $('chMaturity').innerHTML = '<div class="ch-empty">冇到期日資料</div>';
+      $('chMaturity').innerHTML = '<div class="ch-empty">沒有到期日資料</div>';
     } else {
       var maxM = Math.max.apply(null, months.map(function (k) { return byMonth[k].v; }));
       $('chMaturity').innerHTML = months.map(function (k) {
@@ -309,7 +315,7 @@
 
   function viewTitle(shownN, totalN) {
     var byLabel = { maturity: '按到期日', amount: '按金額', interest: '按利息' }[view.sort];
-    var scope = { all: '所有定期存款', soon: '快到期', over: '已到期' }[view.filter];
+    var scope = { all: '所有定期存款', soon: '即將到期', over: '已到期' }[view.filter];
     var t = scope + '（' + byLabel + '排序）';
     return shownN < totalN ? t + '　顯示 ' + shownN + ' / ' + totalN : t;
   }
@@ -317,7 +323,10 @@
   function toggleCard(id) {
     if (expanded[id]) delete expanded[id]; else expanded[id] = true;
     var el = listEl.querySelector('.card[data-id="' + id + '"]');
-    if (el) el.classList.toggle('open', !!expanded[id]);
+    if (el) {
+      el.classList.toggle('open', !!expanded[id]);
+      el.querySelector('.c-head').setAttribute('aria-expanded', expanded[id] ? 'true' : 'false');
+    }
   }
 
   function cardHtml(d) {
@@ -377,7 +386,8 @@
       : '<span class="sum-int none">利息 —</span>';
 
     return '<div class="' + cls + (expanded[d.id] ? ' open' : '') + '" data-id="' + d.id + '">' +
-      '<div class="c-head" data-id="' + d.id + '">' +
+      '<div class="c-head" data-id="' + d.id + '" role="button" tabindex="0"' +
+        ' aria-expanded="' + (expanded[d.id] ? 'true' : 'false') + '">' +
         '<div class="row1">' +
           '<div class="bank">' + esc(d.bank) + '</div>' +
           '<div class="amt">' + fmtMoney(+d.amount || 0) + ' <small>' + esc(d.currency) + '</small></div>' +
@@ -467,8 +477,24 @@
     sheetBack.classList.add('open');
   }
 
+  // 到期日期必須喺開始日期之後，否則存期日數會變負數，靜靜雞計唔到利息
+  function dateProblem() {
+    var s = $('f_start').value, m = $('f_maturity').value;
+    if (!s || !m) return '';
+    if (m === s) return '到期日期同開始存款日期一樣，存期為零。';
+    if (m < s) return '到期日期早於開始存款日期，請檢查。';
+    return '';
+  }
+  function updateDateErr() {
+    var msg = dateProblem(), el = $('dateErr');
+    el.textContent = msg ? '⚠️ ' + msg : '';
+    el.hidden = !msg;
+    return msg;
+  }
+
   // 表單即時預覽利息
   function updateInterestPreview() {
+    updateDateErr();
     var el = $('interestPreview');
     var manual = parseFloat($('f_interest').value);
     var cur = $('f_currency').value;
@@ -494,6 +520,9 @@
       el.textContent = '預計到期利息：' + cur + ' ' + fmt2(it.amount) +
         '（存期 ' + it.days + ' 日 ÷ ' + it.basis + ' 日）' +
         (alt ? '　·　若揀 ' + alt.basis + ' 日基礎則為 ' + cur + ' ' + fmt2(alt.amount) : '');
+    } else if (dateProblem()) {
+      el.className = 'autonote warn';
+      el.textContent = '⚠️ 日期不正確，未能計算利息。請先修正上方的到期日期。';
     } else if (parseFloat($('f_rate').value) > 0) {
       el.className = 'autonote warn';
       el.textContent = '⚠️ 已填年利率，但未填「開始存款日期」或「存款期限」，無法計算存期日數，' +
@@ -518,6 +547,15 @@
     }
     if (!maturity) { $('f_maturity').focus(); return; }
 
+    // 唔可以靜靜雞收埋壞資料：日期倒轉／金額為零都要即時講明
+    if (updateDateErr()) { $('f_maturity').focus(); return; }
+    if (!(parseFloat($('f_amount').value) > 0)) {
+      alert('請輸入大於 0 的金額。');
+      $('f_amount').focus();
+      return;
+    }
+    if (!$('f_bank').value.trim()) { $('f_bank').focus(); return; }
+
     var rec = {
       id: $('editId').value || uid(),
       bank: $('f_bank').value.trim(),
@@ -532,7 +570,7 @@
       interest: $('f_interest').value !== '' ? parseFloat($('f_interest').value) : '',
       note: $('f_note').value.trim()
     };
-    if (!rec.bank || !(rec.amount >= 0)) return;
+    if (!rec.bank || !(rec.amount > 0)) return;
 
     var idx = deposits.findIndex(function (x) { return x.id === rec.id; });
     if (idx >= 0) deposits[idx] = rec; else deposits.push(rec);
@@ -613,17 +651,26 @@
             note: d.note || ''
           };
         });
+        var added = 0, updated = 0;
         if (mode === 'replace') {
           deposits = norm;
+          added = norm.length;
         } else {
-          var ids = {};
-          deposits.forEach(function (d) { ids[d.id] = true; });
-          norm.forEach(function (d) { if (ids[d.id]) d.id = uid(); deposits.push(d); });
+          // 合併：同一個 id 視為同一筆，直接更新；唔可以重新編號，否則
+          // 匯入同一份備份兩次就會將所有記錄複製一份。
+          var pos = {};
+          deposits.forEach(function (d, i) { pos[d.id] = i; });
+          norm.forEach(function (d) {
+            if (pos[d.id] != null) { deposits[pos[d.id]] = d; updated++; }
+            else { pos[d.id] = deposits.push(d) - 1; added++; }
+          });
         }
         if (data && typeof data.rate === 'number' && data.rate > 0) { rate = data.rate; saveRate(); }
         saveDeposits();
         render();
-        alert('匯入完成 ✅');
+        alert('匯入完成 ✅\n\n' + (mode === 'replace'
+          ? '已取代為 ' + added + ' 筆記錄。'
+          : '新增 ' + added + ' 筆，更新 ' + updated + ' 筆。'));
       } catch (err) {
         alert('匯入失敗：' + err.message);
       }
