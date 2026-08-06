@@ -96,19 +96,21 @@
       border: 1px solid var(--line); border-radius: 10px; padding: 9px 8px; font-size: 13px;
       background: var(--bg); color: var(--text); font-family: inherit; max-width: 42%;
     }
-    .chips { display: flex; gap: 7px; max-width: 620px; margin: 8px auto 0; }
+    .chips { display: flex; gap: 5px; max-width: 620px; margin: 8px auto 0; }
     .chip {
-      flex: 1; border: 1px solid var(--line); background: var(--bg); color: var(--muted);
-      border-radius: 999px; padding: 6px 4px; font-size: 12px; font-weight: 600; font-family: inherit;
+      flex: 1; min-width: 0; border: 1px solid var(--line); background: var(--bg); color: var(--muted);
+      border-radius: 999px; padding: 6px 2px; font-size: 11px; font-weight: 600; font-family: inherit;
       white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
     }
     .chip b { font-weight: 800; }
     .chip.on { background: var(--brand); border-color: var(--brand); color: #fff; }
     .chip.on.soon { background: var(--warn); border-color: var(--warn); }
     .chip.on.over { background: var(--danger); border-color: var(--danger); }
+    .chip.on.done { background: var(--muted); border-color: var(--muted); color: #fff; }
     .chip:disabled { opacity: .4; }
 
-    main { max-width: 620px; margin: 0 auto; padding: 14px 14px 60px; }
+    /* 底部留位俾懸浮嘅新增鍵，唔好蓋住最後一張卡嘅按鈕 */
+    main { max-width: 620px; margin: 0 auto; padding: 14px 14px 92px; }
 
     .summary {
       background: var(--card); border-radius: 16px; box-shadow: var(--shadow); padding: 16px;
@@ -200,7 +202,7 @@
       font-size: 11px; background: rgba(128,128,128,.18); border-radius: 999px;
       padding: 1px 7px; color: var(--muted); margin-left: auto;
     }
-    .card .actions { display: flex; gap: 8px; margin-top: 10px; }
+    .card .actions { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; }
     .card .actions button {
       flex: 0 0 auto; background: transparent; border: 1px solid var(--line); color: var(--muted);
       border-radius: 8px; padding: 6px 12px; font-size: 13px; font-weight: 600;
@@ -208,6 +210,33 @@
     .card .actions button.del { color: var(--danger); border-color: rgba(192,57,43,.3); }
 
     .empty { text-align: center; color: var(--muted); padding: 40px 10px; font-size: 14px; }
+
+    /* 已處理（已提取／已轉存）：淡化，唔再計入總額 */
+    .card.done { opacity: .62; border-left-color: var(--muted); }
+    .badge.done { background: rgba(128,128,128,.16); color: var(--muted); }
+    .card .actions button.roll { color: var(--brand-2); border-color: rgba(16,122,106,.35); }
+    .card .actions button.mark { color: var(--ok); border-color: rgba(47,133,90,.35); }
+
+    /* 刪除後嘅復原提示條 */
+    .toast {
+      position: fixed; left: 50%; transform: translateX(-50%) translateY(14px);
+      bottom: calc(84px + env(safe-area-inset-bottom)); z-index: 60;
+      background: var(--text); color: var(--card); border-radius: 12px;
+      padding: 11px 14px; font-size: 13px; display: flex; align-items: center; gap: 14px;
+      box-shadow: 0 6px 20px rgba(0,0,0,.28); max-width: calc(100vw - 28px);
+      /* 一定要用 visibility + opacity 收埋：淨靠 translate 移唔出畫面，會蓋住卡片按鈕 */
+      opacity: 0; visibility: hidden; pointer-events: none;
+      transition: opacity .2s ease, transform .22s ease, visibility .22s;
+    }
+    .toast.show {
+      opacity: 1; visibility: visible; pointer-events: auto;
+      transform: translateX(-50%) translateY(0);
+    }
+    .toast span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .toast button {
+      background: transparent; border: none; color: #6ee7c8; font-weight: 800;
+      font-size: 13px; font-family: inherit; white-space: nowrap; padding: 2px 0;
+    }
 
     /* Form */
     .fab {
@@ -292,9 +321,10 @@
         </select>
       </div>
       <div class="chips" id="chips">
-        <button class="chip on" data-f="all">全部 <b>0</b></button>
+        <button class="chip on" data-f="all">進行中 <b>0</b></button>
         <button class="chip soon" data-f="soon">即將到期 <b>0</b></button>
         <button class="chip over" data-f="over">已到期 <b>0</b></button>
+        <button class="chip done" data-f="done">已處理 <b>0</b></button>
       </div>
     </div>
   </header>
@@ -433,8 +463,17 @@
     <input type="file" id="importFile" accept="application/json,.json" hidden />
     <div class="footnote">
       資料儲存於手機瀏覽器（localStorage）。<br>
-      建議定期匯出 JSON 備份，更換手機或清除快取後亦不會遺失。
+      建議定期匯出 JSON 備份，更換手機或清除快取後亦不會遺失。<br>
+      <span id="backupInfo"></span>
     </div>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite">
+    <span id="toastMsg"></span>
+    <button id="toastAction" type="button"></button>
+  </div>
+
+  <main style="padding-top:0;padding-bottom:0">
   </main>
 
   <script src="app.js"></script>
