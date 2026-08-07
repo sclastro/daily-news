@@ -1,206 +1,4 @@
 {
-  "2026-05-09": {
-    "hk": {
-      "categoryName": "本地新聞（香港）",
-      "articles": [
-        {
-          "title": "香江風情/香港每年5月辦千人「醫健盛事」 靠2大本錢",
-          "summary": "香港的5月,年年活躍,把醫療健康的展會活動,辦成一件「盛事」,算是香港的創舉。5月11日下周一,以「國際醫療健康周」為名,這一盛事又來了。為何香港能從2021年開始,連年操辦醫健業的「盛事」,聯合報...",
-          "source": "udnnews",
-          "url": "https://udn.com/news/story/7331/9491720",
-          "publishedAt": "2026-05-08 23:00:51"
-        },
-        {
-          "title": "經濟數據不會講假話 !地緣政治越緊張 東升西降更明顯",
-          "summary": "根據官方最新數據,香港2026年第一季實質本地生產總值按年增長5.9%,按季大升2.9%。驟眼看來,還以為是國內的經濟增長(GDP)數據,大家真的沒有眼",
-          "source": "hk01",
-          "url": "https://www.hk01.com/%E5%9C%B0%E7%94%A2%E6%A8%93%E5%B8%82/60348002/%E7%B6%93%E6%BF%9F%E6%95%B8%E6%93%9A%E4%B8%8D%E6%9C%83%E8%AC%9B%E5%81%87%E8%A9%B1-%E5%9C%B0%E7%B7%A3%E6%94%BF%E6%B2%BB%E8%B6%8A%E7%B7%8A%E5%BC%B5-%E6%9D%B1%E5%8D%87%E8%A5%BF%E9%99%8D%E6%9B%B4%E6%98%8E%E9%A1%AF",
-          "publishedAt": "2026-05-08 23:00:37"
-        },
-        {
-          "title": "長者「機」不離手 手機成癮堪憂",
-          "summary": "凌晨二時,獨居長者阿Ming仍未入睡,他躺在床上,手機螢幕的藍光映照着他花白的頭髮,拇指在螢幕上緩緩滑動,一條又一條短片,把他入睡時間一再推",
-          "source": "hk01",
-          "url": "https://www.hk01.com/%E7%A4%BE%E5%8D%80%E5%B0%88%E9%A1%8C/60347115/%E9%95%B7%E8%80%85-%E6%A9%9F-%E4%B8%8D%E9%9B%A2%E6%89%8B-%E6%89%8B%E6%A9%9F%E6%88%90%E7%99%AE%E5%A0%AA%E6%86%82",
-          "publishedAt": "2026-05-08 23:00:27"
-        },
-        {
-          "title": "番茄的蔓生:風雨與風土之間的滋味",
-          "summary": "暫無摘要",
-          "source": "theinitium",
-          "url": "https://theinitium.com/202605009-agri-food-tomato/",
-          "publishedAt": "2026-05-08 23:00:14"
-        },
-        {
-          "title": "母親節|育六子女靚媽退休後當寄養家長 期待「兩母子」首度佳節",
-          "summary": "養育一個小孩從來不易,但Mandy和Paul「湊大」6名子女後,仍不怕辛苦,希望用退休後的時間,成為寄養家庭回饋社會,為有需要的孩子化為遮風擋雨的",
-          "source": "hk01",
-          "url": "https://www.hk01.com/%E7%A4%BE%E6%9C%83%E6%96%B0%E8%81%9E/60348042/%E6%AF%8D%E8%A6%AA%E7%AF%80-%E8%82%B2%E5%85%AD%E5%AD%90%E5%A5%B3%E9%9D%9A%E5%AA%BD%E9%80%80%E4%BC%91%E5%BE%8C%E7%95%B6%E5%AF%84%E9%A4%8A%E5%AE%B6%E9%95%B7-%E6%9C%9F%E5%BE%85-%E5%85%A9%E6%AF%8D%E5%AD%90-%E9%A6%96%E5%BA%A6%E4%BD%B3%E7%AF%80",
-          "publishedAt": "2026-05-08 23:00:11"
-        }
-      ]
-    },
-    "world": {
-      "categoryName": "國際新聞",
-      "articles": [
-        {
-          "title": "Partnerships critical for progress in ‘tough world’: EAM Jaishankar",
-          "summary": "PARAMARIBO, May 8: External Affairs Minister S Jaishankar stressed the critical role of partnerships in achieving progress in a “tough world”, and und",
-          "source": "dailyexcelsior",
-          "url": "https://www.dailyexcelsior.com/partnerships-critical-for-progress-in-tough-world-eam-jaishankar/",
-          "publishedAt": "2026-05-08 23:00:13"
-        },
-        {
-          "title": "Paranoid Putin's life in the crosshairs: As one despot after another is assassinated, how the Russian tyrant is taking desperate steps to stay alive, writes MARK GALEOTTI",
-          "summary": "After more than four years of war with Ukraine, the Kremlin has been forced to scale back Russia's Victory Day parade in Moscow radically, reducing th",
-          "source": "dailymailuk",
-          "url": "https://www.dailymail.com/debate/article-15802661/Putin-despot-assassinated-stay-alive-MARK-GALEOTTI.html",
-          "publishedAt": "2026-05-08 22:51:20"
-        },
-        {
-          "title": "The Latest: Trump says a 3-day Russia-Ukraine ceasefire may be 'beginning of the end'",
-          "summary": "President Donald Trump says the leaders of Russia and Ukraine have agreed to his request for a three-day ceasefire and an exchange of prisoners. Trump",
-          "source": "union_bulletin",
-          "url": "https://www.union-bulletin.com/news/national/the-latest-trump-says-a-3-day-russia-ukraine-ceasefire-may-be-beginning-of-the/article_1d2ee98b-c6ff-5c57-966b-0170ba5fff1c.html",
-          "publishedAt": "2026-05-08 22:37:47"
-        },
-        {
-          "title": "What Russia's low‐key Victory Day celebrations reveal about Putin and the war in Ukraine",
-          "summary": "Rumblings of unhappiness with some of the Kremlin's wartime policies have put the spotlight on Vladimir Putin, who is due to make a speech on Saturday",
-          "source": "pbs_org",
-          "url": "https://www.pbs.org/newshour/world/what-russias-low%E2%80%91key-victory-day-celebrations-reveal-about-putin-and-the-war-in-ukraine",
-          "publishedAt": "2026-05-08 22:03:17"
-        },
-        {
-          "title": "美伊戰爭已爆發67天 世界局勢動盪不安 - hakkatv.org.tw",
-          "summary": "美伊戰爭已爆發67天 世界局勢動盪不安  hakkatv.org.tw",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1pdjBSbDBzTzROT1JKek1Hc1ZVNE51NDdRSER5LWVxMmg0TFlOTm1KWGJuM3ZoYi1ReHRqY3VXQm5wanV1dGpzOEEyc1VFRTlYYng4TkIwWGh3TEd4NnYxUEE1VTdkQQ?oc=5",
-          "publishedAt": "Wed, 06 May 2026 13:50:04 GMT"
-        }
-      ]
-    },
-    "finance": {
-      "categoryName": "財經新聞",
-      "articles": [
-        {
-          "title": "Markets keep hitting highs – and nobody’s sure why. What to do with your portfolio",
-          "summary": "Whether you understand it or not, take advantage of what strong markets have to give",
-          "source": "theglobeandmail",
-          "url": "https://www.theglobeandmail.com/investing/investment-ideas/article-markets-keep-hitting-highs-and-nobodys-sure-why-what-to-do-with-your/",
-          "publishedAt": "2026-05-08 22:09:53"
-        },
-        {
-          "title": "Coinbase rebounds as altcoins surge with bitcoin holding above $80,000",
-          "summary": "Crypto Markets Surge as Bitcoin Holds Strong and Risk Appetite Returns Bitcoin Stability Fuels Broader Market Confidence The cryptocurrency market exp",
-          "source": "newsherder",
-          "url": "https://newsherder.com/coinbase-rebounds-as-altcoins-surge-with-bitcoin-holding-above-80000/",
-          "publishedAt": "2026-05-08 21:39:45"
-        },
-        {
-          "title": "Former a16z partner with 6 unicorns raises $50M fifth fund",
-          "summary": "Business Insider tells the global tech, finance, stock market, media, economy, lifestyle, real estate, AI and innovative stories you want to know.",
-          "source": "headtopics",
-          "url": "https://us.headtopics.com/news/former-a16z-partner-with-6-unicorns-raises-50m-fifth-fund-83141789",
-          "publishedAt": "2026-05-08 21:06:14"
-        },
-        {
-          "title": "ANNE ASHWORTH reveals her top US shares to beef up your portfolio",
-          "summary": "Sell in May and go away' used to be a stock market adage. But not only has this advice become outdated - it has been replaced in 2026 with very differ",
-          "source": "dailymailuk",
-          "url": "https://www.dailymail.com/money/investing/article-15802543/ANNE-ASHWORTH-reveals-US-shares-beef-portfolio.html",
-          "publishedAt": "2026-05-08 20:50:36"
-        },
-        {
-          "title": "First Kimmel, now 'The View': Disney is pushing back against Trump.",
-          "summary": "Business Insider tells the global tech, finance, stock market, media, economy, lifestyle, real estate, AI and innovative stories you want to know.",
-          "source": "headtopics",
-          "url": "https://us.headtopics.com/news/first-kimmel-now-the-view-disney-is-pushing-back-83141037",
-          "publishedAt": "2026-05-08 20:36:23"
-        }
-      ]
-    },
-    "ai": {
-      "categoryName": "AI 相關新聞",
-      "articles": [
-        {
-          "title": "The Gates Foundation Is Funding A Startup’s Plan To Fight Malnutrition With Bacteria",
-          "summary": "Synthetic microbiomes to treat disease. Sea levels may rise faster than we thought. AI for scientific researchers. All that and more in this week’s ed",
-          "source": "forbes",
-          "url": "https://www.forbes.com/sites/the-prototype/2026/05/08/the-gates-foundation-is-funding-a-startups-plan-to-fight-malnutrition-with-bacteria/",
-          "publishedAt": "2026-05-08 23:00:28"
-        },
-        {
-          "title": "Maven Clinic CEO says women drive 80% of healthcare decisions and remain underserved by current system design",
-          "summary": "Women make 80% of healthcare decisions, yet most digital health products aren't built for them. Maven Clinic CEO Kate Ryder sees that gap as a core ma",
-          "source": "completeaitraining",
-          "url": "https://completeaitraining.com/news/maven-clinic-ceo-says-women-drive-80-of-healthcare/",
-          "publishedAt": "2026-05-08 21:46:24"
-        },
-        {
-          "title": "2 Stocks With Monster Potential to Hold Through the Next Decade of Chaos",
-          "summary": "The world's getting more chaotic by the day, but these stocks should add some much-appreciated peace to your portfolio.",
-          "source": "fool",
-          "url": "https://www.fool.com/investing/2026/05/08/2-stocks-with-monster-potential-to-hold-through-th/",
-          "publishedAt": "2026-05-08 20:05:00"
-        },
-        {
-          "title": "This Is Not Inevitable",
-          "summary": "Valerie Veatch’s work will make you feel all kinds of things: dismayed, icky, but also empowered with the knowledge that we are not, in fact, actually",
-          "source": "thestranger",
-          "url": "https://www.thestranger.com/arts/this-is-not-inevitable/",
-          "publishedAt": "2026-05-08 20:00:00"
-        },
-        {
-          "title": "UEW and Penplusbytes hold workshop to train journalists on misinformation and AI-generated fake news",
-          "summary": "UEW and Penplusbytes trained journalists on May 7 to spot AI-generated fake news and use fact-checking tools. The workshop covered ethical reporting a",
-          "source": "completeaitraining",
-          "url": "https://completeaitraining.com/news/uew-and-penplusbytes-hold-workshop-to-train-journalists-on/",
-          "publishedAt": "2026-05-08 19:28:08"
-        }
-      ]
-    },
-    "china": {
-      "categoryName": "大中華新聞",
-      "articles": [
-        {
-          "title": "從「肩並肩」演習 看第一島鏈防務整合的可能",
-          "summary": "2026年4月至5月間將舉行的兩場重要軍事演習——由美菲主導的「肩並肩2026」(Balikatan 2026)與台灣的「漢光42號」兵推,儘管表面上無直接關聯,實際上卻是觀察第一島鏈防禦協同的重要指標。看似各自獨立運作的軍事活動,在戰略規劃、戰術運用、技術規範以及後勤準備等層面,正逐步展現出趨同與",
-          "source": "ettoday",
-          "url": "https://forum.ettoday.net/news/3162560",
-          "publishedAt": "2026-05-08 23:00:00"
-        },
-        {
-          "title": "05/09 各報重點新聞一覽",
-          "summary": "自由時報 藍白強砍4700億 軍購案三讀 上限7800億 攸關對美軍購的國防特別條例草案卡關多時,國民黨團和民眾黨團昨天聯手,在立法院表決三讀通過「保衛國家安全及強化不對稱戰力計畫採購特別條例」......",
-          "source": "ltn",
-          "url": "https://news.ltn.com.tw/news/life/breakingnews/5430883",
-          "publishedAt": "2026-05-08 22:54:40"
-        },
-        {
-          "title": "林庭瑤專欄:北京拒購輝達晶片,黃仁勳還想見習近平?",
-          "summary": "輝達(英偉達)執行長黃仁勳脫下黑色皮衣,穿著筆挺西裝,進入北京人民大會堂。這個歷史性場景,可能在5月15日的「川習會」再度上演。差別在於,上回僅見到習近平親信、國務院副總理何立峰,這次是參與美國總統川普率領的企業領袖團,而能見到中國國家主席習近平本尊。高原出水山河改:地緣博弈,企業尷尬白宮羅列的擬邀",
-          "source": "storm",
-          "url": "https://www.storm.mg/article/11129606",
-          "publishedAt": "2026-05-08 22:40:00"
-        },
-        {
-          "title": "重申對台政策不變 盧比歐:台議題非訪中主軸",
-          "summary": "在美國總統川普訪問中國前,立法院三讀通過總額7800億台幣的軍購特別條例,美國國務卿盧比歐被問到相關問題,盧比歐沒有針對預算案細節做評論,只表達美國的原則性立場,盧比歐強調美國對台政策維持不變,美方不希望看到目前局勢因為任何武力或強迫性改變,美國認為這會對世界造成不穩定,預期川習會會談到台灣議題,但",
-          "source": "tvbs_tw",
-          "url": "https://news.tvbs.com.tw/world/3199523",
-          "publishedAt": "2026-05-08 22:32:13"
-        },
-        {
-          "title": "觀點投書:「武安侯」還沒來,文化部先破防",
-          "summary": "近期陸劇《逐玉》在台灣網路社群掀起熱議,熱度之高,不僅迷哥迷姐追得如癡如醉,連小學生都能琅琅上口,國文老師也將劇中台詞拿來作為課堂教材,藉此解析修辭、情感與古典敘事。換言之,《逐玉》早已不只是粉絲圈裡的娛樂消費,而是實實在在進入台灣日常生活與文化場域。也正因如此,當劇中演員張凌赫、田曦薇是否可能來台",
-          "source": "storm",
-          "url": "https://www.storm.mg/article/11128209",
-          "publishedAt": "2026-05-08 22:00:00"
-        }
-      ]
-    }
-  },
   "2026-05-10": {
     "hk": {
       "categoryName": "本地新聞（香港）",
@@ -25135,6 +24933,313 @@
           "source": "Google News 台灣兩岸",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1zaUNGUi1NMlJZeHhPMzhJSzBXdGdFRkE5WGRsMllOb3ppU0pYTVdkejFGZUhqVjJEMHR0dHp0QXFxOWVPVHAzbk9fMnZNUDIteGhUNUJXVC01ZUhxdDNMcFM2NkFBUFk?oc=5",
           "publishedAt": "Wed, 05 Aug 2026 11:50:42 GMT"
+        }
+      ]
+    }
+  },
+  "2026-08-07": {
+    "hk": {
+      "categoryName": "本地新聞（香港）",
+      "articles": [
+        {
+          "title": "現貨黃金報4240.04 | 即時新聞 - 新聞 - etnet 經濟通",
+          "summary": "現貨黃金報4240.04 | 即時新聞 - 新聞  etnet 經濟通",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNREpnbjhOemRqcHJXd1B6b1JEb1lfU2EwakdMcEdJODJGa2tVSlJDVkJVbU5sQjduRTRvSjVPQTJiVnJtTF9HM3dVemh0Q1BoS3pfYk1xX0pXdkozZDNBUTRIQlRlOExvVXlUS2VKMlNZR1NsS0pnbGEtd2tmQ0hjbE9uWWRyWVFMZTA4ZERFTmhEbDk2ejJjdlV6eFNESkQ5?oc=5",
+          "publishedAt": "Thu, 06 Aug 2026 21:01:48 GMT"
+        },
+        {
+          "title": "新聞背後/記協「炒散雜軍」操控「黑箱選舉」\\梅若林- 論壇 - 大公文匯網",
+          "summary": "新聞背後/記協「炒散雜軍」操控「黑箱選舉」\\梅若林- 論壇  大公文匯網",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5DQlJHUnI5aFpWTmxvdUVxNlJndS1TV1lLWXFvMlRyVm9EMEJEUnZ1MFdYZXdhUFFfMFRnWW45V0psTnhVYUdiZzUwa255Q2FOd3VKQ2NnRGs2Y0dzV0FnSkRMdHRPemowd0dLc1lKd0NyT3J2?oc=5",
+          "publishedAt": "Thu, 06 Aug 2026 20:24:36 GMT"
+        },
+        {
+          "title": "加元定期2026丨大行進取 一周存息見15.8厘 - 信報網站",
+          "summary": "加元定期2026丨大行進取 一周存息見15.8厘  信報網站",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxON3dhODdDV0lhT2M0LXZIWnA5Rzd4TVVjSUhnZk10YTJYVHdxc2FkVmFKZjBqOVVNbHQweHJiQ2ZmN0ZqUmRGanRhdl9PczJOcFVwVUNuNnFhVE54YTdhX3dyNTJyVm9lTUliVmtJS005aHg2RDFWRVQtQXBWUXAtTl84UGpGMlFHaEtLOEtBaG1EQVk5eExxNHJfS3dobm9MMXM5T0ktQVBoQ2tfQXloRG1TTlNjSXNzSm1XYVJVbHRvMGlOaFVuVWxuX3VvVFVWTHVmckwxVllsOWRqeGxKdTAybjE2V3JWeG5FR05BUXpMNWJVNDFodkNwemptVHB4SU5iZlJkQm1Ud25qUGE1V3ZhZi1OMlF1ZllScmVTNHdxTmV0aDBXMXNR?oc=5",
+          "publishedAt": "Fri, 07 Aug 2026 00:00:58 GMT"
+        },
+        {
+          "title": "金民豪：啟德體育園對全球表演者一視同仁 主要視乎檔期能否遷就 - 香港電台新聞網",
+          "summary": "金民豪：啟德體育園對全球表演者一視同仁 主要視乎檔期能否遷就  香港電台新聞網",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQbTdzSXZNbXphY0lZcUI2UlZjaVZZREVWdkw3SEY5UkRZRENORjNhYnNEbFFvdWN6S2xlMzdwejZsby1SSlptcUtxVTlfZVhfbVhhWEI5aG9MMENnYkF3SjFxWUxnLXo0TlNjQWY3UldvSGpQeVFvR0gwc1llN1FqaG40UThEUjA?oc=5",
+          "publishedAt": "Fri, 07 Aug 2026 00:05:00 GMT"
+        },
+        {
+          "title": "《東方日報》今日要聞 - hk.on.cc",
+          "summary": "《東方日報》今日要聞  hk.on.cc",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNejI4ZThuMFp6MjA2VlVvTjJoNlJ6Q1dIcDE0SWNsMFRLSmRmd28xNXVFT0NCSmdzanUxT1F0RnpJUlNEZlRtQ0lQRXpxWHV3eVZlckNtaU40WjlBVkx4TU45RmZqWHZoUzdYbEhBZlAwSXo2TzRDR2tuRkRzcFE5NzBGakdHVjlFSkxZ?oc=5",
+          "publishedAt": "Thu, 06 Aug 2026 19:38:37 GMT"
+        },
+        {
+          "title": "換屆參選者多屬外媒網媒包括退休鐘錶工人「記協」毫無公信力各界：不如解散- 港聞 - 大公文匯網",
+          "summary": "換屆參選者多屬外媒網媒包括退休鐘錶工人「記協」毫無公信力各界：不如解散- 港聞  大公文匯網",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5xbXlreHRMR0Q4V2RkOTlGWTZpVl8tTGlwT3c1VVF6TldmaTEtbEtkV3diLXhycDVMQ2o0cTl2YXBLUHBtbzNkTWtHdEFhb2VMcmdhVUVCX2tKWnNuUERjajBJRlFDR2h2NUlOcGlRX2s1OGJp?oc=5",
+          "publishedAt": "Thu, 06 Aug 2026 20:38:53 GMT"
+        },
+        {
+          "title": "荃灣男子高處墮下 昏迷送院搶救 - hk.on.cc",
+          "summary": "荃灣男子高處墮下 昏迷送院搶救  hk.on.cc",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNFNXdUh5UUhyNldiR3pQeWI3dDloQ196RnktUF9qOFdWZnF6OFJRc1VzZS14NWk1SFNYeWRLTzF2RnMyRnFfWDMxeGVMWU03cXZUcGxRVUtWellTWDlwUUQ5WFhaNnVkQ19ZX1hycE9ZbUtYNS1lTk5QUnBOdWlvSFNlbDV6LVRiWDZZ?oc=5",
+          "publishedAt": "Thu, 06 Aug 2026 22:42:58 GMT"
+        },
+        {
+          "title": "Fun Coffee涉嫌詐騙，港警接225宗舉報涉款近億 - hkcna.hk",
+          "summary": "Fun Coffee涉嫌詐騙，港警接225宗舉報涉款近億  hkcna.hk",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9DSXJJRUVFREh1aHZkOVhHSDBwX1VONkg5UmdiaXFlRENxUkI1WEhBMWdVWXhhOTJudVNIUnB5UTVTU1duN01vNGtleGJ3NC01bDNyZ3BCZldRZ3hjY0NnYkhTeVZ6U0didThEblQ3Mjk?oc=5",
+          "publishedAt": "Wed, 05 Aug 2026 03:31:00 GMT"
+        }
+      ]
+    },
+    "world": {
+      "categoryName": "國際新聞",
+      "articles": [
+        {
+          "title": "川普否認美國武器短缺並稱訊息“洩密者”正在被“追捕”",
+          "summary": "雖然精確數據屬於機密，但公開資訊顯示美國已經用掉了許多難以製造的武器。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cy8mjd19xm7o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Thu, 06 Aug 2026 18:53:51 GMT"
+        },
+        {
+          "title": "Meta 在針對社群媒體巨頭的最大兒童安全裁決中被罰款 5.67 億美元",
+          "summary": "新墨西哥州的一名法官命令 Instagram、Facebook 和 Whatsapp 母公司為其傷害兒童的行為再支付 5.67 億美元。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cd7lz3wr2rlo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Fri, 07 Aug 2026 00:06:17 GMT"
+        },
+        {
+          "title": "美國監管機構發現，Doge 1100 億美元的儲蓄報告中有一些是錯誤的或缺乏證據",
+          "summary": "對以前負責削減政府支出的機構進行的審查發現其計算存在幾個問題。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cvg0rg9wmvlo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Thu, 06 Aug 2026 23:55:35 GMT"
+        },
+        {
+          "title": "TikTok 明星 Sydney Towle 在網上分享了她的癌症歷程，去世，享年 26 歲",
+          "summary": "托勒以記錄她作為一名患有癌症的年輕人的希望和掙扎而聞名。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cn4n1eyze05o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Thu, 06 Aug 2026 19:17:39 GMT"
+        },
+        {
+          "title": "據報道，胡塞武裝攻擊造成至少30名也門政府軍死亡",
+          "summary": "胡塞武裝稱，他們向中部馬裡卜省和哈德拉毛省的「沙烏地阿拉伯軍事基地」發射了飛彈和無人機。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/ckgdmdr0lmgo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Thu, 06 Aug 2026 22:41:09 GMT"
+        },
+        {
+          "title": "蘇丹的隱形兒童－在戰爭中出生卻沒有合法身份",
+          "summary": "因強暴而出生的嬰兒往往無法取得出生證明，這意味著一生都會遇到問題。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cr7kldz4djno?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Fri, 07 Aug 2026 00:26:52 GMT"
+        },
+        {
+          "title": "印度是一個步行者的國家 - 但它的城市忘記了他們",
+          "summary": "印度最高法院將注意力集中在不安全的人行道和該國被遺忘的行人身上。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/ce3e4enkrqro?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Thu, 06 Aug 2026 22:39:46 GMT"
+        },
+        {
+          "title": "非洲仍然支持因凡蒂諾擔任國際足總主席嗎？",
+          "summary": "非洲足總尚未表明正式立場，但非洲主要足球國家對於因凡蒂諾事件的立場又如何呢？",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c78g3glpl8wo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Thu, 06 Aug 2026 19:55:58 GMT"
+        }
+      ]
+    },
+    "finance": {
+      "categoryName": "財經新聞",
+      "articles": [
+        {
+          "title": "道瓊跌464點！SpaceX逆勢噴6% 台積電ADR收紅 - 壹蘋新聞網",
+          "summary": "道瓊跌464點！SpaceX逆勢噴6% 台積電ADR收紅  壹蘋新聞網",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMXo2eFZPMkV5NXFwaVFqbFJUYzZaQlVJRFI1ckhPQzdVVnBmRXlKUUpiRm4xVzJ4eVp0YU9zakhWZ0RidEp1WDlSelJGbTRNcVY0RzRzNDBIck9TS1k4d01HNjUxSkE3Y25RcUdzTF9ZVVdrVmN1dmZBU0x5aFAxdEd3?oc=5",
+          "publishedAt": "Thu, 06 Aug 2026 23:02:00 GMT"
+        },
+        {
+          "title": "北捷多元過閘別搞錯 信用卡先扣錢勿緊張 - Yahoo股市",
+          "summary": "北捷多元過閘別搞錯 信用卡先扣錢勿緊張  Yahoo股市",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxPMk9hVGVVaFdET0dZX2lKajZnS2tKU0Z4X21NQ3FCTFFDRzhUZ1ZPOVJQOVh3LVhUN1p2dzgzTXJZQi1aVUxTRzRGZWE2dEJrdUhMT3pNUHBtQkxnLVlnMEpsb0ZEYnk3UXdaT3J2bjU1U0FrQmJzRDA1ejdNY1BGV0QzQ2xZVU5hR2p0a0xNQTBOZDF5RGtqdWhveS1KWUxBSDFBbFd3Sm5EaVIySE1lakRhY0FOWFRjNFlqc3pfTFAtV0pxOUxWYjEzMTA3NG9tYzZWcmtxRG1RU0lEUGoweGJybFR0aDZHZWhyUmMtQXdyUWxCSnd5SmlKUXdPeEJKYUQ5Z3d0NWFTZnlTU051Z1hUR0lJeUFHalR3UW9wTURWMnNRX20yZ0FLZWwwUQ?oc=5",
+          "publishedAt": "Thu, 06 Aug 2026 19:40:37 GMT"
+        },
+        {
+          "title": "【20大權值力撐4萬點1】重挫時「最吸金」！6萬股東搶進神山 南亞科、國巨增幅最高成「低接王」 - Yahoo股市",
+          "summary": "【20大權值力撐4萬點1】重挫時「最吸金」！6萬股東搶進神山 南亞科、國巨增幅最高成「低接王」  Yahoo股市",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMizwRBVV95cUxPLWg0ek5WZkNHQS1PRFFLbGxtY0tlNWE3VHh6LUFBS1NRVEIyOFZka3ZhcU9lVGRCczhuV0h0NHl3VFVEUWdwNEpJMUMwNnNsXzRpV2Q0YTFkWDFGY0ZlSHBPN1NfR2RPTWVVZllpUFJTdmRsVUExUWVZcWRHY3YxTjA0bm9HMW9yUVJQZ2FyTVpvVmJ6X1lyMGVEazJMTDJVQ05uWGVjbDktbmNpTTZmLWdYYVlRREVqeUw0d1FHWFE5R3ppa2liZ1NXZ0UzVDNEaG9RSFVfT2w1NHhucE5CWlVnUGJqMVBENE9mU1FiWHZNZEJrMjdHNmRxU0hrY0dfMlo4MlBpeEFnMnA0OWxkajVSV25TaFpSM0FZQW9WdUp0dmFvUkx4M0RtV0Jya0M4U09oR3Z6SDRuNXpNS1JtMU1GWEZJaDdsVDVoNUJGYjQ2Zm9jOTg3VTZWT0xvQ2pvZUQ2SWFNenlFYjU3VkI5T3ljQ0pDaDFnUkZoRUJLSjdUbHdwRnc2dkdHSVp2T0lMTGtzMFBxV0FrSk5SNm84d1hyNnpOekV1UWIwSHotMWk2emZGaHRlQlN0eWxxeWRpX0U0ZHpRbkxNLUtrQnZtdjM1dHVBd3VTd0ROaEhlZ3N2czhVaTExYlhTMmpkdGNYSDVPNXFXdHlETnZHVGlqbDI2MWVfZ0dzdWo2MTdPeGhEaDYwb2d5eWFJY1plZUtuTElNbF9kMUFXOXJaa3F5dElVTzdFdGNXMjFYVHBvNExvZFhVcGY3YW5GcXNxZkE?oc=5",
+          "publishedAt": "Fri, 07 Aug 2026 00:22:42 GMT"
+        },
+        {
+          "title": "投資人關注中東局勢 美國股市開盤漲跌互見 - 壹蘋新聞網",
+          "summary": "投資人關注中東局勢 美國股市開盤漲跌互見  壹蘋新聞網",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOT0hjcUVSZ3loY25OaEhYRW1VQmRGYnM1eDV6WERCNU5zdEluTjM5WUFsYTlRc3cyVW80aUJqNjFWTFVkdkhpMk5wX0sxbG1WeVN2SnpfTmVBWmw1d0F6MkpLdmNNZkc1NkNkcU5TcVpBcXRzTEJxS05Cd1JVVmhCcnl3?oc=5",
+          "publishedAt": "Thu, 06 Aug 2026 14:31:00 GMT"
+        },
+        {
+          "title": "社會安全的資金危機是房間裡的大象。但不要忽視滑鼠。",
+          "summary": "沒有人知道如果社會安全信託基金真的耗盡，國會會做什麼。",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/if-social-securitys-funding-crisis-is-the-elephant-in-the-room-this-is-the-mouse-everyone-has-overlooked-you-have-been-warned-b95c450d?mod=mw_rss_topstories",
+          "publishedAt": "Fri, 07 Aug 2026 00:31:00 GMT"
+        },
+        {
+          "title": "「我正在慢慢退休」：我將領取 8 萬美元的退休金。我可以在哪裡安全地投資？",
+          "summary": "“我預計需要幾年時間才能從我的 401(k) 帳戶中領取分配。”",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/im-easing-into-retirement-im-getting-an-80-000-pension-payout-where-can-i-invest-it-safely-6653d810?mod=mw_rss_topstories",
+          "publishedAt": "Fri, 07 Aug 2026 00:00:00 GMT"
+        },
+        {
+          "title": "「我不想冷酷無情」：我年邁的親戚已經無法照顧自己了。我將祂的照顧交給國家是錯的嗎？",
+          "summary": "“他從來都不是特別慷慨或有教養。”",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/i-dont-wish-to-be-cold-hearted-my-elderly-relative-can-no-longer-care-for-himself-am-i-wrong-to-leave-his-care-to-the-state-8d546b32?mod=mw_rss_topstories",
+          "publishedAt": "Thu, 06 Aug 2026 23:31:00 GMT"
+        },
+        {
+          "title": "隨著 Alphabet 在人工智慧上燒光現金，它正在轉向債券市場",
+          "summary": "隨著大量人工智慧投資侵蝕其自由現金流，Alphabet 正在利用其資產負債表發行新的債券。",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/as-alphabet-burns-through-cash-on-ai-its-turning-back-to-the-bond-market-04e85f31?mod=mw_rss_topstories",
+          "publishedAt": "Thu, 06 Aug 2026 23:14:00 GMT"
+        }
+      ]
+    },
+    "ai": {
+      "categoryName": "AI 相關新聞",
+      "articles": [
+        {
+          "title": "2026城鎮韌性演習首度導入30分鐘行動網路降速，災害應變的壓力測試",
+          "summary": "隨著地緣政治與極端情境威脅加劇，數位韌性已成為企業維運（BCP）的必修課題。政府將於今年8月展開「2026 城鎮韌性（防空）演習」，這次演習首度加入30分鐘的「行動網路降速演練」，被視為全民數位韌性防護的「系統性壓力測試」，儘管只是短暫的行動網路降速演練，卻考驗民眾與企業的緊急應變能力。\n根據演習規劃，中部地區的苗栗縣、臺中市、南投縣、彰化縣、雲林縣、嘉義市、嘉義縣將會在8月10日(周三)，而北部",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/177941",
+          "publishedAt": "2026-08-06  05:08:43"
+        },
+        {
+          "title": "Excel Copilot串接企業資料，可直接分析Power BI與企業系統資料",
+          "summary": "微軟更新Excel，擴充Copilot存取企業資料的能力。使用者可在Excel中加入Power BI報表作為分析依據，也可透過同步Copilot連接器查詢企業已連接的系統與文件，並利用內嵌引用查看回答來源。Power BI整合適用於Windows、Mac及網頁版，目前正分階段推出。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/177940",
+          "publishedAt": "2026-08-06  05:08:47"
+        },
+        {
+          "title": "越來越多OT用戶擁抱進階資安技術，SOAR、威脅情資、SOC採用需求穩定成長",
+          "summary": "前幾週Fortinet在臺簡介年度OT與網路資安現況調查報告時，揭露工控領域的法規遵循壓力、面臨的入侵威脅態勢、企業重視程度，以及資安成熟度，也提及企業採用多種OT資安解決方案的趨勢。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/177935",
+          "publishedAt": "2026-08-06  04:08:06"
+        },
+        {
+          "title": "NPM套件Keyv供應鏈攻擊活動ChainDrop傳出源自於Shai-Hulud",
+          "summary": "NPM套件keyv於8月4日遭入侵，導致4小時內有444個套件被污染、攻擊者上架2,212個惡意版本，多家資安公司指出，這次攻擊者使用的蠕蟲程式ChainDrop，證明這起資安事故是大規模供應鏈攻擊Shai-Hulud的一部分。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/177937",
+          "publishedAt": "2026-08-06  04:08:31"
+        },
+        {
+          "title": "刑事局：拆解AI詐騙心理陷阱，從「零信任」到「數位免疫」",
+          "summary": "今年稍早，新北市三峽一名員警於執勤中不幸殉職，社群平臺隨即出現一則呼籲外界捐款慰問家屬的貼文，附上員警本人的銀行帳戶。警政署刑事警察局預防科科長莊明雄看到消息，第一時間便準備匯款，甚至動用了連妻子都不知情的私房錢。\n妻子得知後質問他：「你當過科長，怎麼會蠢到看到臉書貼帳號就匯錢？」這句話讓莊明雄整整緊張了兩個小時。一直到新聞證實，那則募款貼文其實是殉職員警的妻子用先生帳號發布，並非詐騙，他才鬆一口",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/177936",
+          "publishedAt": "2026-08-06  03:08:22"
+        },
+        {
+          "title": "Uptime調查：AI重新定義資料中心永續，能源、散熱與供電成新挑戰",
+          "summary": "生成式AI快速普及，正在改變資料中心的設計與營運模式，也重新定義資料中心的永續課題。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/177932",
+          "publishedAt": "2026-08-06  03:08:20"
+        },
+        {
+          "title": "多代理工具Kiro Crew開源，Amazon內部已有逾3.9萬人採用",
+          "summary": "AWS宣布，將內部專案MeshClaw改名為Kiro Crew並開源。Kiro Crew可讓多個AI代理跨不同工作階段持續處理開發任務，並保存任務狀態、排程、專案脈絡與修正紀錄，即使開發者暫時離開，工作也能依設定繼續進行。\nKiro Crew最初由3名Amazon工程人員自行開發，目的是減少人員必須持續盯著AI執行工作的情況。官方表示，專案在不到6個月內已獲逾39,000名Amazon內部人員採用",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/177933",
+          "publishedAt": "2026-08-06  03:08:08"
+        },
+        {
+          "title": "Meta推出Muse Code程式代理人，以低價挑戰Claude Code與Codex",
+          "summary": "Meta周三（8/5）推出新版AI模型Muse Spark 1.2及由其驅動的Muse Code測試版。Muse Spark 1.2強化程式碼生成、複雜除錯及程式碼庫理解能力；Muse Code則是在終端機中運作的AI程式代理人，可處理大型程式碼儲存庫中的完整軟體工程任務，包括規畫修改、撰寫程式碼及驗證結果。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/177934",
+          "publishedAt": "2026-08-06  03:08:43"
+        }
+      ]
+    },
+    "china": {
+      "categoryName": "大中華新聞",
+      "articles": [
+        {
+          "title": "高希均倡兩岸和平 盼最熟悉的3個地方能共處 - Yahoo新聞",
+          "summary": "高希均倡兩岸和平 盼最熟悉的3個地方能共處  Yahoo新聞",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxPcXhRSXM4RjAyYndaU0NIRUZNMGROSjZnZkhkYnpkRURzQm1CN1ZKcG1OZ0JQOEl4TXhXNWtmUlltOS1MVWR2Z0VPSzEwRXMyclB5U3pnWlNnbGNMTm43RGZjU3lscF9iVXJaam9NN2ktZDBYSkRNV1VrZGRtYm5nVjE4S0tRaWhNZFQ0bm1lV0xva25veDVNaGxkcTRYVEo2RTM4THNuZFJmSGhWWXZ3eHlKbGFuMnAwc3hjeklYNHFTZDJMaHZlVDJsaXRNM0R1ZkJrcWItVDFZSEE5U0NXbWplWGRzZVNzandNUlBuT0FoLTl4cjJGVVhENkVtS2UtY0JqRWl2MlhING5CanMzYUxaYXdhV0V3SmVBWTl1VC05c0ZjbTlmMnZ0QloyVlpsTDJGbTVhX2x6UQ?oc=5",
+          "publishedAt": "Thu, 06 Aug 2026 22:31:27 GMT"
+        },
+        {
+          "title": "福州招手台青發展AI、電商- 兩岸新聞- 旺報 - 中時新聞網",
+          "summary": "福州招手台青發展AI、電商- 兩岸新聞- 旺報  中時新聞網",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBXa1ZVV0l5bUhERFJTTlZYMG1idWhHajhKd3ZfTjhWLXBUV28xNk85eV9iZDdveWRQSjRSeWV5UXRXMkJra2gyYld6Ymlua0ZMSGJQYzc0MnZBUlh5eXBEbGVGR3NTbDZZT2Zn?oc=5",
+          "publishedAt": "Thu, 06 Aug 2026 20:10:00 GMT"
+        },
+        {
+          "title": "臺青活水匯入政協 青春力量助推兩岸融合 - 住展雜誌",
+          "summary": "臺青活水匯入政協 青春力量助推兩岸融合  住展雜誌",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1GRlBHUGV6VHdOLXVPdjVTMDVTZzRGTDNmN2ZJVnB0dUpCUlE3Uk9nLUROYW9fUGh4UlF2NUdsOW1fQUJiWGM3WW1jY3J5NjVYLXVWYlRYWk1KenBmMU5NR19XTFBjWng2ekU0?oc=5",
+          "publishedAt": "Thu, 06 Aug 2026 19:13:24 GMT"
+        },
+        {
+          "title": "【「白海豚」轉彎撲中國已成定局！ 陸專家：恐破「山竹」紀錄】 （圖／翻攝自微博） - facebook.com",
+          "summary": "【「白海豚」轉彎撲中國已成定局！ 陸專家：恐破「山竹」紀錄】 （圖／翻攝自微博）  facebook.com",
+          "source": "Google News 中國",
+          "url": "https://news.google.com/rss/articles/CBMirwNBVV95cUxQQlZOREFyVHlLdS1ZTVhkaHRHVjh4U3ZqOFFQZGN1N3p5VzRQaTVoazE4YVFZODVubnU3UnVRQXZVYS0tazY0SVVYN2hrQUlJLUFqa2Y0eHRLWGlIMmZ5RE40TlhZbEZTT2hEY0RvWDlXeTFYWHNRalhzd3h1eGRocDhMMHJZWk1iU0dURTFtRlVPUl9nQ0Q4ZnY2MEVCLVcyczc2NkVxaE1yR0JSN3pwQnJkb05KMmVuU2FsZnZSWkVUc19Xd05qNTVZOW9EX2pkMG5OWGgwdkFkeW9fX21rUER6aW00aTllLWtNNmFlZk9QYkhrQmdJTE1aLXgxRmVycEExTU9VQ01saXdRWTktQ003UFpvUVNhTDhqWTFVY1cxNEl1Y2stdVZ1V1hvV0Nqamswam5aSW5Qei1VYTkyRkctUkYzOW5adVRvYkIwZXdjZFFFWm5CNGZFR09rT05qd05nQlBhcU1YLUx1VzR5NENqalNpLV90VXA5cExVdnVQS3JidHN3bnljeGtfbE8tdUtMN3pyM05PLTk3ZjJhQUVRSjI0Q29QZW5JeXFtZw?oc=5",
+          "publishedAt": "Thu, 06 Aug 2026 23:00:41 GMT"
+        },
+        {
+          "title": "中國9/15爆「鎖國新法」！台商赴機場才知出不去 秘密邊控合法化 - Yahoo新聞",
+          "summary": "中國9/15爆「鎖國新法」！台商赴機場才知出不去 秘密邊控合法化  Yahoo新聞",
+          "source": "Google News 中國",
+          "url": "https://news.google.com/rss/articles/CBMi_AJBVV95cUxQQmNXc1hXX21TLXpWaUhMcUNpOUVhT1ItM0FtdnNlRi1uTHNNMzRWSnpLWFJaOUFKOFl4OG1uNFNBT0RxNmZuSXdGbDl0ODFJVU14ZklDT3R2STFSZGY1US1UR1lQaFpkamRfTlQ3Tkt5VzdWcmgzODdqM01hNmJvcGRPdVRCdUJMWk5qem50dGNiRUNiaTA0VFFMZXVDblpWc0lHcU51WExHSTZKTHVaZFZjNk14MVJINVlTLUt4Y2RZMEVNWVNWaEpKdUMxTkVMMGxqaTVQQ0UwLTBLX3N3RmIxUkJrRklWWVpQM0Q2cEFIbElVT3hOWEZ3c3o4ekM1XzVyUV9vcUFuRzJ1SFBHZWY0LTBSN3lOUGxPU1FJWTIwQm9TcUFKOFRHR1dBZXlvVXVqN2tkM1M0WjhoMXBKemxfZnVxRHROcWJZWmh4M1czVVVacmVUT2cyd2Fnc2VSaGNYQ0hnblZtZi1XazB5TTlMbEpyVGJVUDZJRA?oc=5",
+          "publishedAt": "Thu, 06 Aug 2026 20:02:00 GMT"
+        },
+        {
+          "title": "中國試射飛彈引關注 太平洋外長會議斐濟登場 | 民視新聞網 - LINE TODAY",
+          "summary": "中國試射飛彈引關注 太平洋外長會議斐濟登場 | 民視新聞網  LINE TODAY",
+          "source": "Google News 中國",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB3akpDVzREUHlLVWF2ODFCNk1NR1ROcmdKeG5HcGVnb0NTZEd6QTFfeExjOURZLVJxZFZOaTg5NUNjNGpRWktqU1I2R1hhc2FCTE4wbXZR?oc=5",
+          "publishedAt": "Fri, 07 Aug 2026 00:31:47 GMT"
+        },
+        {
+          "title": "美國星期四宣布對古巴實施新制裁, 制裁對象包括古巴駐中國和俄羅斯的武官 - rfi.fr",
+          "summary": "美國星期四宣布對古巴實施新制裁, 制裁對象包括古巴駐中國和俄羅斯的武官  rfi.fr",
+          "source": "Google News 中國",
+          "url": "https://news.google.com/rss/articles/CBMi7ANBVV95cUxOeUIyazF0My12TFJaeENEMjlhRWJKQnV3aGpSMnVMWlRycG1JdWM2NFhjQVRrSEtBQVJGQlVUZ2RaaXVBb3J5ODdpUWJZV0RiX0d1emItMW0tNVhhcnBQZHNGUVVJSFJlWlhaMjZHNDhnNnRJbU9acEVYYTdpVHdGWWlkc3VhNWczOFNuNWJiNkxTdFd1STdZRUQ3MmROQmU1SEdBLWxXb1dXMUxELXNuQ2I4WkZYWE1KNldIUVRnR2V4WjdIVUc1MkZRaXYtV2Y4OEU0SF9ZZzM5YnY1b01mV2lXUHBFaVVWcnZaenF1aENqR1p4RFNjUGJFQVd5d3NXekMtOXkzYUQ4WXBPQjJHalE1WXptR3hDZzdaVFZOcE9oUkNyNmRRVG15TUJFTzhmSlB5ZDhwWV9YeXkzUDd0b0NsUHpjTlEyQ3dsYXItNUxaRFJLRkpFY2xVV21uSGRRRjBKMmppcllxczc0Zld0YU12SkNmakM1RHZGRWk3QUpVN1lxOExDUjExeXpsTmFiZGltZGZYOEJINmlxVXFlYlczUWdyb2NqX1R2cDZFWngzUkVTQW9IQVFCX0wwaHNNWF9feVBHMU9IUHoxVUEyZGp2clN6M1U5YUUtT3Ytc0ttTThwQzk5X1J3ZE0?oc=5",
+          "publishedAt": "Thu, 06 Aug 2026 22:51:00 GMT"
+        },
+        {
+          "title": "被爆暗藏後門！中國智博通停售逾20款路由器加拿大急發資安警訊- 國際 - 自由時報",
+          "summary": "被爆暗藏後門！中國智博通停售逾20款路由器加拿大急發資安警訊- 國際  自由時報",
+          "source": "Google News 中國",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA5aE5ISHpiOWUzRkxldHMxS1RHQ1pySWFuZWtvRUVUdzgtcEdyc3F6QVdUSERESkxrQjZ6bnJ6T0hxOElVZllzYnFxMmZGRVlTclVBNmdQc3VVSE9Nb0V6ZGRldnFYdw?oc=5",
+          "publishedAt": "Thu, 06 Aug 2026 23:50:00 GMT"
         }
       ]
     }
