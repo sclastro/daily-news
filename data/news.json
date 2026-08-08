@@ -1,206 +1,4 @@
 {
-  "2026-05-11": {
-    "hk": {
-      "categoryName": "本地新聞（香港）",
-      "articles": [
-        {
-          "title": "「影壇傳奇」曾兩度患癌兼中風 親自拍片解釋現時身體狀況",
-          "summary": "陳惠敏曾做過警察,之後曾成為江湖人物,與日本社團山口組關係密切,七十年代連奪兩屆香港自由搏擊拳王殊榮,加入影圈後飾演社團大佬形象深入民心,",
-          "source": "hk01",
-          "url": "https://www.hk01.com/%E5%8D%B3%E6%99%82%E5%A8%9B%E6%A8%82/60348392/%E5%BD%B1%E5%A3%87%E5%82%B3%E5%A5%87-%E6%9B%BE%E5%85%A9%E5%BA%A6%E6%82%A3%E7%99%8C%E5%85%BC%E4%B8%AD%E9%A2%A8-%E8%A6%AA%E8%87%AA%E6%8B%8D%E7%89%87%E8%A7%A3%E9%87%8B%E7%8F%BE%E6%99%82%E8%BA%AB%E9%AB%94%E7%8B%80%E6%B3%81",
-          "publishedAt": "2026-05-10 22:30:50"
-        },
-        {
-          "title": "房委會夥港大研發「智運寶2.0」運送MiC模組 提升地盤運作效率",
-          "summary": "為應對本港房屋需求,建築業正轉向採用預製建築模組技術,例如「組裝合成建築法」(MiC) ,而精準的物流調度成為關鍵。為確保模組按時、按序由工廠運抵工地,房委會聯同香港大學共同研發智慧物流運輸系統「智運寶2.0」,結合AI震動監測、運輸規劃等,提升地盤運作效率,系統已在觀塘德田街公營房屋發展項目全面落",
-          "source": "stheadline",
-          "url": "https://www.stheadline.com/society/3571010/%E6%88%BF%E5%A7%94%E6%9C%83%E5%A4%A5%E6%B8%AF%E5%A4%A7%E7%A0%94%E7%99%BC%E6%99%BA%E9%81%8B%E5%AF%B620%E9%81%8B%E9%80%81MiC%E6%A8%A1%E7%B5%84%E6%8F%90%E5%8D%87%E5%9C%B0%E7%9B%A4%E9%81%8B%E4%BD%9C%E6%95%88%E7%8E%87",
-          "publishedAt": "2026-05-10 22:00:05"
-        },
-        {
-          "title": "觀點投書:中東之戰帶給世界的變化",
-          "summary": "伊朗是居魯士大帝(Cyrus the Great)於公元前 550年建立,歷史上赫赫有名的波斯帝國的後裔,有2500年光輝又坎坷的悠久歷史及文明。自從1979年極端順從附庸美國的巴勒維(Shah Pahlavi)王朝被民眾推翻以後,被流放的阿雅託拉·霍梅尼(Ayatollah Khomeini)從巴",
-          "source": "storm",
-          "url": "https://www.storm.mg/article/11127842",
-          "publishedAt": "2026-05-10 21:50:00"
-        },
-        {
-          "title": "收買美國會助理失敗 共諜反遭舉報",
-          "summary": "企圖砸重金 換取華府委內瑞拉計畫、稀土管制對策 〔編譯張沛元/綜合報導〕就在美國總統川普即將前往中國訪問前夕,紐約時報九日披露,美國聯邦眾議院「美中戰略競爭特別委員會」的一名助理,數月前被一名偽裝成香港顧問公司員工的中國間諜搭上線,中諜聲稱願意砸重金換取該助理提供該委員會的工作與提案,包括華府的委.",
-          "source": "ltn",
-          "url": "https://news.ltn.com.tw/news/world/paper/1754330",
-          "publishedAt": "2026-05-10 21:30:00"
-        },
-        {
-          "title": "靠AI拚成長 加劇中國貧富差距",
-          "summary": "〔編譯盧永山/綜合報導〕香港《南華早報》報導,中國大力推動人工智慧(AI)為經濟的新成長引擎,以驅動製造業升級、科學發現等各項領域,卻發現在科技中心以外的地區,AI所應許的經濟效益可能難以實現,反拉大城鄉和貧富差距。 中國近期研究顯示,AI將加劇區域差距,擁有大量人才、資本和創新企業的大城市,處在.",
-          "source": "ltn",
-          "url": "https://ec.ltn.com.tw/article/paper/1754316",
-          "publishedAt": "2026-05-10 21:30:00"
-        }
-      ]
-    },
-    "world": {
-      "categoryName": "國際新聞",
-      "articles": [
-        {
-          "title": "PCB, BCB seek balanced FTP for 2028-31 cycle",
-          "summary": "Karachi, May 10: The Pakistan Cricket Board and Bangladesh Cricket Board have agreed to back each other at Asian and international cricket forums whil",
-          "source": "theshillongtimes",
-          "url": "https://theshillongtimes.com/2026/05/11/pcb-bcb-seek-balanced-ftp-for-2028-31-cycle/",
-          "publishedAt": "2026-05-10 22:41:20"
-        },
-        {
-          "title": "What Has the Iran–Israel War Left Behind?",
-          "summary": "Dr Suman Kumar Kasturi sumankasturi@gmail.com Wars seldom conclude with the cessation of bombings, even if the artillery may become quiet and an arsen",
-          "source": "dailyexcelsior",
-          "url": "https://www.dailyexcelsior.com/what-has-the-iran-israel-war-left-behind/",
-          "publishedAt": "2026-05-10 22:40:24"
-        },
-        {
-          "title": "Escalation of International Boycott Calls for 'Eurovision' 2026 Protesting Occupation's Participation",
-          "summary": "تواجه مسابقة 'يوروفيجن' موجة انسحابات رسمية واحتجاجات فنية واسعة النطاق رفضاً لمشاركة إسرائيل في ظل استمرار حرب الإبادة على قطاع غزة.",
-          "source": "alquds_ar",
-          "url": "https://www.alquds.com/en/posts/239092",
-          "publishedAt": "2026-05-10 22:30:05"
-        },
-        {
-          "title": "Iran responds to U.S. peace deal, and hantavirus ship passengers disembark: Weekend Rundown",
-          "summary": "Iran responded to a U.S. proposal to bring an end to the war in the Middle East, Tehran’s state media reported Sunday. Subscribe to read this story ad",
-          "source": "new7tv",
-          "url": "https://new7tv.com/iran-responds-to-u-s-peace-deal-and-hantavirus-ship-passengers-disembark-weekend-rundown/",
-          "publishedAt": "2026-05-10 22:29:12"
-        },
-        {
-          "title": "Taiwan’s Cheng Li-wun on cross-strait peace, meeting Xi Jinping and managing ties with US",
-          "summary": "Cheng Li-wun is the chairwoman of Taiwan’s largest opposition party, the Kuomintang (KMT). In this far-ranging interview, she discusses her vision for",
-          "source": "scmp",
-          "url": "https://www.scmp.com/news/china/politics/article/3353052/taiwans-cheng-li-wun-cross-strait-peace-meeting-xi-jinping-and-managing-ties-us",
-          "publishedAt": "2026-05-10 22:00:18"
-        }
-      ]
-    },
-    "finance": {
-      "categoryName": "財經新聞",
-      "articles": [
-        {
-          "title": "Promising Financial Stocks To Watch Today – May 9th",
-          "summary": "JPMorgan Chase & Co., Coinbase Global, Wells Fargo & Company, Citigroup, and Mastercard are the five Financial stocks to watch today, according to Mar",
-          "source": "dailypolitical",
-          "url": "https://www.dailypolitical.com/2026/05/10/promising-financial-stocks-to-watch-today-may-9th.html",
-          "publishedAt": "2026-05-10 22:08:55"
-        },
-        {
-          "title": "Jensen Huang tells new grads there's no better time to start a career",
-          "summary": "Business Insider tells the global tech, finance, stock market, media, economy, lifestyle, real estate, AI and innovative stories you want to know.",
-          "source": "headtopics",
-          "url": "https://us.headtopics.com/news/jensen-huang-tells-new-grads-there-s-no-better-time-to-83199895",
-          "publishedAt": "2026-05-10 22:06:35"
-        },
-        {
-          "title": "The state budget, adopted under the pressure of the energy shock and inflation",
-          "summary": "The first quarter of 2026 found Romania in an area of rare economic tension, in which the Government led by Ilie Bolojan was forced to simultaneously ",
-          "source": "bursa",
-          "url": "https://www.bursa.ro/the-state-budget-adopted-under-the-pressure-of-the-energy-shock-and-inflation-27460951",
-          "publishedAt": "2026-05-10 21:00:00"
-        },
-        {
-          "title": "First quarter in numbers",
-          "summary": "January 1 - The increase in local taxes and fees comes into effect.",
-          "source": "bursa",
-          "url": "https://www.bursa.ro/first-quarter-in-numbers-21560956",
-          "publishedAt": "2026-05-10 21:00:00"
-        },
-        {
-          "title": "Utah governor makes it harder for Kevin O'Leary to build data center",
-          "summary": "Business Insider tells the global tech, finance, stock market, media, economy, lifestyle, real estate, AI and innovative stories you want to know.",
-          "source": "headtopics",
-          "url": "https://us.headtopics.com/news/utah-governor-makes-it-harder-for-kevin-o-leary-to-build-83197941",
-          "publishedAt": "2026-05-10 20:36:26"
-        }
-      ]
-    },
-    "ai": {
-      "categoryName": "AI 相關新聞",
-      "articles": [
-        {
-          "title": "Upwork Q1 Earnings Call Highlights",
-          "summary": "Upwork (NASDAQ:UPWK) said first-quarter 2026 results reflected a sharp shift in demand late in the period, as macroeconomic uncertainty and faster ado",
-          "source": "zolmax",
-          "url": "https://zolmax.com/investing/upwork-q1-earnings-call-highlights/11845715.html",
-          "publishedAt": "2026-05-10 21:04:49"
-        },
-        {
-          "title": "Warner Music posts $1.73 billion in Q2 revenue as streaming grows 17% and AI licensing takes center stage",
-          "summary": "Warner Music Group posted $1.73 billion in Q2 revenue, up 17% year-over-year, with net income rising to $181 million from $36 million. Streaming drove",
-          "source": "completeaitraining",
-          "url": "https://completeaitraining.com/news/warner-music-posts-173-billion-in-q2-revenue-as-streaming/",
-          "publishedAt": "2026-05-10 20:42:50"
-        },
-        {
-          "title": "Top 7 Next Crypto to Explode 2026: OZORA AI is About to Go Parabolic",
-          "summary": "As we move through 2026, the cryptocurrency market continues to show strong momentum with Bitcoin trading steadily above the $80,000 mark and growing ",
-          "source": "openpr",
-          "url": "https://www.openpr.com/news/4508082/top-7-next-crypto-to-explode-2026-ozora-ai-is-about-to-go-parabolic",
-          "publishedAt": "2026-05-10 20:32:03"
-        },
-        {
-          "title": "Parallel bug discovery triggers premature Linux LPE disclosure",
-          "summary": "Full set of patches still to arrive for Dirty Frag privilege escalation vulnerabilities.",
-          "source": "itnews",
-          "url": "https://www.itnews.com.au/news/parallel-bug-discovery-triggers-premature-linux-lpe-disclosure-625736",
-          "publishedAt": "2026-05-10 20:25:00"
-        },
-        {
-          "title": "Top 10 Best Crypto Presale 2026: OZORA AI is Crushing Every Competitor",
-          "summary": "As we move deeper into 2026, the cryptocurrency market continues to reward projects that deliver genuine innovation rather than empty promises. With B",
-          "source": "openpr",
-          "url": "https://www.openpr.com/news/4508079/top-10-best-crypto-presale-2026-ozora-ai-is-crushing-every",
-          "publishedAt": "2026-05-10 20:24:39"
-        }
-      ]
-    },
-    "china": {
-      "categoryName": "大中華新聞",
-      "articles": [
-        {
-          "title": "專家之眼/美中戰略競爭下台灣的選擇",
-          "summary": "最近,美國重要國際關係期刊《外交事務》(Foreign Affairs)發表了一篇關於川普即將訪問中國的分析文章,讀完之後感到:該文的論點幾乎與在野陣營,甚至筆者本人的意見幾乎一致,十分驚訝,茲分享讀者。",
-          "source": "worldjournal",
-          "url": "https://www.worldjournal.com/wj/story/124277/9494256",
-          "publishedAt": "2026-05-10 22:22:54"
-        },
-        {
-          "title": "【專家之眼】美中戰略競爭下台灣的選擇",
-          "summary": "最近,美國重要國際關係期刊《外交事務》(Foreign Affairs)發表了一篇關於川普即將訪問中國的分析文章,讀完之後感到:該文的論點幾乎與在野陣營,甚至筆者本人的意見幾乎一致,十分驚訝,茲分享...",
-          "source": "udnnews",
-          "url": "https://udn.com/news/story/121823/9494254",
-          "publishedAt": "2026-05-10 22:12:44"
-        },
-        {
-          "title": "張鈞凱專欄:高市早苗「修憲美夢」的夢醒時分?",
-          "summary": "日本首相高市早苗去(2025)年一席「台灣有事」的發言,令中日關係冰封至谷底,至今仍難有轉寰或和緩的跡象。儘管北京多番對日祭出制裁,但高市早苗卻像老神在在,先到白宮與川普(Donald Trump)「共舞」,最近又到澳洲戰爭紀念館「下跪」,似乎內心胸有成竹,彷彿只要她成功拉攏美國與西方同盟,其做為日",
-          "source": "storm",
-          "url": "https://www.storm.mg/article/11130003",
-          "publishedAt": "2026-05-10 22:10:00"
-        },
-        {
-          "title": "鄭麗文:國民黨支持深化與美合作關係",
-          "summary": "〔記者林欣漢/台北報導〕預計今年六月訪美的國民黨主席鄭麗文,日前接受美國有線電視新聞網(CNN)專訪,提出「和平繁榮之鏈」的構想。鄭強調,國民黨支持深化與美國的合作關係,也認為兩岸之間應維持穩定溝通與交流,避免誤判與衝突升高。 鄭麗文預計六月訪美,將走訪紐約、波士頓、舊金山、洛杉磯等主要城市,與美.",
-          "source": "ltn",
-          "url": "https://news.ltn.com.tw/news/politics/paper/1754346",
-          "publishedAt": "2026-05-10 21:30:00"
-        },
-        {
-          "title": "自由廣場》全球「三角賽局」中的台灣位置",
-          "summary": "◎ 李其澤 五月中旬,三條看似無關的軸線正在同一張棋盤上交會。其一,美伊在巴基斯坦斡旋下逐步逼近一份結束戰爭的「臨時備忘錄」;其二,川普將於五月十四日訪問北京,舉行近十年來首次美國總統訪華的國是訪問;其三,台灣議題在美中外交首長的多輪通話中,被中方反覆界定為「中美關係的最大風險點」。中東、美中...",
-          "source": "ltn",
-          "url": "https://talk.ltn.com.tw/article/paper/1754300",
-          "publishedAt": "2026-05-10 21:30:00"
-        }
-      ]
-    }
-  },
   "2026-05-12": {
     "hk": {
       "categoryName": "本地新聞（香港）",
@@ -25345,6 +25143,313 @@
           "source": "Google News 台灣兩岸",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBmbmtleVFwZ21HNEdEdEVOVjRVU2VpR0k0NUxYakYzaGxZX2pEWHprQUl0TlZEMTBpOW5vNi1TYVFsZWN5SFNVZ3RLMUNxbXlfUTZNTUtfc1FEUmkydjUzbURnTC1oNHdGX1lfMWJNR2I?oc=5",
           "publishedAt": "Fri, 07 Aug 2026 12:09:44 GMT"
+        }
+      ]
+    }
+  },
+  "2026-08-09": {
+    "hk": {
+      "categoryName": "本地新聞（香港）",
+      "articles": [
+        {
+          "title": "熱帶氣旋白海豚影響 香港往來虹橋、廣州南高鐵班次取消 - Yahoo",
+          "summary": "熱帶氣旋白海豚影響 香港往來虹橋、廣州南高鐵班次取消  Yahoo",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxNZFNnMUV3ZUotemVXSmxTMEtpZ0t2SmJCWGFVS1d4Wnd5ckdfSzg0SWVVV25HaHRwbkMzejE0MXJXLUtlaV9UbmlpU2MyalBEMFZyczM4WTMwOVd0dXdEbno3QVFsZWhiVm9VVjZ1V3hhdWZtMWtXRFFCMVdEX1ZSQVlDVDJmV29ZY29VbzdRYWh2LVRETElZZ1ExQ2xsTUpONkZhaDQzS1l2QkpiNkp0clYtalN2T2FZLUdCdWI4V3l3cDRzX1FBTW5Ma0ZMa3lhSE9XdGt0eElaTXBWWldLSENHckNZVDN6clFzYkNQSTJrNUhYb2NFVXFVTVdoX0pvS05JY002TENyT0ZVOVkwd0NwdDI2Qk13bEtGZ0g1b2NCRkZnclZjMVprVjdTUmdieVg0N3Vkd2dqeEZrV2hjYU1hdWs0SVZCaE12RkJfWjJoWTJWLXJrb0pCdjZWQ2hwUktQQ25nczAtMTZyNW5XUV9FYzhVZw?oc=5",
+          "publishedAt": "Sat, 08 Aug 2026 14:22:22 GMT"
+        },
+        {
+          "title": "再見「刺秦」 香港漫畫家利志達畫展將登台|藝文臺灣 - 僑新聞",
+          "summary": "再見「刺秦」 香港漫畫家利志達畫展將登台|藝文臺灣  僑新聞",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBJcE81WF94WmRySnd3TVJXakFta0Z4VGw1Z0pfRkdUUFd0bjZQSGlkYWRIaHpTYTNCbndTVTJTVjN5d3hhc25seDEtbw?oc=5",
+          "publishedAt": "Sat, 08 Aug 2026 20:00:00 GMT"
+        },
+        {
+          "title": "白海豚｜香港航空往來浦東、沖繩等逾十班機取消或改期 提醒旅客4小時前查詢 - i-cable.com",
+          "summary": "白海豚｜香港航空往來浦東、沖繩等逾十班機取消或改期 提醒旅客4小時前查詢  i-cable.com",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMi6gJBVV95cUxPMmdvV3Fqc2huVVZqZ21jRndEUS05ZlFWekIzcDYxc2JiY0FiRWNULWhuanRiY3R2elljNTBoUlpCb2d5NWxveFBJaUhicUlFQmdINjhLOUp0RlRKbHFoTFVvRkFMd1dxX2l2bG9HdGpNZURFamtpM21CM2Z1Rlk5Q3otSGc0cnhqeVJQVDdBMDhvcjZoQWY1MEd4TkkyOVpEcW84ZzFZNF9iYjZJNDZXSGpRY200dDJBNnYza0VSR3d5SDJVbVNkSm9QbFowa1FJY1Y0aVAwb0VSeDE0UTM4ejhQWTRWaWhKUTIwcmxyTmh5UHdWSDIySkUycnoyMVB1ejNlMVA4RUZiWXNpS0xEQ24yNmRxanQzYTc0X0FQSW5sU29ybUxLcXRoWjBxMXB1VWdvSVFLSlRzSjAzb0U1WFlKVTZBS19iUkpWWjFlUTBUZmtMSjZ6NklSa0phVDVXRWV6WkRkSS1oZw?oc=5",
+          "publishedAt": "Sat, 08 Aug 2026 13:29:38 GMT"
+        },
+        {
+          "title": "熱帶氣旋白海豚影響 香港航空再有四班沖繩航班改期 六班浦東航班取消 - Yahoo",
+          "summary": "熱帶氣旋白海豚影響 香港航空再有四班沖繩航班改期 六班浦東航班取消  Yahoo",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMiygNBVV95cUxNY0U0WDBxZGtPcGo1T1VrYlJqUUNpdXVoQ082di1MVGtwdC0zNTdjRWpYcUdBcXJETDdxQzFtUDNLdjJGbUhZOVkxOF9vVlZ4aGpvdWhEcUo1Slo0MnU5YW1na1QyU3Z3ZS1JNmJraGF6UkNIUTJOaURsYkhSZHY4ZFVpRDRxX0tja2p2bDhRelNIVVljUm45azBPNDRBay1uYTJ0dG04aHRnUGowaU5IdWprTDQxeHI2MzU4aHYwSnR0b3FISlh2VVFkY3lFQVFVUy1EbTF3Tmt6MUE0N0RYOHRKNVVrUGdVRl9CTFBxNUU0RUdDQXBpdGthckc3UTFLYjM4Y2prUlBua2dCWG9pNG93Nk1BcTlCaWNrMUo0cndrOXBqaDRHM2ZzRUFXaVBlTFZMMDFTdjRPaW9FdTdEYnFiMUtPbzIxNGt0TWIyQ0hfNWxrNVRJVU1KQ3VfNVlnZTFuQ0owVDZieU1MdW1uRktJNDd5V3g2WXRhVWV5T1MzS1EwVlhLZUlWTjZObHZ0SGctZFQ5dFhMakl1MXROX1VIS2F1enVvVzFtVnNGTjF3dGxwNXhzeW12SnZSUEc3b3hSN2NOSXVaUQ?oc=5",
+          "publishedAt": "Sat, 08 Aug 2026 13:13:23 GMT"
+        },
+        {
+          "title": "油麻地女子高處墮下 當場證實氣絕 - hk.on.cc",
+          "summary": "油麻地女子高處墮下 當場證實氣絕  hk.on.cc",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNR0VpV3pZZXkxcHVPeTlNejdJQzNLU2RDUU9objVIMDRIdkVSZi1wYThIVU03cS00bm16eXZPNHl2cURKcWptNTQzcTdFVnYwb2dEck95SmxZMTVJNXBSV2w1TVhTQlROY0tnS1pROVJJeTd0ZTNjblgzQXNaMDUza2JqZXpGQjVmelQ0?oc=5",
+          "publishedAt": "Sat, 08 Aug 2026 11:41:39 GMT"
+        },
+        {
+          "title": "香港記協改選前夕遭保安局長公開威脅 - rfi.fr",
+          "summary": "香港記協改選前夕遭保安局長公開威脅  rfi.fr",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxNRjZhQUJCOGZtVTJaUW1MVkRhdF9mVUtJMDFDM2o0ZDNYODI2REVSRjlWVDJFUk5HM0x0UU9NOEtvVmZYRnBVRUVvcmZUUnlCd2ZDcEU1ckF4NF9IZXFLVnBST2JmODhjV3ZET3hFdmRod0lmM2drWjBMMVl1ZkNyeXhBeW41OHI2MjBHTkwzNkhHdzI2dUlPcUhCX2dCYTMtaUxDempVU2NjVG1va0llOGNrWkI2NHBfZEhUQXJ2VWlkckNJTTJ2SHRNa2k0YXpjQkZEOFdkNURvTXRLeEZ2T1ZrRFVUZm8xbzJpdzRabndjMVNKWm05UUpiQXl4cVlxY2M0cW8xRlJ0MmNYOWZkSDVvZzhNQXpaTU0tdHFTbERCZFBsZktYZEZXTQ?oc=5",
+          "publishedAt": "Fri, 07 Aug 2026 21:51:17 GMT"
+        },
+        {
+          "title": "中國央行據報在香港增加黃金存放 - 信報網站",
+          "summary": "中國央行據報在香港增加黃金存放  信報網站",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5XT3ZPWGFlbnd1ZTByS2p3UVVPbWsyZVZWOW1VUzlKWVkzSGxQM1F0c3BWS2EybUI5YUVtRjl4WW9Cb3otZ1BHam5Ia0RFTzVCbTJHenFSQlVzcFcweFE?oc=5",
+          "publishedAt": "Fri, 07 Aug 2026 12:19:21 GMT"
+        },
+        {
+          "title": "滙豐上調香港今年經濟增長預測至4.5% - hk.on.cc",
+          "summary": "滙豐上調香港今年經濟增長預測至4.5%  hk.on.cc",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTnRzalZhYk1oejNIdUZodzZKaTRucEx6UDc2OTdjSndiYU01SzZPVk14ckRtTlhtNDRTYkZ2Tk8xM0daTDdYS2Y5VG0xN3BMcmttc2VpZmJmZWRJaTUzNzRKSTJSSnRybWZwSGoxVzloTEtSeHJTVkhscUt4TTJQeDE2bWpQM0tHMHdicEZvUQ?oc=5",
+          "publishedAt": "Fri, 07 Aug 2026 09:42:46 GMT"
+        }
+      ]
+    },
+    "world": {
+      "categoryName": "國際新聞",
+      "articles": [
+        {
+          "title": "阿曼表示霍爾木茲會談積極，伊朗警告協議不會打開海峽",
+          "summary": "雙方均表示談判已取得進展，以商定穿越海峽的新航線，但取得突破仍不明朗。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c934j5y2lq9o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Sat, 08 Aug 2026 19:18:57 GMT"
+        },
+        {
+          "title": "川普前律師托德布蘭奇以弱勢當選美國司法部長",
+          "summary": "儘管遭到一些共和黨人的罕見反對，這次投票鞏固了川普前刑事辯護律師作為美國最高執法官員的地位。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cewr898jy8go?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Sat, 08 Aug 2026 15:56:39 GMT"
+        },
+        {
+          "title": "新右翼總統上任第一天美國向哥倫比亞提供10億美元",
+          "summary": "阿韋拉多·德拉埃斯普里埃拉在他的首次演講中承諾對他所謂的“毒品恐怖主義”進行“全面戰爭”。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cy9wy3y0e5wo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Sat, 08 Aug 2026 17:58:42 GMT"
+        },
+        {
+          "title": "梅西父親豪爾赫因病過世，享年68歲",
+          "summary": "梅西 (Lionel Messi) 的父親兼經紀人豪爾赫 (Jorge) 因長期患病去世，享年 68 歲。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c70gn3w5ek5o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Sat, 08 Aug 2026 15:51:11 GMT"
+        },
+        {
+          "title": "隨著休達移民湧入的爭端加劇，西班牙對義大利實施邊境管制",
+          "summary": "在大約 78,000 名摩洛哥移民湧入鄰近的西班牙飛地休達後，義大利實施了邊境管制。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Sat, 08 Aug 2026 14:25:19 GMT"
+        },
+        {
+          "title": "麥當娜向「天才、超凡脫俗」的製作人威廉·奧爾比特致敬",
+          "summary": "這位流行天后多年來與 Orbit 多次合作，最引人注目的是她的格萊美獎獲獎專輯《Ray of Light》。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cewr8wel4z8o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Sat, 08 Aug 2026 17:23:31 GMT"
+        },
+        {
+          "title": "觀看：反對派議員向科索沃代理總理扔雞蛋的時刻",
+          "summary": "在聯盟黨議員泰姆·卡德里亞吉向科索沃代理總理阿爾賓·庫爾蒂投擲至少四個雞蛋後，立法者和警察不得不幹預。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/videos/cvg8je12xxeo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Sat, 08 Aug 2026 15:59:37 GMT"
+        },
+        {
+          "title": "在基輔附近的俄羅斯飛彈襲擊中喪生的三人中的一名兒童",
+          "summary": "在總統澤倫斯基警告烏克蘭飛彈攔截器供應減少後，俄羅斯繼續進行夜間攻擊。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cz7dy8gq99eo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Sat, 08 Aug 2026 18:06:25 GMT"
+        }
+      ]
+    },
+    "finance": {
+      "categoryName": "財經新聞",
+      "articles": [
+        {
+          "title": "永和豆漿創辦人林炳生病逝享壽70歲 業界追憶「照亮別人的燈塔」 - 壹蘋新聞網",
+          "summary": "永和豆漿創辦人林炳生病逝享壽70歲 業界追憶「照亮別人的燈塔」  壹蘋新聞網",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQckxGcUJ6dWVwekp2RXk0c1kzTG1taVVISjYwS1ZUeWRIWTF3cUlhTFZ6OTh4RFZYS2hhT1MzQUdNMVdSbUxuOHZ5ZldncVhxV1hmVE5PRFdsajRyUG03MVBLeDNhaFVGXzMxZXRXU2tHdDlkcFZoSmhVZTA1Vm1vWUNB?oc=5",
+          "publishedAt": "Sat, 08 Aug 2026 14:43:00 GMT"
+        },
+        {
+          "title": "為何退休後買股票太保守反而啃光老本 CNBC專家點出成敗關鍵、投資配比 - 自由財經",
+          "summary": "為何退休後買股票太保守反而啃光老本 CNBC專家點出成敗關鍵、投資配比  自由財經",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE90VG5McDEtNXptblJSMUJZSmpuUkppUmE2MTJtSXhlekRndDJqSlpwa1JzdTBrOHpiMXVLcV8tUnFyaG1WVkRFYWZjWHI3X1pDc2dYbXFmbGI4UGg4aXZV?oc=5",
+          "publishedAt": "Sat, 08 Aug 2026 14:02:35 GMT"
+        },
+        {
+          "title": "加油先別急！中油下週汽柴油不漲 95無鉛維持32元 - 壹蘋新聞網",
+          "summary": "加油先別急！中油下週汽柴油不漲 95無鉛維持32元  壹蘋新聞網",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPM3FTaHE0ckxMekdPWnRiUGsxLU1YeWpjS1ZwSDE2TnM0Q1NvX0VoY211clNoSEdIYUt0TjFHQVFZZmNZajFHSFhlVlNlMVE3Y1dmQUJmSE5qeGZ2M3hKeVRyY0k2ckJyd3p4TVAxQ29PR2Z5VERSWV9JaVNFUEpGVA?oc=5",
+          "publishedAt": "Sat, 08 Aug 2026 09:00:00 GMT"
+        },
+        {
+          "title": "「這是一段情感上的困難時期」：我的兄弟患有癌症，我的父親已經 94 歲了。我該如何承擔這個責任？",
+          "summary": "“我父親將他在威斯康星州價值 60 萬美元的房屋置於可撤銷信託中，並指定我兄弟為受益人。”",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/this-has-been-an-emotionally-difficult-time-my-brother-has-cancer-and-my-father-is-94-how-do-i-shoulder-this-responsibility-9da09dc4?mod=mw_rss_topstories",
+          "publishedAt": "Sat, 08 Aug 2026 20:00:00 GMT"
+        },
+        {
+          "title": "「我正處於收入高峰期」：我已經工作到 70 歲以上了。這有助於增加我的社會安全保障嗎？",
+          "summary": "“我計劃在 70 歲末退休，並過渡到醫療保險。”",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/im-in-my-peak-earning-years-im-working-beyond-70-will-that-help-increase-my-social-security-b0fd84da?mod=mw_rss_topstories",
+          "publishedAt": "Sat, 08 Aug 2026 19:00:00 GMT"
+        },
+        {
+          "title": "當我們在佛羅裡達州和新英格蘭購買房屋時，我們如何用 230 萬美元的積蓄最大限度地減少退休時的稅收？",
+          "summary": "在平衡退休分配和跨州轉移時，時機就是一切。",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/how-can-we-minimize-taxes-in-retirement-with-a-2-3-million-nest-egg-while-buying-homes-in-florida-and-new-england-9e2449aa?mod=mw_rss_topstories",
+          "publishedAt": "Sat, 08 Aug 2026 19:00:00 GMT"
+        },
+        {
+          "title": "不要擔心其他人為退休儲蓄了什麼。以下是如何找到您的完美號碼。",
+          "summary": "不要將您的儲備金餘額與實際上沒有任何意義的數字進行比較。相反，做這個計算看看你是否步入退休軌道。",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/dont-worry-about-what-other-people-have-saved-for-retirement-heres-how-to-find-your-perfect-number-73fc460e?mod=mw_rss_topstories",
+          "publishedAt": "Sat, 08 Aug 2026 18:37:00 GMT"
+        },
+        {
+          "title": "「我不想冷酷無情」：我年邁的親戚已經無法照顧自己了。我將祂的照顧交給國家是錯的嗎？",
+          "summary": "“他從來都不是特別慷慨或有教養。”",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/i-dont-wish-to-be-cold-hearted-my-elderly-relative-can-no-longer-care-for-himself-am-i-wrong-to-leave-his-care-to-the-state-8d546b32?mod=mw_rss_topstories",
+          "publishedAt": "Sat, 08 Aug 2026 18:30:00 GMT"
+        }
+      ]
+    },
+    "ai": {
+      "categoryName": "AI 相關新聞",
+      "articles": [
+        {
+          "title": "新增多重管理員驗證，NetApp物件儲存系統近期推出改版",
+          "summary": "發展超過25年的企業級物件儲存系統StorageGRID，NetApp今年6月底推出12.1版。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/review/177980",
+          "publishedAt": "2026-08-08  10:08:51"
+        },
+        {
+          "title": "研究人員揭露駭客入侵Oracle資料庫，並以Oracle為跳板在Windows執行惡意指令的手法",
+          "summary": "資安業者Huntress近日發現甲骨文資料庫遭到駭客入侵後被用以當成跳板，對Windows發動攻擊、竊取用戶密碼。\nHuntress本週揭露了一起利用傳統SQL注入（SQL injection）漏洞結合Oracle資料庫內建Java功能，成功將攻擊工具包khunt寫入資料庫內部，最終取得Windows作業系統SYSTEM權限的進階攻擊案例。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/177979",
+          "publishedAt": "2026-08-08  08:08:01"
+        },
+        {
+          "title": "Gitea修補CVSS 9.8重大漏洞，攻擊者無須登入即可遠端執行程式碼",
+          "summary": "開源Git服務平臺Gitea揭露重大漏洞CVE-2026-59774，遠端攻擊者不需要登入帳號，只要伺服器上存在可公開存取的儲存庫，就可能藉由文件處理功能讀取伺服器內的檔案，取得內部存取權杖後，甚至可以在系統上執行程式碼。漏洞CVSS 3.1風險評分達9.8分，官方已在Gitea 1.27.1修補。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/177977",
+          "publishedAt": "2026-08-08  08:08:09"
+        },
+        {
+          "title": "資安業者揭露Claude分享對話可被Google搜尋，恐導致用戶敏感資訊意外曝光",
+          "summary": "資安業者Malwarebytes近日指出，Anthropic AI聊天工具Claude的分享對話，可能被Google搜尋引擎找到，導致用戶對話中的敏感資訊因此曝光。這項問題最初是由某些Reddit用戶發現，他們能透過特定搜尋方式，在Google搜尋結果中找到許多這類對話紀錄。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/177976",
+          "publishedAt": "2026-08-07  06:08:53"
+        },
+        {
+          "title": "交通部運研所以AI、無人機蒐集高速公路出入口匝道車流數據，以新數據改善國內公路容量分析及設計規範",
+          "summary": "過去政府進行道路交通規劃與設計，高度仰賴人工調查或固定地點的交通觀測來取得數據，但這類人工調查方式容易因人力有限、觀測時間不足及樣本數限制，難以掌握不同時段、不同道路環境下的實際車流狀況。\n交通部運輸研究所(簡稱運研所)為期3年的研究，利用成熟的無人機空拍影像來拍擴大道路觀測範圍，再利用成熟的AI影像辨識技術來分析車流，將過去需要人工觀測、記錄的交通資訊轉為大量、細緻化的數據。運研所今天(8/7)",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/177964",
+          "publishedAt": "2026-08-07  06:08:05"
+        },
+        {
+          "title": "Cloudflare讓網站免改程式啟用WebMCP，AI代理可直接使用網站功能",
+          "summary": "Cloudflare推出WebMCP開發者預覽，啟用後，Cloudflare會在網頁送到瀏覽器前自動加入一段橋接程式，讓支援WebMCP的AI代理發現網站提供的功能，並直接呼叫對應工具。網站管理者可直接在Cloudflare控制臺開啟功能，不必修改原有網站程式。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/177965",
+          "publishedAt": "2026-08-07  06:08:39"
+        },
+        {
+          "title": "Google開源WeatherNext天氣模型，熱帶氣旋預報平均提前一天",
+          "summary": "Google DeepMind開源WeatherNext 2與WeatherNext Cyclones天氣AI模型，公開程式碼與模型權重。同步刊登於《Nature》的研究顯示，WeatherNext Cyclones預測熱帶氣旋路徑、強度及風圈範圍時，在相同準確度下，平均可比現行主要氣象預報模型多取得超過24小時的預報時間。換句話說，WeatherNext提前3天做出的預測，準確度約可達到過去模型",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/177963",
+          "publishedAt": "2026-08-07  04:08:30"
+        },
+        {
+          "title": "中國Zbtlink路由器內建後門，可遭遠端接管",
+          "summary": "根據資安業者VulnCheck週三（8/5）發布的研究，中國路由器品牌Zbtlink有至少20款產品的原廠韌體內建後門，路由器開機後會主動連上遠端伺服器，並以系統最高權限執行對方傳回的任何指令。由於連線過程並未驗證伺服器身分，使得駭客只要劫持此一連線，便能冒充原廠伺服器並接管路由器。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/177962",
+          "publishedAt": "2026-08-07  03:08:11"
+        }
+      ]
+    },
+    "china": {
+      "categoryName": "大中華新聞",
+      "articles": [
+        {
+          "title": "【第十四屆海峽青年薈】台青創業路艱辛 兩岸融合編織青春夢想 - taiwan-reports.com",
+          "summary": "【第十四屆海峽青年薈】台青創業路艱辛 兩岸融合編織青春夢想  taiwan-reports.com",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1SZTRrR25ERlAtck9RZkZPNmstYUdrSy1hOE5rQWd1QUZxb05KclR4eU1JS0JSaW1hOXZ0YnBONE1la1ZQZVQ3X1hDUEdhOWVUVzd4cWZWOHpidw?oc=5",
+          "publishedAt": "Sat, 08 Aug 2026 17:51:34 GMT"
+        },
+        {
+          "title": "中國學者提出「統一三段論」框架 稱兩岸已進入「戰略相持後期」階段 - 鉅聞天下",
+          "summary": "中國學者提出「統一三段論」框架 稱兩岸已進入「戰略相持後期」階段  鉅聞天下",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBZV09sTS12R2Q2V04wLTBNN3Q1MEcwc3NZNS1SOXJRQ1NNekVHMndZZTNrVVZ3NHp0U1VqTi1zbDVUS0V5SndtMVd2Y3F1REdvaDVqM0tUSFFVZnltNmc?oc=5",
+          "publishedAt": "Sat, 08 Aug 2026 18:01:00 GMT"
+        },
+        {
+          "title": "「豆哥」林炳生病逝 生前積極推動兩岸交流 - 經濟日報",
+          "summary": "「豆哥」林炳生病逝 生前積極推動兩岸交流  經濟日報",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBNd2djUHNLZnVGODE1YVJtemNlYkE0VXh6UGEwV0xqTmN6bkFuRXptMUwxS25QenpLM0tnWldleE9GNV9USG9FQU43MDc3UDZaUmt6aUZweU9vUdIBX0FVX3lxTE8xek9JNTNJNWJHckVzLUQ1Sl9BQkJ6TU16d1Y4aGRWY29sMUY0VFJITHpILUhGaHNjc0I5SGxVVTI3VnBOQUFNSHgxWHRHNFJYZzNkcE8yei02MnBEN3pF?oc=5",
+          "publishedAt": "Sat, 08 Aug 2026 14:52:34 GMT"
+        },
+        {
+          "title": "【一線看中國】洪災雙面夾擊 三峽大壩突洩洪 - 新唐人電視台",
+          "summary": "【一線看中國】洪災雙面夾擊 三峽大壩突洩洪  新唐人電視台",
+          "source": "Google News 中國",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9CLWhjeWJ6NWJSbjljTXFGWTk4QlNJeTRERG1VQzNZLWVxVVRlOVRyQjNDZGYwSVJmdUpIb2p3NkpCU1ptZk9IbEdmVHhSbzZVWTZPVUpUS2pUb2VGcW5VNtIBZkFVX3lxTFBCTUVMeERWWHROQVhJdWVRd0c1VVJOd25XWUhsZXRjNVN2QzRqOUhHeURvcl81Yng0ZmQtQ04tS3V5WGVvSEYxS3ltdXRnQm50TENsRjBvUXdfd0RPOVFwQ2NENHhiZw?oc=5",
+          "publishedAt": "Sat, 08 Aug 2026 16:36:03 GMT"
+        },
+        {
+          "title": "先放手後整頓的雙刃劍 中國經濟活力的監管悖論 - 蕃新聞",
+          "summary": "先放手後整頓的雙刃劍 中國經濟活力的監管悖論  蕃新聞",
+          "source": "Google News 中國",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1feDdKdWgyZENfWlhjdWtUUnRMUWx0RHBkS0syY2Z5MmN0TlhYVGpXZ0NTWERSTE5ZUXl0Mlp3RDBjNXRKUUFURXRmTFctV282T3c?oc=5",
+          "publishedAt": "Sat, 08 Aug 2026 16:00:00 GMT"
+        },
+        {
+          "title": "日本海上保安廳「浦戶號」避颱風航向澎湖 遭中國海警船包圍 - 美洲台灣日報",
+          "summary": "日本海上保安廳「浦戶號」避颱風航向澎湖 遭中國海警船包圍  美洲台灣日報",
+          "source": "Google News 中國",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA4cmw1cWVsWHh1NzBMMDdJdHBIM0NrYjNFbWZnUkRCc1ZCd1gydWJjVUUxQ1dRX25LYVMyTDcta1RvMVp3UE1FSzQzYlpwd1c3T2dfSUo0aWVMaEFhRGpGbGFwUlpWUzdINFRoUGZOaEtWVFI2eW5B?oc=5",
+          "publishedAt": "Sat, 08 Aug 2026 18:49:19 GMT"
+        },
+        {
+          "title": "白海豚估「明通過台灣北方」北部慎防豪雨 深夜撲中國 - Yahoo新聞",
+          "summary": "白海豚估「明通過台灣北方」北部慎防豪雨 深夜撲中國  Yahoo新聞",
+          "source": "Google News 中國",
+          "url": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxNUE44QWRLZV9IN3dqNTBNSnhWVktUVThhajYwUklmNnRJY1pKWUt1eEx3RVlpTDREQUVxTHMxVW9iS25lUzJVTng2MmdVZHcyZ2g2aWc1Q1NzRzJnSGVaZTNHNkNZTU9mUXBveFo5bkU2MWxvdVJYWnZaYmlrd29qZ1F6NV8wbUljVDlvNWJyV1NyRFRpT201a3J2ZHJLYTczeWwycFUxTGR3bzdZMTZBb19jYkd6Qzc2X3ZTTjRicnJUNUwtV3ZwOFd4cnJBa3Q4X242MTFaTExvMEpPWmhuS2hzOF9qb0w3WGpudlpzUW5pbmZuYno4X09INkN6dmRRRzdqM2oyYzN6SWdNVW1fWm9oWFRPVU1lU1Npb0hDeUJMTy1qWjN2UGpTMHZ0aGtteE5ZaGFPTGlWQmo2T2VyMlJlRkVPSmtjZ1VKbkE1eGs2TGI0TXRwRFBPUjZrMnc?oc=5",
+          "publishedAt": "Sat, 08 Aug 2026 14:51:00 GMT"
+        },
+        {
+          "title": "澳廣視新聞｜中國駐泰大使館籲文明理性有序參與活動｜ - TDM",
+          "summary": "澳廣視新聞｜中國駐泰大使館籲文明理性有序參與活動｜  TDM",
+          "source": "Google News 中國",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOYW10YXU1Q09CMGk3UzJ1ZzNsaUd1QURzeVNLTV9rV0E2ckliUFh3U293TWNWeE1rcHpFNkRFSTBaakVvWmlROVo3RndTTkZ3dUd4MXpSNW9DQXh6ZFdQMFZwSFR6UjZzVXFaa0NaaDg0TjdyUGtyQWI4cWZtdGlQY3Atbw?oc=5",
+          "publishedAt": "Sat, 08 Aug 2026 17:37:30 GMT"
         }
       ]
     }
