@@ -1,206 +1,4 @@
 {
-  "2026-05-12": {
-    "hk": {
-      "categoryName": "本地新聞（香港）",
-      "articles": [
-        {
-          "title": "走出川普迷霧1:從地緣政治到地緣經濟",
-          "summary": "川普回任美國總統以來,對外政策頻頻出招,讓各國政府與學界應接不暇。對盟友課徵高額關稅、對中國又打又拉、對台灣的態度更是霧裡看花。這些看似矛盾的行動,真的毫無章法可循嗎?任教於喬治亞理工學院國際事務學院的旅美教授林坤達,在川習會前夕撰文,主張以「地緣經濟」為分析主軸,才能撥開川普迷霧,看清美中台關係的",
-          "source": "setn",
-          "url": "https://www.setn.com/News.aspx?NewsID=1836844",
-          "publishedAt": "2026-05-11 20:10:55"
-        },
-        {
-          "title": "退黨中心:4月三退人數逾120萬 比上月增3萬",
-          "summary": "截至2026年4月底,全球退出中共黨、團、隊(三退)總人數已達4億6093萬8955人,按中國官方公布的14億人口計算,三退人數已占中國大陸人口的32.8%。僅今年前四個月,即有452萬5554人發表聲明,4月份單月三退120萬759人,較上月再增逾3萬人。",
-          "source": "epochtimes",
-          "url": "https://www.epochtimes.com/b5/26/5/11/n14762154.htm",
-          "publishedAt": "2026-05-11 19:56:17"
-        },
-        {
-          "title": "美國國債收益率周一全線上揚,10年期漲幅最大",
-          "summary": "暫無摘要",
-          "source": "investing_hk",
-          "url": "https://hk.investing.com/news/economy-news/article-93CH-1455338",
-          "publishedAt": "2026-05-11 19:39:13"
-        },
-        {
-          "title": "2026 SMM香港金属论坛圆满落幕!聚焦资源价格 研判全球供需 洞察产业趋势",
-          "summary": "暫無摘要",
-          "source": "smm_cn",
-          "url": "https://news.smm.cn/news/103894487",
-          "publishedAt": "2026-05-11 19:34:40"
-        },
-        {
-          "title": "東方日報A1:黑客攻破網教平台 學界私隱巨災",
-          "summary": "網絡安全威脅無孔不入,全球廣泛應用的網上教學管理平台Canvas遭黑客組織大規模入侵,涉及全球2.75億名用戶。香港成為",
-          "source": "on",
-          "url": "https://hk.on.cc/hk/bkn/cnt/news/20260512/bkn-20260512033019816-0512_00822_001.html",
-          "publishedAt": "2026-05-11 19:33:35"
-        }
-      ]
-    },
-    "world": {
-      "categoryName": "國際新聞",
-      "articles": [
-        {
-          "title": "Transcript: Ask Political Fix — Starmer’s fightback, election turmoil and defence",
-          "summary": "Lucy Fisher talks to George Parker, Miranda Green and Robert Shrimsley",
-          "source": "financialtimes",
-          "url": "https://www.ft.com/content/2b35bbc6-26ef-4878-93dd-45e6ebdd0ddb",
-          "publishedAt": "2026-05-11 20:12:23"
-        },
-        {
-          "title": "Israeli Real Estate Expo Advertising West Bank Settlements Returns to NYC",
-          "summary": "The controversial event and the NYPD’s response to resulting protests present a test for Mayor Zohran Mamdani. The post Israeli Real Estate Expo Adver",
-          "source": "theintercept",
-          "url": "https://theintercept.com/2026/05/11/real-estate-expo-israel-west-bank-settlement-nyc/",
-          "publishedAt": "2026-05-11 20:06:58"
-        },
-        {
-          "title": "Clashes over Israel again define Eurovision — this time under the shadow of the Holocaust",
-          "summary": "VIENNA — Lisa Wegenstein is putting shakshuka on the menu. She hopes it won’t get her any hate. Wegenstein, 59, runs Kantine, a laid-back café and ba",
-          "source": "forward",
-          "url": "https://forward.com/culture/824296/eurovision-israel-vienna-2026/",
-          "publishedAt": "2026-05-11 20:02:57"
-        },
-        {
-          "title": "Migration expert discusses complex realities of immigration policy",
-          "summary": "The talk explored the goals, challenges and trade-offs involved in immigration policy.",
-          "source": "salisburyjournal_uk",
-          "url": "https://www.salisburyjournal.co.uk/news/26087681.dr-madeleine-sumption-mbe-gives-talk-immigration-policy/",
-          "publishedAt": "2026-05-11 20:00:00"
-        },
-        {
-          "title": "How Russia Circumvents Oil Sanctions and What Washington Can Do to Stop It",
-          "summary": "The tanker ship Viktor Titov is illustrative of a systemic issue posed by Russia’s circumvention of sanctions that Western policymakers have so far be",
-          "source": "nationalinterest",
-          "url": "https://nationalinterest.org/blog/energy-world/how-russia-circumvents-oil-sanctions-and-what-washington-can-do-to-stop-it",
-          "publishedAt": "2026-05-11 19:58:44"
-        }
-      ]
-    },
-    "finance": {
-      "categoryName": "財經新聞",
-      "articles": [
-        {
-          "title": "Transcript: Ask Political Fix — Starmer’s fightback, election turmoil and defence",
-          "summary": "Lucy Fisher talks to George Parker, Miranda Green and Robert Shrimsley",
-          "source": "financialtimes",
-          "url": "https://www.ft.com/content/2b35bbc6-26ef-4878-93dd-45e6ebdd0ddb",
-          "publishedAt": "2026-05-11 20:12:23"
-        },
-        {
-          "title": "Plug Power Reports Strong Q1 2026 Results with 22% Revenue Growth and 71% Margin Improvement ...",
-          "summary": "SLINGERLANDS, N.Y., May 11, 2026 (GLOBE NEWSWIRE) -- Plug Power Inc., a global leader in hydrogen solutions, today reported results for the first quar",
-          "source": "postregister",
-          "url": "https://www.postregister.com/businessreport/government/plug-power-reports-strong-q1-2026-results-with-22-revenue-growth-and-71-margin-improvement/article_17a5619c-6526-511e-944e-89a187213df5.html",
-          "publishedAt": "2026-05-11 20:06:08"
-        },
-        {
-          "title": "RADIANT LOGISTICS ANNOUNCES RESULTS FOR THE THIRD FISCAL QUARTER ENDED MARCH 31, 2026",
-          "summary": "Resilient performance amid a sharply divergent freight environment; Advancing Navegate platform and progressing 'Ray,' our first AI agent, to drive op",
-          "source": "cision",
-          "url": "https://www.prnewswire.com/news-releases/radiant-logistics-announces-results-for-the-third-fiscal-quarter-ended-march-31-2026-302768567.html",
-          "publishedAt": "2026-05-11 20:05:00"
-        },
-        {
-          "title": "Green Dot Reports First Quarter 2026 Results",
-          "summary": "Green Dot Corporation (NYSE: GDOT) (\"Green Dot\"), a financial technology and bank holding company that delivers seamless banking and payments solution",
-          "source": "financialcontent",
-          "url": "https://www.financialcontent.com/article/bizwire-2026-5-11-green-dot-reports-first-quarter-2026-results",
-          "publishedAt": "2026-05-11 20:05:00"
-        },
-        {
-          "title": "Bitcoin Holds Above $81,500 as $135M in Leveraged Crypto Positions Get Liquidated",
-          "summary": "Key Takeaways Bitcoin peaked at $82,458 on Sunday before retreating and consolidating under $82,000. Nearly $135 million in bitcoin positions were liq",
-          "source": "newspub_live",
-          "url": "https://newspub.live/crypto/bitcoin-holds-above-81500-as-135m-in-leveraged-crypto-positions-get-liquidated/",
-          "publishedAt": "2026-05-11 19:24:07"
-        }
-      ]
-    },
-    "ai": {
-      "categoryName": "AI 相關新聞",
-      "articles": [
-        {
-          "title": "AI Is Reshaping Software Supply Chain Risk",
-          "summary": "AI-assisted development is expanding software supply chain risks faster than security controls can keep pace. The post AI Is Reshaping Software Supply",
-          "source": "esecurityplanet",
-          "url": "https://www.esecurityplanet.com/threats/ai-is-reshaping-software-supply-chain-risk/",
-          "publishedAt": "2026-05-11 19:35:15"
-        },
-        {
-          "title": "12 AI Stocks Wall Street Is Watching Now: Nvidia, Micron, and More",
-          "summary": "In this article, we will look at the 12 AI Stocks Wall Street Is Watching Now: Nvidia, Micron, and More. Wedbush’s Dan Ives told CNBC’s Squawk Box on ",
-          "source": "insidermonkey",
-          "url": "https://www.insidermonkey.com/blog/12-ai-stocks-wall-street-is-watching-now-nvidia-micron-and-more-1759227/",
-          "publishedAt": "2026-05-11 19:24:46"
-        },
-        {
-          "title": "5 AI Stocks Wall Street Is Watching Now: Nvidia, Micron, and More",
-          "summary": "Below, we take a look at 5 AI Stocks Wall Street Is Watching Now: Nvidia, Micron, and More. For a deeper dive into the full list, check out 12 AI Stoc",
-          "source": "insidermonkey",
-          "url": "https://www.insidermonkey.com/blog/5-ai-stocks-wall-street-is-watching-now-nvidia-micron-and-more-1759229/",
-          "publishedAt": "2026-05-11 19:24:07"
-        },
-        {
-          "title": "Top 8 Best New Cryptocurrencies to Invest in Today: IONIX CHAIN is Dominating the Scene",
-          "summary": "In the fast-evolving world of cryptocurrency in 2026, American investors - especially those newer to the space - are constantly searching for the best",
-          "source": "openpr",
-          "url": "https://www.openpr.com/news/4509863/top-8-best-new-cryptocurrencies-to-invest-in-today-ionix-chain",
-          "publishedAt": "2026-05-11 18:59:40"
-        },
-        {
-          "title": "Top 9 Best Crypto to Buy Now: IONIX CHAIN is the #1 Must-Buy Right Now",
-          "summary": "In the fast-moving world of cryptocurrency in 2026, finding the right opportunities requires careful thought, especially for beginners looking to ente",
-          "source": "openpr",
-          "url": "https://www.openpr.com/news/4509860/top-9-best-crypto-to-buy-now-ionix-chain-is-the-1-must-buy-right",
-          "publishedAt": "2026-05-11 18:55:58"
-        }
-      ]
-    },
-    "china": {
-      "categoryName": "大中華新聞",
-      "articles": [
-        {
-          "title": "走出川普迷霧1:從地緣政治到地緣經濟",
-          "summary": "川普回任美國總統以來,對外政策頻頻出招,讓各國政府與學界應接不暇。對盟友課徵高額關稅、對中國又打又拉、對台灣的態度更是霧裡看花。這些看似矛盾的行動,真的毫無章法可循嗎?任教於喬治亞理工學院國際事務學院的旅美教授林坤達,在川習會前夕撰文,主張以「地緣經濟」為分析主軸,才能撥開川普迷霧,看清美中台關係的",
-          "source": "setn",
-          "url": "https://www.setn.com/News.aspx?NewsID=1836844",
-          "publishedAt": "2026-05-11 20:10:55"
-        },
-        {
-          "title": "走出川普迷霧2:供應鏈角力下美難以棄台",
-          "summary": "延續上篇對地緣經濟的理論分析,本文進入實戰場域。從2010年中國對日稀土禁運、COVID-19疫情暴露的供應鏈脆弱性,到川普第二任期的對等關稅與再工業化政策,任教於喬治亞理工學院國際事務學院的旅美教授林坤達,以地緣經濟為軸線,逐一拆解美中台三方的利益盤算,並指出台灣在這場沒有硝煙的大國角力中,其實已",
-          "source": "setn",
-          "url": "https://www.setn.com/News.aspx?NewsID=1836855",
-          "publishedAt": "2026-05-11 20:10:33"
-        },
-        {
-          "title": "川習會在即 專家析雙方有何籌碼:川普更多",
-          "summary": "中共經常說一句話:中美雙方合則兩利,分則兩害。中共官方發言人這樣講,中共高官出來這樣講,習近平自己都講了這個話。這說明中共有求於人,部分原因是中共對美國的依賴度遠遠高於美國對中共依賴度。",
-          "source": "epochtimes",
-          "url": "https://www.epochtimes.com/b5/26/5/11/n14761862.htm",
-          "publishedAt": "2026-05-11 18:00:40"
-        },
-        {
-          "title": "川習博弈 林佳龍:我方關心但不過度擔心",
-          "summary": "「川習會」預計十四日在北京登場,總統府昨未對此發表看法;外交部長林佳龍表示,我政府密切關注即將舉行的川習會,也跟美國都保持持續溝通;不管是美國政府公開的發言,或非公開的溝通,「我們都對台美關係的穩定...",
-          "source": "udnnews",
-          "url": "https://udn.com/news/story/124870/9496354",
-          "publishedAt": "2026-05-11 17:53:48"
-        },
-        {
-          "title": "川普牽動AI供應鏈,台海和平恐成新賭局",
-          "summary": "編按:川習會倒數之際,川普再拋晶片與關稅議題,AI熱潮雖讓台股與台積電續創高點,台海卻同步承受美中角力壓力。當和平與經濟利益拉鋸,台灣未來該如何選擇?成為關鍵考驗之一。最近台灣的處境好比三溫暖。經濟上,台股和台積電頻創新高,由於AI帶動的產業革命全方位爆發,以及非紅供應鏈的訂單外溢效應,台股市值全球",
-          "source": "gvm",
-          "url": "https://www.gvm.com.tw/article/130009",
-          "publishedAt": "2026-05-11 17:37:05"
-        }
-      ]
-    }
-  },
   "2026-05-13": {
     "hk": {
       "categoryName": "本地新聞（香港）",
@@ -25450,6 +25248,313 @@
           "source": "Google News 中國",
           "url": "https://news.google.com/rss/articles/CBMiiARBVV95cUxOREtmYk1LbjZPZHd0MzE2T25MQl84WHpMMFh5SzV2ZncyN0d0N1M0RTFBQXpxektkSlgyZ3dDWkpnMi1JdHRUc3NTdzNMNzNfaHBrVm5XS0txZXFaVWZnNGhjUHFaYzEzLVFnME95aDJqSjRfM2NjUkhxR0hlRnN6dUhlOXQ3ckNRR1VDVFMzNkNFWWFfU2g0Zk9Ub2tyRjY5MWtSNlBmejU5Mm9rOEVBWks1V2d5ZF94QU5zYTlSWEV4RlphbzNpbXd3UEsyR2xxa1hEWG9iM1JtT2tFZXhHUVRCY0p2YW1pOE5rY29EOTRMdXRlajdUZVFZYmg5OVpnbmR6OFpCVlhzUzktZGhvVnRXS1VrdFJOaU5qb2g4SjRKTklPLXc0WGFPb3Q5V05jZ1VBWm0yQ3J5Zko3eUkyUE1Xb3ROeXJ5bmYzU3VQem1SU1VWM3RhN1JnOWdjN1hPQ3BOOXpLVVNqbUJrS3dWYzA4R01JQVB5ajdDMGJSdzZZb0c4ZmxNNmxGQjlGcDhqcmlEM25SY0RhYUg0TGhqbWhYUmtuZHJsYWJnOWpqeUxlNE5UVkhjOFB1NlFkcGstc3p5bzhsdUdTaXJFei16Q3k4dTlCZG5RSF9XMUtwSGk3Mm5ORDBiYnhwWWZNLTdKekthczF3SHd5MURpQ0ZqUmxxSW83Umhi?oc=5",
           "publishedAt": "Sat, 08 Aug 2026 20:30:00 GMT"
+        }
+      ]
+    }
+  },
+  "2026-08-10": {
+    "hk": {
+      "categoryName": "本地新聞（香港）",
+      "articles": [
+        {
+          "title": "林定國:香港營商環境具法治支持 續說好香港故事 - 信報網站",
+          "summary": "林定國:香港營商環境具法治支持 續說好香港故事  信報網站",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxQMHl1UHFWTXRldVdWMDJPOTRGdFF0T1BJMFhyZFRwWEhzYTZLbTN3YmV6ZXNqTTQxQzhKa0lPNElENzRSM1lUcm5VUXhhYVNvS01HRmpRY1RPazF2SFJFQ0lXcFlaQVRmVDVxZTY3eGxlalBSbFFkaDAxZ2lXWVBIcGRmRXlUUUFpWkpaNFZPeUZPN2pXblpSUHJsV1hjTWt2cmpwRmJ5VjhmeWFsNHlhZThMaXRzekh3eElaYlhvSDB5NHdoZ3psZjZDX0EwUjhFRU1zbTBnR1BXWVRFeHdhTmRDVHFaajNFVDF2NHhUclZqeXcxSTBYZEs2Z0Q2WUVkWHBxc01Tc1hkbnpCQkpNUm9vYzhKbjlUZGRnczVxajhHN1BublIySEJGQ1V3b1hZblJYRDZFenFXeW5ZcDY1RWhEcVlNR3JwQU1RbXlnS0toMm1ZdVotQnRYSVFlanpW?oc=5",
+          "publishedAt": "Sun, 09 Aug 2026 15:13:53 GMT"
+        },
+        {
+          "title": "香港跳水公開賽｜陳梓銘兩日奪2金1銅 17歲之齡有望兩戰亞運 - 體路 Sportsroad",
+          "summary": "香港跳水公開賽｜陳梓銘兩日奪2金1銅 17歲之齡有望兩戰亞運  體路 Sportsroad",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxQc1dmSjlqMXFabWJjTmZ0c3p3NHNFUk1QSFUtYnljRGd0NlhGVWpXVTdncVVreFZuQXVlMmswVW8tWGZfSDE5NGZOVEl5bk1qaHAzOS05aUpXQTRaX0pLV0tnUlkyS1MtU2d0c2tRSVRfWEZhUXlTWUtfLTRaTXFSaUVLSjlSeVJZYWxWTHFJelQ0MGtwSGV5dkJDODM0RUcySTRDb2V0TmcxSk1JTzJOaUlJdkxQRzVTMXZndDNpamNXM0M5U01zeHA1MkM2OTBrSXhtNUxQRXRhVTJPdi1xSUI2QXhoX1Y5QzVVREsxR3VhbUpuZmswd2dMVEhtQjhJQVg0YnV2SWhBQU9DNm9LSTk5M1JNRTJsZ2EwMTBCWEFvME9BajRPOURhenJhY0h1MzhuclRMRlotMEJ4bWpfejVOQWMzV1FVR0tmdzVqZm5fZVM5STRPdw?oc=5",
+          "publishedAt": "Sun, 09 Aug 2026 15:59:21 GMT"
+        },
+        {
+          "title": "海關機場檢6公斤懷疑大麻花 一名內地男子被捕 - 香港商报",
+          "summary": "海關機場檢6公斤懷疑大麻花 一名內地男子被捕  香港商报",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9Zdm44N3M3ZU9HYi13cWVBUEZVV08xLWVVeGNzRURTZFE2ZlBiaHYxMTNoOEk2Q0dVZ3NpOENUNUloY0RmdS03SE51ckhzZnNEVkk3eXlXb0xrSVYxclBHLWwwNkFXN0lPT0lDUUxEdGltRVZQdDM0UVFXdw?oc=5",
+          "publishedAt": "Sun, 09 Aug 2026 15:49:00 GMT"
+        },
+        {
+          "title": "中國人工智能晶片設計公司摩爾線程計畫在香港上市 - hk.finance.yahoo.com",
+          "summary": "中國人工智能晶片設計公司摩爾線程計畫在香港上市  hk.finance.yahoo.com",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMi8gJBVV95cUxPSnI5bkJVeG5vVzFFVndnVEg4c1p1ME80OExvbk5sdDY4eGpSQnVqM0FDa0NRU05qVng0akJoNXZoV1hDVFUzR2NEcnA5NVpRS3BKWXBiQzhHR3M3cjBNR01PNHVtZzJsZDlNOEpmdU9Bb25Rb3hkX21BTDJ5am1Ld1RSRnhFMkVaY1lMOWxGbnVWZzlQbWlOQTZxRjRtUnhRQ1ZWdmlDdWRlQWJQbzBfU3o0SmNXMVF5QWJIalY1WFU1Nzd2UFJReWkwdkVCUmNWREN3Q0IyQWwzTDlrMDR5Tk9Ed3dYbnVreEZHbGxvakNhQlJMMy1tdmVwX2FJUGppeGh4SzBwckRnSGF6ZF9fZmhSLXVRalM1RkpKOWdhY1YyR0NoTTZvRi1TOUtzb2lJOVRvVU9HaFA1X1hORmtJRzVsWUg3dllsWnlPR2tGYlBLbE10SW9NODFoWDkxNVJ1X2tUYlJrbk9panFFSHdaV2RB?oc=5",
+          "publishedAt": "Sun, 09 Aug 2026 10:14:02 GMT"
+        },
+        {
+          "title": "香港公開游泳錦標賽何詩蓓女子100米自由泳奪金- 有線寬頻i-CABLE - i-cable.com",
+          "summary": "香港公開游泳錦標賽何詩蓓女子100米自由泳奪金- 有線寬頻i-CABLE  i-cable.com",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxQcjkycEFDcXNyX0NjZ2c5U212dUEzU1ozSUJhc01MZEM2a1hmWHF1djFRRzBFOUFtSEJkVlppTTA1RzBuNC1pd3hkdkJVd2g5TDhqQmJTS3FRNEg4NzFXaHNsdzNTem9wYmVaZXdpd044bnRDYnZoVGFHa25RUkJNVGE0blNVQzU2b1NRd3hHQU9PM2lGQjVETzBjbWhUVElyZjlvOEJGdEdOWXNCNnpOWWdDanVHXzhYUGt3a0JocENscjdKSVRiVVNkM3RtQ3UzbDQtMEl2YUJtcTNDYkI4MDlmNXAxQ0tseThfcHNaVnpSRkwtTXpkWlVBemZkT0U3RUVnVk5zemF5U2JxR2pfLWxqb0pCdjZtTXRQZllyb3FHLTVjQ0E1aU1VM2txQVdGVExmMkZWSUxmMjJ4LTRQRGpNMXIwYlpENFI1YmxQQ2VVaEZYV0FFd2lGTnpILWYtdVJtOTZkeFdxUVZx?oc=5",
+          "publishedAt": "Sun, 09 Aug 2026 08:51:20 GMT"
+        },
+        {
+          "title": "熱浪無阻數百人輪候城巴觀光巴士 深圳客冷小姐：香港今日特別熱 - 香港01",
+          "summary": "熱浪無阻數百人輪候城巴觀光巴士 深圳客冷小姐：香港今日特別熱  香港01",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMiyANBVV95cUxOZ3Z4c290SVFxRkVFMWsxWmFvWlluWk5pd001X1hEQmU0RUZjUUZSV1BjNjVUdjlQbHVqTG5PUmNTbzdIZmNfSWNLaE1WLW11WVJqZlRXcXJObTBjLVhPTHlFcWFjNkw4N3RoeGg5azhPVkRuU3RyNjFiRndXUkw3ZmtpaGdsUGpBU0JQdFBZM2dHTnYzVjVGZ3llMnRwRE9Hdzg4NElrellPcV9qS2xUZDhQVDhqQ0VuQ183UXFXOXA4cTBPb283MmZwVDBBaDJrcklqLXZvX0F5VkxfMkZNTzZoQmswbndPNUFnMkVFVHMwVVFTRVIxcWtBRnJlZTlVYnNkMWtXMGJ4MkkwYnA2cHlkeERPMk9fbVVSSXpEdzJzSmJhZUM2cy1aR2FXNGJ3Z3Z6QVdYemtOOXpucDF0SDhEeU1OVmFMOUYyZGFMMlRfMXhidXk4aFlYdk9IMkxrakNnYl8xSUFzaldHU2lOM3R6aUdleENPSUdLVGNYak9ialBjVmg3ZWVUMU9vajNQS1FnNE5DZEtPVHM3dGY1eUtQSVBaZTJsZzQtcnR5Tk1UdmJkYlJBczBiSVhxeXlvTEhYSF9CRm0?oc=5",
+          "publishedAt": "Sun, 09 Aug 2026 13:34:09 GMT"
+        },
+        {
+          "title": "勞工處稱會留意「工作暑熱警告」系統運作 檢視是否需進一步優化 - 香港電台新聞網",
+          "summary": "勞工處稱會留意「工作暑熱警告」系統運作 檢視是否需進一步優化  香港電台新聞網",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNa05sWVZtQjJSVF9XWUpZWVJhMVp3di1RZU1hMVJWQWMyampyLWNiWThHTDEySjh6MWdJeEpFY3FVazFvdktHalh0SnBDUlJDeWJmZ1dRLWxfWENiS3UybmZxN2ZUV25oY0JyejNhSmNfZnVaVGJwNlBySEFxdjBLbjRtaEhRZms?oc=5",
+          "publishedAt": "Sun, 09 Aug 2026 13:34:00 GMT"
+        },
+        {
+          "title": "香港預計9月發表首份五年規劃 兩成受訪青年稱不知 - rti.org.tw",
+          "summary": "香港預計9月發表首份五年規劃 兩成受訪青年稱不知  rti.org.tw",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1wamtaajBRbF9jVUMtcUszUHlwdU1YbWc3cWh4YWg0WTdiaGlXMy1yNnhfcElqSnJ4SU1mZjY5ekhjYjlVLV9MZmo0aGt6d1RxbmlTSzJlcw?oc=5",
+          "publishedAt": "Sun, 09 Aug 2026 11:22:46 GMT"
+        }
+      ]
+    },
+    "world": {
+      "categoryName": "國際新聞",
+      "articles": [
+        {
+          "title": "加拿大野火失控，居民警告要做好最壞的打算",
+          "summary": "不列顛哥倫比亞省的巴爾德山脈野火仍被認為是“失控”，已蔓延超過 53 平方英里（136 平方公里）。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cx25dkwk3e3o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Sun, 09 Aug 2026 18:03:55 GMT"
+        },
+        {
+          "title": "厄瓜多指控前部長涉嫌總統候選人暗殺案",
+          "summary": "檢察官指控其他六人，包括洛斯洛博斯販毒集團的頭目，在謀殺費爾南多·比亞維森西奧的過程中間接扮演了角色。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cgjeznj6979o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Sun, 09 Aug 2026 15:34:04 GMT"
+        },
+        {
+          "title": "萊比錫炸彈事件發生幾天后，在德國基地上空發現了無人機",
+          "summary": "警方正在調查在軍事基地上空目擊無人機的事件，據報該基地用於存放愛國者飛彈系統零件。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cwyeg1ljp2eo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Sun, 09 Aug 2026 16:18:10 GMT"
+        },
+        {
+          "title": "尼日利亞軍隊稱已安全解救被槍手綁架的33人",
+          "summary": "週六，這些人在穿越該國西北部紮姆法拉州時被綁架。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c89nkkvx2veo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Sun, 09 Aug 2026 19:57:28 GMT"
+        },
+        {
+          "title": "波多黎各因嚴重乾旱而實施供水配給",
+          "summary": "炎熱的天氣和老化的基礎設施導致了配給，影響了數十萬人。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cqlxgk7r2vwo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Sun, 09 Aug 2026 16:43:23 GMT"
+        },
+        {
+          "title": "自由女神像附近的船隻翻船導致婦女和嬰兒死亡，男子被捕",
+          "summary": "據報道，最初從水中救出的另外十二人目前情況穩定。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c935w1d05d7o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Sun, 09 Aug 2026 19:40:09 GMT"
+        },
+        {
+          "title": "爆炸、呐喊、冲锋声此起彼落 中国“红色旅游景点“推出历史战争体验",
+          "summary": "以为在拍电影，没想到是亲身上战场！烟火连天、红旗漫卷，法新社记者在贵州娄山关体验一次“沉浸式”长征战役，到底有多震撼？",
+          "source": "DW 德國之聲",
+          "url": "https://www.dw.com/zh/爆炸、呐喊、冲锋声此起彼落-中国-红色旅游景点-推出历史战争体验/a-78260505?maca=chi-rss-chi-all-1127-rdf",
+          "publishedAt": "2026-08-09T14:36:00.000Z"
+        },
+        {
+          "title": "非洲女子国家杯2026四分之一赛",
+          "summary": "在北非马格里布地区的摩洛哥王国，于两个星期前2026年07月26号周日开幕的第14届非洲女子国家杯足球赛（la CAN féminine 2026）目前正在如火如荼的举行之中。这一计划为期三个星期的赛程，预计是在一周后的08月16日星期天落幕。进入本届赛事四分之一决赛的八支女足队，于本周末两天（08月08日星期六和08月09日星期天）分别在卡萨布兰卡（Casablanca）和拉巴特（Rabat）对",
+          "source": "RFI 法廣",
+          "url": "https://www.rfi.fr/cn/%E9%9D%9E%E6%B4%B2/20260809-rfi%E6%B3%95%E5%B9%BF-%E4%B8%AD%E6%96%87-%E5%B0%BC%E5%8F%A4%E6%8B%89-%E9%9D%9E%E6%B4%B2%E5%A5%B3%E5%AD%90%E5%9B%BD%E5%AE%B6%E6%9D%AF2026%E5%9B%9B%E5%88%86%E4%B9%8B%E4%B8%80%E8%B5%9B",
+          "publishedAt": "Sun, 09 Aug 2026 18:54:53 GMT"
+        }
+      ]
+    },
+    "finance": {
+      "categoryName": "財經新聞",
+      "articles": [
+        {
+          "title": "星宇航空現增3億股送件 暫定每股16.5元、估募49.5億元 - 壹蘋新聞網",
+          "summary": "星宇航空現增3億股送件 暫定每股16.5元、估募49.5億元  壹蘋新聞網",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQYXJmZmRXb0dyX09rbkhlWk1VSDZSZVQ1MjNZaWMwT09NdjhMSm5ULV9SSGZYdl9pcHdtM05JelZ0aGxsMXJzcGZuRjhNbkpHajZCc3dxdlYyZzdSUGw0X2VqQnJBaWludkpUbVBJWjZnbUM0ZDJlQ0hwc3dqbVVaU013?oc=5",
+          "publishedAt": "Sun, 09 Aug 2026 16:01:00 GMT"
+        },
+        {
+          "title": "台股本週力守4萬4大關 法人建議震盪分批布局、聚焦美通膨數據 - 壹蘋新聞網",
+          "summary": "台股本週力守4萬4大關 法人建議震盪分批布局、聚焦美通膨數據  壹蘋新聞網",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1UNnlSWkNHb05SQTZTRVctalRkc1ZPTm9ZTG1jSjEzZnVZQ0hDTVp0LUFKTW9yWG8yMUg0bVBmV3ZYak1QcnJURDZQUkszR29HOGt4bVZUVnYyLVM3d1BweWd4NEw1eDRYZi1EbXlYdmpIOThaRHpSRnQ5Vml1R2c?oc=5",
+          "publishedAt": "Sun, 09 Aug 2026 16:05:00 GMT"
+        },
+        {
+          "title": "跑贏標普 500 指數的股票數量創 4 年來最高。為什麼這個數字應該要上升。",
+          "summary": "四年來首次，平均股票跑贏股市。",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/the-number-of-stocks-beating-the-s-p-500-is-the-highest-in-4-years-why-that-number-should-rise-b9bd05b3?mod=mw_rss_topstories",
+          "publishedAt": "Sun, 09 Aug 2026 19:11:00 GMT"
+        },
+        {
+          "title": "「我和我的妻子都退休了」：我們是否會動用 230 萬美元的基金以 2.9% 的利率償還 30 萬美元的抵押貸款？",
+          "summary": "“目前，我們每年從投資中提取約 10 萬美元。”",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/my-wife-and-i-are-both-retired-do-we-dip-into-our-2-3-million-fund-to-pay-off-our-300-000-mortgage-at-2-9-2d23d1df?mod=mw_rss_topstories",
+          "publishedAt": "Sun, 09 Aug 2026 16:00:00 GMT"
+        },
+        {
+          "title": "波蘭目前是歐盟第六大經濟體，領先瑞士和比利時 - 雅虎財經",
+          "summary": "波蘭目前是歐盟第六大經濟體，領先瑞士和比利時 雅虎財經",
+          "source": "Google News Finance",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMDM5S2JxYVA1ZHpDUnhBZ1I5MEgtOUFiMnRaTXFsb3VvQVc2Z2RSVWdEbzJpMWd0el9ib2tvUGktTE5LYTZMZXQ2QnBEaVhLV1EycXh4ckc4U3BwQXFlVjFIT1E5SkZldEdRazZJMGkySzZTZjNZdExmSVRha01rT0V3Ui11NUlaMnBndWZR?oc=5",
+          "publishedAt": "Sun, 09 Aug 2026 17:23:07 GMT"
+        },
+        {
+          "title": "《衛報》對印度綠色成長賭博的看法：它需要的不僅僅是私人融資 |社論 - 衛報",
+          "summary": "《衛報》對印度綠色成長賭博的看法：它需要的不僅僅是私人融資 |社論《衛報》",
+          "source": "Google News Finance",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNZFRsZVlSckpzbzJKUVFSbFoyd1JrT0ZPaGotaWJVM1gtNHRudE56WS1LOWJnZ1ZFWWtuSGE1UUo1eUZwbmhMN3VPN3VJZ3lQMTEtc1VuVHlnN0dGX1JRWjFuY05zSUQyYjFHcEE1V2REclZ1ZnBXX3RFQ2txRzUwWnAyZmdhMDNRdjVwMXlWV19FbHhyY2VXWjZPZjJmMjVrSzUyNmp5SXJKeG5RbE1ERTJXUkMzZUhFa2I5aFhZem43bV9JNHFBTXlUUE56LXN0UW1xTUZraw?oc=5",
+          "publishedAt": "Sun, 09 Aug 2026 18:15:00 GMT"
+        },
+        {
+          "title": "外交官眼中的安徽：從農業大省到區域經濟“增長極” - 雅虎財經",
+          "summary": "外交官眼中的安徽：從農業大省到區域經濟「成長極」 雅虎財經",
+          "source": "Google News Finance",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObmFHN3lyajEtV0tWSDlETWdLT0UxdGI5WUFyLXJXazVNakRnWW5zYUc2YnIzSzc0OFFqT285c0lvRjYzVmxlNk91TjhXQ213SFRpX0MwTnpDMkE0U3F1RTkzanJpSWs5MEhxMThfNWVzWldQSi15ZV9wa0dVNWlWeXBmcThUbU1jQmh0WldsRVZxUmZxSTI1RzB1NWFlUDU2cjZjU2E2eGx3NFk?oc=5",
+          "publishedAt": "Sun, 09 Aug 2026 14:31:00 GMT"
+        },
+        {
+          "title": "英國經濟預計將再成長一個季度，「大局」顯示韌性 - uk.finance.yahoo.com",
+          "summary": "英國經濟將再成長一個季度，「大局」顯示韌性 uk.finance.yahoo.com",
+          "source": "Google News Finance",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNTS1xSk9zdm9sR01ZNVBGaW1JRHhad0ZvSWwwT0M3WENsUXdCTFFCWEQ4LUxhZURMTkRCZktjNHg1WjZ2Vkx3YmpmdE96NFlzaFhoMHY3YWIyVlNtUFNiTGZYc3JSdGJtaDdENzYxbl9kVi1yN3ZESlNyZk1JR0h3bHlkVjBSQQ?oc=5",
+          "publishedAt": "Sun, 09 Aug 2026 14:59:22 GMT"
+        }
+      ]
+    },
+    "ai": {
+      "categoryName": "AI 相關新聞",
+      "articles": [
+        {
+          "title": "新增多重管理員驗證，NetApp物件儲存系統近期推出改版",
+          "summary": "發展超過25年的企業級物件儲存系統StorageGRID，NetApp今年6月底推出12.1版。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/review/177980",
+          "publishedAt": "2026-08-08  10:08:51"
+        },
+        {
+          "title": "研究人員揭露駭客入侵Oracle資料庫，並以Oracle為跳板在Windows執行惡意指令的手法",
+          "summary": "資安業者Huntress近日發現甲骨文資料庫遭到駭客入侵後被用以當成跳板，對Windows發動攻擊、竊取用戶密碼。\nHuntress本週揭露了一起利用傳統SQL注入（SQL injection）漏洞結合Oracle資料庫內建Java功能，成功將攻擊工具包khunt寫入資料庫內部，最終取得Windows作業系統SYSTEM權限的進階攻擊案例。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/177979",
+          "publishedAt": "2026-08-08  08:08:01"
+        },
+        {
+          "title": "Gitea修補CVSS 9.8重大漏洞，攻擊者無須登入即可遠端執行程式碼",
+          "summary": "開源Git服務平臺Gitea揭露重大漏洞CVE-2026-59774，遠端攻擊者不需要登入帳號，只要伺服器上存在可公開存取的儲存庫，就可能藉由文件處理功能讀取伺服器內的檔案，取得內部存取權杖後，甚至可以在系統上執行程式碼。漏洞CVSS 3.1風險評分達9.8分，官方已在Gitea 1.27.1修補。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/177977",
+          "publishedAt": "2026-08-08  08:08:09"
+        },
+        {
+          "title": "資安業者揭露Claude分享對話可被Google搜尋，恐導致用戶敏感資訊意外曝光",
+          "summary": "資安業者Malwarebytes近日指出，Anthropic AI聊天工具Claude的分享對話，可能被Google搜尋引擎找到，導致用戶對話中的敏感資訊因此曝光。這項問題最初是由某些Reddit用戶發現，他們能透過特定搜尋方式，在Google搜尋結果中找到許多這類對話紀錄。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/177976",
+          "publishedAt": "2026-08-07  06:08:53"
+        },
+        {
+          "title": "交通部運研所以AI、無人機蒐集高速公路出入口匝道車流數據，以新數據改善國內公路容量分析及設計規範",
+          "summary": "過去政府進行道路交通規劃與設計，高度仰賴人工調查或固定地點的交通觀測來取得數據，但這類人工調查方式容易因人力有限、觀測時間不足及樣本數限制，難以掌握不同時段、不同道路環境下的實際車流狀況。\n交通部運輸研究所(簡稱運研所)為期3年的研究，利用成熟的無人機空拍影像來拍擴大道路觀測範圍，再利用成熟的AI影像辨識技術來分析車流，將過去需要人工觀測、記錄的交通資訊轉為大量、細緻化的數據。運研所今天(8/7)",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/177964",
+          "publishedAt": "2026-08-07  06:08:05"
+        },
+        {
+          "title": "Cloudflare讓網站免改程式啟用WebMCP，AI代理可直接使用網站功能",
+          "summary": "Cloudflare推出WebMCP開發者預覽，啟用後，Cloudflare會在網頁送到瀏覽器前自動加入一段橋接程式，讓支援WebMCP的AI代理發現網站提供的功能，並直接呼叫對應工具。網站管理者可直接在Cloudflare控制臺開啟功能，不必修改原有網站程式。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/177965",
+          "publishedAt": "2026-08-07  06:08:39"
+        },
+        {
+          "title": "Google開源WeatherNext天氣模型，熱帶氣旋預報平均提前一天",
+          "summary": "Google DeepMind開源WeatherNext 2與WeatherNext Cyclones天氣AI模型，公開程式碼與模型權重。同步刊登於《Nature》的研究顯示，WeatherNext Cyclones預測熱帶氣旋路徑、強度及風圈範圍時，在相同準確度下，平均可比現行主要氣象預報模型多取得超過24小時的預報時間。換句話說，WeatherNext提前3天做出的預測，準確度約可達到過去模型",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/177963",
+          "publishedAt": "2026-08-07  04:08:30"
+        },
+        {
+          "title": "中國Zbtlink路由器內建後門，可遭遠端接管",
+          "summary": "根據資安業者VulnCheck週三（8/5）發布的研究，中國路由器品牌Zbtlink有至少20款產品的原廠韌體內建後門，路由器開機後會主動連上遠端伺服器，並以系統最高權限執行對方傳回的任何指令。由於連線過程並未驗證伺服器身分，使得駭客只要劫持此一連線，便能冒充原廠伺服器並接管路由器。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/177962",
+          "publishedAt": "2026-08-07  03:08:11"
+        }
+      ]
+    },
+    "china": {
+      "categoryName": "大中華新聞",
+      "articles": [
+        {
+          "title": "重新詮釋兩岸 藍批為選舉製造議題 - 中時新聞網",
+          "summary": "重新詮釋兩岸 藍批為選舉製造議題  中時新聞網",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE11WUFiRDZrQXZYMmlOaXVSMGwyeWI3NjUtUVdxcm9vMkVXellHOHB3Y005eHd0QmVsY2ROSUxlOVl0OEpadGhsM21WUWgtVmFuRUdFeG1yVnhNOWdfNnZ5bW54ZERvbS1ONEdv?oc=5",
+          "publishedAt": "Sun, 09 Aug 2026 20:10:00 GMT"
+        },
+        {
+          "title": "中國對白海豚發布最高等級颱風預警 部分地區將特大暴雨 - 世界新聞網",
+          "summary": "中國對白海豚發布最高等級颱風預警 部分地區將特大暴雨  世界新聞網",
+          "source": "Google News 中國",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1WV1lfNUFvdHNkc3hfWmxHRER2QkIybnlOWjdwM05yQklXblQxVncxOXBMOGRyZmdULUR3eG1ZTGJoSUR5SmFNbzNqVW9raFI5VHU1SFVNZ3JCYlNNQWtKRGw2X05KRWPSAWdBVV95cUxNVldZXzVBb3RzZHN4X1psR0REdkJCMm55Tlo3cDNOckJJV25UMVZ3MTlwTDhkcmZnVC1Ed3htWUxiaElEeUphTW8zalVva2hSOVR1NUhVTWdyQmJTTUFrSkRsNl9OSkVj?oc=5",
+          "publishedAt": "Sun, 09 Aug 2026 14:56:16 GMT"
+        },
+        {
+          "title": "捷運月台狂喝水！中國夫妻遭抓包「硬喊這國人」 | 民視新聞網 - LINE TODAY",
+          "summary": "捷運月台狂喝水！中國夫妻遭抓包「硬喊這國人」 | 民視新聞網  LINE TODAY",
+          "source": "Google News 中國",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB4ZDlyaFJJaks5cFp4dV9UR3piTXpqeWpsLXJWcUtLOVhzaWlrZ3BDVlRnV2h6RmRUdEwzSHNtWVkzQklFd01IZ2llb2xJa0pCQzJmTnNR?oc=5",
+          "publishedAt": "Sun, 09 Aug 2026 17:03:45 GMT"
+        },
+        {
+          "title": "川普放水？傳白宮拍板：中國開源AI模型不須審查 - Yahoo新聞",
+          "summary": "川普放水？傳白宮拍板：中國開源AI模型不須審查  Yahoo新聞",
+          "source": "Google News 中國",
+          "url": "https://news.google.com/rss/articles/CBMivAJBVV95cUxORkh6TFU2aUM5ZG5BMVJqazVqUUtva044a3ZSRzFPRUZXZDdNUmNVU1ZUenRkZzR3OWlyb0d5Y3VCVm9hXzl2MVV6Zjc1enR4RkJSckF2YmRXZWlTQ0Q5WExPVVgyeFg2VFJSY0R0RG84bVRnR0g1bGVpOWdpeUdBM1I4MjZyNndjenBLb0NzWHpsWkNmRE1JZ3lmdVdzT0xVNk94MDdtQVBQci1FdGJPMjVTYjVWdUU3S3prTmxDLWpvc3ktanpPdjlNdnA3eFBKZVZ0ZW96SXIxZ2pxZTdHQ3F1UXZzSVpCMEw1S0JXLTgzX0MzQTFkbjMxMTJiaktQSks3YUtfRllmYm8wWUpwZUNja2Vadm1MMU1aREwteXh6UmtuWm1JRTdDU2xQZmg2RS1JRDRpRGFUT2g4?oc=5",
+          "publishedAt": "Sun, 09 Aug 2026 18:15:00 GMT"
+        },
+        {
+          "title": "白海豚登陸前 中國上海市慘淹一片汪洋 - 美洲台灣日報",
+          "summary": "白海豚登陸前 中國上海市慘淹一片汪洋  美洲台灣日報",
+          "source": "Google News 中國",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBKVHItUnZlWWRGVjRBWThBZEFLaFBRbzBGMU1iMUFZRFo2Y2o4Y1RkNndsZnRZdHQ3a0NjMHpkY05DZHh2VW02aFdKX2pYV1V4b2IyWGVVWGJsYU5TTF9qb0QydklhMjNNdlI4aHUtRUpZQzlVcDh3?oc=5",
+          "publishedAt": "Sun, 09 Aug 2026 15:12:41 GMT"
+        },
+        {
+          "title": "百餘家台灣社團亮相兩岸社團交流節 - taiwan-reports.com",
+          "summary": "百餘家台灣社團亮相兩岸社團交流節  taiwan-reports.com",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9zVUJ2cUFMUXBIdTNfaEEzdThXb0xVTTJTVjB2MWxURkpmTXZUNUI4Ym45cXJyTlpXb1ZhX1pMTUY1ZkEzODZud0lISkJFWFd2d1JXOHByNFlSdw?oc=5",
+          "publishedAt": "Sun, 09 Aug 2026 10:51:44 GMT"
+        },
+        {
+          "title": "兩岸尋根聯絡點新增8處授牌 - taiwan-reports.com",
+          "summary": "兩岸尋根聯絡點新增8處授牌  taiwan-reports.com",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBWVXUzc2RJNUpLMEdRZ0pHd2lFekR5NnR6TGlvdWJoeWlXblplXzZ1Vld6aFhoZ2pZRlNfcW8xckNmbHVkZFpQZXBYdXNyM0YxeVFFaE55YnZ1Zw?oc=5",
+          "publishedAt": "Sun, 09 Aug 2026 10:56:24 GMT"
+        },
+        {
+          "title": "[中國新聞]沙土巴三國簽署《麥加共同防務協議》 - 央视网",
+          "summary": "[中國新聞]沙土巴三國簽署《麥加共同防務協議》  央视网",
+          "source": "Google News 中國",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSW5kSmdjRWR3WWR4M1hUZXNhdVVLblV4LVVmODk5LWdQcE12Unp5NlJpNUFveEdoelZlZkUtZU9WeXVyME5NWi1ER1g3Z3UxbUoyQk5KOTVhemMwLW9falhjWjczaEo1QXJqMW9aSE5wZFA4cHE5ZkN4MGVjZmxrdFp0TTZnSXRTLXY1VkZWU3JZT2RN?oc=5",
+          "publishedAt": "Sun, 09 Aug 2026 08:45:59 GMT"
         }
       ]
     }
