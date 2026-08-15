@@ -1,206 +1,4 @@
 {
-  "2026-05-18": {
-    "hk": {
-      "categoryName": "本地新聞（香港）",
-      "articles": [
-        {
-          "title": "深演智能(02723.HK):启动港股IPO,入场费约5606港元,预期5月27日上市-FX168",
-          "summary": "深演智能(2723.HK)于5月18日至21日招股,拟全球发售906.8万股H股,发售价区间为每股43.50-55.50港元,预期5月27日挂牌,每手100股,工银国际担任独家保荐人兼整体协调人。",
-          "source": "fx168news",
-          "url": "https://www.fx168news.com/article/%E4%BA%9A%E5%A4%AA%E8%82%A1%E5%B8%82-1031433",
-          "publishedAt": "2026-05-17 23:49:35"
-        },
-        {
-          "title": "中國三江化工(02198)5月13日斥資256.19萬港元回購50.2萬股",
-          "summary": "點擊連結閱讀全文",
-          "source": "investing_hk",
-          "url": "https://hk.investing.com/news/stock-market-news/article-1466282",
-          "publishedAt": "2026-05-17 23:45:23"
-        },
-        {
-          "title": "深演智能(02723)於5月18日至5月21日招股 預計5月27日上市",
-          "summary": "點擊連結閱讀全文",
-          "source": "investing_hk",
-          "url": "https://hk.investing.com/news/stock-market-news/article-1466281",
-          "publishedAt": "2026-05-17 23:45:22"
-        },
-        {
-          "title": "北都大學城籌建組 赴德國瑞士考察取經",
-          "summary": "政府正籌建「北都大學城」,政務司司長陳國基與教育局局長蔡若蓮,將分別率團出訪德國及瑞士,實地考察當地高等教育和創新科技建設,並與當地官員和專家學者交流經驗,推進建設北都大學城的工作。今次是「大學城籌劃及建設組」今年第三度出訪考察取經。 陳國基蔡若蓮分別率團 「北都發展委員會」轄下的調研專班再度出訪,由陳國基率領的代表團,昨日出發前往德國亞琛、斯圖加特和海爾布隆訪問,視察當地高等院校園區和大學城,並",
-          "source": "stheadline",
-          "url": "https://www.stheadline.com/edu-news/3573436/%E5%8C%97%E9%83%BD%E5%A4%A7%E5%AD%B8%E5%9F%8E%E7%B1%8C%E5%BB%BA%E7%B5%84-%E8%B5%B4%E5%BE%B7%E5%9C%8B%E7%91%9E%E5%A3%AB%E8%80%83%E5%AF%9F%E5%8F%96%E7%B6%93",
-          "publishedAt": "2026-05-17 23:45:00"
-        },
-        {
-          "title": "华曦达(00901.HK):今起招股,全球发售1920.73万股H股,每股32.80港元-FX168",
-          "summary": "华曦达(00901.HK)于5月18日至21日公开招股,拟全球发售1920.73万股H股(视乎发售量调整权行使与否而定),发售价每股32.80港元,预期5月27日挂牌,每手100股,中信建投国际担任独家保荐人兼整体协调人。",
-          "source": "fx168news",
-          "url": "https://www.fx168news.com/article/%E4%BA%9A%E5%A4%AA%E8%82%A1%E5%B8%82-1031431",
-          "publishedAt": "2026-05-17 23:39:39"
-        }
-      ]
-    },
-    "world": {
-      "categoryName": "國際新聞",
-      "articles": [
-        {
-          "title": "Earnings call transcript: Gentrack Q1 2026 sees revenue dip, stock rises",
-          "summary": "Earnings call transcript: Gentrack Q1 2026 sees revenue dip, stock rises",
-          "source": "investing_ph",
-          "url": "https://ph.investing.com/news/stock-market-news/earnings-call-transcript-gentrack-q1-2026-sees-revenue-dip-stock-rises-93CH-2407512",
-          "publishedAt": "2026-05-17 23:50:08"
-        },
-        {
-          "title": "Return to a homeland frozen in memory",
-          "summary": "Washington, May 18 (SocialNews.XYZ) For 36 years, Kashmir existed for Sheerin Raina in fragments -- stories told at the dinner table in New Jersey, fading photographs, temple names spoken with reveren",
-          "source": "socialnews",
-          "url": "https://www.socialnews.xyz/2026/05/17/return-to-a-homeland-frozen-in-memory/",
-          "publishedAt": "2026-05-17 23:46:55"
-        },
-        {
-          "title": "World News Today Live Updates on May 18, 2026 : White House says China will buy at least $17 billion in US agricultural products every year until 2028",
-          "summary": "World News Today Live Updates on May 18, 2026: Stay informed on global events with our in-depth world news coverage, bringing you the latest developments across politics, economy, and culture. Discove",
-          "source": "livemint",
-          "url": "https://www.livemint.com/news/world/latest-world-news-on-may-18-2026-live-updates-11779061511637.html",
-          "publishedAt": "2026-05-17 23:45:11"
-        },
-        {
-          "title": "Maine high school students accidentally served dirt at charity dinner",
-          "summary": "Teenagers are known for dishing out the dirt, but not quite like this. Students at a high school in Maine were fed potting soil at a community service event raising money to fight hunger, in a bizarre",
-          "source": "newspub_live",
-          "url": "https://newspub.live/northeast/maine/maine-high-school-students-accidentally-served-dirt-at-charity-dinner/",
-          "publishedAt": "2026-05-17 23:42:05"
-        },
-        {
-          "title": "Like Suez For The Brits, Hormuz Spells Doom For US Empire",
-          "summary": "(MENAFN - Asia Times) Empires rise and fall. They do not last forever. Imperial declines follow a gradual shifting of the economic tides, but are also punctuated and defined by critical tipping ...",
-          "source": "menafn",
-          "url": "https://menafn.com/1111129063/Like-Suez-For-The-Brits-Hormuz-Spells-Doom-For-US-Empire",
-          "publishedAt": "2026-05-17 23:30:57"
-        }
-      ]
-    },
-    "finance": {
-      "categoryName": "財經新聞",
-      "articles": [
-        {
-          "title": "Want to jump into the China is back rally? Tread carefully: Raychaudhuri",
-          "summary": "CHINA-STOCKS/ (ROI, COLUMN, GRAPHICS, PIX):ROI-Want to jump into the 'China is back' rally? Tread carefully: Raychaudhuri",
-          "source": "livemint",
-          "url": "https://www.livemint.com/market/want-to-jump-into-the-china-is-back-rally-tread-carefully-raychaudhuri-11779058930932.html",
-          "publishedAt": "2026-05-17 23:02:10"
-        },
-        {
-          "title": "The rise of tokenisation",
-          "summary": "Thailand's financial industry is entering what could become its most disruptive transformation in decades as tokenisation and blockchain-based finance begin reshaping how assets are issued, traded and",
-          "source": "bangkokpost",
-          "url": "https://www.bangkokpost.com/business/investment/3256718/the-rise-of-tokenisation",
-          "publishedAt": "2026-05-17 22:40:00"
-        },
-        {
-          "title": "Building resilience in Europe and Central Asia: A smart investment for growth and jobs",
-          "summary": "By Sameh Wahba, Thomas Farole, Julie Rozenberg and Julian Lee The data is clear: Investments in adaptation and resilience deliver high economic returns but remain insufficient and poorly targeted. Evi",
-          "source": "caribbeannewsglobal",
-          "url": "https://caribbeannewsglobal.com/building-resilience-in-europe-and-central-asia-a-smart-investment-for-growth-and-jobs/",
-          "publishedAt": "2026-05-17 22:16:37"
-        },
-        {
-          "title": "Ghana Stock Exchange Rallies 48.91% in First Quarter",
-          "summary": "NewsGhana, Latest Updates and Breaking News of Ghana, Roger A. Agana, https://www.newsghana.com.gh/ghana-stock-exchange-rallies-48-91-in-first-quarter/The Ghana Stock Exchange (GSE) Composite Index re",
-          "source": "newsghana",
-          "url": "https://www.newsghana.com.gh/ghana-stock-exchange-rallies-48-91-in-first-quarter/",
-          "publishedAt": "2026-05-17 21:46:08"
-        },
-        {
-          "title": "NYSE Prepares for Massive 24/7 Trading Tokenization Revolution",
-          "summary": "The New York Stock Exchange is preparing a blockchain-powered platform designed for 24/7 trading of tokenized stocks and ETFs. Wall Street’s shift toward tokenization could transform settlement speeds",
-          "source": "stlnews",
-          "url": "https://www.stl.news/nyse-prepares-24-7-trading-tokenization-revolution/",
-          "publishedAt": "2026-05-17 21:32:23"
-        }
-      ]
-    },
-    "ai": {
-      "categoryName": "AI 相關新聞",
-      "articles": [
-        {
-          "title": "Snowflake wins IRAP approval in Google Cloud Melbourne",
-          "summary": "Australian government agencies can now use Snowflake on Google Cloud in Melbourne for PROTECTED workloads, broadening cloud choice and assurance.",
-          "source": "securitybrief_au",
-          "url": "https://securitybrief.com.au/story/snowflake-wins-irap-approval-in-google-cloud-melbourne",
-          "publishedAt": "2026-05-17 23:54:00"
-        },
-        {
-          "title": "MEA releases joint statement on India–Sweden Summit, 'Establishment of a Strategic Partnership'",
-          "summary": "Gothenburg, May 18 (IANS) At the invitation of the Sweden Prime Minister Ulf Kristersson, PM Narendra Modi paid an official visit to Gothenburg on Sunday, the Ministry of External Affairs (MEA) said i",
-          "source": "thehawk_in",
-          "url": "https://www.thehawk.in/news/world/mea-releases-joint-statement-on-indiasweden-summit-establishment-of-a-strategic-partnership",
-          "publishedAt": "2026-05-17 23:41:34"
-        },
-        {
-          "title": "German Blue-chip Companies Demonstrating Resilience Despite Slow Economic Growth",
-          "summary": "Germany’s leading blue-chip companies are demonstrating a striking level of resilience in the face of slowing economic momentum across Europe. Despite weaker sales figures, many of the country’s large",
-          "source": "tekedia",
-          "url": "https://www.tekedia.com/germany-blue-chip-companies-demonstrating-resilience-despite-slow-economic-growth/",
-          "publishedAt": "2026-05-17 23:40:52"
-        },
-        {
-          "title": "‘Living’ lab models by NUS Dentistry team could make developing medical treatments safer, faster",
-          "summary": "The innovation employs hydrogel-based systems – soft materials that mimic human tissues.",
-          "source": "straitstimes",
-          "url": "https://www.straitstimes.com/singapore/health/living-lab-models-by-nus-dentistry-researchers-could-make-developing-medical-treatments-safer-faster",
-          "publishedAt": "2026-05-17 23:35:26"
-        },
-        {
-          "title": "Meta's New Tools Allow Parents To Better Supervise Their Kids' Social Media Accounts. Will They Work?",
-          "summary": "(MENAFN - The Conversation) Tech giant Meta recently announced a set of new features to give parents greater oversight of how their children use Facebook, Instagram, Messenger and Horizon.This ...",
-          "source": "menafn",
-          "url": "https://menafn.com/1111129068/Metas-New-Tools-Allow-Parents-To-Better-Supervise-Their-Kids-Social-Media-Accounts-Will-They-Work",
-          "publishedAt": "2026-05-17 23:35:26"
-        }
-      ]
-    },
-    "china": {
-      "categoryName": "大中華新聞",
-      "articles": [
-        {
-          "title": "許家彰 20 年磨一劍終接掌奇美董座,新「許趙配」能衝破中國 ABS 賤賣石化逆風嗎?",
-          "summary": "奇美實業二代、創辦人許文龍之子許家彰(首圖左),父親退位 20 多年後,終於接掌董事長。他將如何帶領奇美走出石 [...]",
-          "source": "technews",
-          "url": "https://finance.technews.tw/2026/05/18/chimeicorp-new-ceo/",
-          "publishedAt": "2026-05-17 23:50:50"
-        },
-        {
-          "title": "孫安佐再爆爭議!廣告小妹神解析狄鶯教育盲點:太愛外包",
-          "summary": "星二代孫安佐(現名孫健豪)近日因涉嫌持有改造槍枝遭檢警拂曉偵辦,再度引發全台輿論。面對兒子再度登上社會版面,母親狄鶯日前在Twitch開直播,幾杯黃湯下肚,情緒徹底潰堤,痛哭叫......",
-          "source": "ltn",
-          "url": "https://ent.ltn.com.tw/news/breakingnews/5440429",
-          "publishedAt": "2026-05-17 23:50:00"
-        },
-        {
-          "title": "國民黨質問賴清德:中共是外國嗎?網氣炸",
-          "summary": "川習會落幕,美國總統川普接受訪問時,針對台灣議題做出表態,不希望任何人因為覺得有美國支持而走向獨立甚至引發戰爭,重申自己對兩岸的立場是「維持現狀」,相關說法持續引發討論,總統賴清德昨(17)日晚間,列出五點說明,強調台灣是主權獨立的國家,捍衛中華民國現狀,沒有「台獨」問題。然而國民黨竟表示「賴清德總統不要再硬拗了」,還質問賴清德「中華人民共和國是外國嗎?」留言區當場翻車,網友紛紛氣炸表示「那貴黨選",
-          "source": "setn",
-          "url": "https://www.setn.com/News.aspx?NewsID=1840147",
-          "publishedAt": "2026-05-17 23:37:09"
-        },
-        {
-          "title": "川普稱「不希望有人走向獨立」 賴清德:捍衛現狀、無台獨問題",
-          "summary": "隨著川習會落幕,美方雖然強調對台政策沒有改變,但總統川普(Donald Trump)明確表態,不希望看到有人走向獨立,也掀起波瀾。總統賴清德除了解釋台獨的兩項意涵外,也在昨(17)日晚間透過社群提出5點說明,表示「捍衛中華民國現狀,沒有台獨問題」。另外有美國共和黨參議員研擬提案,一旦中國入侵台灣,美國將會立刻祭出全面性的關稅與經濟制裁,讓北京付出沉重代價,藉此嚇阻中國對台動武。",
-          "source": "news_pts_org_tw",
-          "url": "https://news.pts.org.tw/article/808755",
-          "publishedAt": "2026-05-17 23:33:58"
-        },
-        {
-          "title": "盧比奧表現亮眼氣勢有望2028 但川普近側尚未表態相挺",
-          "summary": "Newtalk新聞 美國國務卿盧比奧(Marco Rubio)本月初取代請產假的白宮新聞秘書萊維特(Karoline Leavitt)在白宮新聞發布室工作,成為史上首位在任期間主持白宮記者會的國務卿。其表現得到保守派媒體和川普陣營中引發了一片讚譽之聲。有關他將代表共和黨角逐2028年總統大選的說法進一步受到討論。盧比奧 延伸閱讀: 「中國洗腦川普有人想搞獨立」王丹:北京恐讓台灣投票投到被統一 川習",
-          "source": "newtalk",
-          "url": "https://newtalk.tw/news/view/2026-05-18/1035713",
-          "publishedAt": "2026-05-17 23:30:56"
-        }
-      ]
-    }
-  },
   "2026-05-19": {
     "hk": {
       "categoryName": "本地新聞（香港）",
@@ -25966,6 +25764,313 @@
           "source": "Google News 台灣兩岸",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAwb0NQd0xHUzhnbHdQMC11al9EcE04ckFMUy1IT2g4Y0lLVTVSNWVwMzBNcGdHVEc1cENyYmtjRldIWTVHUUJScWRlTGc5cHZPeXBmLW1OUlBOT3d2eDRSZDRfM3NjYzg?oc=5",
           "publishedAt": "Fri, 14 Aug 2026 16:14:32 GMT"
+        }
+      ]
+    }
+  },
+  "2026-08-16": {
+    "hk": {
+      "categoryName": "本地新聞（香港）",
+      "articles": [
+        {
+          "title": "跨部門皇崗口岸香港範圍反恐演習 模擬極端分子發動槍擊大量傷亡 - 香港電台新聞網",
+          "summary": "跨部門皇崗口岸香港範圍反恐演習 模擬極端分子發動槍擊大量傷亡  香港電台新聞網",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBhN3FCYUpfa2dLdVBLRXJ3d3hiRklkZDFJQkJKUWZzelV4dWdBNUcxdkFZM1ZXNmVYb3VuWUJHRnl4Y2laWlp2LTRBME1YQkFyNEI5aUZmNTVFUWt4UFQzODdoSE1UNXRYNkFaR2JDOA?oc=5",
+          "publishedAt": "Sat, 15 Aug 2026 14:14:00 GMT"
+        },
+        {
+          "title": "香港政府新聞網- 逾五千人參與皇崗港方口岸區演練 - news.gov.hk",
+          "summary": "香港政府新聞網- 逾五千人參與皇崗港方口岸區演練  news.gov.hk",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB4RTJXR1NvaXV5ZDlsLW1FMEZRSlN0VUpfNnZRbDZFa2dHOWVHQS04bXFaWFhta2E1UjVnTXhpQUxNSmd2OGNyQ2cxWVN6bFlXdVVibjR0eXZKNzk3SGE0MVVkNDBBVlV4cE9vXy02RjFYTUpPZnRmZQ?oc=5",
+          "publishedAt": "Sat, 15 Aug 2026 10:23:22 GMT"
+        },
+        {
+          "title": "張國鈞稱香港調解發展先進成熟 鼓勵青年掌握調解知識裝備自己 - 香港電台新聞網",
+          "summary": "張國鈞稱香港調解發展先進成熟 鼓勵青年掌握調解知識裝備自己  香港電台新聞網",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5sc0tEZGY0MTNFTkhHZ0lkN0h3OFljZU1TZmxyLVBSWE96Z0RQd1dPbXdKN1BSYzVlX0ZHRDZpRzkzN1RHemVLal9CVU1veGFXSFhjTWdMZUZOb28yb1BFbDdxWk1jWVZfVUxXNDFpOA?oc=5",
+          "publishedAt": "Sat, 15 Aug 2026 09:15:00 GMT"
+        },
+        {
+          "title": "西藏自治區代表團應環境及生態局邀請來港交流參訪行程結束 - 香港電台新聞網",
+          "summary": "西藏自治區代表團應環境及生態局邀請來港交流參訪行程結束  香港電台新聞網",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1HMFRUYlRBMjN5M01iQ21JVGdadjJOY1FPanNrS0FNRDhfV1ZHZ0lDeTJWbTVWeGVydWZ5TW1CYjk3b2FXVHVjWDVjWmg5Qm1fNnlXcmVjZnVsR0NYR056X3E1dUZ2U3l5Y3dPVXMtTQ?oc=5",
+          "publishedAt": "Sat, 15 Aug 2026 12:57:00 GMT"
+        },
+        {
+          "title": "美食博覽2026︱柬埔寨燕窩及哥倫比亞咖啡首登場 東盟及南美展商冀拓香港市場 - Yahoo",
+          "summary": "美食博覽2026︱柬埔寨燕窩及哥倫比亞咖啡首登場 東盟及南美展商冀拓香港市場  Yahoo",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMi2wNBVV95cUxOa0JqdkdIa3pLMWJXdTlGWGY2WFhhbGxMMHhjbHRVbVB6bzMwcTRHYmJvQUI1STNDUWZlU0djYXRoNnkwMTVPU0NpdkVBWUIzWUVIWWh5NmlxVlpfTEIyNzV3NmhwU0xzRWpvOFBLYXhNeEZ6YlJFRFI2ZktJb0FsclJ2b1lqRWhBRDVFRTNDSlV2SGhjMkN5ZTkxUEFkWFJrV0VVVDVvcFFCZnMyYkQ0bzVnLUNvcEFoc0wzY3V5eExLdmJMZUNtSHFJS3pVRnhnMDlLRlB6WGkyWjZ4ZndGVDVyNUV1c05keTlwWXlGdi1vLWMxbTV4Q2hVcm1TNXZBdWh4cnVYTGVXd05ETUhJbXNoWUJTUklXVWVYOXVIeHowbzM2dERJWEtoWW1RVjgwUDIxcTRNOWJLNjB0TVhlbUtXcV8wT2lNYVRDSm1RWE4tSEx1eGFxcF9ndk1kMHNwMzZVT0hYU0lHaEtHVTA2Wk1FSW9MYXU2Q2pYMzZFbWRDWUVNNFVkZ2cxS3loTjhqLWoydWVnRlpjS01DYVRQdmZ5TEstb2FvWXpQZFM0R3hIZmhBemhnbkhwS2JMVE0zQnozakNTUWpNYzk4Ui1HNDRTLU1CbWFvS0V3?oc=5",
+          "publishedAt": "Sat, 15 Aug 2026 11:11:31 GMT"
+        },
+        {
+          "title": "香港首富嗅到什麼訊號？李嘉誠家族狂賣資產 今年已套現6820億 - 自由財經",
+          "summary": "香港首富嗅到什麼訊號？李嘉誠家族狂賣資產 今年已套現6820億  自由財經",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE01ejdDNnktZVpQLXUwcTM2a3A3cHlhTFhNRUhBTjcxNURqYzlhR3V2TXgzOGVzX2ZOVW1BWEFHUnZnNXFLTTNDUVR4Y2xiY3lPUDdleUhsQ3U2XzZ1QU84?oc=5",
+          "publishedAt": "Sat, 15 Aug 2026 13:15:07 GMT"
+        },
+        {
+          "title": "香港將助力內地農產品開拓海外市場 - news.tvb.com",
+          "summary": "香港將助力內地農產品開拓海外市場  news.tvb.com",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPZm9NYnQ4TjdEajB1Yjk1X1hRWFJ3RlB4cjc1Q29ORDBZdWRaQWxCaUd2bmMyZV90WUNEYzZ0LWxwVHBvZS1tdWhrY1IwU1VjS2t6c1ZOaDJ6cjZnQ0tSX1ZEOEVnSUVZUHJoeEtfMWxMT3RIVjBPT1hGVVBDTHJIaUpEVGR5N1N2WmQ0cDM3WXRpOFlPUjNVUHJZSTBoaHZJOVZvazMwVWFFNkVBX2p4ZnFLMGZWNVVqMUxyZkxyMFFTekZaTTRVRk95UV9SbktfaVVHak44cXJNUWIxZDQ3NjQyRUxwUnBmeFhtNEFhNzFZQWpXY3FMdE1VZ04xRmQ2bTNqTmRxOA?oc=5",
+          "publishedAt": "Fri, 14 Aug 2026 14:19:00 GMT"
+        },
+        {
+          "title": "香港新聞工作者聯會：強烈譴責FCC干預香港事務堅決抵制外力亂港圖謀- 香港 - 香港文匯報",
+          "summary": "香港新聞工作者聯會：強烈譴責FCC干預香港事務堅決抵制外力亂港圖謀- 香港  香港文匯報",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE96WmN4Q1NXQm1LczdMWXUzdXdqLVljRjJQU3ZFQkJrLUpfNkRibDBkWjBPc1lxU185cDZiUXBxOWV2cUItRHY0X1ZJUTBMMURiR291OG1IZGFoaWhBQ0RWVURuTlF4R2FsckllV0pycVZ3ZWRTNW1v?oc=5",
+          "publishedAt": "Fri, 14 Aug 2026 16:02:29 GMT"
+        }
+      ]
+    },
+    "world": {
+      "categoryName": "國際新聞",
+      "articles": [
+        {
+          "title": "印尼發生芮氏規模7.7級地震，造成至少47人死亡",
+          "summary": "印尼東部島嶼弗洛勒斯島的搜救行動正在進行中，尋找倖存者。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c5y0zz63gero?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Sat, 15 Aug 2026 20:00:15 GMT"
+        },
+        {
+          "title": "摩洛哥拘留數十名試圖進入休達的移民",
+          "summary": "由於社交媒體上建議週六進行第二次大規模穿越，安全措施得到加強。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/ckg44x2ey1ro?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Sat, 15 Aug 2026 19:16:40 GMT"
+        },
+        {
+          "title": "當局稱，以色列對黎巴嫩南部的襲擊造成 11 人死亡",
+          "summary": "以色列軍方表示，它襲擊了“真主黨的恐怖基礎設施”，以回應先前針對其士兵的行動。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c4gjygx4gjeo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Sat, 15 Aug 2026 16:02:49 GMT"
+        },
+        {
+          "title": "列支敦士登改變繼承規則允許女性登上王位",
+          "summary": "該聲明是在這個人口僅有 44,000 的中歐國家的國慶日發表的。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cn9nnxrxg4qo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Sat, 15 Aug 2026 19:41:57 GMT"
+        },
+        {
+          "title": "警方稱，維吉尼亞州立大學發生五人槍擊事件，多名嫌犯在逃",
+          "summary": "週六當地時間 01:28 左右（格林威治標準時間 05:28），警方回應了宿舍外發生槍擊事件的報告。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c0l5583903yo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Sat, 15 Aug 2026 19:34:22 GMT"
+        },
+        {
+          "title": "消防員與席捲比利時自然保護區的野火作鬥爭",
+          "summary": "整個主要公園發生的火災被描述為該國近年來最嚴重的火災。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cp8eex1nmpvo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Sat, 15 Aug 2026 17:47:42 GMT"
+        },
+        {
+          "title": "韓國提議舉行會談以正式結束與北韓的戰爭",
+          "summary": "李在明提供了結束衝突的機會，這場衝突自 1953 年停戰以來一直處於凍結狀態。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c8en2z9jp2xo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Sat, 15 Aug 2026 14:40:15 GMT"
+        },
+        {
+          "title": "特朗普称将“很快”宣布霍尔木兹海峡为美国领土",
+          "summary": "美国总统特朗普表示，击败伊朗后，他将宣布霍尔木兹海峡成为美国领土。他还呼吁美国民众接受不断上涨的汽油价格。自伊朗为回应美国和以色列的军事打击而关闭霍尔木兹海峡以来，油价持续飙升。",
+          "source": "DW 德國之聲",
+          "url": "https://www.dw.com/zh/特朗普称将-很快-宣布霍尔木兹海峡为美国领土/a-78383780?maca=chi-rss-chi-all-1127-rdf",
+          "publishedAt": "2026-08-15T15:07:00.000Z"
+        }
+      ]
+    },
+    "finance": {
+      "categoryName": "財經新聞",
+      "articles": [
+        {
+          "title": "加油族鬆口氣 下週汽柴油全面凍漲 - 壹蘋新聞網",
+          "summary": "加油族鬆口氣 下週汽柴油全面凍漲  壹蘋新聞網",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUUk4anMzc0FFcHo1NmkzYnFkWWJ0ZmtYSWs5bU5FV0tOV2tqVVpwcEdQVjZyZ2duazlReTYwb0d0Y3p5dmU5dmUyMUs5YXBZcjB4RFV3V1h4R0o0OHl6RkdSWFg1NWFWS3FCaUlyck80SGJBRWFmVHdyWnd0T1FwZA?oc=5",
+          "publishedAt": "Sat, 15 Aug 2026 09:17:00 GMT"
+        },
+        {
+          "title": "我今年 63 歲，是一名退休註冊會計師，擁有 120 萬美元的 401(k) 資金。我需要費心進行羅斯轉換嗎？",
+          "summary": "“我預計未來的邊際稅率不會有太大變化。”",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/im-63-and-a-retired-cpa-i-have-a-1-2-million-401-k-do-i-need-a-roth-conversion-0a227302?mod=mw_rss_topstories",
+          "publishedAt": "Sat, 15 Aug 2026 20:00:00 GMT"
+        },
+        {
+          "title": "覺得現在利率高嗎？這些圖表提供了不同的視角。",
+          "summary": "週末讀物還包括：10 個引人注目的房地產市場、股票精選和健康保險之戰。",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/think-interest-rates-are-high-now-these-charts-offers-a-different-perspective-ae5f28c6?mod=mw_rss_topstories",
+          "publishedAt": "Sat, 15 Aug 2026 19:01:00 GMT"
+        },
+        {
+          "title": "擁有房屋被高估了。現在租房子往往是更好的賺錢方式。",
+          "summary": "有比住房所有權更好的投資方式。",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/owning-a-home-is-overrated-renting-is-now-often-a-much-better-money-move-711288a6?mod=mw_rss_topstories",
+          "publishedAt": "Sat, 15 Aug 2026 18:23:00 GMT"
+        },
+        {
+          "title": "一隻持有多達 800 隻股票的主動式基金正在跑贏主要指數。方法如下。",
+          "summary": "為了實現股票市場的多元化，除了指數基金之外，還有積極管理的替代品。",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/an-active-fund-holding-a-whopping-800-stocks-is-beating-major-indexes-heres-how-6bf73062?mod=mw_rss_topstories",
+          "publishedAt": "Sat, 15 Aug 2026 18:05:00 GMT"
+        },
+        {
+          "title": "芭蕾平底鞋如此受歡迎，連勃肯 (Birkenstock) 和卡駱馳 (Crocs) 等品牌也紛紛從這一趨勢中獲利",
+          "summary": "芭蕾舞鞋重新流行起來，部分原因是懷舊情緒。 Z 世代購物者甚至將其與跑步短褲搭配。",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/ballet-flats-are-so-popular-that-even-brands-like-birkenstock-and-crocs-are-cashing-in-on-the-trend-3d44997c?mod=mw_rss_topstories",
+          "publishedAt": "Sat, 15 Aug 2026 17:08:00 GMT"
+        },
+        {
+          "title": "川普帳戶和祖父母 529 未來會降低大學學費嗎？",
+          "summary": "學生借貸上限也可能影響美國如何支付大學費用。",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/will-trump-accounts-and-grandparent-529s-bring-down-the-price-of-college-in-the-future-88459da7?mod=mw_rss_topstories",
+          "publishedAt": "Sat, 15 Aug 2026 16:52:00 GMT"
+        },
+        {
+          "title": "健康保險公司正在放棄醫療保險優勢計劃。以下是有多少老年人可能受到影響。",
+          "summary": "明年，老年人可能會爭先恐後地尋求新的醫療保險，尤其是在保險選擇較少的農村市場。",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/health-insurers-are-dumping-medicare-advantage-plans-heres-how-many-seniors-could-be-affected-646b4e99?mod=mw_rss_topstories",
+          "publishedAt": "Sat, 15 Aug 2026 16:16:00 GMT"
+        }
+      ]
+    },
+    "ai": {
+      "categoryName": "AI 相關新聞",
+      "articles": [
+        {
+          "title": "WordPress漏洞XSS2Shell可讓駭客執行PHP程式碼，逾萬網站遭自動化鎖定",
+          "summary": "WordPress發布7.0.3安全更新，修補核心程式登入頁面的高風險跨站指令碼漏洞CVE-2026-64638。攻擊者不必先取得WordPress帳號即可觸發漏洞，若再誘使已登入的管理員開啟並操作惡意頁面，便可能利用管理員權限一路將攻擊擴大至伺服器端PHP程式碼執行。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/178147",
+          "publishedAt": "2026-08-16  09:08:00"
+        },
+        {
+          "title": "AI代理不是越多越有效率，協作恐出現資源爭用與相互封鎖",
+          "summary": "Anthropic公開多代理AI系統實驗結果，測試多個AI代理在共用程式碼庫、有限資源及彼此任務衝突時的協作狀況。結果顯示，增加代理數量不一定能提升效率，反而可能出現程式碼衝突、爭搶資源、集體採取相同行動，甚至為完成各自任務而阻止其他代理工作。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/178146",
+          "publishedAt": "2026-08-14  06:08:23"
+        },
+        {
+          "title": "【資安週報】0810~0814，疑中國駭客打造AI自主攻擊框架對臺發動攻擊，資安署表示已對此人機結合境外攻擊展開應變",
+          "summary": "本週最受矚目的資安焦點，莫過於中國駭客利用自主AI代理攻擊臺灣政府機關與能源公司的消息揭露。這起事件不僅引發社會高度關注，更顯現出「AI代理能快速動態切換攻擊鏈」的全新態勢已經到來，而且臺灣已實際面臨這樣的攻擊。\n美國聯邦資安日誌政策改版亦成為IT與資安團隊留意的重點，作法從大量集中保存原始日誌，轉為依任務與資安風險決定蒐集與運用方式，並勾勒日誌分流與SIEM架構方向；新版日誌成熟度模型也可供企業",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/178145",
+          "publishedAt": "2026-08-14  06:08:01"
+        },
+        {
+          "title": "【城鎮韌性演習】民生物資配售導入智慧物資管理系統，演練數位化調度、建立公私配售機制",
+          "summary": "面對重大災害或複合式緊急情勢，民生必需品供應不僅需要平時維持安全存量，也需要具備快速掌握需求、調度物資及分流配送的能力。在這次的「2026城鎮韌性演習」裡，經濟部與新北市政府合作，於新北大全聯土城店辦理民生必需品配售演練，其中導入今年建置的「智慧物資管理系統」，驗證從民眾預訂、身分確認到物資領取的數位化流程，並結合地方政府與民間通路建立雙軌配售機制。\n此次演練也是城鎮韌性演習的一環。總統府指出，過",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/178144",
+          "publishedAt": "2026-08-14  05:08:46"
+        },
+        {
+          "title": "大型語言模型Kimi K3資安評測作弊，連上GitHub找答案",
+          "summary": "AI資安研究團隊Frontier Security評測大型語言模型Kimi K3的資安能力，發現Kimi K3沒有按照預期方式完成題目，而是主動檢查隔離測試環境的網路連線，甚至直接從GitHub下載官方基準測試儲存庫，從中找到題目答案。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/178142",
+          "publishedAt": "2026-08-14  04:08:04"
+        },
+        {
+          "title": "【資安日報】8月14日，VMware vCenter重大漏洞遭利用",
+          "summary": "本日新聞焦點\n● APT駭客開始利用VMware vCenter重大漏洞\n● Windows零時差漏洞遭北韓駭客用於攻擊國防與航太業者\n● AI框架自主攻擊臺灣政府，竊得逾2,500筆人員資料",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/178143",
+          "publishedAt": "2026-08-14  04:08:15"
+        },
+        {
+          "title": "Meta已封鎖逾75萬個未滿16歲的澳洲用戶帳號",
+          "summary": "Meta周三（8/12）公布澳洲社交媒體禁令執行情況，指出截至今年6月底，已封鎖超過75萬個被判定屬於未滿16歲澳洲用戶的Facebook及Instagram帳號。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/178141",
+          "publishedAt": "2026-08-14  02:08:14"
+        },
+        {
+          "title": "中國駭客Jewelbug間諜與加密貨幣詐騙並行，共用控制平臺與伺服器",
+          "summary": "資安廠商Symantec威脅獵捕團隊揭露中國駭客組織Jewelbug的最新活動，發現該組織一面入侵中東、東南亞與南亞的政府及軍事單位從事間諜活動，一面經營鎖定華語使用者的加密貨幣詐騙，兩邊共用控制平臺、伺服器與受害者資料庫。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/178133",
+          "publishedAt": "2026-08-14  02:08:04"
+        }
+      ]
+    },
+    "china": {
+      "categoryName": "大中華新聞",
+      "articles": [
+        {
+          "title": "文獻紀錄片《江澤民》第9集《九州方圓》 - 大公文匯網",
+          "summary": "文獻紀錄片《江澤民》第9集《九州方圓》  大公文匯網",
+          "source": "Google News 中國",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAtNzVPeVZuOF9FOTlSN3V2dHZROWxqdHAzUnNYeDVIeUxjNkVOWVBxSkNaSXFpUUdIUDJIVHdmRzk1SzlVTUF2NWlnWTlJNWxvLXdCYU5LU2xNd2lMcktVbWFOclhESVlVeGxxQjdtenI?oc=5",
+          "publishedAt": "Sat, 15 Aug 2026 15:16:39 GMT"
+        },
+        {
+          "title": "兩岸文化角色悄悄逆轉？台灣曾經最自豪的優勢正在消失 - tw.news.yahoo.com",
+          "summary": "兩岸文化角色悄悄逆轉？台灣曾經最自豪的優勢正在消失  tw.news.yahoo.com",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMi9AJBVV95cUxOaW1Fd3pvMEhNLVVkSmFsVmJDdEdQQUg5UWZEai1fc0o3UzBWRlNGblJxc04tZ1N3QzBGQ3hWVmFTalhZR1VaYm5iWEZZWU5pQ082aHhaT3dJOHN4TWVVSzVxSEVkVHhtU1ZpUmhWc2JNTEo3YzJ6bkZWenNKeksxZ1gxenhuaGIxNFIzS0drM19WeFE2Ylp3LXIzM0dSTF9qQ1dwenhkbGpyeGlvenhrZ2czU0tGU3FSV3NDR0x0UV8teG16MzNjSngyczhVN0d3YlNjLU9fbVdHaWx4MWlLdE1GSXNZUEVlUmpxNkRxWm9nYVEtcF82WEdwUXZ2eS1qODRJWkp0b0V2NlNFM1BzN3BydUw5VUFETS11MzRSWU5lbUIyRk9QYjVfUmhjTVRsZlFYMFE1djRBM01pUzZGZGpUbHVWVm9hRzB4V21SS29QOE1ZanhXUk1SN2k0SWpzVVpYNkV5X2lwU2k2UXhwWHhBdTI?oc=5",
+          "publishedAt": "Sat, 15 Aug 2026 10:52:02 GMT"
+        },
+        {
+          "title": "一周評論/兩岸終局台獨出局？/蘇偉碩 - 臺灣導報",
+          "summary": "一周評論/兩岸終局台獨出局？/蘇偉碩  臺灣導報",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9OTlNkS2h2SkdLVjZPMVBCWUNQTFlXOHNqX2VZSW50NkVKOElrYURITndCeEhLcjJZSU9tTS1qa0RtUlphbEU3Y3ZqTm9WaGZiUnhYbA?oc=5",
+          "publishedAt": "Sat, 15 Aug 2026 10:50:15 GMT"
+        },
+        {
+          "title": "邁入第15屆！海峽兩岸醫院院長論壇杭州登場台灣醫界近300人跨海與會聚焦智慧醫療與韌性永續 - 蕃新聞",
+          "summary": "邁入第15屆！海峽兩岸醫院院長論壇杭州登場台灣醫界近300人跨海與會聚焦智慧醫療與韌性永續  蕃新聞",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1pUWtCSzNaYXprcmw2Qk1ZYXRueGNCSkZoUnVneGJXMzdvcDdrZXM3cTZObDBaLUIxZ21sampJRHJtaHZSbXNCcUZJWEFxQ25VeXc?oc=5",
+          "publishedAt": "Sat, 15 Aug 2026 10:20:00 GMT"
+        },
+        {
+          "title": "蕭美琴：台灣強化自身防衛 全力避免台海衝突 - 新唐人亞太電視台",
+          "summary": "蕭美琴：台灣強化自身防衛 全力避免台海衝突  新唐人亞太電視台",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE00MW5yQ2NfRkZEX3lLdXdPNEhzeWNCanlwYVF3QmxuWHJUT2oySFRZY3pMcDFjSEFDNlFjcDQ2dGJpVWJZcHhYMlp1WTRiREV0eU5COXFPcGVyNVMwSERLcUd6Y0s?oc=5",
+          "publishedAt": "Sat, 15 Aug 2026 12:38:12 GMT"
+        },
+        {
+          "title": "【一線看中國】中國52萬人染疫 河南兩地大潰壩 - 新唐人電視台",
+          "summary": "【一線看中國】中國52萬人染疫 河南兩地大潰壩  新唐人電視台",
+          "source": "Google News 中國",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBvVEhUQWNxd3lpSVdib2F2ejlnNnM5V0VTcHh1QkF6UTJEY0x4d2d0ZHB0QWJ3VVJseS1wVnA3YzB5c3Z2dnZ2ZklXM2lzY05NREhSZVUzTUtTNEJGZlo0OdIBZkFVX3lxTE92VWVoRVFSQlY1cnhIcFZKa0YyekJ6VHk4eE9lS0gweHZlaHBRN3JZR0dZUER3bXRPMlhab2FWQVpCT0dDa1VMYU1uNURWRUpVX1BfU2FJanpQbEI0aTFDSmlBdFYyZw?oc=5",
+          "publishedAt": "Sat, 15 Aug 2026 09:55:11 GMT"
+        },
+        {
+          "title": "北韓密送6000「未婚女」到中國！原因曝光 不甩聯合國制裁 - facebook.com",
+          "summary": "北韓密送6000「未婚女」到中國！原因曝光 不甩聯合國制裁  facebook.com",
+          "source": "Google News 中國",
+          "url": "https://news.google.com/rss/articles/CBMi6wJBVV95cUxQOUNscmJZQ1dlZVNnN2I4bDhPT0NBTHFsQTB3c0ViUm9rLXNUYnE2aHRtQWxxdkhWUUlzN0pUMHY3TGhVa3pIdnBjbWhWNG1xZEhNR1loeHNQbVEtdy01ZmFiMXhiYTRodVdDQTlOZnh3ODdfLXoxdFpueVNQRE04b0lTOThsaThmZlBTdTZ3YWZnYnFPcGVIbU55aWlVNkpWUzVVV0NUMGp5MDBOQlBTbVBzcWFsaDEtbURkNWdOdTdQUzRuQlNFVE54MkpqZUxISzhvZUxhb3Q4Y0tYdVpCOFhvdU1JWkJXYVdGSkxZbEszQ3FPYnVXS0R1SF9fdzRQVE9NOXEyWWdvTGJQSlo1SG1TT0duU1gyLVFVVi1tR2lHbzQyTGpIY1NndVJmSVJCWTI1bXEwZWlheTJJRkZVMWlxUmt1NldkQjJOekZPUVB2WGQ2S0V6TkdPX1I0ZUR5aHZ4LVpxRG9PY1U?oc=5",
+          "publishedAt": "Sat, 15 Aug 2026 09:00:03 GMT"
+        },
+        {
+          "title": "日本防衛大臣參拜靖國神社 遭到中國強烈譴責 - Yahoo 財經",
+          "summary": "日本防衛大臣參拜靖國神社 遭到中國強烈譴責  Yahoo 財經",
+          "source": "Google News 中國",
+          "url": "https://news.google.com/rss/articles/CBMigANBVV95cUxNVHdObWl3dHhQVnhhNzNGWmt4OC0tXzNDV2dJZmFNVmZ0RGxxVjFLQzlmLXlzbG1LdnUxc205LXB5S01rb1N1Z2pVVGh0QTdqSEJPLS10TFlfeXlSdkhyaC1SblN0NTJMa3Uzb1NiZkVvZXZyQ3NwWHhidXlxT1FMQS1vZ0xWa2FvQ3dzc1BMZHpEUTRWZjZKTS1EUXp5UU1oc2VqdEU2bWFlWTQwSy02SjBlODRZejJPVEFsbkJKNXFmVGl3czRzT0pOc1lPRllQR3pqUUtDaEhoajhFdkI5SExfYkk5NUFOR1JrcEVKR1ZaQmROV0ZEaW40d2dwUVpUZGc5SWlKb2hhR1BIU2dsbTd3bjNndHYycG1lUTVtMXRtaUNJUWFjYmcwaVdLSkc2TG9fenZwaXlwNVcwUW5FbThXd2xBVnAzcVItYkJqQkM0TFp4RkxzcEtZT0VwdXhtbmN1LUhONUdRLUgzNUpEQkNUN1pXQXhzSjlDcnhld3o?oc=5",
+          "publishedAt": "Sat, 15 Aug 2026 10:34:04 GMT"
         }
       ]
     }
