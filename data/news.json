@@ -1,206 +1,4 @@
 {
-  "2026-05-24": {
-    "hk": {
-      "categoryName": "本地新聞（香港）",
-      "articles": [
-        {
-          "title": "浙江常山世界地质公园:“金钉”铭沧海 碧水绕奇石",
-          "summary": "在浙江省衢州市常山县境内,常山世界地质公园隐匿在钱塘江上游的浙西丘陵间。1043平方公里的山水间,地质奇观、自然秀色与人文韵味融为一体,宛如一幅浑然天成的山水长卷。",
-          "source": "gmw",
-          "url": "https://news.gmw.cn/2026-05/24/content_38785768.htm",
-          "publishedAt": "2026-05-23 19:05:00"
-        },
-        {
-          "title": "龍七公:突破自由市場 需要長期主義",
-          "summary": "《第十五個五年規劃綱要》已於3月12日經全國人大通過,香港破天荒宣布制訂首份五年規劃以對接國家發展。社會上絕大多數人都認",
-          "source": "on",
-          "url": "https://hk.on.cc/hk/bkn/cnt/commentary/20260524/bkn-20260524000522068-0524_00832_001.html",
-          "publishedAt": "2026-05-23 19:02:54"
-        },
-        {
-          "title": "正論:胡亂放生非行善 害了動物如作孽",
-          "summary": "今日是佛誕,市民除了享受假期,善信更會趁機祈福。近年不時有人到海邊、郊外、河流以至水塘放生動物,有宗教信仰者,認為這是慈",
-          "source": "on",
-          "url": "https://hk.on.cc/hk/bkn/cnt/commentary/20260524/bkn-20260524000401668-0524_00832_001.html",
-          "publishedAt": "2026-05-23 19:00:31"
-        },
-        {
-          "title": "與隊友激烈交鋒後Russell力保加拿大GP衝刺賽冠軍",
-          "summary": "儘管在Gilles Villeneuve賽道百公里出頭的短程賽事中,先後遭遇隊友Andrea Kimi Antonelli的猛烈攻勢與McLaren車手Lando Norris持續性的威脅,但George Russell保持冷靜、沉著應戰,最終成功以竿位之姿力保加拿大GP衝刺賽冠軍。這場23圈的比賽一開始,竿位的...",
-          "source": "yahoo_hk",
-          "url": "https://hk.sports.yahoo.com/news/%E8%88%87%E9%9A%8A%E5%8F%8B%E6%BF%80%E7%83%88%E4%BA%A4%E9%8B%92%E5%BE%8Crussell%E5%8A%9B%E4%BF%9D%E5%8A%A0%E6%8B%BF%E5%A4%A7gp%E8%A1%9D%E5%88%BA%E8%B3%BD%E5%86%A0%E8%BB%8D-185158071.html",
-          "publishedAt": "2026-05-23 18:51:58"
-        },
-        {
-          "title": "康城電影節—伊娃朗歌麗亞與彭妮露閉幕禮性感低胸鬥搶鏡",
-          "summary": "國際影壇盛事《第79屆康城電影節》香港時間今日凌晨閉幕,一眾名人紅星齊現身閉幕禮,美國女星伊娃朗歌麗亞(Eva Long",
-          "source": "on",
-          "url": "https://hk.on.cc/hk/bkn/cnt/entertainment/20260524/bkn-20260524010639396-0524_00862_001.html",
-          "publishedAt": "2026-05-23 18:19:58"
-        }
-      ]
-    },
-    "world": {
-      "categoryName": "國際新聞",
-      "articles": [
-        {
-          "title": "Stream It Or Skip It: ‘Ladies First’ on Netflix, a Simplistic Gender Satire Led by Sacha Baron Cohen and Rosamund Pike",
-          "summary": "Netflix once again recycles another of its original ideas, remaking French comedy I Am Not an Easy Man for English speakers.",
-          "source": "nypost",
-          "url": "https://decider.com/2026/05/23/sacha-baron-cohen-ladies-first-netflix-movie-review/",
-          "publishedAt": "2026-05-23 20:00:00"
-        },
-        {
-          "title": "Florence Tourism Surges Ahead of 2026 as Italy Top Hotels Highlights Rising Travel & Hotel Demand",
-          "summary": "Image: https://www.globalnewslines.com/uploads/2026/05/1779451162.jpg Italy Top Hotels | Florence Travel & Tourism \"Florence records strong tourism growth ahead of 2026, with rising international dema",
-          "source": "openpr",
-          "url": "https://www.openpr.com/news/4524274/florence-tourism-surges-ahead-of-2026-as-italy-top-hotels",
-          "publishedAt": "2026-05-23 19:30:05"
-        },
-        {
-          "title": "Bangladesh, the Land Flotilla for Rohingya Aid: Myanmar and the Geopolitics of One Million Refugees",
-          "summary": "\"Borders contain territories. They do not always contain human suffering.\". One Million People Far from Their Homeland Bangladesh shelters nearly one million Rohingya refugees from Myanmar. Most live ",
-          "source": "bangladeshsun",
-          "url": "http://bangladeshsun.com/news/279071886/bangladesh-the-land-flotilla-for-rohingya-aid-myanmar-and-the-geopolitics-of-one-million-refugees",
-          "publishedAt": "2026-05-23 19:28:36"
-        },
-        {
-          "title": "David Miliband criticises Starmer’s record in power",
-          "summary": "David Miliband has criticised Sir Keir Starmer’s record in government and refused to rule out a return to British politics.",
-          "source": "yahoo",
-          "url": "https://ca.news.yahoo.com/david-miliband-criticises-starmer-record-192421684.html",
-          "publishedAt": "2026-05-23 19:24:21"
-        },
-        {
-          "title": "Ivory tower rumble: Florida politicians battle professors",
-          "summary": "Have gone past assault on progressivism to challenge idea teachers are 'experts who determine course content'",
-          "source": "wnd",
-          "url": "https://www.wnd.com/2026/05/ivory-tower-rumble-florida-politicians-battle-professors/",
-          "publishedAt": "2026-05-23 19:17:22"
-        }
-      ]
-    },
-    "finance": {
-      "categoryName": "財經新聞",
-      "articles": [
-        {
-          "title": "ICE Brent and ICE WTI Perpetual Futures to launch on OKX",
-          "summary": "Expected to be available to trade on OKX’s platform in jurisdictions where OKX is licensed to offer perpetual futures products",
-          "source": "zawya",
-          "url": "https://www.zawya.com/en/press-release/companies-news/ice-brent-and-ice-wti-perpetual-futures-to-launch-on-okx-d70b3e6g",
-          "publishedAt": "2026-05-23 19:38:59"
-        },
-        {
-          "title": "GDP +31: UN's new proposal",
-          "summary": "Gross Domestic Product has become, in the words of a UN expert group, 'the number by which the world judges itself'. A new report by the group asks the world to stop judging itself so narrowly. It ask",
-          "source": "newindianexpress",
-          "url": "https://www.newindianexpress.com/explainers/2026/May/23/gdp-31-uns-new-proposal-2",
-          "publishedAt": "2026-05-23 18:48:59"
-        },
-        {
-          "title": "NBK exceeds interim target for carbon emissions reduction",
-          "summary": "KUWAIT: The National Bank of Kuwait’s 2025 Sustainability Report, released earlier this month under the title “Sustainability at the Core: From Strategy to Impact,” revealed a seri...",
-          "source": "kuwaittimes",
-          "url": "https://kuwaittimes.com/article/44084/kuwait/other-news/nbk-exceeds-interim-target-for-carbon-emissions-reduction/",
-          "publishedAt": "2026-05-23 18:15:00"
-        },
-        {
-          "title": "Homebuyers hammered as war-fueled bond rout drives rates higher",
-          "summary": "Najimah Roberson, a lifelong renter, spent the past two years searching around Harrisburg, Pa., for a home she could afford — getting outbid nearly 30 times along the way.",
-          "source": "columbian",
-          "url": "https://www.columbian.com/news/2026/may/23/home-buyers-hammered-as-war-fueled-bond-rout-drives-rates-higher/",
-          "publishedAt": "2026-05-23 18:00:06"
-        },
-        {
-          "title": "Bank Stocks To Add to Your Watchlist – May 23rd",
-          "summary": "JPMorgan Chase & Co., Bank of America, Citigroup, Wells Fargo & Company, and Charles Schwab are the five Bank stocks to watch today, according to MarketBeat’s stock screener tool. **Bank stocks** are ",
-          "source": "zolmax",
-          "url": "https://zolmax.com/investing/bank-stocks-to-add-to-your-watchlist-may-23rd/11861577.html",
-          "publishedAt": "2026-05-23 17:02:47"
-        }
-      ]
-    },
-    "ai": {
-      "categoryName": "AI 相關新聞",
-      "articles": [
-        {
-          "title": "Disinfecting Gym Wipes Market Analysis By Application, Type, Technology, and Geography - Global Industry Outlook and Forecast 2026-2033",
-          "summary": "The Disinfecting Gym Wipes Market reached a valuation of 7.13 billion in 2026 and is anticipated to expand at a CAGR of 9.37% during the forecast period from 2026 to 2035, ultimately attaining an esti",
-          "source": "openpr",
-          "url": "https://www.openpr.com/news/4524296/disinfecting-gym-wipes-market-analysis-by-application-type",
-          "publishedAt": "2026-05-23 19:54:54"
-        },
-        {
-          "title": "Generac Holdings’ SWOT analysis: stock faces storm activity headwinds",
-          "summary": "Generac Holdings’ SWOT analysis: stock faces storm activity headwinds",
-          "source": "investing_za",
-          "url": "https://za.investing.com/news/swot-analysis/generac-holdings-swot-analysis-stock-faces-storm-activity-headwinds-93CH-4298128",
-          "publishedAt": "2026-05-23 19:54:08"
-        },
-        {
-          "title": "Hospital Cafeteria Foodservice Equipment Market Analysis By Application, Type, Technology, and Geography - Global Industry Outlook and Forecast 2026-2033",
-          "summary": "The Hospital Cafeteria Foodservice Equipment Market reached a valuation of 11.6 billion in 2026 and is anticipated to expand at a CAGR of 10.37% during the forecast period from 2026 to 2035, ultimatel",
-          "source": "openpr",
-          "url": "https://www.openpr.com/news/4524295/hospital-cafeteria-foodservice-equipment-market-analysis",
-          "publishedAt": "2026-05-23 19:53:24"
-        },
-        {
-          "title": "Global instability demands united action – Bagbin to Commonwealth states",
-          "summary": "Speaker of Ghana's Parliament, Alban Sumana Kingsford Bagbin, has called on Commonwealth member states, especially the United Kingdom, to deepen cooperation",
-          "source": "citinewsroom",
-          "url": "https://www.citinewsroom.com/2026/05/global-instability-demands-united-action-bagbin-to-commonwealth-states/",
-          "publishedAt": "2026-05-23 19:53:16"
-        },
-        {
-          "title": "Ingaas Pin Modules Market Analysis By Application, Type, Technology, and Geography - Global Industry Outlook and Forecast 2026-2033",
-          "summary": "The Ingaas Pin Modules Market reached a valuation of 5.66 billion in 2026 and is anticipated to expand at a CAGR of 13.28% during the forecast period from 2026 to 2035, ultimately attaining an estimat",
-          "source": "openpr",
-          "url": "https://www.openpr.com/news/4524293/ingaas-pin-modules-market-analysis-by-application-type",
-          "publishedAt": "2026-05-23 19:52:02"
-        }
-      ]
-    },
-    "china": {
-      "categoryName": "大中華新聞",
-      "articles": [
-        {
-          "title": "哀悼慰問山西礦災 賴清德:台灣願提供人道協助",
-          "summary": "中國山西發生礦災死傷慘重,台總統賴清德稍早前以簡體字在社群平台X發文哀悼慰問,並提出台灣願提供人道協助。",
-          "source": "worldjournal",
-          "url": "https://www.worldjournal.com/wj/story/121475/9521841",
-          "publishedAt": "2026-05-23 19:47:07"
-        },
-        {
-          "title": "ETF開年15強 6檔主動式進榜",
-          "summary": "台股2026年多頭行情延燒,ETF市場人氣續旺,隨時序即將進入上半年最末月,提前統計今年來ETF績效表現前15強(扣除槓反型),漲幅冠軍由期元大S&P石油(00642U)以103.16%登頂,而主動統一全球創新(00988A)漲幅同樣來到翻倍賺的101.98%,風光奪下亞軍,高達6檔主動式ETF躋身今年上半年漲幅前15強,當中又有4檔受益人數翻倍成長,躍升當紅炸子雞。 台股即將進入6月天,統計",
-          "source": "ctee_tw",
-          "url": "https://www.ctee.com.tw/news/20260524700046-439901",
-          "publishedAt": "2026-05-23 19:05:42"
-        },
-        {
-          "title": "國家融保15銀響應 與國發會月底簽MOU",
-          "summary": "台美投資MOU的核心內容,包括2,500億美元企業赴美投資及2,500億國家信用保證額度,響應此項計畫的15家本國銀行多已通過董事會、確定投資信保基金的金額。據悉,主導此項「支持企業投資美國融資保證機制」的國發會,已將全案呈送行政院,將於5月底與參與銀行簽署備忘錄(MOU)。 「支持企業投資美國融資保證機制」為政府與美國簽訂投資MOU下,實現「根留臺灣、布局全球」的戰略目標。國發會表示,將藉此",
-          "source": "ctee_tw",
-          "url": "https://www.ctee.com.tw/news/20260524700038-439901",
-          "publishedAt": "2026-05-23 19:05:42"
-        },
-        {
-          "title": "國家融保助台商赴美 公、民銀出資力挺",
-          "summary": "為支持企業赴美投資,國發會推動國家融資保證機制,八大公股銀行全數響應,合計規劃出資額高達3.5億美元,民營銀行也陸續由董事會通過出資額。銀行業者指出,考量投資美國企業多以半導體、資通訊及相關供應鏈企業為主,參與該融保機制,可深化與全球科技供應鏈客戶往來,衍生海外自貸、聯貸、外匯避險及資金管理等多元商機。 據了解,該融保機制的出資額度,共分為3等級,分別為7,500萬美元、5,000萬美元及2,",
-          "source": "ctee_tw",
-          "url": "https://www.ctee.com.tw/news/20260524700035-439901",
-          "publishedAt": "2026-05-23 19:05:42"
-        },
-        {
-          "title": "國家融保來了 科技業動起來",
-          "summary": "台美關稅談判定調的「台灣模式」戰略,國發會規劃國家融資保證機制,協助台灣企業赴美投資。銀行業者透露,已有企業開始詢問融保機制,又以半導體、ICT等產業業者,詢問度最積極。 華南銀行指出,台商赴美投資以半導體、AI伺服器及其供應鏈詢問度最高,這些企業,主要跟隨如台積電等龍頭大廠赴美,就近服務核心客戶,並穩固美國市場優勢;土地銀行表示,初步盤點對融保機制有意願的企業,規劃赴美投資的企業,多以大型半",
-          "source": "ctee_tw",
-          "url": "https://www.ctee.com.tw/news/20260524700032-439901",
-          "publishedAt": "2026-05-23 19:05:42"
-        }
-      ]
-    }
-  },
   "2026-05-25": {
     "hk": {
       "categoryName": "本地新聞（香港）",
@@ -26596,6 +26394,313 @@
           "source": "Google News 台灣兩岸",
           "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1pdG9FRDlydXE5R0l2MkdIemozUDc3ZHQwOUlWa0wzb25udFJMOGM5UVBRU1FnZi11a3VORzZIdzkyeGctLTdHRG9DSGVPU0lHbkFrb3Q5dEdNaDBLTVE?oc=5",
           "publishedAt": "Thu, 20 Aug 2026 03:37:00 GMT"
+        }
+      ]
+    }
+  },
+  "2026-08-22": {
+    "hk": {
+      "categoryName": "本地新聞（香港）",
+      "articles": [
+        {
+          "title": "香港政府新聞網- 萬宜水庫破邊洲路段將試行預約制 - news.gov.hk",
+          "summary": "香港政府新聞網- 萬宜水庫破邊洲路段將試行預約制  news.gov.hk",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBwVG51cW9oUGpNSGwzSnNTbTB5b0lPM3VZalVPem0xa0h1dzhSaVcwMjFSeTc3OXlVaUtDMWhXWktjSVRSMlF6Rk5zOHVMQmR5TWlIYzhKUlBkQmd2ZWZ4UFlUWDVadlRvckdNc1BsanppN01RZkE5Wg?oc=5",
+          "publishedAt": "Fri, 21 Aug 2026 18:33:40 GMT"
+        },
+        {
+          "title": "現貨黃金報4616.22 | 即時新聞 - 新聞 - etnet 經濟通",
+          "summary": "現貨黃金報4616.22 | 即時新聞 - 新聞  etnet 經濟通",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZXpMd1ExUklnN2hFN1RKaElCLVpvalZ0SU1MNEFyRFB1N2pPa1JoWDdsUkRFWnZyVXVKMzBVYnZsdWRFb0JXSGlvZHh4TzZ3ZnduTzlraEFJYnI1bE92U18zYXE0M2RjbVBJOWE0ZXdBVzFvU2JsbXNncF9qUl9sX0dQUFhvY29QRFdmd0tlLVotTW1QSHdsNHp6bHB6emYx?oc=5",
+          "publishedAt": "Fri, 21 Aug 2026 20:00:58 GMT"
+        },
+        {
+          "title": "香港政府新聞網- 皇崗持續演練防範突發事件 - news.gov.hk",
+          "summary": "香港政府新聞網- 皇崗持續演練防範突發事件  news.gov.hk",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE50b1FoMFowcDVVNTNSX3BBTjRVNzlMMnNnM1RNTElDaGpuWlZTeGZqRXJnTjNkZlNUWGZiNW0xZXJoT2ZSVnhySC1GNzJocDdqMDFOb0VhNnc5Wmpqb2RnZGRWWktieGs4R1F3WDRKWGZlRnV5bldKWg?oc=5",
+          "publishedAt": "Fri, 21 Aug 2026 16:05:15 GMT"
+        },
+        {
+          "title": "恒指夜期丨收報25895 低水114點 - 信報網站",
+          "summary": "恒指夜期丨收報25895 低水114點  信報網站",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPS1pTcEotWTZvWGRXUEZTRWdDR3Z0dWpXbFA0T1FTN2tzUENyTW1mMmtxOG5ULXlWdWl6dURESG9IS1J1bjVDQTVIZUx6a05LajIzdzVDdzZmUUo5R3Z0cE82MHI0ams5VWFqMkg0RFd1ejJGWm8yRWhWY2FOUGhvVk5vS1g1c0Rxcml4cUlYLUl3dUZYZk1sa2lEYnlKeGtpY0I5Q05nMHFnekZUelJ6cjEzRUxZV2VEQjF6aVB4ZmJMTC1rMjJHUlFic1d2RHRWa1haaW1NQ2pEVkItVUI1NmZ4aWNsOGNNZ3c?oc=5",
+          "publishedAt": "Fri, 21 Aug 2026 19:40:54 GMT"
+        },
+        {
+          "title": "香港國際機場7月客運量增8.4% - 信報網站",
+          "summary": "香港國際機場7月客運量增8.4%  信報網站",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPNktxaVZFd0lHTXZTQ3FXbElxdFdKM3ZEU2tBblZlcnI4MWlPUjFhQjB1S18zQk5MakNoUFZINXhVbEJMNlEyUnpRdS1TXzJSRkNkekhDY1c1c3JiZTFtYkhsZmlMc0pOZDFpSGRKUE1JZGVmSFlYZzdESmNRdERpRndIeHdaTU5oWU13NE9nSGlSYVppUG1teFdoTEEzWkdudEVPMHh3c0hlbFdodVhqUUdYak5QbmQ2SWdtOXA4UW01VGw1azBFcDhYbzFaOXVkeVMxT3c0SzFUY0ZmUVhVaDNKcFFmM0NQeXc?oc=5",
+          "publishedAt": "Fri, 21 Aug 2026 15:04:19 GMT"
+        },
+        {
+          "title": "短片睇香港車仔展多款模型 現場展出GT-R改裝的士 (16:23) - 20260821 - 熱點 - 明報新聞網",
+          "summary": "短片睇香港車仔展多款模型 現場展出GT-R改裝的士 (16:23) - 20260821 - 熱點  明報新聞網",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMihgNBVV95cUxNM2RiZUh1TFdGdThuWGMyQ1d0Sl9wZWRMdkpzM0t1ZDdaWWRZN0M0cHQxdmpTZzQ1QUNaSTFOWW9tYmJwcjF4U0ItU3JuSVFEQlFfQTZSOHZQaFBPNko3dFZ6eHdXQkRkRVhSd3lwcjRMR0lsSG5sNDVKMXdUQzR0SWtkTDBjZU1EN05mY1VBbnZQOU1DZXhueU5HZnExVTZOdDByLTNSSEtiak9lcmxKUUpIay1VR2tobDQxcTlMaFZpQzlfUWNZdlFLTHRlZEFUUWtkOFFQTHB6UWpsaWY1cDEyd0pzazRiYVVZeXFhVXo4LW9HTUNmOHF3VzhuSGt0dDhGWXJ4ZDZtWmI2QVZHSEkzU1l5WnFPR05SOGc0c28yY2RPd0hLN0JzZUtMQWpUdkVUNmlRcVBweDJ5R1E4R1lTZ3l4Y3gxc0c3X1E2WXpCYWlnYm9nbnJwOWpORC10Wk9iYy1jZjR6S0xaQUI4X2c2ZFZUYkpQdFNkNjc3UzhwajFhRkE?oc=5",
+          "publishedAt": "Fri, 21 Aug 2026 14:32:44 GMT"
+        },
+        {
+          "title": "再見舊香港 無理還押二千日 李卓人鄒幸彤全部罪成 - 香港新聞連線",
+          "summary": "再見舊香港 無理還押二千日 李卓人鄒幸彤全部罪成  香港新聞連線",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMi8AJBVV95cUxPVW1UMHhNZDRIUy1zd2hxcnZnX2VZVnFnMzgzX1dKX2pMeHZnSk8wbC12WmNnemZwS1FYSUhzSWtTbWhHaG9zM1kzZVlhalN1Nl9kdHE5OC0tSjhXS25VTGxfRE16SURvWmh4VDJBbTJuVzNfRnZubU5LUTZidXFUS1pxY0FxOTdZVkZ5ekNFalBNVlpBS3R3b1E2NW95MHQzcXpqRk1nMjRDb0FaZXdZVlFiRVUwN3RBejlVaFpGa0hGRlUyRnlHc01zTVgwMWNSMVBaYlVfVG12TUUzZ1czQUI3NklkX0c5dE4tSVpHdlZ1aG1iZGg4dzg5WUJtbU1ZN1ZiZS1QQTZIdUJnb2M2cVZycHBmZm1RLVhMNXVBMU5ldFlKZzV1TkFZVzFxU0V4eTEzd1Q1cVpCb0RzSTd6NHcxeE4tbEI5STlXSnFUNzVSYWpmb0RHOWZSOXpDd0I2ajBQcDk2OTZuei1YaFlwTg?oc=5",
+          "publishedAt": "Fri, 21 Aug 2026 12:46:43 GMT"
+        },
+        {
+          "title": "香港支聯會案三被告 BBC訪問回顧 - BBC",
+          "summary": "香港支聯會案三被告 BBC訪問回顧  BBC",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE15RkpQZlZhNDIybG9wT1RmM044YUwtekgwTGg5TDQtTnMtT1UxbUl6eGVkUVNRRTltRzhQNnFtR3lUWVp5WXFYek5ISWhoNk1FLVp2M0pPNDZiTmtHamJVRVp4WUZmUdIBa0FVX3lxTE4tTjVrWnhzMlJjRjRrZDBMU2NMQXJEc19MWFBtZjVIVUMxbERmck9IZHo1VTdQSGJuQ29HbUlwNUhNT1dsOGhEUWhPR3JLOWpVaDVKbVpLTV9OY2o0cXRTSWdfZ3h1bmd2Wm04?oc=5",
+          "publishedAt": "Fri, 21 Aug 2026 11:06:04 GMT"
+        }
+      ]
+    },
+    "world": {
+      "categoryName": "國際新聞",
+      "articles": [
+        {
+          "title": "官員稱俄羅斯無人機兩次襲擊烏克蘭商場造成15人死亡",
+          "summary": "據地區負責人稱，購物中心遭到襲擊時，至少有 130 人受傷，其中包括 23 名兒童。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Fri, 21 Aug 2026 19:49:56 GMT"
+        },
+        {
+          "title": "英國、加拿大和澳洲譴責以色列拒絕對加薩援助人員遇害事件進行刑事調查",
+          "summary": "2024 年，以色列對世界中央廚房車隊的攻擊導致 7 名工人死亡。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cvgl2pe09eno?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Fri, 21 Aug 2026 15:58:57 GMT"
+        },
+        {
+          "title": "加拿大錫克教寺廟發生刺傷攻擊，兩人受傷",
+          "summary": "一名嫌疑人已被拘留，但警方尚未透露可能的動機。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/ce8l7w0n0jeo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Fri, 21 Aug 2026 18:27:15 GMT"
+        },
+        {
+          "title": "瑞典一所學校遭持劍攻擊，一人死亡",
+          "summary": "襲擊中，一人傷勢嚴重，另一人輕傷。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c3r0g7gj2n3o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Fri, 21 Aug 2026 19:22:05 GMT"
+        },
+        {
+          "title": "圖帕克謀殺案被告告訴警方，2008年他的侄子開槍致命",
+          "summary": "陪審團播放了杜安戴維斯與偵探進行採訪的錄音。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cly57kzgr0ko?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Fri, 21 Aug 2026 18:09:38 GMT"
+        },
+        {
+          "title": "報導稱，德國正在調查俄羅斯與在樹林中發現的武器儲藏室的聯繫",
+          "summary": "報道稱，德國情報部門認為去年發現的槍枝是為了代表莫斯科進行暗殺。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cp9edjpvplpo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Fri, 21 Aug 2026 16:26:53 GMT"
+        },
+        {
+          "title": "BBC 獲悉，梅根正在洽談 Netflix 影集《紳士們》中的角色",
+          "summary": "這將是梅根自與哈利王子結婚以來首次扮演重要角色。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cwye9g9r58zo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Fri, 21 Aug 2026 18:29:31 GMT"
+        },
+        {
+          "title": "衣索比亞提格雷聖母瑪利亞節因擔心無人機攻擊而取消",
+          "summary": "在最近的空襲之後，一場熱切期待的婦女聚會將不會舉行。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c24me64n31qo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Fri, 21 Aug 2026 16:20:55 GMT"
+        }
+      ]
+    },
+    "finance": {
+      "categoryName": "財經新聞",
+      "articles": [
+        {
+          "title": "4飆股被列處置股！世紀*狂拉6根漲停被盯上 - Yahoo股市",
+          "summary": "4飆股被列處置股！世紀*狂拉6根漲停被盯上  Yahoo股市",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxNcEVlNTZKbFNyVlZpOS1kSjZBVExrRWluYXF3ZTlGaUlPcEQyYWdjQzdJVk44enU0X2llU2hZX0szeDFweXdVS1k4bEVOOHR3UVFMc3Vtd2l6Qjlxang1RVVhYUFPNUkxaHphODNNNktVNG1NT196N2V3QkxZRC1aQ1gtOHBKUjY0eHJZXzRkUGx6QWs4TzBiSlc3OWEwT3ZZdk55b0tZcDZ6OU9sNXJzUUZmanZUTm5FZFZwSzdOUjB0c0tPbV9LaE11VmZQUERmeS1OdjIzc05MWGNlUTQ2ZklGRUNqb3hUOTRfUDRkMzlWazRQNXFDUVFQM1c2S3ZwY2U5MkxWM1hNRnlscUU5dWxteno2bVRITFdPaXRKT0dBNmZrcF84eGR2MU1yY19PNENuNW5n?oc=5",
+          "publishedAt": "Fri, 21 Aug 2026 10:43:29 GMT"
+        },
+        {
+          "title": "統一發票中獎機會大增！財部宣布雲端發票500元增開50萬組 - 壹蘋新聞網",
+          "summary": "統一發票中獎機會大增！財部宣布雲端發票500元增開50萬組  壹蘋新聞網",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPa3kyTlVTSmNlTGpEVmNnbVpEX1FFUVJFUTBYT1BkNVZYdnRYUnlLTHduRWVNU2VidFgxZGdvS1B0UWczQzc0MHBWUVRLU0tYQkVRRzlocWhCVWxiR0REZTFCT0prcEJyNjk1RGlHU0VBNUlibU83OHlVWnVqcVZNbThB?oc=5",
+          "publishedAt": "Fri, 21 Aug 2026 08:16:00 GMT"
+        },
+        {
+          "title": "【Follow法人】外資連2買！台積電單日吸金近140億元 狂掃5檔金融股 - Yahoo股市",
+          "summary": "【Follow法人】外資連2買！台積電單日吸金近140億元 狂掃5檔金融股  Yahoo股市",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMilwNBVV95cUxOcUIwRHEwU3FaT2lfVkdlRnFORHVOSG1nUEN0c2R2VXhFb1N4OVNHNkh6QWFCMS1xb3V6dmFsLVQ0T3RMa1hUaE1kX2ZwRUZYd2FjbzIyaHVFZHZ5ZDlNV2Q2OEY3b3BTbEtuVWdDNlNWdUE4NkZKVmUwSS0zRTViQTlGbmtwY1BMWEdFRlE2TDdmNzRNRDZWNl95NDN4TlpJZWM4dVdwcmIydzZMcWdNZXZpU09vcXQwTmtTeVhMODNBRFplZEJJQUJJUG1ZeE11dzh1UG1iMTN2b3FaWlhLQnB1bC0yeWprMlhYZ1BLWFpUaHA5T1RzcWdaOUg4c1c3bUx1aC15UkxNR1VGejFOY2RQNEFOUHRJbGVXZXRaMlF6ZVhmdmJUQ3FGa3d2UjV5SjBxR3dMR1lnM0tLOUtyTnBSckNOZlhib2Q2MDltOEU2QXRMaTRVeVJMWkhPTk83UVZjXzUwc3owS3BkQjFlYU1hZGd4YlZUeVRLSFhLM2k3SHY4WmhNTFFBOEtWOE5weUtiTXVSUQ?oc=5",
+          "publishedAt": "Fri, 21 Aug 2026 08:51:38 GMT"
+        },
+        {
+          "title": "送兒子2700萬海外股票！富爸爸以為免稅 竟要照繳245萬元 - Yahoo股市",
+          "summary": "送兒子2700萬海外股票！富爸爸以為免稅 竟要照繳245萬元  Yahoo股市",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMi7gJBVV95cUxNZE05OS11VVJXaFNCR0hWVGlzLWVVbXdfWkN3WThIRlBlNVdIS1RhX0Z2dTkxdUFqMFJsTU9OWURwTmdJM3dleDlfd3QtY2Z6Umg5OHpMelF3dnN4dVZPUGxkb0JxSlhEcDYwZG4xeW5pall2QTlHSmpZMnU2TVNScnpXTzIzNGQ0LUlMR3d6TENGc2M2TnVGaC01MllHa3JpeVFGaHU3anpmcHFMcm9XcHBnRGpoMlV2ejhIUkVCT2dUSGlWX3VkX1RiZnlodVZlRmQ5ano5NHRxbXFFNXAxY05rV0pTTjI2ZHNmcnUwdFU2bjQwUDZHYVRNR2p0OGphdGJtU2tfQ3UwamluRkc1TUE5aG9vRUxKRTUxSjhNQ29mN3hxQWw1V2pTZTUyeHFrLUVjbDhhcGkwZXprekxGVG8telUwZldPYzctcWJ4dE5HSENXb3BVemZUX0NSS0psVEd1WEZkcVI4M3VOVHc?oc=5",
+          "publishedAt": "Fri, 21 Aug 2026 09:56:14 GMT"
+        },
+        {
+          "title": "AI榮景30年首見！供應商估值翻身「有錢了」 日月光喊加碼在地供應鏈 - 壹蘋新聞網",
+          "summary": "AI榮景30年首見！供應商估值翻身「有錢了」 日月光喊加碼在地供應鏈  壹蘋新聞網",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPQTEzWWl0LVZhQUIzRGFwRi1BcXVjX3R0OWM1Q1dMcG9WZEIzZnp3bjFDRGMzSHowa1hlYmJRaXJ1dVZQU3VwSUJ1TXBmU1pMZFVWLWU3WWZqa2h4VTItUTlfRE1fbHNMeVZZQ3ZvU3lCcFlwNWVob1NvVFpHaVlvb3NR?oc=5",
+          "publishedAt": "Fri, 21 Aug 2026 08:46:00 GMT"
+        },
+        {
+          "title": "股票獲利文滿天飛！ 他問「大家真的都賺錢」 網揭投資圈殘酷真相 - Yahoo股市",
+          "summary": "股票獲利文滿天飛！ 他問「大家真的都賺錢」 網揭投資圈殘酷真相  Yahoo股市",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMilwNBVV95cUxQcUl6bzkwY0dIU2dpMjY1TVdwMmUwVnBfR3RDSnV1bmtuTkFLakVwNWhMN05TSW1MLXJrdm1pZ2RHZWJUUnNHeFVTU2xnam5fQ2cteHRfdjlScDVFdlBsMUZMU0cycFlUWnUyc0t0V3gtOTdKQk51MjFmOUxSTHB6aG41MjByc0xYZUYxNzhxcUxrbnNiWFZaWnI2bm10bTA0Si1TMWdKZ3ZxWVRhY0w0eEtXcFB1dUFUNEdtcm1JY1lHSDRZTXUxSm5fUmhqWHNfRFVtLVpicHlEWGhJUzc1RUJvM3pxYWZOWUxRUFZmeEt4RXFBUHFHalZKQzJFR0FkYmdvcTdvSGNSVjZTSkRKclNwMzRDdkVpUDlDaFJhd2Q4a0kxckVVRUdELTNGMXlITC12aVhkckh4djFNTXNnMnJfenJ1SXpIR1g2bHJ2bERZRkVLQVRYakVCa0lsVUNQVzNITW5UZFljUXNncVVpc1FaOExjRUNRNDk5N21ZWFpuWFJGeEwzc0N5WjZ6SXVpeFVWRnhJUQ?oc=5",
+          "publishedAt": "Fri, 21 Aug 2026 11:25:00 GMT"
+        },
+        {
+          "title": "台灣金聯參與公辦都更首傳捷報 獲選新北市「文山靜」最優出資人 - 壹蘋新聞網",
+          "summary": "台灣金聯參與公辦都更首傳捷報 獲選新北市「文山靜」最優出資人  壹蘋新聞網",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOY1pmaG80STBvd21FTGdSZjVVUmNPSkdfY1FLcHYwX0VfRXU1VnJ5c09nVU9odi10UTk1amt3MUx2M1VOUDg4SUpnWU9lWWRPTFJFbm9oUE94TXJSTlpWVjI0T0YxaWRvWDhDUGZCR3BUSGlQcEl0R3NRM0RkSGdCaEh3?oc=5",
+          "publishedAt": "Fri, 21 Aug 2026 08:40:00 GMT"
+        },
+        {
+          "title": "國票金董事長張兆順兼任穩懋獨董 財部：回歸公司治理處理 - Yahoo股市",
+          "summary": "國票金董事長張兆順兼任穩懋獨董 財部：回歸公司治理處理  Yahoo股市",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMilANBVV95cUxOSXVMQ3hjTC1ENmJCNEUydkRJZjJBYnhRZC14WXZqY1lTMUx3TkxUUHN5a0FWMTlWWmdkMHpwNVNMNjZnaE9UY3ZjZG80TmpyTkVfRWVNY1NoUlpuX3R1VkJpcC1Ed0JfYTFnZ29IWi1NZUx5aEo5b29EemE0blFGaHAzZUJ0Q1N4WUFJUHhGbkMxcHNXR01oWThQUWhXWFMzaHk2b1JNd1ZVUWhKU0RscEFmcGtQNmNTMlZNNERod2JxZ3ZwTmI2U0QyWkJxdFc2SmE4bV9PZy1POXhYdjdJM3dralNONU5CbE9mODNzbndXRnQtQV9tN0NmMmZEaHpNaFFtV1VSX1NqR3BjSjFxcHkweGpzNGpDTHBmTDdSbkZHZEVrQms4N050TlRScTloa2ZjTFpvM0YzNk9sZWtuQ3NpNk5mU0JUeW5EZHZlMjBwSG5FeE5DM1pGTTZLcnRpbkM4VnliekU1akZFYlNkd1NkN0ZhN2tweVI2VklWOHN5MGQzX0ZSRGRrcDgxWHRYVjZjMg?oc=5",
+          "publishedAt": "Fri, 21 Aug 2026 10:15:35 GMT"
+        }
+      ]
+    },
+    "ai": {
+      "categoryName": "AI 相關新聞",
+      "articles": [
+        {
+          "title": "Cursor公開Origin底層Git架構，以S3預寫日誌因應AI代理大量儲存庫",
+          "summary": "Cursor公開程式碼託管服務Origin的底層Git儲存系統Continuity，採用S3相容物件儲存中的預寫日誌（WAL）保存每次推送的資料，本機Git儲存庫則成為可隨時重建的快取。新架構主要因應兩種負載，一是企業持續擴大的大型單一儲存庫，另一種則是AI代理大量建立但很少使用的小型儲存庫。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/178333",
+          "publishedAt": "2026-08-21  12:08:10"
+        },
+        {
+          "title": "GitHub揭露8月大當機原因，基礎設施容量未跟上使用成長",
+          "summary": "GitHub周四（8/20）公布8月17日大規模服務中斷事故調查結果，指出事故並非程式或組態變更造成，而是基礎設施容量未能跟上平臺使用量成長。當天流量創下新高後，美國中部資料中心一項關鍵元件超出負荷，最終造成多項服務中斷7小時47分鐘。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/178335",
+          "publishedAt": "2026-08-21  12:08:45"
+        },
+        {
+          "title": "思科修補網路自動化與協同管理平臺Crosswork滿分重大漏洞",
+          "summary": "8月19日思科發布資安公告，釋出網路自動化與協同管理平臺Crosswork安全強化更新，修補重大漏洞CVE-2026-20030、CVE-2026-20357、CVE-2026-20358，以及CVE-2026-20359，值得留意的是，這些漏洞非常危險，CVE-2026-20359的CVSS嚴重性評分為9.9，其餘3個弱點評分達到滿分10分，影響7.2.1以前的所有版本，無論是Data Gate",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/178334",
+          "publishedAt": "2026-08-21  12:08:36"
+        },
+        {
+          "title": "Google兩天內二度更新Chrome 151，再修補7個資安漏洞",
+          "summary": "Google才於8月18日發布Chrome 151更新，短短兩天後又於8月20日再次推出修補版本，將Windows與Mac平臺穩定版更新至151.0.7922.173與151.0.7922.174，Linux版本更新至151.0.7922.173，同時Android版也更新為151.0.7922.173。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/178332",
+          "publishedAt": "2026-08-21  12:08:14"
+        },
+        {
+          "title": "Slack推出Slack Code，讓團隊與AI代理人共同開發程式",
+          "summary": "Salesforce周四（8/20）推出Slack Code，讓企業團隊可在Slack中與AI程式代理人共同開發、檢視及修改程式碼。\nSlack過去已能整合各種AI代理人，但相關功能主要用於對話及個別任務。隨著Claude Code、Devin、GitHub Copilot及ChatGPT等代理人開始處理更複雜的程式開發，開發者與AI的討論及修改過程通常只有自己看得到，其他團隊成員難以同步參與。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/178331",
+          "publishedAt": "2026-08-21  11:08:04"
+        },
+        {
+          "title": "Apache HttpComponents Client存在可讓攻擊者偽造伺服器回應的重大漏洞",
+          "summary": "Apache HttpComponents Client存在一項重大風險漏洞，風險值高達CVSS 9.1，可讓攻擊者以有效憑證偽造伺服器回應，但這項漏洞不影響經典版HttpClient。\nApache HttpComponents Client（簡稱HttpClient）是一個開源Java函式庫，專門用於處理HTTP協定的客戶端請求與回應。這項編號CVE-2026-71290的漏洞屬於TLS主機名",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/178330",
+          "publishedAt": "2026-08-21  11:08:55"
+        },
+        {
+          "title": "Zimbra遠端程式碼執行漏洞遭到利用",
+          "summary": "波蘭電腦緊急應變團隊CERT Polska於8月17日提出警告，他們已掌握郵件伺服器系統Zimbra已知漏洞CVE-2026-73570遭到利用的情況，且攻擊活動仍在持續進行。對此，他們呼籲用戶應儘速更新Zimbra，並檢查特定事件記錄，以及最近一個月使用者在指定資料夾裡建立的檔案內容，來確認是否遭到入侵。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/178329",
+          "publishedAt": "2026-08-21  11:08:34"
+        },
+        {
+          "title": "Citrix修補NetScaler重大等級的身分驗證繞過漏洞",
+          "summary": "8月19日Citrix發布資安公告，釋出NetScaler ADC與NetScaler Gateway更新版本，修補CVE-2026-19489、CVE-2026-19490兩個漏洞。其中CVE-2026-19490的CVSS v4.0嚴重性評分達9.3分，屬重大等級，為身分驗證繞過漏洞，可讓攻擊者透過替代路徑繞過正常的身分驗證機制。該漏洞影響特定設定的NetScaler Gateway與AAA虛",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/178328",
+          "publishedAt": "2026-08-21  11:08:00"
+        }
+      ]
+    },
+    "china": {
+      "categoryName": "大中華新聞",
+      "articles": [
+        {
+          "title": "顧祖華：中華文化是兩岸統一的根基 - 中國評論新聞",
+          "summary": "顧祖華：中華文化是兩岸統一的根基  中國評論新聞",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBIVjZQaUdLT01xckxYV203YmZ0S3lVZE9SWTlxbElKa1RLUG0yQmZoZTRhR3RlWHFudU0zVWJpb0tTWjlBcmZtdFRkbGZ3Vy1rLXRvcGhjQ05QUHV3OHNhZmVkTGNZdExkVHpXLQ?oc=5",
+          "publishedAt": "Fri, 21 Aug 2026 11:26:40 GMT"
+        },
+        {
+          "title": "竟稱「不惜代價推動兩岸和平統一」! 前知名深綠媒體人驚爆重大轉折 | Newtalk - LINE TODAY",
+          "summary": "竟稱「不惜代價推動兩岸和平統一」! 前知名深綠媒體人驚爆重大轉折 | Newtalk  LINE TODAY",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9Wem40aTNoaXRwNmJ6dzJ1VHlPVVVLNWY3X0IyTjRmSW9DamdhZzNfQW5EdHNzbnJjQmUxaFJKeUIwbEt5dzBGTkxpQVhUT2c2eXo3MXNn?oc=5",
+          "publishedAt": "Fri, 21 Aug 2026 11:33:21 GMT"
+        },
+        {
+          "title": "武福臨門兩岸同源！閩台甘國寶武術文化周 兩岸三地六支武術隊登台展演 - 蕃新聞",
+          "summary": "武福臨門兩岸同源！閩台甘國寶武術文化周 兩岸三地六支武術隊登台展演  蕃新聞",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE45TDA4NnVhdmtpQlJqMjV1Y3ZTbjdnVG9IMFZVRU40ZjBScGp4ZlB1ckJpdTJYRGpUMkFHZmxzcU5ZdDVXWW5pZXJwRktQdU5KT1E?oc=5",
+          "publishedAt": "Fri, 21 Aug 2026 12:43:46 GMT"
+        },
+        {
+          "title": "大陸重機遭台灣查扣 張雪嗆「律師費我出」：再送一台 送到統一為止 - 梅花新聞網",
+          "summary": "大陸重機遭台灣查扣 張雪嗆「律師費我出」：再送一台 送到統一為止  梅花新聞網",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBHX2ctNVlBNXQ3a2p6ZDdpek9BXzR6VjV4UzJaOUVBOG5mMEVrQUFyNE5QS011c0xITVhHeGhVYkhZV0NEMk1OOXU1ODlDWE5HZFJTVFpvcUs?oc=5",
+          "publishedAt": "Fri, 21 Aug 2026 13:36:00 GMT"
+        },
+        {
+          "title": "北京觀察》張雪機車820RR遭扣押！老闆霸氣喊話「送到統一為止」 兩岸貿易爭議懶人包一次看| 田暢| 新聞 - 風傳媒",
+          "summary": "北京觀察》張雪機車820RR遭扣押！老闆霸氣喊話「送到統一為止」 兩岸貿易爭議懶人包一次看| 田暢| 新聞  風傳媒",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5ONDI1bE9mdEVGdjBHOHRYcVFiMGlXY0NLRHhIb18xVXdLS0tENWo4QkJDLTZVOEd2bDlDZGZvakZzR0p3VEtKR0d6RUNmUQ?oc=5",
+          "publishedAt": "Fri, 21 Aug 2026 12:29:31 GMT"
+        },
+        {
+          "title": "澳門永利兩岸對話 五百嘉賓紀念孫中山誕辰 - 中國評論新聞",
+          "summary": "澳門永利兩岸對話 五百嘉賓紀念孫中山誕辰  中國評論新聞",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5JZkpnSENZWmREc0NpcEtSZFNvM1V2MnBZOTJ3alV6SjZ2V0NZdnVmbG42MGZzVVBnUlpkQ2F5UC0wX0VSc1ZVT2RvQzdMX3NKa0tiZDkwTWpzNlBycVhVZDJ0Nk5FUTQ?oc=5",
+          "publishedAt": "Fri, 21 Aug 2026 09:38:40 GMT"
+        },
+        {
+          "title": "中國驚傳大爆炸 官方：無人死亡 - 東森新聞",
+          "summary": "中國驚傳大爆炸 官方：無人死亡  東森新聞",
+          "source": "Google News 中國",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE94UXVWVWVSQVppNEJxdDh1OHBKLURPV3IxWGFRRUc3Q1YzWmF6ak13aWk0bW5uSnV4UmNaTHFXdzdEMWZqcFlfVEdSeGt1blBTeDZF?oc=5",
+          "publishedAt": "Fri, 21 Aug 2026 13:38:00 GMT"
+        },
+        {
+          "title": "兩岸直航大爆發？「28條航線全面開放」主攻台灣4縣市直飛， 最新航線地點一次看 - 風傳媒",
+          "summary": "兩岸直航大爆發？「28條航線全面開放」主攻台灣4縣市直飛， 最新航線地點一次看  風傳媒",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5yTE0wQnRDS1FtRkRDN1h0bE5nMVVrS3pad0d1WWlveWFncW5zMGhjSVg1RS1sR3lBcFV2SWZ2S3JOd0RtdG1kZjlETkZ4cDB3?oc=5",
+          "publishedAt": "Thu, 20 Aug 2026 04:03:35 GMT"
         }
       ]
     }
