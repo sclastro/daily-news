@@ -26983,17 +26983,95 @@
   "2026-09-04": {
     "hk": {
       "categoryName": "本地新聞（香港）",
-      "articles": []
+      "articles": [
+        {
+          "title": "回歸以來香港國際環境的變遷- 評論 - 點新聞",
+          "summary": "回歸以來香港國際環境的變遷- 評論  點新聞",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE82TXJsbHZ1V3VaamM2bnhlZHlwQ0xvU1F4X2Y3MmJOX2w3ZFZFRnJYeUtJSjFGUlA2NHk5V01uSmtXRmxuZE1BRUEwMnlOdjVvckpyd01Ya3lYZ2tseldoS2N3UW8zcXFhU0M1QkV2eDhaTUROdnNpUHl3?oc=5",
+          "publishedAt": "Thu, 03 Sep 2026 23:19:34 GMT"
+        },
+        {
+          "title": "恒指夜期丨收報25421 高水208點 - 信報網站",
+          "summary": "恒指夜期丨收報25421 高水208點  信報網站",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQTGRWNmlXNkw1X0NXS0RqTU9hWmxGUzJ0WUh6UVdQMXQyakc1S3lRTTB5cm5KeHh4ZW5jSGZkNEJ2bUJpbGJBN1ZhRHhQdFUzbGxQVXdtU1F0VHVTcDRnRWlya21pbkNYb3NWMDM4cUh4U2lkR2RrYzcya1dtX29ZTjNjQzJMbXdCVVMxWnhXblFSV1llcExSTjVUNEp4SzZ2dkRlSDVKY3lCdDRNVkU5ZVZJNzlIY1p3R1JxcGRDZ0NqRjZCZXVDbTZTTUR3ekZNTUlfSElwdFZ5dy1HWktmZzR4TXpueUFUMHc?oc=5",
+          "publishedAt": "Thu, 03 Sep 2026 19:46:23 GMT"
+        },
+        {
+          "title": "國際調解中心 —— 香港與新加坡之爭 - 《超越新聞網》",
+          "summary": "國際調解中心 —— 香港與新加坡之爭  《超越新聞網》",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBaeUpEQy03MWxxMVBfZklOM2JfYVNjRThLR1Jad1JlazlFMjN6aW9SR2xBaGY2V3kzUVVLZy1VTEU3dE1RVnJMcEZGVnJRbkhfVHlRaQ?oc=5",
+          "publishedAt": "Thu, 03 Sep 2026 22:21:32 GMT"
+        },
+        {
+          "title": "香港政府新聞網- 特首出席抗日勝利紀念儀式 - news.gov.hk",
+          "summary": "香港政府新聞網- 特首出席抗日勝利紀念儀式  news.gov.hk",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9wSTVCcjJNYUdwUHlzVlRzeV9EazAxNFgtLXhGTlRSTTRxOFR3VFZVMkVpQmxuWWdIUWcyaGRJZ0xrMkhUeG1abEhiWGd6anFmZ0UyVG1zZFdHRTNhbzVTcW55bmp2ZVlkOFpFUmVQS0RTa3psT2ZEeg?oc=5",
+          "publishedAt": "Thu, 03 Sep 2026 21:14:40 GMT"
+        },
+        {
+          "title": "新聞背後/外力攻擊香港司法反證黃之鋒之罪\\梅若林- 論壇 - 大公文匯網",
+          "summary": "新聞背後/外力攻擊香港司法反證黃之鋒之罪\\梅若林- 論壇  大公文匯網",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB6V29XYWtlNlZfbnZiZmpUcy11c0pVWmZPSWRlWTdyRV9pMzVyOWZfU2JKaXV1MlFwblJkRDRVZTM2a085amdNdGtYUHNmVDRBR1duSVlKUjFuZ3VydlJKNEJxS2N2Nml5Q1RPU2VjTko1MXlp?oc=5",
+          "publishedAt": "Thu, 03 Sep 2026 20:21:41 GMT"
+        },
+        {
+          "title": "科研優勢/日本知名物理學者轉投港科大任教 讚香港科研環境超預期 「不會考慮回日本」 - 大公文匯網",
+          "summary": "科研優勢/日本知名物理學者轉投港科大任教 讚香港科研環境超預期 「不會考慮回日本」  大公文匯網",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1MVDZSNlREdXAzbG5CWGxoX29ZU1hLX2xZX3lIeWs4Z1N4MUNZWlhmb1JyTl9CMTB2aHN2eEIxMWRCU2RPNTBGSnFXWmNFMG1TN2U5VzNiTHVvaFVjMk5EbWNEOGJyeW43WGt2WE9Zdzhlck5q?oc=5",
+          "publishedAt": "Thu, 03 Sep 2026 20:27:25 GMT"
+        },
+        {
+          "title": "香港至澳門直升機定期航班暫停 - Now 新聞",
+          "summary": "香港至澳門直升機定期航班暫停  Now 新聞",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1DWXN6VW5hS0ZDek1nN05aS25kREJKRENHRUo2dklnNTFwMU5fQzFwNDJWV09JaXdLb1ZMZ0NSX0dJcVZUMEpIanp3Qk1wVnV3SzBUOVU2a09UX0NwcFZES0NR?oc=5",
+          "publishedAt": "Thu, 03 Sep 2026 14:09:25 GMT"
+        },
+        {
+          "title": "全球頂尖海運貿易展在德舉行駐柏林經貿辦推廣香港優勢- 香港 - 香港文匯報",
+          "summary": "全球頂尖海運貿易展在德舉行駐柏林經貿辦推廣香港優勢- 香港  香港文匯報",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5UWXdEOGxMLXRna2Y3QVlkRjF2R3pfWnpOcVUyWkk0T0ROYVhkVTl0NC1BNUM5a0hSd19fSTRUd1N1WlBNS191VWstcWdyMklwTmxGNThlMjN5U29uYjNET3JZS1FQVzBkOVVDZTQ2dk1wQVg3c1hF?oc=5",
+          "publishedAt": "Thu, 03 Sep 2026 16:02:16 GMT"
+        }
+      ]
     },
     "world": {
       "categoryName": "國際新聞",
       "articles": [
+        {
+          "title": "萬斯說，美國正在調查導彈是否擊中伊朗婚禮",
+          "summary": "伊朗紅新月會（ IRCS ）表示，周二，一枚導彈彈片擊中了儀式，造成4人死亡。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cy4zvk3z2k1o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Thu, 03 Sep 2026 22:19:59 GMT"
+        },
+        {
+          "title": "移植的豬腎在美國男性身體中工作了創紀錄的271天",
+          "summary": "一名男子在等待人類移植時，與移植的豬腎一起生活了創紀錄的九個月。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c305qn2jeggo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Thu, 03 Sep 2026 22:31:23 GMT"
+        },
         {
           "title": "女權活動家和記者Gloria Steinem去世，享年92歲",
           "summary": "她的基金會表示，她在紐約市的家中「平靜地去世」，「被許多愛她的人包圍」。",
           "source": "BBC World",
           "url": "https://www.bbc.co.uk/news/articles/clyeq3ngwe4o?at_medium=RSS&at_campaign=rss",
           "publishedAt": "Thu, 03 Sep 2026 18:04:34 GMT"
+        },
+        {
+          "title": "美國億萬富翁萊昂·布萊克無視傳票並起訴愛潑斯坦小組",
+          "summary": "該訴訟稱，命令他分享保密協議的眾議院監督委員會傳票「無效」。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cddve618plzo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Thu, 03 Sep 2026 18:14:57 GMT"
         },
         {
           "title": "ICE特工被控謊稱在鎮壓期間射殺委內瑞拉男子",
@@ -27017,32 +27095,11 @@
           "publishedAt": "Thu, 03 Sep 2026 19:56:34 GMT"
         },
         {
-          "title": "觀看： Gloria Steinem一生致力於爭取女性平等",
-          "summary": "根據她的基金會，這位成為美國婦女解放運動領袖的女權主義偶像於週三去世，享年92歲。",
-          "source": "BBC World",
-          "url": "https://www.bbc.co.uk/news/videos/c9865l26097o?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "Thu, 03 Sep 2026 17:35:31 GMT"
-        },
-        {
           "title": "回应德国关闭俄罗斯之家 俄罗斯关闭歌德学院",
           "summary": "据德国广播电台报道：在莱比锡/哈雷机场发生无人机事件后，德国联邦政府于周二正式指控俄罗斯应对此事负责，并宣布关闭位于柏林和波恩的俄罗斯机构。对此，莫斯科作出回应，宣布关闭俄罗斯境内的歌德学院。",
           "source": "RFI 法廣",
           "url": "https://www.rfi.fr/cn/%E6%94%BF%E6%B2%BB/20260903-%E5%9B%9E%E5%BA%94%E5%BE%B7%E5%9B%BD%E5%85%B3%E9%97%AD%E4%BF%84%E7%BD%97%E6%96%AF%E4%B9%8B%E5%AE%B6-%E4%BF%84%E7%BD%97%E6%96%AF%E5%85%B3%E9%97%AD%E6%AD%8C%E5%BE%B7%E5%AD%A6%E9%99%A2",
           "publishedAt": "Thu, 03 Sep 2026 18:48:37 GMT"
-        },
-        {
-          "title": "俄罗斯：一名人道工作者因批评俄军被起诉",
-          "summary": "在俄罗斯的一名人道工作者因批评军队被起诉，周四她被俄罗斯一家法院置于司法监管之下。",
-          "source": "RFI 法廣",
-          "url": "https://www.rfi.fr/cn/%E5%9B%BD%E9%99%85/20260903-%E4%BF%84%E7%BD%97%E6%96%AF-%E4%B8%80%E5%90%8D%E4%BA%BA%E9%81%93%E5%B7%A5%E4%BD%9C%E8%80%85%E5%9B%A0%E6%89%B9%E8%AF%84%E4%BF%84%E5%86%9B%E8%A2%AB%E8%B5%B7%E8%AF%89",
-          "publishedAt": "Thu, 03 Sep 2026 21:54:16 GMT"
-        },
-        {
-          "title": "杜斌和黄之锋的国度：异见者亲情的分量",
-          "summary": "中国大陆人权摄影记者与自由作家杜斌今年8月28日被判刑前，请求回家见病危母亲最后一面却遭拒，其母随后病逝。而本周三，香港知名民主派活动人士黄之锋就涉及游说西方议员的勾结外国势力案表示“认罪”，也有出于照顾年迈双亲的考量。",
-          "source": "RFI 法廣",
-          "url": "https://www.rfi.fr/cn/%E4%B8%93%E6%A0%8F%E6%A3%80%E7%B4%A2/%E8%A6%81%E9%97%BB%E5%88%86%E6%9E%90/20260903-%E6%9D%9C%E6%96%8C%E5%92%8C%E9%BB%84%E4%B9%8B%E9%94%8B%E7%9A%84%E5%9B%BD%E5%BA%A6-%E5%BC%82%E8%A7%81%E8%80%85%E4%BA%B2%E6%83%85%E7%9A%84%E5%88%86%E9%87%8F",
-          "publishedAt": "Thu, 03 Sep 2026 20:25:36 GMT"
         }
       ]
     },
@@ -27050,60 +27107,60 @@
       "categoryName": "財經新聞",
       "articles": [
         {
-          "title": "隨著新的健康趨勢重塑零食管道，金魚餅乾正在煥然一新",
-          "summary": "坎貝爾計劃推出無麩質、全穀物和富含蛋白質的金魚版本，以滿足對健康替代品日益增長的需求並應對日益激烈的競爭。",
-          "source": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/goldfish-crackers-are-getting-a-makeover-as-new-health-trends-reshape-the-snack-aisle-32e89644?mod=mw_rss_topstories",
-          "publishedAt": "Thu, 03 Sep 2026 21:54:00 GMT"
+          "title": "Fed放鴿！美股全線收高 台指期夜盤飆668點 - 壹蘋新聞網",
+          "summary": "Fed放鴿！美股全線收高 台指期夜盤飆668點  壹蘋新聞網",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNUJEQWxiUHVrdE1QVEl4eXppTkdhQUlsR284R3B2aGpybU9RVm42TFMxYUZUTThwSWgzVE16dDBXQzZJbVhLQUlVbTU5bUV0U0d2T2lVMFJGR3Z5WkFUSlI2UWZBckJuMDQyNnN5SFFDTG5PRERuNzJ1ZTdzbVZhVHlB?oc=5",
+          "publishedAt": "Thu, 03 Sep 2026 23:12:00 GMT"
         },
         {
-          "title": "維多利亞的秘密 (Victoria’s Secret) 胸罩和 Pink 系列銷售強勁，但不足以讓投資者滿意",
-          "summary": "該公司的銷售額接近預期範圍的高端，但華爾街的預期更高，該股經歷了一年多來最糟糕的一天。",
-          "source": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/victorias-secret-sees-strong-bras-and-pink-sales-but-not-enough-to-satisfy-investors-48bfe36c?mod=mw_rss_topstories",
-          "publishedAt": "Thu, 03 Sep 2026 21:52:00 GMT"
+          "title": "個股概覽 | 個股 - 股市 - CMoney",
+          "summary": "個股概覽 | 個股 - 股市  CMoney",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBfVGtPUmhQeF9nalNLNm9zTGJWQlREWTlFa2dVeEhkNElpN1d0OXlyaFF3U3NaYnBodklvejVEU1YtdkNl?oc=5",
+          "publishedAt": "Thu, 03 Sep 2026 15:31:59 GMT"
         },
         {
-          "title": "美國人熱衷於追蹤睡眠、步數和心率，Oura 申請 IPO",
-          "summary": "該產品是可穿戴技術與「預防性醫療保健」相結合的趨勢的一部分",
-          "source": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/oura-files-for-ipo-amid-americans-obsession-with-tracking-their-sleep-steps-and-heart-rates-093f85c4?mod=mw_rss_topstories",
-          "publishedAt": "Thu, 03 Sep 2026 21:49:00 GMT"
+          "title": "漢測9月下旬上櫃掛牌！競拍底價1800元 上半年EPS衝21.5元 - 壹蘋新聞網",
+          "summary": "漢測9月下旬上櫃掛牌！競拍底價1800元 上半年EPS衝21.5元  壹蘋新聞網",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPT0E5VHdYbno3NjRHUW02a0VVR0Zub2RnZXp4TWFFZ3V0ZDZzT1NtdjBqUXVSMVJxWGtMaHV2WC13SzEwU1RwZDRtMHItSkw2dlRlSTJwY2xPZXJVaUgyNnFNV3c2OWVsekJLVFNrWk5Xc2EwY1phWUIwV21heFRwRFRn?oc=5",
+          "publishedAt": "Thu, 03 Sep 2026 16:05:00 GMT"
         },
         {
-          "title": "Nvidia 價值 130 億美元的 Hugging Face 交易對人工智慧世界意味著什麼",
-          "summary": "此次收購將使英偉達獲得“人工智慧市場上最重要的一塊土地”，並推廣開源技術。",
-          "source": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/heres-what-nvidias-13-billion-hugging-face-deal-means-for-the-world-of-ai-360e9fd1?mod=mw_rss_topstories",
-          "publishedAt": "Thu, 03 Sep 2026 21:34:00 GMT"
+          "title": "耕興8月營收年增逾1成 實體AI終端、Wi-Fi 7送測需求升溫 - 壹蘋新聞網",
+          "summary": "耕興8月營收年增逾1成 實體AI終端、Wi-Fi 7送測需求升溫  壹蘋新聞網",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPMnVPRkJ5ek1Ha3pma19ZNmZDWE9qX1NERVc2X2tuZUZFWEtVZEJwX2E3WVN6QXlMYmN1MGJrVXFFZmcyLUN3ZnlYRjhFcGhhdHB0RlJnTHBBaHlxajFHeU42TXF1d0Z5TGVRWGtDWnZLNExWYmsxeF9WalFPVjI4enhn?oc=5",
+          "publishedAt": "Thu, 03 Sep 2026 15:58:00 GMT"
         },
         {
-          "title": "時隔近兩個月，SpaceX 重返 2 兆美元俱樂部",
-          "summary": "伊隆馬斯克的公司贏得了分析師的讚揚，並受益於科技業的普遍反彈。",
-          "source": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/spacex-is-back-in-the-2-trillion-club-after-nearly-two-months-25632255?mod=mw_rss_topstories",
-          "publishedAt": "Thu, 03 Sep 2026 21:31:00 GMT"
+          "title": "辛耘自製設備今年增5成、產能滿到明年 客戶提前卡位2028產能 - 壹蘋新聞網",
+          "summary": "辛耘自製設備今年增5成、產能滿到明年 客戶提前卡位2028產能  壹蘋新聞網",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOdEdER2x1WS1od2JFZDhVNzEzb0hZcjFjYnQybGNKVi1IWHVvblkySnpvWjRqeVBnNjZlSEU5T2l1SFlVWVJObnF0RlFKZHZ2Z1d0Y3gzNUh1c2RpTDlOVFItSGg5OXNrTmhmZkV5YWRqbWFWWHF6OTcwcG5acmY5cmFR?oc=5",
+          "publishedAt": "Thu, 03 Sep 2026 13:26:00 GMT"
         },
         {
-          "title": "隨著大型科技公司接近歷史新高，英偉達收回了人工智慧產業的控制權",
-          "summary": "Roundhill Magnificent Seven ETF 即將接近 5 月的峰值——這一次要歸功於 Nvidia。",
-          "source": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/nvidia-takes-back-control-of-the-ai-trade-as-big-tech-nears-record-highs-c0dfed9d?mod=mw_rss_topstories",
-          "publishedAt": "Thu, 03 Sep 2026 21:12:00 GMT"
+          "title": "AI翻轉稅務工作！安永導入人機協作 揭稅務人才4大競爭力 - 壹蘋新聞網",
+          "summary": "AI翻轉稅務工作！安永導入人機協作 揭稅務人才4大競爭力  壹蘋新聞網",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSWlQZlU1c2FWSnFfWE50bHN0cDJDTGZmN201Q3Q5SnVoUW4xa1Nzd2RBckl3MHZtMHlWcl8xd3pja0FWc3pQeXdiUlM1WjBDempkM2hPeEg2TUh4YkstczZkbkV3Zk1XVU1oX1Fnb0hPclFROTVWalZIdzd4SmxmMGZB?oc=5",
+          "publishedAt": "Thu, 03 Sep 2026 12:51:00 GMT"
         },
         {
-          "title": "炙手可熱的醫療保健行業的這些股票已經變得太擁擠而難以持有",
-          "summary": "新的建議包括對通用電氣醫療保健公司和美敦力公司的股票將下跌進行期權押注，因為已經有太多人押注這些股票將上漲。",
-          "source": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/these-stocks-in-the-red-hot-healthcare-sector-have-gotten-too-crowded-to-own-b4b2e0bc?mod=mw_rss_topstories",
-          "publishedAt": "Thu, 03 Sep 2026 21:06:00 GMT"
+          "title": "帆宣在手訂單1351億創高、能見度看到2028 CoWoS設備成焦點 - 壹蘋新聞網",
+          "summary": "帆宣在手訂單1351億創高、能見度看到2028 CoWoS設備成焦點  壹蘋新聞網",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSGJmQjdFblFjLW1rcmk0aHRpVG5GWHdPTThVZ2dkLWxlZ2V4Q29tVVpUTHZyd3NhOVQ0ZVpjR1g5US1mLXIyOFZ2UDZXZGdTN0RlMHNLWW9Pcmk3U2NWMk54WGsxN2ZkdFJpRXlFRDJWbzJobG5ZT2ZDT0VrdG5nN3N3?oc=5",
+          "publishedAt": "Thu, 03 Sep 2026 13:43:00 GMT"
         },
         {
-          "title": "Lululemon 的銷售額下降引發了對該公司扭虧為盈的更深層擔憂",
-          "summary": "由於分析師質疑這家瑜珈服製造商的時尚品種，該股下跌。",
-          "source": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/lululemons-sales-drop-raises-deeper-concerns-about-the-companys-turnaround-ddf9256a?mod=mw_rss_topstories",
-          "publishedAt": "Thu, 03 Sep 2026 20:43:00 GMT"
+          "title": "信紘科在手訂單230億看到2028！營收拚百億 明年海外業績翻倍 - 壹蘋新聞網",
+          "summary": "信紘科在手訂單230億看到2028！營收拚百億 明年海外業績翻倍  壹蘋新聞網",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZWh2WG5PY1k2NEZxNGFwSTR5NWdLTmZpWTZtTjY2WHZ1YUliUmhvb2tZQ3VyYTlsUFlaUzhKc1pvR0RlNmlIVHk4TGJZaEloT0dXclc1djkxU1lmMldTY2lCSngzRV9qOGJoeXhYUkdZMG81ZUhfTm9NcS1XU2E0X1Rn?oc=5",
+          "publishedAt": "Thu, 03 Sep 2026 12:39:00 GMT"
         }
       ]
     },
@@ -27153,24 +27210,81 @@
           "publishedAt": "2026-09-03  12:09:56"
         },
         {
-          "title": "上櫃公司創新服務遭勒索病毒攻擊，導致ERP等資訊系統無法運作",
-          "summary": "9月2日晚間上櫃半導體設備廠創新服務（7828）於股市公開資訊觀測站發布資安重訊，該公司偵測到部分伺服器遭到勒索病毒攻擊，察覺異常的第一時間已立即啟動防禦機制與斷網隔離措施，並啟動相關資安應變機制，全面檢視資安系統與加強相關防護。創新服務指出，這起事故造成ERP在內的部分資訊系統無法正常運作。",
+          "title": "臺灣首款自研並支援3項PQC標準的密碼應用晶片出爐！匯智攜手工研院共同催生，且已達量產等級",
+          "summary": "由於量子運算技術可能將導致既有加密防護失效的狀況，後量子密碼學（PQC）成為當前資安發展的重大議題，除了各界關注的PQC遷移進度與時程規畫，關係到抗量子破密技術普及的另一個關鍵，則是PQC晶片的發展，亦受到全世界的矚目，為了彰顯臺灣技術研發實力，在國際半導體展SEMICON Taiwan 2026大會上，匯智安全科技與工研院SecPaaS平臺共同發表國產後量子晶片最新成果。\n匯智鎖定企業級HSM的",
           "source": "iThome",
-          "url": "https://www.ithome.com.tw/news/178655",
-          "publishedAt": "2026-09-03  11:09:13"
+          "url": "https://www.ithome.com.tw/news/178680",
+          "publishedAt": "2026-09-03  07:09:15"
         },
         {
-          "title": "curl發布8.22.0版，修補10個資安漏洞",
-          "summary": "開源命令列網路資料傳輸工具curl於9月2日發布8.22.0版，修補10個漏洞，其中9個影響curl與libcurl，另有1個則影響基於libcurl的輕量傳輸工具wcurl，涵蓋驗證繞過、記憶體安全、TLS憑證驗證與Cookie處理等問題。curl或libcurl用戶應升級至8.22.0版，wcurl則應升級至2026.08.30版。",
+          "title": "研究人員揭露新型CRLF Desync攻擊手法，可竊取HTTPOnly Cookie並挾持帳號",
+          "summary": "資安業者PortSwigger與TurtleSec的研究人員近日公開CRLF-Powered Desync攻擊手法，可將原本被視為低風險的HTTP標頭注入漏洞，升級為請求走私攻擊（request smuggling），可能導致帳號劫持、竊取HTTPOnly Cookie，甚至產生能自我擴散的Desync蠕蟲。這項手法利用開源反向代理伺服器Nginx常見的設定錯誤，可能因解碼CRLF換行字元（Car",
           "source": "iThome",
-          "url": "https://www.ithome.com.tw/news/178654",
-          "publishedAt": "2026-09-03  11:09:43"
+          "url": "https://www.ithome.com.tw/news/178684",
+          "publishedAt": "2026-09-03  06:09:20"
         }
       ]
     },
     "china": {
       "categoryName": "大中華新聞",
-      "articles": []
+      "articles": [
+        {
+          "title": "【專家之眼】AI發展對兩岸關係的深遠影響 - 經濟日報",
+          "summary": "【專家之眼】AI發展對兩岸關係的深遠影響  經濟日報",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1pVHVtVVMwd0RyUHk1ZzBfWUVrTUFwY0dQM0xxR1ExV1RRdVI3RnJQQ2ZCNjdYNjRCUGhkaVJGcU1uZDVadWhtVHJYeS1sMXZJOGVzcmJCUlVmZ9IBX0FVX3lxTE1DUDJkUldKaThlVWJZU1NONWs4MnFXeGRJaVdpQUpqd25CaTZzX1hmYWl5LTZURlhSX2JKUU10OFlOMVV4U0lCNlNNVGFrNHFtLTdRQXM0Q2hIamtoZ204?oc=5",
+          "publishedAt": "Thu, 03 Sep 2026 22:42:10 GMT"
+        },
+        {
+          "title": "蕭副主席：肯定廣東搭建台青嶺南行活動平台 促進兩岸青年交流交心 - kmt.org.tw",
+          "summary": "蕭副主席：肯定廣東搭建台青嶺南行活動平台 促進兩岸青年交流交心  kmt.org.tw",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ZNVEtMXRDUGRNWWx3MDlTSERpOFFsZmpLY0Y2OE5tVnNvemhwakRoU0JkbmMxSjlZemNFN2c5Qm5nRzZHYkZEUWI4MnBsZElOQ0ZsZWJXS0hKY3dEcmc?oc=5",
+          "publishedAt": "Thu, 03 Sep 2026 14:22:45 GMT"
+        },
+        {
+          "title": "和平興台 國民黨推動兩岸合作 - 中華新聞雲／中華日報",
+          "summary": "和平興台 國民黨推動兩岸合作  中華新聞雲／中華日報",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5YUDdQdEw2S0lzdWZvMF92UU16NGJNWm1fRWIwTWxHMVJwOW1kcEVmVHB3b3NBdWhlQmp6OUJDU0Zub19USllFeWFXamZvVzBRRnc?oc=5",
+          "publishedAt": "Thu, 03 Sep 2026 13:28:19 GMT"
+        },
+        {
+          "title": "李榮民：兩岸經濟融合的天然基礎與實踐成效 - 中國評論新聞",
+          "summary": "李榮民：兩岸經濟融合的天然基礎與實踐成效  中國評論新聞",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBPeFM0YXRsQkpyY2NWRVk0MUgtelFWY0JkUlloSkVZWTB0NGFCTXA2d1VLLUthdUdlM2dLSmlBNWRScmVnN2JWdEtZbmpUaXB2TlZmLXg0UVBNeVBGeVZ5VmIxLThsQlk?oc=5",
+          "publishedAt": "Thu, 03 Sep 2026 16:08:52 GMT"
+        },
+        {
+          "title": "謝廣東提供兩岸青年築夢舞台 蕭旭岑：走到一起來，夢想更精采| 政治焦點 - 太報 TaiSounds",
+          "summary": "謝廣東提供兩岸青年築夢舞台 蕭旭岑：走到一起來，夢想更精采| 政治焦點  太報 TaiSounds",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9CTnIzX2dIWTdkLXZUWUlOUDlSZnZZLUhLeFliamNZS0hjVHpiRUF3LWcwQ2hrY1NiZUdYQ2puZkNWOE1Ed1dTRHVWNnBxRGlWa1lkQXpyU25VRWxq?oc=5",
+          "publishedAt": "Thu, 03 Sep 2026 14:49:12 GMT"
+        },
+        {
+          "title": "看洪申翰登陸驗證大內宣| 民意論壇| 評論 - UDN",
+          "summary": "看洪申翰登陸驗證大內宣| 民意論壇| 評論  UDN",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9mZmRKUXhVVmk5OTV6VjNfYnlOSHNXMjZTOE5NbWt6VUNuVldPV3pnb3JzZlg0RWJpU05XVWxNNGxPZWZnQXQ1Sk5qWTNnT3lOZFdOc1lwbG9DZHFtWmFCc2ZTZ0szeU9nMEcybzYxaEx1MEE?oc=5",
+          "publishedAt": "Thu, 03 Sep 2026 16:00:00 GMT"
+        },
+        {
+          "title": "蕭旭岑出席東莞台博會宣示「和平興台」 承諾國民黨永遠是台商最堅實後盾以善意取代對抗推動兩岸大交流 - 蕃新聞",
+          "summary": "蕭旭岑出席東莞台博會宣示「和平興台」 承諾國民黨永遠是台商最堅實後盾以善意取代對抗推動兩岸大交流  蕃新聞",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5OSTJIelNsYmJPbmVXOWlLcGZBNFUwNW1ySS1ncWl0SjdfQzVEU21oNGI4LUpLd1NmcWNMdnM2SnVLbU5SOEtkd0RoeUlqTzFCRlE?oc=5",
+          "publishedAt": "Thu, 03 Sep 2026 13:53:00 GMT"
+        },
+        {
+          "title": "國防預算破兆創新高陸委會示警兩岸海權不對稱：中共再逼近我方恐吃力- 兩岸 - 工商時報",
+          "summary": "國防預算破兆創新高陸委會示警兩岸海權不對稱：中共再逼近我方恐吃力- 兩岸  工商時報",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9jZmRkN2owWjRoQ2I3N0haQ2RnZW5WVElQNi1rOTdreDAtd0c4SkhUTmpsNmstNUpoV2djSHRjbnBhQ0NxWk9ZSXNRall0cFEwRlZEZnFQRC1zUTFDTXVF?oc=5",
+          "publishedAt": "Thu, 03 Sep 2026 10:18:00 GMT"
+        }
+      ]
     }
   }
 }
