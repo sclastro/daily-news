@@ -1,311 +1,4 @@
 {
-  "2026-06-06": {
-    "hk": {
-      "categoryName": "本地新聞（香港）",
-      "articles": [
-        {
-          "title": "香港文匯報 - 香港文匯網",
-          "summary": "香港文匯報  香港文匯網",
-          "source": "Google News HK",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOd0E0UjBxS3VsbUUzOGl6SHNYZFJmcVJNdDJnR1pmLWNieXJmUnhYSW5seEJDbzFmSDJRa0w4SlNQRUhmd25oaThmci1UNGF2QTF6OUFnODJvdHl0M0ExNjZ2SW4yRFVwQUE4OENNWkgtaTBpNTZVYmxOUVdWTUVSbnV0UmF5Rm9mZXV0c3Fn?oc=5",
-          "publishedAt": "Fri, 05 Jun 2026 21:54:10 GMT"
-        },
-        {
-          "title": "國際足球友誼賽 香港主場2比0擊敗蒙古 - i-cable.com",
-          "summary": "國際足球友誼賽 香港主場2比0擊敗蒙古  i-cable.com",
-          "source": "Google News HK",
-          "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxNNFU3TW5Da3J1d2g1TVNYZERQTmY0ZGJWOFo2NVpoMHA5Qmt6SkN4d2FBbW11LTJ6elliUHAxM3VVZS1VVDVCQnJEU1NsOHVNOW16SWJjbGd2QmRCck1iN0t5VUFjUTlueF8xRVNQOGxKS0F5ZkxXYjNfTTZiSWdCZjg1STZqdGhpTTQ1NkxGT0M3ZmcyX3RYYnRHelZIS2dFOTNLX3FVVF9vOU1vSjFDX3FNcnk3dkVDV3hzTUxzQ2U4Z0kyQzJpeFV1Y0RBNHlMQ0VaaGh0YmItZkh0TW9tQmhfb01mb2JSMnEzaU44eVNsVWY0WXloVWd1UTNlcTFMZFRkQWJjSlNXSHNHYkthUG1yUkdqYnIwUXhqOEJkVGZxTnNyTms2a0VQdDY4OU40MFpDb1llZVVBWlk?oc=5",
-          "publishedAt": "Fri, 05 Jun 2026 21:36:12 GMT"
-        },
-        {
-          "title": "星島頭條｜最新最全面即時新聞平台，港聞突發，政情及專題報道 - stheadline.com",
-          "summary": "星島頭條｜最新最全面即時新聞平台，港聞突發，政情及專題報道  stheadline.com",
-          "source": "Google News HK",
-          "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBiRkM4UEpSVWJYSUpjZkNYTk9SRF9GeHFhZEhnbjFkNUhJanE0R25RUWt5dWNBbVpLTFVfQ0MteWg?oc=5",
-          "publishedAt": "Fri, 05 Jun 2026 14:12:33 GMT"
-        },
-        {
-          "title": "現貨黃金報4334.07 - etnet 經濟通",
-          "summary": "現貨黃金報4334.07  etnet 經濟通",
-          "source": "Google News HK",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOYlFUdU9FX2N4a29WVm9jdmRiVnJKRGZlc0xIbmRiRl9XQWVNT09jdkhGUDNOX0dwSWhOdDlnRXZlN0FPRDVGd3NWQUJwSm9ZNTgxQmlzWDVVVUVMSGV0U1F1eHUtWFdNczA3MEZRVzZrNnpTTWFmaGV3QkRHZ1A1SHVtU0lSNEVDMW44cU4wX0dFMHlrdGE0bVNUa0R0Q1E?oc=5",
-          "publishedAt": "Fri, 05 Jun 2026 16:00:00 GMT"
-        },
-        {
-          "title": "香港黃金產業集團澄清：媒體報道的純利目標不構成盈利預測 - AASTOCKS.com",
-          "summary": "香港黃金產業集團澄清：媒體報道的純利目標不構成盈利預測  AASTOCKS.com",
-          "source": "Google News HK",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUlpiZ1R1R2R1b3NmVllOZUhMalZSWHVOR2ZGN3N3ZXVvUzZMVTRjUWhyOXYzZDZuUm10czRJZkg0RVBCYXhXUWdaMEtpZkpvNUFMRUI4ZWY3bTREcUZ2UW5BYUtJbEpMWG5XaGJ4UUhxRmQ3YmhTY0w1WXlEcHBxcQ?oc=5",
-          "publishedAt": "Fri, 05 Jun 2026 15:02:00 GMT"
-        },
-        {
-          "title": "李家超見證烏茲別克創新科技園區與香港三大創科園區簽諒解備忘錄 - 香港電台新聞網",
-          "summary": "李家超見證烏茲別克創新科技園區與香港三大創科園區簽諒解備忘錄  香港電台新聞網",
-          "source": "Google News HK",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5NN29VblN6amh6NnhXUWtab09UeGJqeldHU1BDSXhCekxlanUyRS1UYm5XaEJ2ZHc4VXFfaExuTjJ6elZqcVQzaHBNcC1xck5aT1U2UWJhcDREQkl1c3VTUGw5S2VrQzBIbk9KWFYycw?oc=5",
-          "publishedAt": "Fri, 05 Jun 2026 13:02:00 GMT"
-        },
-        {
-          "title": "安克創新(300866.SZ)：向香港聯交所更新遞交了本次發行並上市的申請 - AASTOCKS.com",
-          "summary": "安克創新(300866.SZ)：向香港聯交所更新遞交了本次發行並上市的申請  AASTOCKS.com",
-          "source": "Google News HK",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNk5rMGJxSHNNMUgwd3VpTHlQdVk4U2hIMEFtVXVvWjFPOTJrZjY0cDQ2Mm81OXVBbnV3X3plZlJEcGlpaXk5UHl5VnAtTEpSVFBSUUxGbHBQOWRPMHlLdHBTQ2MxQXNReTd4ZkNFaWE3T0ZpNktuSGVZaFdtUGx6cDdOakVsekVOOG1NdWx4bklCaGN1VjZNSk54dkZEcGM?oc=5",
-          "publishedAt": "Fri, 05 Jun 2026 13:35:00 GMT"
-        },
-        {
-          "title": "世茂旗下香港第二大酒店面臨被銀行接管風險 - Yahoo 財經",
-          "summary": "世茂旗下香港第二大酒店面臨被銀行接管風險  Yahoo 財經",
-          "source": "Google News HK",
-          "url": "https://news.google.com/rss/articles/CBMizgJBVV95cUxOUmNhUV9LMlpCcXZIeWhtZjJpWDdIMUFaSjNsdGpHZkNyQjIxallEQ09pclZiSWpPajRnc1ZoazE1Zy0wYUszQU0wWEpYMHRhcW9wQU9nOGlvSVI2SDlBTnZlS3A2anlRVUMxbi03MU1CQXA3TVBiZm15ZlZ2cjBQQ1dpQWNJSG8tNnpPY3RSbE83S0p0a1V6Y2NqVy02Q0xQVEdPYzkyeHZvNkFOTHhkWFNzbGU2Y2VuVkR5Nlh0SUVZZ0lkZTlKV0ViLVNTdlZ1M1EwZmNBQ29vaXlsU2dxaWI1TVpJVVc3NUFSWXQ3Vk51RmhoSGl2dE9rUGNwVGFheU9jWVBaTXVWb1l1UDRtTWZSc29pVnZXUWNPTFFaNXY4Nk1WY1RsbGZQaGlHZ1owU1AxanJRTUVWem5LbS1vbGQ2MHMxNWxmazJHMFBB?oc=5",
-          "publishedAt": "Fri, 05 Jun 2026 14:50:34 GMT"
-        }
-      ]
-    },
-    "world": {
-      "categoryName": "國際新聞",
-      "articles": [
-        {
-          "title": "金正恩需要习近平坐实他的强大",
-          "summary": "中国国家主席习近平将于8-9日访问平壤。可以想象那里将举行何等盛大隆重的欢迎仪式，朝鲜在这方面很擅长。上一次习近平到访就受到满街挥舞旗帜的人群的欢呼，并与金正恩一同乘坐敞篷豪华轿车巡游，并观看了庆祝两国在朝鲜战争期间结成军事同盟的演出。",
-          "source": "RFI 法廣",
-          "url": "https://www.rfi.fr/cn/%E4%B8%AD%E5%9B%BD/20260605-%E9%87%91%E6%AD%A3%E6%81%A9%E9%9C%80%E8%A6%81%E4%B9%A0%E8%BF%91%E5%B9%B3%E5%9D%90%E5%AE%9E%E4%BB%96%E7%9A%84%E5%BC%BA%E5%A4%A7",
-          "publishedAt": "Fri, 05 Jun 2026 22:30:55 GMT"
-        },
-        {
-          "title": "中国人不愿消费，已成全球经济需要面临的大问题",
-          "summary": "法国世界报周五刊出的一篇文章关注中国人不愿意消费的问题，该报表示，中国人不愿消费，这已经成为全球经济需要面临的一大问题了。2020年代的房地产危机让中国家庭大量的积蓄烟消云散，中国的工业产能过剩又抑制了中国人工资的增长，同时社会保障体系又覆盖不足，这让中国人在消费时变得更加谨慎了。今年4月，社会消费品零售总额同比仅增长0.2%。",
-          "source": "RFI 法廣",
-          "url": "https://www.rfi.fr/cn/%E4%B8%93%E6%A0%8F%E6%A3%80%E7%B4%A2/%E6%B3%95%E5%9B%BD%E4%B8%96%E7%95%8C%E6%8A%A5/20260605-%E4%B8%AD%E5%9B%BD%E4%BA%BA%E4%B8%8D%E6%84%BF%E6%B6%88%E8%B4%B9%EF%BC%8C%E5%B7%B2%E6%88%90%E5%85%A8%E7%90%83%E7%BB%8F%E6%B5%8E%E9%9C%80%E8%A6%81%E9%9D%A2%E4%B8%B4%E7%9A%84%E5%A4%A7%E9%97%AE%E9%A2%98",
-          "publishedAt": "Fri, 05 Jun 2026 23:03:05 GMT"
-        },
-        {
-          "title": "黎巴嫩领导人警告伊朗不要干涉黎巴嫩内政",
-          "summary": "黎巴嫩总统奥恩（Joseph Aoun）周五直接向伊朗喊话说：“这不是你们的国家，而是我们的国家……你们无权干涉我们的事务。”",
-          "source": "RFI 法廣",
-          "url": "https://www.rfi.fr/cn/%E5%9B%BD%E9%99%85/20260605-%E9%BB%8E%E5%B7%B4%E5%AB%A9%E9%A2%86%E5%AF%BC%E4%BA%BA%E8%AD%A6%E5%91%8A%E4%BC%8A%E6%9C%97%E4%B8%8D%E8%A6%81%E5%B9%B2%E6%B6%89%E9%BB%8E%E5%B7%B4%E5%AB%A9%E5%86%85%E6%94%BF",
-          "publishedAt": "Fri, 05 Jun 2026 23:05:53 GMT"
-        },
-        {
-          "title": "美对台140亿美元军售案 特朗普：正在考虑中",
-          "summary": "美国总统特朗普周五（6月5日）表示，其政府仍在审查总额约140亿美元的新一轮对台军售计划。外界普遍关注，这项军售案是否会受到美中关系发展的影响。《日经亚洲》报道称，如果140亿美元新军售案获批，特朗普第二任期批准的对台军售总额将较拜登政府四年任期高出约36%。",
-          "source": "RFI 法廣",
-          "url": "https://www.rfi.fr/cn/%E4%B8%AD%E5%9B%BD/20260605-%E7%BE%8E%E5%AF%B9%E5%8F%B0140%E4%BA%BF%E7%BE%8E%E5%85%83%E5%86%9B%E5%94%AE%E6%A1%88-%E7%89%B9%E6%9C%97%E6%99%AE-%E6%AD%A3%E5%9C%A8%E8%80%83%E8%99%91%E4%B8%AD",
-          "publishedAt": "Fri, 05 Jun 2026 21:19:06 GMT"
-        },
-        {
-          "title": "普京拒绝泽连斯基的会面邀请",
-          "summary": "出席彼得堡国际经济论坛的俄国总统普京表示，拒绝乌克兰总统泽连斯基与其面对面会谈的邀请。泽连斯基则表示普京这是“继续选择战争”。",
-          "source": "RFI 法廣",
-          "url": "https://www.rfi.fr/cn/%E4%B8%AD%E5%9B%BD/20260605-%E6%99%AE%E4%BA%AC%E6%8B%92%E7%BB%9D%E6%B3%BD%E8%BF%9E%E6%96%AF%E5%9F%BA%E7%9A%84%E4%BC%9A%E9%9D%A2%E9%82%80%E8%AF%B7",
-          "publishedAt": "Fri, 05 Jun 2026 21:39:06 GMT"
-        },
-        {
-          "title": "蔡奇出任中共中央党校校长 分析指其党内影响力进一步提升",
-          "summary": "中国国家主席习近平的重要亲信蔡奇出任中共中央党校校长。分析人士认为，这一任命进一步巩固了蔡奇在中共高层中的重要地位，并使其在党的组织建设、意识形态和行政运作等领域承担更广泛职责。",
-          "source": "RFI 法廣",
-          "url": "https://www.rfi.fr/cn/%E4%B8%AD%E5%9B%BD/20260605-%E8%94%A1%E5%A5%87%E5%87%BA%E4%BB%BB%E4%B8%AD%E5%85%B1%E4%B8%AD%E5%A4%AE%E5%85%9A%E6%A0%A1%E6%A0%A1%E9%95%BF-%E5%88%86%E6%9E%90%E7%A7%B0%E5%85%B6%E5%85%9A%E5%86%85%E5%BD%B1%E5%93%8D%E5%8A%9B%E8%BF%9B%E4%B8%80%E6%AD%A5%E6%8F%90%E5%8D%87",
-          "publishedAt": "Fri, 05 Jun 2026 21:31:39 GMT"
-        },
-        {
-          "title": "美国敦促欧洲在AI领域继续合作 应对中国挑战",
-          "summary": "美国驻欧盟大使安德鲁·普兹德（Andrew Puzder）周五（6月5日）批评欧盟试图降低对美国科技巨头依赖的做法，呼吁欧洲在“与中国的人工智能竞争”中明确立场，避免在关键技术领域与美国脱钩。",
-          "source": "RFI 法廣",
-          "url": "https://www.rfi.fr/cn/%E4%B8%AD%E5%9B%BD/20260605-%E7%BE%8E%E5%9B%BD%E6%95%A6%E4%BF%83%E6%AC%A7%E6%B4%B2%E5%9C%A8ai%E9%A2%86%E5%9F%9F%E7%BB%A7%E7%BB%AD%E5%90%88%E4%BD%9C-%E5%BA%94%E5%AF%B9%E4%B8%AD%E5%9B%BD%E6%8C%91%E6%88%98",
-          "publishedAt": "Fri, 05 Jun 2026 21:24:49 GMT"
-        },
-        {
-          "title": "欧盟研拟新规推动供应链多元化 以降低对中国依赖",
-          "summary": "欧盟委员会正在研究新规，将要求敏感行业企业摆脱对单一供应商的过度依赖，特别是在涉及中国的关键供应链领域，同时建立多元化采购体系。",
-          "source": "RFI 法廣",
-          "url": "https://www.rfi.fr/cn/%E4%B8%AD%E5%9B%BD/20260605-%E6%AC%A7%E7%9B%9F%E7%A0%94%E6%8B%9F%E6%96%B0%E8%A7%84%E6%8E%A8%E5%8A%A8%E4%BE%9B%E5%BA%94%E9%93%BE%E5%A4%9A%E5%85%83%E5%8C%96-%E4%BB%A5%E9%99%8D%E4%BD%8E%E5%AF%B9%E4%B8%AD%E5%9B%BD%E4%BE%9D%E8%B5%96",
-          "publishedAt": "Fri, 05 Jun 2026 21:28:09 GMT"
-        }
-      ]
-    },
-    "finance": {
-      "categoryName": "財經新聞",
-      "articles": [
-        {
-          "title": "個股概覽 | 個股 - 股市 - CMoney",
-          "summary": "個股概覽 | 個股 - 股市  CMoney",
-          "source": "Google News 財經",
-          "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBfVGtPUmhQeF9nalNLNm9zTGJWQlREWTlFa2dVeEhkNElpN1d0OXlyaFF3U3NaYnBodklvejVEU1YtdkNl?oc=5",
-          "publishedAt": "Fri, 05 Jun 2026 17:43:09 GMT"
-        },
-        {
-          "title": "台積電ADR慘跌6.69％！科技股賣壓湧現 道瓊重挫695點 - 壹蘋新聞網",
-          "summary": "台積電ADR慘跌6.69％！科技股賣壓湧現 道瓊重挫695點  壹蘋新聞網",
-          "source": "Google News 財經",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPSDFnZmFBNjM3X2tjUnROMlhNdzlfbHRYTUNjRjRCMzk4VTg0c1F0SU1EUi00cDg1Qm5GVVBhd2M1cWpBN3JZa1hHUVpld3N3MHNRd09CSWxYcDkzSTJZblpRSEozNVBPU1dLcFRUQjk3MEdjVW5wYl9VQ3BXc282eA?oc=5",
-          "publishedAt": "Fri, 05 Jun 2026 22:37:00 GMT"
-        },
-        {
-          "title": "驚！美費城半導體重挫4.45% 台指期夜盤跌逾千點、台積電ADR急跌 - 壹蘋新聞網",
-          "summary": "驚！美費城半導體重挫4.45% 台指期夜盤跌逾千點、台積電ADR急跌  壹蘋新聞網",
-          "source": "Google News 財經",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPM1BaTENTWGRxbEtyQ1E1T1cwUW9reGZmWUEtaVY4QmdpVDU0RVZ0QXh0aS00aHY1S1pPdE5VMDVHZ2c5LVJ2VXYwZTB4WS1sdDBwQ1ZBQzAxVjdIYkJfVzdtQ3FiVXBRLVZ5ZjNhTDJIRk0xN1RfT0N5UWtVdzFTTnZB?oc=5",
-          "publishedAt": "Fri, 05 Jun 2026 14:27:00 GMT"
-        },
-        {
-          "title": "以下是 2026 年 6 月值得在 Netflix、Hulu、HBO Max 等平台上觀看的內容",
-          "summary": "HBO的《龍之家》、Hulu的《熊》和蘋果的《開普恐懼》將嘗試與世界盃競爭",
-          "source": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/heres-whats-worth-streaming-in-june-2026-on-netflix-hulu-hbo-max-and-more-7c73c539?mod=mw_rss_topstories",
-          "publishedAt": "Fri, 05 Jun 2026 23:00:00 GMT"
-        },
-        {
-          "title": "標準普爾 500 指數蒸發 1.8 兆美元，納斯達克指數創史上最大跌幅：投資人需要了解週五拋售的情況",
-          "summary": "道瓊市場數據顯示，主要股市指數連續兩個月衝刺上漲，但在周五遭遇首次重大挫折，納斯達克綜合指數暴跌超過 1,121 點，創下有史以來最大單日跌幅。",
-          "source": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/s-p-500-sees-1-8-trillion-wipeout-nasdaq-tallies-biggest-point-drop-on-record-heres-what-investors-need-to-know-about-fridays-selloff-4eb7b490?mod=mw_rss_topstories",
-          "publishedAt": "Fri, 05 Jun 2026 22:27:00 GMT"
-        },
-        {
-          "title": "「這將是一次性事件」：我如何從 401(k) 中獲取額外資金而不引發更高的 Medicare 保費？",
-          "summary": "“我通常從傳統的 401(k) 計劃中提取資金用於項目、較大的開支，有時只是為了提前支付即將到來的賬單。”",
-          "source": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/this-would-be-a-one-time-event-how-can-i-take-extra-money-from-my-401-k-without-triggering-higher-medicare-premiums-fef1586d?mod=mw_rss_topstories",
-          "publishedAt": "Fri, 05 Jun 2026 22:07:00 GMT"
-        },
-        {
-          "title": "我們以為我們找到了完美的豪華退休社區，但這是數百萬美元的債務。我們被困了嗎？",
-          "summary": "“如果我們離開，我們將損失一部分資金——大約 80,000 美元。”",
-          "source": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/we-thought-we-found-the-perfect-luxury-retirement-community-but-its-millions-of-dollars-in-debt-are-we-trapped-cde2e8f5?mod=mw_rss_topstories",
-          "publishedAt": "Fri, 05 Jun 2026 22:07:00 GMT"
-        },
-        {
-          "title": "隨著動量交易者繼續前進，比特幣正遭受「注意力」赤字",
-          "summary": "一位分析師指出：“人工智慧交易正在吸乾加密貨幣的血液。”",
-          "source": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/bitcoin-is-suffering-from-an-attention-deficit-as-momentum-traders-have-moved-on-17d2c140?mod=mw_rss_topstories",
-          "publishedAt": "Fri, 05 Jun 2026 21:58:00 GMT"
-        }
-      ]
-    },
-    "ai": {
-      "categoryName": "AI 相關新聞",
-      "articles": [
-        {
-          "title": "NTLM協定安全問題又一樁，Windows Search URI問題可能導致NTLM驗證資訊外洩",
-          "summary": "微軟在1月底宣布，將在未來Windows版本中預設關閉不安全的NTLM（NT LAN Manager）協定，並啟動三階段退場措施，不過，在NTLM完全退場前，它仍持續成為企業的安全風險，資安公司Huntress研究員日前揭露的Windows Search URI導致NTLM雜湊值洩漏，便是NTLM協定造成的又一個安全問題。",
-          "source": "iThome",
-          "url": "https://www.ithome.com.tw/news/176394",
-          "publishedAt": "2026-06-05  12:06:06"
-        },
-        {
-          "title": "思科企業通訊管理平臺Unified CM存在重大SSRF漏洞，恐遭用於權限提升攻擊",
-          "summary": "思科發布安全公告，修補企業通訊管理平臺Unified CM（Cisco Unified Communications Manager）及Unified CM SME（Cisco Unified Communications Manager Session Management Edition）重大漏洞CVE-2026-20230。",
-          "source": "iThome",
-          "url": "https://www.ithome.com.tw/news/176411",
-          "publishedAt": "2026-06-05  07:06:01"
-        },
-        {
-          "title": "【資安週報】0601~0605，漏洞問題成國家嚴防風險，印度要求企業組織在關鍵漏洞公布12小時內完成修補",
-          "summary": "為應對AI時代的資安威脅，印度網路安全主管機關CERT-In提出更強硬的應對措施，針對漏洞修補制定了嚴格的時效規範，這將是各國政府與企業必須密切關注的法規發展方向。\nAI資安的發展同樣備受矚目，包括Anthropic提出AI代理人零信任框架，以及Claude Mythos擴大開放更多組織參與合作等動態，皆持續成為產業關注熱點。\n在資安維運方面，台積電年報揭露其營運持續管理與危機管理（BCM & C",
-          "source": "iThome",
-          "url": "https://www.ithome.com.tw/news/176407",
-          "publishedAt": "2026-06-05  06:06:58"
-        },
-        {
-          "title": "用AI對抗AI：陳怡樺帶領趨勢科技全面加入Anthropic Project Glasswing，開啟資安攻防新紀元",
-          "summary": "兩天前，AI公司Anthropic發信邀請趨勢科技旗下企業資安品牌TrendAI加入Project Glasswing，得知此事後，趨勢科技執行長陳怡樺一路風塵僕僕返臺。深夜從倫敦啟程的她，才剛參加完聚集美英歐洲各國政府代表的國家安全會議，便立刻趕回臺北，就是為了參加今日（6月5日）舉辦的記者會。\n陳怡樺表示，世界各國都對AI資安帶來的威脅憂心忡忡，而這個世界正處於一種既充滿希望、又高度警覺的曖昧",
-          "source": "iThome",
-          "url": "https://www.ithome.com.tw/news/176412",
-          "publishedAt": "2026-06-05  06:06:01"
-        },
-        {
-          "title": "如何用HIMSS框架衡量數位轉型？長庚揭大型醫療體系的成熟度治理戰略",
-          "summary": "每年，美國醫療資訊與管理系統協會（HIMSS）都會舉辦HIMSS全球年會，是醫療IT界最有影響力的國際盛會之一。在今年3月的HIMSS26全球大會中，長庚醫療體系特別受邀參加，站上講臺發表全球醫療機構首份大型醫療體系「數位成熟度白皮書」，揭露他們如何透過HIMSS成熟度框架，把關11個院區的數位轉型進展和IT治理。\n這份白皮書，集結了長庚過去10年來的數位轉型歷程，一路從第四代醫療資訊系統（HIS",
-          "source": "iThome",
-          "url": "https://www.ithome.com.tw/news/176224",
-          "publishedAt": "2026-06-05  05:06:24"
-        },
-        {
-          "title": "OpenSSF前總經理Brian Behlendorf：AI對開源的依賴愈深，將放大軟體供應鏈問題",
-          "summary": "AI浪潮讓開源軟體的重要性攀上新高，但也讓軟體供應鏈安全問題變得更加嚴峻。OpenSSF前總經理Brian Behlendorf受邀在Computex的活動論壇中指出，從Log4j漏洞、XZ後門事件到PyTorch供應鏈攻擊，AI並未帶來新的資安威脅，而是將既有的開源供應鏈風險「推上火箭」，放大到前所未有的規模。他呼籲企業除了使用開源軟體，也應投入資源協助改善開源專案安全，共同建立可信任的AI基礎",
-          "source": "iThome",
-          "url": "https://www.ithome.com.tw/news/176410",
-          "publishedAt": "2026-06-05  05:06:07"
-        },
-        {
-          "title": "ChatGPT新版記憶系統上線，改善個人化回應的時效與正確性",
-          "summary": "OpenAI開始推送新版ChatGPT記憶系統，以改善長期使用後記憶內容可能過期、錯誤或難以規模化管理的問題。OpenAI命名該技術為Dreaming，讓ChatGPT不只依賴使用者明確要求保存的資料，也能從過往對話中整理較新且相關的脈絡，用於後續回應。新版系統先向美國Plus與Pro用戶推出，數周內將擴展到更多國家，並提供給Free與Go用戶。",
-          "source": "iThome",
-          "url": "https://www.ithome.com.tw/news/176408",
-          "publishedAt": "2026-06-05  04:06:04"
-        },
-        {
-          "title": "研究人員發現逾700個GitHub程式碼庫遭污染，攻擊者利用postinstall機制散布惡意程式",
-          "summary": "軟體供應鏈攻擊正持續擴大，資安公司Socket研究團隊近日揭露，攻擊者已污染超過700個GitHub公開程式碼庫，影響到建構於Packagist平臺之上的PHP開發環境與生態系，以及使用Node.js執行環境的JavaScript開發生態系。",
-          "source": "iThome",
-          "url": "https://www.ithome.com.tw/news/176409",
-          "publishedAt": "2026-06-05  04:06:03"
-        }
-      ]
-    },
-    "china": {
-      "categoryName": "大中華新聞",
-      "articles": [
-        {
-          "title": "賴拋赴陸參會禁令台民眾強烈撻伐- 中國 - 大公文匯網",
-          "summary": "賴拋赴陸參會禁令台民眾強烈撻伐- 中國  大公文匯網",
-          "source": "Google News 台灣兩岸",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE11QXRscERnY3FwVUNqYnpad2x4QkFjcGxYcjhlNDhYTGFZbXVLWWhFMHRFSGtVVmgzX1hfS2hBQkNfcTlpSl9UQnVZaFc2eUtmVzBwUmhyTlFEUlhaVzBwNDMxdEtpcFBKelZET2VUcjdWMnBT?oc=5",
-          "publishedAt": "Fri, 05 Jun 2026 20:19:47 GMT"
-        },
-        {
-          "title": "鄭麗文拜訪波士頓紐英崙中華公所 稱兩岸和平是台灣未來的關鍵 - 世界新聞網",
-          "summary": "鄭麗文拜訪波士頓紐英崙中華公所 稱兩岸和平是台灣未來的關鍵  世界新聞網",
-          "source": "Google News 台灣兩岸",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5XM0FKYnpTcl9nWExsSG9uMXZRcmpxeVI2bUk5V0ZIdXZBVTNyaEVDbUVJdUZweGtHbl9JUzE5RDlUUGdoTmdKZUtPSTdQRU9EUUNuZmRqSHBYdTJRSXh0R1BB?oc=5",
-          "publishedAt": "Fri, 05 Jun 2026 19:07:09 GMT"
-        },
-        {
-          "title": "日菲買空賣空 兩岸卻網內互打 - 中時新聞網",
-          "summary": "日菲買空賣空 兩岸卻網內互打  中時新聞網",
-          "source": "Google News 台灣兩岸",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9wX0E3S2F4eTNhXzM3TFdFaVA5YzhmdDdaQ3J2MEtGTnZIdUhHSEdxVU9BTks5dWNLTEE2WHJhdXBEeHo2QWk5bGRlSVlWVnp4TW5rSFNhd1huOER0akN3VzRXM29NNS0tNTRj?oc=5",
-          "publishedAt": "Fri, 05 Jun 2026 20:10:00 GMT"
-        },
-        {
-          "title": "與哈佛學者座談…鄭麗文當場被「拷問」 - 自由時報",
-          "summary": "與哈佛學者座談…鄭麗文當場被「拷問」  自由時報",
-          "source": "Google News 台灣兩岸",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBmaGJVZ0hjd1JUZ0pLa0ZHYUl6RWZTTVVCWGJqZXZlbEpIelNLcEdlSnFWYlpEeklnN0VRYWFyWTJ0b3BKVTlIS0xTVWNVMkpKRG12MFdXNkNqRmZxVUtvSNIBZkFVX3lxTE1tV3pEblE1S3c0QXNJTGpENlE0U184ZU5nU24wWkJ2czc3Q29vTTZSc0JVMTZEb1Fic1N1RFNHcWFMSDhOSERZSjNKMjlHa3I4OU14QnE3XzdVRTBSTHAwT1p1V0RVQQ?oc=5",
-          "publishedAt": "Fri, 05 Jun 2026 21:30:00 GMT"
-        },
-        {
-          "title": "中國整治爆紅微短劇中的軟色情、暴力和拜金內容 - BBC",
-          "summary": "中國整治爆紅微短劇中的軟色情、暴力和拜金內容  BBC",
-          "source": "Google News 中國",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5IQ1hiQWJsbjgzUjZfcXkzZkktRGk1YnB2U2lYblFVUXllU0FWdno4eUpHZVFXOXl1TlMzM3oxaXpWTjJiaFBjNktKQW9ZXzJzeVdFUExHQ3NMcHMzclRsQ0huTGY4Z9IBa0FVX3lxTE85Y2F1R2kyMlpLeFVSczZnUEl4bjlMdzRLU3dMMm9WWjFHUlJnMTQ3ZmdUb3VrSjUxdTVoQXVCbXZIX3k3ODBVdXdkTWl4WGp2NE1rZXlmeWFEa3FGUHVlS3JqcGROcFowM0Jz?oc=5",
-          "publishedAt": "Fri, 05 Jun 2026 18:55:45 GMT"
-        },
-        {
-          "title": "傅崐萁提修國籍法「中國人可選台灣總統」 他：爲中共併吞台灣鋪路陽謀 - Yahoo新聞",
-          "summary": "傅崐萁提修國籍法「中國人可選台灣總統」 他：爲中共併吞台灣鋪路陽謀  Yahoo新聞",
-          "source": "Google News 中國",
-          "url": "https://news.google.com/rss/articles/CBMiswNBVV95cUxPLUpDaGtNSk9jVmF0dmUyOHkxekNVeGFHWG9uZnVKb2RZVFhxVk8zcXVoZEJqbDlaWXhQVHNxc1N3Y2VOU2xuLUs1Ymo2UmZhdmhBX3BmZUV2OHo1Q1BoZS1HeGs2ZWJoRWRKN1ViS0FGTGx6YXFvOFVISDdRTzNFc0VEcV9NOWhWbF9WVkdPdnBiQVJSWlFSNTVlbGtrT1ZhakdmcWpHeFl5T1ZESDV5Tm9HbG5XUFlUcHd6RmcwS2tPVW9NLVp4SkczQk1qSVFCMlFNX2Fwd0Y4dHRpUlQxRjBkclNqZl9RZ0J4Wm96T0djVTJkQ0FTY0tUVm5PNEdYUko2angyQzhEekIxWHc5S3ZwR2JhQmRuRWZCZ1BScVp4ak83b0NNZ3V2MFB3YkpEY2tzWC1VckpUVV9TYll0ajVDcHpqcnVoSFZqSUJjaTNUMWxPcE82WngtZlNRVEg2SnhQOGEwXzR3ZjFNOVdhTGdTUmRvNnhXX2pNQkNoS3VmZW9Wa05yVUgzNkt5UDlwT3ZGUFRpOXhNMEpsNjlBZDQ1dlRaUVFnWHNfN2gyZS1EdVU?oc=5",
-          "publishedAt": "Fri, 05 Jun 2026 22:02:00 GMT"
-        },
-        {
-          "title": "【新聞大破解】六四37解密歷史骨牌 看明日中國 歷史的迴聲與終局 - 新唐人電視台",
-          "summary": "【新聞大破解】六四37解密歷史骨牌 看明日中國 歷史的迴聲與終局  新唐人電視台",
-          "source": "Google News 中國",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8xUjZVaWk2d2g5MEZtbGdVMml2eGt0MDlYVDY1STd5Q2VWZVVWbjJyUEZIbUVrTVpmdEV4b3pyRkhuMWdkSEZXa2Y5dFN4Ql9rdmdCcGlaQnAyY3hURWRVU9IBZkFVX3lxTE5lOFNHUUFtU3NQQ3RnMTZqd1pvNHlNR3hvdFg3Q19uUkVsV2J0U3BRXzY5WjE2VWx2WmlzNndGYzdlSkpjWFhPcHRlMUhBVUNkdWl4MnF4bUphci10TVJ3MWNhYkhNUQ?oc=5",
-          "publishedAt": "Fri, 05 Jun 2026 20:24:11 GMT"
-        },
-        {
-          "title": "滬發首張公海通行證 不靠岸度海上周末 - 20260606 - 中國 - 明報新聞網",
-          "summary": "滬發首張公海通行證 不靠岸度海上周末 - 20260606 - 中國  明報新聞網",
-          "source": "Google News 中國",
-          "url": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxNWm15U2ZDQWpkeVBfempZa1ZYd25abUtIYkl0dkhaQlRxSnQ0X3BoMGQ3SkJMVmpjbXNBVmM4ZDZkTzBWUjlWM1VRUGpZWEdHU3hjajNXUGRxbEdTNzltREp4N2xnbXk0MGVnOWFnZ3kzOEFVcFd5TVdRT0JCd3AzV1BvWG50Nkk0eHI0S3c3TVpyUG5vb3FGeTJnSklJZmI3YkViZE5XbEhxekd4MmZFVHRLZFVxOGRWTWdwNTNIdnVKWnkxU3dZOFBLcHE0UzBJTjEtc2dxYUFrMHB0bkE3QkRiWlhvc25zemVCd1c1UUctQm1TNUlKN05HTEVFZ2ZjSVZPbjFObGNGQjBYTHFZYTdjWV9YUFFxZUo3LWNobjE3TFdRRldodnVCWWN0WDNpNjI1eUpza1lZU0liaGs2QnZxSl8yeXNjV3Z2a3JYZ0UzY1pGaXdod1FoMWY?oc=5",
-          "publishedAt": "Fri, 05 Jun 2026 20:30:00 GMT"
-        }
-      ]
-    }
-  },
   "2026-06-07": {
     "hk": {
       "categoryName": "本地新聞（香港）",
@@ -27285,6 +26978,199 @@
           "publishedAt": "Wed, 02 Sep 2026 08:51:00 GMT"
         }
       ]
+    }
+  },
+  "2026-09-04": {
+    "hk": {
+      "categoryName": "本地新聞（香港）",
+      "articles": []
+    },
+    "world": {
+      "categoryName": "國際新聞",
+      "articles": [
+        {
+          "title": "女權活動家和記者Gloria Steinem去世，享年92歲",
+          "summary": "她的基金會表示，她在紐約市的家中「平靜地去世」，「被許多愛她的人包圍」。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/clyeq3ngwe4o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Thu, 03 Sep 2026 18:04:34 GMT"
+        },
+        {
+          "title": "ICE特工被控謊稱在鎮壓期間射殺委內瑞拉男子",
+          "summary": "ICE官員面臨與明尼蘇達州1月槍擊案有關的聯邦指控。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c70dzzkwgg5o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Thu, 03 Sep 2026 20:49:05 GMT"
+        },
+        {
+          "title": "澳大利亞的人工智能數據中心正在蓬勃發展，但代價是什麼？",
+          "summary": "倡導者表示，數據中心將帶來就業機會，但其他人擔心它們會吸收資源，同時幾乎沒有提供優勢。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cgl3we7wdr3o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Thu, 03 Sep 2026 18:32:03 GMT"
+        },
+        {
+          "title": "尼泊爾隧道救援人員用木筏和無人機尋找倖存者",
+          "summary": "南亞記者阿扎德·莫希裏（ Azadeh Moshiri ）在一條隧道現場，救援人員仍然希望能在尼泊爾-西藏洪水後找到倖存者。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/videos/ckg0eerml02o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Thu, 03 Sep 2026 19:56:34 GMT"
+        },
+        {
+          "title": "觀看： Gloria Steinem一生致力於爭取女性平等",
+          "summary": "根據她的基金會，這位成為美國婦女解放運動領袖的女權主義偶像於週三去世，享年92歲。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/videos/c9865l26097o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Thu, 03 Sep 2026 17:35:31 GMT"
+        },
+        {
+          "title": "回应德国关闭俄罗斯之家 俄罗斯关闭歌德学院",
+          "summary": "据德国广播电台报道：在莱比锡/哈雷机场发生无人机事件后，德国联邦政府于周二正式指控俄罗斯应对此事负责，并宣布关闭位于柏林和波恩的俄罗斯机构。对此，莫斯科作出回应，宣布关闭俄罗斯境内的歌德学院。",
+          "source": "RFI 法廣",
+          "url": "https://www.rfi.fr/cn/%E6%94%BF%E6%B2%BB/20260903-%E5%9B%9E%E5%BA%94%E5%BE%B7%E5%9B%BD%E5%85%B3%E9%97%AD%E4%BF%84%E7%BD%97%E6%96%AF%E4%B9%8B%E5%AE%B6-%E4%BF%84%E7%BD%97%E6%96%AF%E5%85%B3%E9%97%AD%E6%AD%8C%E5%BE%B7%E5%AD%A6%E9%99%A2",
+          "publishedAt": "Thu, 03 Sep 2026 18:48:37 GMT"
+        },
+        {
+          "title": "俄罗斯：一名人道工作者因批评俄军被起诉",
+          "summary": "在俄罗斯的一名人道工作者因批评军队被起诉，周四她被俄罗斯一家法院置于司法监管之下。",
+          "source": "RFI 法廣",
+          "url": "https://www.rfi.fr/cn/%E5%9B%BD%E9%99%85/20260903-%E4%BF%84%E7%BD%97%E6%96%AF-%E4%B8%80%E5%90%8D%E4%BA%BA%E9%81%93%E5%B7%A5%E4%BD%9C%E8%80%85%E5%9B%A0%E6%89%B9%E8%AF%84%E4%BF%84%E5%86%9B%E8%A2%AB%E8%B5%B7%E8%AF%89",
+          "publishedAt": "Thu, 03 Sep 2026 21:54:16 GMT"
+        },
+        {
+          "title": "杜斌和黄之锋的国度：异见者亲情的分量",
+          "summary": "中国大陆人权摄影记者与自由作家杜斌今年8月28日被判刑前，请求回家见病危母亲最后一面却遭拒，其母随后病逝。而本周三，香港知名民主派活动人士黄之锋就涉及游说西方议员的勾结外国势力案表示“认罪”，也有出于照顾年迈双亲的考量。",
+          "source": "RFI 法廣",
+          "url": "https://www.rfi.fr/cn/%E4%B8%93%E6%A0%8F%E6%A3%80%E7%B4%A2/%E8%A6%81%E9%97%BB%E5%88%86%E6%9E%90/20260903-%E6%9D%9C%E6%96%8C%E5%92%8C%E9%BB%84%E4%B9%8B%E9%94%8B%E7%9A%84%E5%9B%BD%E5%BA%A6-%E5%BC%82%E8%A7%81%E8%80%85%E4%BA%B2%E6%83%85%E7%9A%84%E5%88%86%E9%87%8F",
+          "publishedAt": "Thu, 03 Sep 2026 20:25:36 GMT"
+        }
+      ]
+    },
+    "finance": {
+      "categoryName": "財經新聞",
+      "articles": [
+        {
+          "title": "隨著新的健康趨勢重塑零食管道，金魚餅乾正在煥然一新",
+          "summary": "坎貝爾計劃推出無麩質、全穀物和富含蛋白質的金魚版本，以滿足對健康替代品日益增長的需求並應對日益激烈的競爭。",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/goldfish-crackers-are-getting-a-makeover-as-new-health-trends-reshape-the-snack-aisle-32e89644?mod=mw_rss_topstories",
+          "publishedAt": "Thu, 03 Sep 2026 21:54:00 GMT"
+        },
+        {
+          "title": "維多利亞的秘密 (Victoria’s Secret) 胸罩和 Pink 系列銷售強勁，但不足以讓投資者滿意",
+          "summary": "該公司的銷售額接近預期範圍的高端，但華爾街的預期更高，該股經歷了一年多來最糟糕的一天。",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/victorias-secret-sees-strong-bras-and-pink-sales-but-not-enough-to-satisfy-investors-48bfe36c?mod=mw_rss_topstories",
+          "publishedAt": "Thu, 03 Sep 2026 21:52:00 GMT"
+        },
+        {
+          "title": "美國人熱衷於追蹤睡眠、步數和心率，Oura 申請 IPO",
+          "summary": "該產品是可穿戴技術與「預防性醫療保健」相結合的趨勢的一部分",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/oura-files-for-ipo-amid-americans-obsession-with-tracking-their-sleep-steps-and-heart-rates-093f85c4?mod=mw_rss_topstories",
+          "publishedAt": "Thu, 03 Sep 2026 21:49:00 GMT"
+        },
+        {
+          "title": "Nvidia 價值 130 億美元的 Hugging Face 交易對人工智慧世界意味著什麼",
+          "summary": "此次收購將使英偉達獲得“人工智慧市場上最重要的一塊土地”，並推廣開源技術。",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/heres-what-nvidias-13-billion-hugging-face-deal-means-for-the-world-of-ai-360e9fd1?mod=mw_rss_topstories",
+          "publishedAt": "Thu, 03 Sep 2026 21:34:00 GMT"
+        },
+        {
+          "title": "時隔近兩個月，SpaceX 重返 2 兆美元俱樂部",
+          "summary": "伊隆馬斯克的公司贏得了分析師的讚揚，並受益於科技業的普遍反彈。",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/spacex-is-back-in-the-2-trillion-club-after-nearly-two-months-25632255?mod=mw_rss_topstories",
+          "publishedAt": "Thu, 03 Sep 2026 21:31:00 GMT"
+        },
+        {
+          "title": "隨著大型科技公司接近歷史新高，英偉達收回了人工智慧產業的控制權",
+          "summary": "Roundhill Magnificent Seven ETF 即將接近 5 月的峰值——這一次要歸功於 Nvidia。",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/nvidia-takes-back-control-of-the-ai-trade-as-big-tech-nears-record-highs-c0dfed9d?mod=mw_rss_topstories",
+          "publishedAt": "Thu, 03 Sep 2026 21:12:00 GMT"
+        },
+        {
+          "title": "炙手可熱的醫療保健行業的這些股票已經變得太擁擠而難以持有",
+          "summary": "新的建議包括對通用電氣醫療保健公司和美敦力公司的股票將下跌進行期權押注，因為已經有太多人押注這些股票將上漲。",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/these-stocks-in-the-red-hot-healthcare-sector-have-gotten-too-crowded-to-own-b4b2e0bc?mod=mw_rss_topstories",
+          "publishedAt": "Thu, 03 Sep 2026 21:06:00 GMT"
+        },
+        {
+          "title": "Lululemon 的銷售額下降引發了對該公司扭虧為盈的更深層擔憂",
+          "summary": "由於分析師質疑這家瑜珈服製造商的時尚品種，該股下跌。",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/lululemons-sales-drop-raises-deeper-concerns-about-the-companys-turnaround-ddf9256a?mod=mw_rss_topstories",
+          "publishedAt": "Thu, 03 Sep 2026 20:43:00 GMT"
+        }
+      ]
+    },
+    "ai": {
+      "categoryName": "AI 相關新聞",
+      "articles": [
+        {
+          "title": "Rapid7揭露ASTERIX攻擊活動，駭客透過語音網釣結合假錢包竊取加密貨幣",
+          "summary": "為了更精準鎖定受害對象，提高詐騙成功率，當前的駭客往往不再無差別地投放誘餌，而會先透過篩選機制，找出符合條件的目標，資安業者Rapid7近日揭露的Operation ASTERIX攻擊活動，便是這類精準篩選受害目標的典型案例。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/178663",
+          "publishedAt": "2026-09-03  12:09:15"
+        },
+        {
+          "title": "美國法院裁決Google不必拆分廣告業務",
+          "summary": "美國司法部（DoJ）在2023年1月聯同美國多州的檢察長控告Google壟斷數位廣告技術，繼之美國聯邦法院在2025年4月裁定Google在網路廣告及廣告技術市場的主導地位構成壟斷，不過，本周美國聯邦法院法官Leonie Brinkema周三（9/2）",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/178661",
+          "publishedAt": "2026-09-03  12:09:22"
+        },
+        {
+          "title": "WatchGuard修補5項重大漏洞，3項可讓未經身分驗證的攻擊者遠端執行程式碼",
+          "summary": "網路防火牆廠商WatchGuard於8月27日修補多項安全漏洞，其中部分漏洞可讓未經身分驗證的遠端攻擊者在受影響設備上執行任意程式碼，官方呼籲用戶儘速更新。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/178658",
+          "publishedAt": "2026-09-03  12:09:57"
+        },
+        {
+          "title": "Dropbox傳出遭駭，5千個帳號外洩",
+          "summary": "根據路透社報導，雲端檔案共享平臺Dropbox於8月31日向約5千名用戶發出通知，他們的帳號曾在8月4日至21日期間出現未經授權的存取，其中有不到三分之一的用戶檔案遭到駭客存取。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/178659",
+          "publishedAt": "2026-09-03  12:09:45"
+        },
+        {
+          "title": "CISA警告SonicWall、JFrog Artifactory、LiteLLM等系統的已知漏洞遭到利用",
+          "summary": "9月2日美國網路安全與基礎設施安全局（CISA）更新已遭利用的漏洞名單（KEV），指出他們掌握7個新漏洞遭到積極利用的證據，這些漏洞是：VoIP電話管理平臺Sangoma Switchvox的SQL注入漏洞CVE-2026-9586，非同步伺服器閘道介面（ASGI）網頁框架Kludex Starlette的HTTP請求或回應走私漏洞CVE-2026-48710，資料、AI與基礎架構工作流程事件驅動",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/178657",
+          "publishedAt": "2026-09-03  12:09:45"
+        },
+        {
+          "title": "Nakivo更新Backup &amp; Replication 11，擴展vSphere、Linux與Windows平臺的保護涵蓋範圍",
+          "summary": "資料保護軟體廠商Nakivo繼上半年發布Backup & Replication 11.2與11.2.1版之後，近日又推出最新11.2.2版，進一步擴展對於虛擬化平臺與作業系統的備份保護支援。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/178656",
+          "publishedAt": "2026-09-03  12:09:56"
+        },
+        {
+          "title": "上櫃公司創新服務遭勒索病毒攻擊，導致ERP等資訊系統無法運作",
+          "summary": "9月2日晚間上櫃半導體設備廠創新服務（7828）於股市公開資訊觀測站發布資安重訊，該公司偵測到部分伺服器遭到勒索病毒攻擊，察覺異常的第一時間已立即啟動防禦機制與斷網隔離措施，並啟動相關資安應變機制，全面檢視資安系統與加強相關防護。創新服務指出，這起事故造成ERP在內的部分資訊系統無法正常運作。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/178655",
+          "publishedAt": "2026-09-03  11:09:13"
+        },
+        {
+          "title": "curl發布8.22.0版，修補10個資安漏洞",
+          "summary": "開源命令列網路資料傳輸工具curl於9月2日發布8.22.0版，修補10個漏洞，其中9個影響curl與libcurl，另有1個則影響基於libcurl的輕量傳輸工具wcurl，涵蓋驗證繞過、記憶體安全、TLS憑證驗證與Cookie處理等問題。curl或libcurl用戶應升級至8.22.0版，wcurl則應升級至2026.08.30版。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/178654",
+          "publishedAt": "2026-09-03  11:09:43"
+        }
+      ]
+    },
+    "china": {
+      "categoryName": "大中華新聞",
+      "articles": []
     }
   }
 }
