@@ -53,3 +53,13 @@
 | `icons/` | App 圖標（由 `scripts/gen-fd-icons.py` 產生） |
 
 改版時記得將 `sw.js` 入面嘅 `CACHE` 版本號加一，等舊快取更新。
+
+## 回歸測試
+
+```bash
+python3 -m http.server 8099 --directory fd &
+node scripts/test-fd.mjs
+```
+
+需要 Playwright（`PW` 環境變數可指定路徑）。涵蓋利息計算、對真實存單核對、
+年化統計、到期處理、匯出匯入、輸入驗證、無障礙同版面。改完嘢記得跑一次。

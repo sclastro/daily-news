@@ -48,6 +48,7 @@
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
       padding-bottom: env(safe-area-inset-bottom);
     }
+    body.locked { overflow: hidden; }
     header {
       position: sticky; top: 0; z-index: 20; box-shadow: 0 2px 8px rgba(0,0,0,.15);
     }
@@ -65,7 +66,11 @@
     header.compact .h-compact { display: flex; }
     .h-compact .c-total { font-size: 17px; font-weight: 800; letter-spacing: .2px; }
     .h-compact .c-meta { font-size: 11px; opacity: .85; }
-    .h-compact .c-rate { margin-left: auto; font-size: 11px; opacity: .85; white-space: nowrap; }
+    .h-compact .c-rate {
+      margin-left: auto; font-size: 11px; white-space: nowrap; font-family: inherit;
+      background: rgba(255,255,255,.16); border: 1px solid rgba(255,255,255,.3); color: #fff;
+      border-radius: 999px; padding: 4px 10px;
+    }
     .h-compact .c-up { font-size: 12px; opacity: .9; }
     .h-top { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
     .h-top h1 { font-size: 18px; margin: 0; font-weight: 700; }
@@ -331,7 +336,7 @@
       <span class="c-up">↑</span>
       <span class="c-total" id="cTotal">HK$ 0</span>
       <span class="c-meta" id="cMeta"></span>
-      <span class="c-rate" id="cRate"></span>
+      <button class="c-rate" id="cRate" type="button" title="修改匯率"></button>
     </div>
     <div class="toolbar">
       <div class="tb-row">

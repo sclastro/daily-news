@@ -342,7 +342,15 @@
     lgEl.innerHTML = rows;
   }
 
+  // 圖表面板收埋嗰陣唔使即刻畫 —— 記低份資料，撳開先算
+  var pendingChartList = null;
   function renderCharts(list) {
+    if (!chartsEl || !chartsEl.classList.contains('open')) { pendingChartList = list; return; }
+    pendingChartList = null;
+    drawCharts(list);
+  }
+
+  function drawCharts(list) {
     var scopeEl = $('chScope');
     scopeEl.textContent = (view.filter !== 'all' || view.q)
       ? '（只計算目前篩選的 ' + list.length + ' 筆）' : '';
@@ -413,6 +421,7 @@
     var c = chipsEl.querySelector('[data-f="' + f + '"]');
     c.querySelector('b').textContent = n;
     c.classList.toggle('on', view.filter === f);
+    c.setAttribute('aria-pressed', view.filter === f ? 'true' : 'false');
     c.disabled = (f !== 'all' && n === 0);
   }
 
@@ -628,6 +637,9 @@
     }
     updateInterestPreview();
     sheetBack.classList.add('open');
+    document.body.classList.add('locked');   // 表單開住時背景唔好跟住捲
+    // 新增時聚焦第一欄；編輯時唔搶焦點，避免手機彈起鍵盤遮住內容
+    if (!id) setTimeout(function () { $('f_bank').focus(); }, 60);
   }
 
   // 到期日期必須喺開始日期之後，否則存期日數會變負數，靜靜雞計唔到利息
@@ -684,7 +696,10 @@
       el.textContent = '填寫年利率後會自動計算到期利息；若與銀行報價不同，可於此欄手動填寫覆寫。';
     }
   }
-  function closeForm() { sheetBack.classList.remove('open'); }
+  function closeForm() {
+    sheetBack.classList.remove('open');
+    document.body.classList.remove('locked');
+  }
 
   form.addEventListener('submit', function (e) {
     e.preventDefault();
@@ -927,23 +942,40 @@
     var open = chartsEl.classList.toggle('open');
     chToggle.setAttribute('aria-expanded', String(open));
     localStorage.setItem(CHARTS_KEY, open ? '1' : '0');
+    if (open && pendingChartList) drawCharts(pendingChartList);
   });
 
   // ── 碌動時頁首縮細（加滯後範圍，避免喺臨界點閃來閃去）──
   var isCompact = false;
+  function setCompact(v) { isCompact = v; hdrEl.classList.toggle('compact', v); }
   window.addEventListener('scroll', function () {
     var y = window.pageYOffset;
-    if (!isCompact && y > 150) { isCompact = true; hdrEl.classList.add('compact'); }
-    else if (isCompact && y < 60) { isCompact = false; hdrEl.classList.remove('compact'); }
+    if (!isCompact && y > 150) setCompact(true);
+    else if (isCompact && y < 60) setCompact(false);
   }, { passive: true });
   $('hCompact').addEventListener('click', function () {
     window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+  // 縮小版頁首嘅匯率係一粒掣：碌到幾遠都改得到匯率，唔使自己碌返上頂
+  cRateEl.addEventListener('click', function (e) {
+    e.stopPropagation();
+    // 即時跳頂：平滑捲動途中會不斷觸發 scroll，令頁首又縮返細，
+    // 到時匯率欄仲喺 display:none 入面，focus() 就會冇效。
+    window.scrollTo(0, 0);
+    setCompact(false);
+    rateInput.focus();
+    rateInput.select();
   });
 
   // ── FAB / sheet 事件 ──
   $('fab').addEventListener('click', function () { openForm(); });
   $('cancelBtn').addEventListener('click', closeForm);
   sheetBack.addEventListener('click', function (e) { if (e.target === sheetBack) closeForm(); });
+  document.addEventListener('keydown', function (e) {
+    if (e.key !== 'Escape') return;
+    if (sheetBack.classList.contains('open')) closeForm();
+    else hideToast();
+  });
 
   // ── PWA 安裝提示 ──
   var deferredPrompt = null;
