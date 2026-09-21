@@ -101,36 +101,94 @@ const termTotal = Number((await p.textContent('#totalInterest')).replace(/[^0-9]
 eq('年化 > 到期利息合計（短期被存期攤薄）', 6240 > termTotal, 'true');
 
 // ══════════════════════════════════════════════
-G('到期處理');
-const past = dep({ id: 'm', bank: '已到期行', amount: 20000, rate: 4.5, basis: 360,
-                   start: '2025-09-10', maturity: '2025-09-10', durNum: 12 });
-past.maturity = '2026-09-10';
-await seed([past, dep({ id: 'f', bank: '未到期行', amount: 30000 })]);
-eq('總資產包含兩筆', await txt(p.locator('#totalHkd')), 'HK$ 390,000');
-let c = await openCard('已到期行');
-eq('已到期先有續存鍵', await c.locator('[data-roll]').count(), '1');
-eq('未到期冇續存鍵', await card('未到期行').locator('[data-roll]').count(), '0');
+G('到期處理（結算）');
+// 已到期：本金 20000 USD、4.5%、360 制、2025-09-10 → 2026-09-10（365 日）
+// 利息 = 20000 × 4.5% × 365/360 = 912.50 → 本利和 20,912.50
+const matured = dep({ id: 'M', bank: '恒生銀行', amount: 20000, rate: 4.5, basis: 360,
+                      start: '2025-09-10', maturity: '2026-09-10', durNum: '', note: '年息4.5厘' });
+await seed([matured, dep({ id: 'F', bank: '未到期行', amount: 30000 })]);
+eq('總資產含兩筆', await txt(p.locator('#totalHkd')), 'HK$ 390,000');
+let c = await openCard('恒生銀行');
+eq('已到期先有「到期處理」', await c.locator('[data-settle]').count(), '1');
+eq('未到期冇', await card('未到期行').locator('[data-settle]').count(), '0');
 
-await c.locator('[data-done]').click(); await p.waitForTimeout(300);
-eq('標記已處理後剔出總額', await txt(p.locator('#totalHkd')), 'HK$ 234,000');
-eq('明細註明已處理', /另有 1 筆已處理/.test(await p.textContent('#breakdown')), 'true');
-eq('已處理標籤計數', (await p.textContent('.chip[data-f="done"]')).replace(/\s+/g, ''), '已處理1');
+await c.locator('[data-settle]').click(); await p.waitForTimeout(300);
+eq('實收預填本利和', await p.inputValue('#s_actual'), '20912.5');
+eq('即時算出已實現利息', /已實現利息：USD 912.50/.test(await p.textContent('#s_realized')), 'true');
+await p.fill('#s_actual', '19000'); await p.waitForTimeout(200);
+eq('實收少於本金會警告', /虧損 USD 1,000.00/.test(await p.textContent('#s_realized')), 'true');
+await p.fill('#s_actual', '20912.5'); await p.waitForTimeout(200);
+
+await p.check('input[name="sk"][value="principal"]'); await p.waitForTimeout(200);
+await p.click('#settleGo'); await p.waitForTimeout(400);
+eq('帶去續存表單', (await p.textContent('#sheetTitle')).trim(), '續存（來自「恒生銀行」）');
+eq('續存金額 = 本金', await p.inputValue('#f_amount'), '20000');
+eq('開始日 = 舊到期日', await p.inputValue('#f_start'), '2026-09-10');
+eq('原本冇填存期都推算得返', await p.inputValue('#f_durNum'), '12');
+eq('新到期日自動計', await p.inputValue('#f_maturity'), '2027-09-10');
+eq('備註跟住過去', await p.inputValue('#f_note'), '年息4.5厘');
+await p.click('#sheet .save'); await p.waitForTimeout(400);
+
+const recs = await p.evaluate(() => JSON.parse(localStorage.getItem('fd.deposits.v1')));
+const oldR = recs.find(r => r.id === 'M'), newR = recs.find(r => r.fromId === 'M');
+eq('舊筆標記已處理', oldR.status, 'done');
+eq('分類為部分提取', oldR.doneKind, 'partial');
+eq('記低實收本利和', oldR.actualTotal, '20912.5');
+eq('記低已實現利息', oldR.realizedInterest, '912.5');
+eq('記低提取金額', oldR.withdrawn, '912.5');
+eq('舊筆指向新筆', oldR.rolledToId, newR.id);
+eq('新筆指返舊筆', newR.fromId, 'M');
+
+c = await openCard('未到期行');   // 先避開同名
 await p.click('.chip[data-f="done"]'); await p.waitForTimeout(250);
-c = await openCard('已到期行');
-await c.locator('[data-undone]').click(); await p.waitForTimeout(300);
-eq('可復原為進行中', await txt(p.locator('#totalHkd')), 'HK$ 390,000');
+c = await openCard('恒生銀行');
+const dm = await c.locator('.meta').innerText();
+eq('續存鏈：→ 續存至', /→ 續存至：恒生銀行（2027-09-10）/.test(dm), 'true');
+eq('顯示實收同提取', /實收本利和：USD 20,912.50/.test(dm) && /已提取：USD 912.50/.test(dm), 'true');
+eq('今年已實現利息（912.50 × 7.8）', await txt(p.locator('#realizedYear')), 'HK$ 7,118');
+eq('累計已實現利息', await txt(p.locator('#realizedAll')), 'HK$ 7,118');
 
-c = await openCard('已到期行');
-await c.locator('[data-roll]').click(); await p.waitForTimeout(300);
-eq('續存預填本利和', await p.inputValue('#f_amount'), '20912.5');
-eq('續存開始日 = 舊到期日', await p.inputValue('#f_start'), '2026-09-10');
-eq('續存沿用年利率', await p.inputValue('#f_rate'), '4.5');
-eq('續存自動計新到期日', await p.inputValue('#f_maturity'), '2027-09-10');
-await p.click('.save'); await p.waitForTimeout(400);
-eq('續存後來源自動標記已處理', (await p.textContent('.chip[data-f="done"]')).replace(/\s+/g, ''), '已處理1');
-eq('新一筆已加入', (await p.textContent('.chip[data-f="all"]')).replace(/\s+/g, ''), '進行中2');
+// 全數提取
+await seed([matured]);
+c = await openCard('恒生銀行');
+await c.locator('[data-settle]').click(); await p.waitForTimeout(300);
+await p.check('input[name="sk"][value="none"]'); await p.waitForTimeout(200);
+await p.click('#settleGo'); await p.waitForTimeout(400);
+eq('全數提取不開新定期', await p.locator('#sheetBack').evaluate(e => e.classList.contains('open')), 'false');
+const r2 = await p.evaluate(() => JSON.parse(localStorage.getItem('fd.deposits.v1')));
+eq('只剩一筆', r2.length, '1');
+eq('分類為提取', r2[0].doneKind, 'withdraw');
 
-// ══════════════════════════════════════════════
+// 續存指定金額
+await seed([matured]);
+c = await openCard('恒生銀行');
+await c.locator('[data-settle]').click(); await p.waitForTimeout(300);
+await p.check('input[name="sk"][value="custom"]'); await p.waitForTimeout(200);
+await p.fill('#s_custom', '30000'); await p.waitForTimeout(200);
+eq('續存多過實收會攔截', /不可以多過實收/.test(await p.textContent('#s_summary')), 'true');
+await p.fill('#s_custom', '15000'); await p.waitForTimeout(200);
+await p.click('#settleGo'); await p.waitForTimeout(400);
+await p.click('#sheet .save'); await p.waitForTimeout(400);
+eq('提取 = 實收 − 續存', await p.evaluate(() =>
+  JSON.parse(localStorage.getItem('fd.deposits.v1')).find(r => r.id === 'M').withdrawn), '5912.5');
+
+// 到期安排
+await seed([Object.assign({}, matured, { maturityPlan: 'auto' })]);
+c = await openCard('恒生銀行');
+eq('自動續存用另一種提示', /自動續存/.test(await c.locator('.idle').innerText()), 'true');
+eq('明細顯示到期安排', /到期安排：自動續存/.test(await c.locator('.meta').innerText()), 'true');
+
+// 編輯保留結算記錄
+await seed([Object.assign({}, matured, { status: 'done', doneKind: 'rollover',
+  actualTotal: 20912.5, realizedInterest: 912.5, withdrawn: 0, settledOn: '2026-09-11' })]);
+await p.click('.chip[data-f="done"]'); await p.waitForTimeout(250);
+c = await openCard('恒生銀行');
+await c.locator('[data-edit]').click(); await p.waitForTimeout(250);
+await p.fill('#f_note', '改咗'); await p.click('#sheet .save'); await p.waitForTimeout(400);
+const r3 = await p.evaluate(() => JSON.parse(localStorage.getItem('fd.deposits.v1')));
+eq('編輯唔會洗走結算記錄', r3[0].realizedInterest + '/' + r3[0].settledOn, '912.5/2026-09-11');
+eq('狀態仍係已處理', r3[0].status, 'done');
+
 G('資料安全');
 await seed([dep({ id: 'z', bank: '刪除測試', amount: 10000 })]);
 p.once('dialog', d => d.accept());
@@ -148,13 +206,13 @@ await p.waitForTimeout(300);
 eq('匯出後記錄日期', /上次備份：\d{4}-\d{2}-\d{2}（今日）/.test(await p.textContent('#backupInfo')), 'true');
 const { readFile } = await import('node:fs/promises');
 const json = JSON.parse(await readFile(await dl.path(), 'utf8'));
-eq('匯出格式版本', json.version, '3');
+eq('匯出格式版本', json.version, '4');
 
 let msg = '', n = 0;
 p.on('dialog', async d => { n++; if (n === 1) await d.accept(); else { msg = d.message(); await d.accept(); } });
 await p.setInputFiles('#importFile', await dl.path());
 await p.waitForTimeout(500);
-eq('重複匯入唔會產生雙份', (await p.textContent('#count')).trim(), '1');
+eq('重複匯入唔會產生雙份', (await p.textContent('.chip[data-f="all"]')).replace(/\s+/g, ''), '進行中1');
 eq('並報告更新筆數', /新增 0 筆，更新 1 筆/.test(msg), 'true');
 
 // ══════════════════════════════════════════════
@@ -165,7 +223,7 @@ await p.fill('#f_start', '2027-01-01'); await p.fill('#f_maturity', '2026-01-01'
 await p.waitForTimeout(250);
 eq('到期日早過開始日會即時報錯', await p.locator('#dateErr').isVisible(), 'true');
 const before = await p.evaluate(() => JSON.parse(localStorage.getItem('fd.deposits.v1')).length);
-await p.click('.save'); await p.waitForTimeout(250);
+await p.click('#sheet .save'); await p.waitForTimeout(250);
 eq('而且攔截儲存', await p.evaluate(() => JSON.parse(localStorage.getItem('fd.deposits.v1')).length), String(before));
 await p.keyboard.press('Escape'); await p.waitForTimeout(200);
 
@@ -221,6 +279,8 @@ eq('環形圖分段數（5 間，無「其他」）', await p.locator('#chDonut 
 const lg = await p.$$eval('.lg-row', els => els.map(e => e.textContent.replace(/\s+/g, ' ').trim()));
 eq('圖例每行都有金額同百分比', lg.every(x => /HK\$ [\d,]+ · [\d.]+%/.test(x)), 'true');
 eq('銀行條形有加權平均年利率', /^\d+\.\d{2}%$/.test(await p.textContent('#chBanks .bar-name em')), 'true');
+eq('未有結算時每月已收利息顯示提示',
+   /尚未有已結算的定期/.test(await p.textContent('#chRealized')), 'true');
 
 // ══════════════════════════════════════════════
 G('版面');

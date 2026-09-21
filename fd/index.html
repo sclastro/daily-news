@@ -227,6 +227,7 @@
       margin-top: 9px; background: var(--danger-bg); color: var(--danger);
       border-radius: 10px; padding: 8px 10px; font-size: 12px; line-height: 1.5;
     }
+    .card .idle.plan { background: var(--warn-bg); color: var(--warn); }
     .card .int.missing { background: rgba(128,128,128,.10); }
     .card .int.missing b { color: var(--muted); }
     .card .int .tag {
@@ -302,6 +303,26 @@
       padding: 14px; font-size: 16px; font-weight: 700; margin-top: 6px;
     }
     .sheet .cancel { width: 100%; background: transparent; color: var(--muted); border: none; padding: 12px; font-size: 14px; margin-top: 4px; }
+    /* 到期處理面板 */
+    .st-head {
+      background: var(--bg); border-radius: 12px; padding: 11px 13px; margin-bottom: 16px;
+      font-size: 13px; line-height: 1.6;
+    }
+    .st-head .st-bank { font-size: 15px; font-weight: 700; }
+    .st-head .st-line { color: var(--muted); }
+    .st-head .st-line b { color: var(--text); font-weight: 600; }
+    /* 要寫成 .field label.opt：淨係 .opt 會輸俾 .field label 嘅特異性，display:flex 唔生效 */
+    .field label.opt {
+      display: flex; align-items: flex-start; gap: 11px; padding: 11px 12px; margin: 0 0 7px;
+      border: 1px solid var(--line); border-radius: 12px; cursor: pointer;
+      color: var(--text); font-weight: 400;
+    }
+    .field label.opt:has(input:checked) { border-color: var(--brand-2); background: var(--ok-bg); }
+    .field label.opt input { margin: 3px 0 0; accent-color: var(--brand-2); flex: 0 0 auto; width: 17px; height: 17px; }
+    .field label.opt > span { display: flex; flex-direction: column; gap: 2px; min-width: 0; flex: 1; }
+    .field label.opt b { font-size: 14px; font-weight: 700; }
+    .field label.opt em { font-style: normal; font-size: 11px; color: var(--muted); }
+
     .autonote { font-size: 11px; color: var(--muted); margin-top: 4px; line-height: 1.5; }
     .autonote.warn {
       color: var(--warn); background: var(--warn-bg); font-weight: 600;
@@ -383,12 +404,12 @@
         <div class="mid" id="totalWithInterest">HK$ 0</div>
       </div>
       <div>
-        <div class="label">定期數目</div>
-        <div class="mid" id="count">0</div>
+        <div class="label">已實現利息（今年）</div>
+        <div class="mid pos" id="realizedYear">HK$ 0</div>
       </div>
       <div>
-        <div class="label">7 日內到期</div>
-        <div class="mid" id="soonCount">0</div>
+        <div class="label">已實現利息（累計）</div>
+        <div class="mid" id="realizedAll">HK$ 0</div>
       </div>
       <div class="breakdown" id="breakdown"></div>
     </div>
@@ -413,6 +434,11 @@
           <div id="chMaturity"></div>
         </div>
         <div class="ch-block">
+          <h3>每月已收利息</h3>
+          <p class="ch-sub" id="chRealSub">已處理定期的實收利息，按結算月份</p>
+          <div id="chRealized"></div>
+        </div>
+        <div class="ch-block">
           <h3>貨幣分佈</h3>
           <p class="ch-sub" id="chCurSub">按港元價值計</p>
           <div id="chCurrency"></div>
@@ -426,6 +452,39 @@
   </main>
 
   <button class="fab" id="fab" aria-label="新增定期">＋</button>
+
+  <div class="sheet-back" id="settleBack">
+    <div class="sheet" id="settleSheet">
+      <h2>到期處理</h2>
+      <div class="st-head" id="settleHead"></div>
+
+      <div class="field">
+        <label for="s_actual">實收本利和 <span class="req">*</span></label>
+        <input id="s_actual" type="number" inputmode="decimal" step="any" min="0" />
+        <div class="autonote" id="s_realized"></div>
+      </div>
+
+      <div class="field">
+        <label>這筆錢怎樣處理？</label>
+        <div id="s_opts">
+          <label class="opt"><input type="radio" name="sk" value="all" checked>
+            <span><b>全數續存</b><em id="s_lblAll"></em></span></label>
+          <label class="opt"><input type="radio" name="sk" value="principal">
+            <span><b>只續存本金</b><em id="s_lblP"></em></span></label>
+          <label class="opt"><input type="radio" name="sk" value="custom">
+            <span><b>續存指定金額</b><em>其餘提取</em></span></label>
+          <label class="opt"><input type="radio" name="sk" value="none">
+            <span><b>全數提取</b><em>不開新定期</em></span></label>
+        </div>
+        <input id="s_custom" type="number" inputmode="decimal" step="any" min="0"
+               placeholder="續存金額" hidden />
+        <div class="autonote" id="s_summary"></div>
+      </div>
+
+      <button type="button" class="save" id="settleGo">確認</button>
+      <button type="button" class="cancel" id="settleCancel">取消</button>
+    </div>
+  </div>
 
   <div class="sheet-back" id="sheetBack">
     <div class="sheet" id="sheet">
@@ -487,6 +546,14 @@
           <label>預期利息（選填）</label>
           <input id="f_interest" type="number" inputmode="decimal" step="any" min="0" placeholder="留空則按年利率自動計算" />
           <div class="autonote" id="interestPreview">填寫年利率後會自動計算到期利息；若與銀行報價不同，可於此欄手動填寫覆寫。</div>
+        </div>
+        <div class="field">
+          <label for="f_plan">到期安排（選填）</label>
+          <select id="f_plan">
+            <option value="">未定</option>
+            <option value="auto">自動續存</option>
+            <option value="none">不續存（轉入儲蓄戶口）</option>
+          </select>
         </div>
         <div class="field">
           <label>備註（選填）</label>
