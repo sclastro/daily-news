@@ -20,7 +20,7 @@
   var $ = function (id) { return document.getElementById(id); };
   var rateInput = $('rate'), rateEcho = $('rateEcho');
   var listEl = $('list'), bannersEl = $('banners');
-  var totalHkdEl = $('totalHkd'), countEl = $('count'), soonCountEl = $('soonCount'), breakdownEl = $('breakdown');
+  var totalHkdEl = $('totalHkd'), breakdownEl = $('breakdown');
   var totalInterestEl = $('totalInterest'), totalWithInterestEl = $('totalWithInterest');
   var hdrEl = $('hdr'), cTotalEl = $('cTotal'), cMetaEl = $('cMeta'), cRateEl = $('cRate');
   var qEl = $('q'), qClearEl = $('qClear'), sortEl = $('sortBy'), chipsEl = $('chips');
@@ -89,6 +89,33 @@
   // 舊記錄冇 status 欄位，一律當進行中。
   function isDone(d) { return d.status === 'done'; }
 
+  // 取得一筆定期嘅存期。原本冇填「存款期限」嘅話，用開始→到期嘅跨度推算：
+  // 先試下啱唔啱整數月（最常見），唔啱就用日數。冇呢步就續存唔到。
+  function termOf(d) {
+    if (d.durNum) return { num: +d.durNum, unit: d.durUnit || 'month' };
+    if (d.start && d.maturity) {
+      for (var m = 1; m <= 240; m++) {
+        if (shiftDate(d.start, m, 'month', 1) === d.maturity) return { num: m, unit: 'month' };
+      }
+      var days = diffDays(d.start, d.maturity);
+      if (days > 0) return { num: days, unit: 'day' };
+    }
+    return null;
+  }
+
+  // 已實現利息：以實際入帳金額為準（銀行可能有罰息、手續費、尾數差異）。
+  // 舊記錄冇 actualTotal，就退而求其次用當初計出嚟嘅利息。
+  function realizedOf(d) {
+    if (!isDone(d)) return 0;
+    if (isFinite(parseFloat(d.realizedInterest))) return parseFloat(d.realizedInterest);
+    var it = interestOf(d);
+    return it ? it.amount : 0;
+  }
+  function realizedHkd(d) {
+    var v = realizedOf(d);
+    return d.currency === 'HKD' ? v : v * rate;
+  }
+
   function esc(s) {
     return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
       return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
@@ -150,8 +177,15 @@
     var intHkd = 0, intUsd = 0, intHkdOnly = 0, missingRate = 0;
     var doneN = 0, doneHkd = 0;
     var annualHkd = 0, ratedBase = 0, maxIdle = 0;
+    var realYear = 0, realAll = 0, thisYear = todayStr().slice(0, 4);
     sorted.forEach(function (d) {
-      if (isDone(d)) { doneN++; doneHkd += toHkd(d); return; }
+      if (isDone(d)) {
+        doneN++; doneHkd += toHkd(d);
+        var rz = realizedHkd(d);
+        realAll += rz;
+        if ((d.settledOn || d.maturity || '').slice(0, 4) === thisYear) realYear += rz;
+        return;
+      }
       active++;
       totalHkd += toHkd(d);
       var ar = annualRateOf(d);
@@ -175,8 +209,9 @@
     totalWithInterestEl.textContent = fmtHkd(totalHkd + intHkd);
     $('annualInterest').textContent = '+ ' + fmtHkd(annualHkd);
     $('avgRate').textContent = ratedBase > 0 ? (annualHkd / ratedBase * 100).toFixed(2) + '%' : '—';
-    countEl.textContent = active;
-    soonCountEl.textContent = soon;
+    // 定期數目同即將到期數目已經喺上面嘅篩選標籤度，唔使喺摘要再重複一次
+    $('realizedYear').textContent = fmtHkd(realYear);
+    $('realizedAll').textContent = fmtHkd(realAll);
 
     var parts = [];
     if (usdSum) parts.push('美元本金合計：' + fmtMoney(usdSum, 'USD'));
@@ -214,12 +249,12 @@
 
     // 列表（套用搜尋 / 篩選 / 排序）
     if (!sorted.length) {
-      renderCharts([]);   // 刪清所有記錄後唔可以留低舊圖表
+      renderCharts([], []);   // 刪清所有記錄後唔可以留低舊圖表
       listEl.innerHTML = '<div class="empty">尚未有定期存款記錄。<br>請按右下角 ＋ 新增第一筆 👇</div>';
       return;
     }
     var shown = applyView(sorted);
-    renderCharts(shown);   // 圖表跟同一個篩選範圍（篩選列喺圖表上面）
+    renderCharts(shown, sorted);   // 圖表跟同一個篩選範圍（篩選列喺圖表上面）
     if (!shown.length) {
       listEl.innerHTML = '<div class="empty">沒有符合條件的記錄。<br>請清除搜尋，或選擇「全部」。</div>';
       return;
@@ -249,8 +284,8 @@
     listEl.querySelectorAll('[data-undone]').forEach(function (btn) {
       btn.addEventListener('click', function () { setDone(btn.getAttribute('data-undone'), false); });
     });
-    listEl.querySelectorAll('[data-roll]').forEach(function (btn) {
-      btn.addEventListener('click', function () { startRollover(btn.getAttribute('data-roll')); });
+    listEl.querySelectorAll('[data-settle]').forEach(function (btn) {
+      btn.addEventListener('click', function () { openSettle(btn.getAttribute('data-settle')); });
     });
   }
 
@@ -265,26 +300,159 @@
       '復原', function () { d.status = done ? '' : 'done'; saveDeposits(); render(); });
   }
 
-  // 續存：用舊定期嘅到期日做新一筆嘅開始日，金額預設為到期本利和。
-  // 儲存成功後先將原本嗰筆標記為已處理（喺 submit 度處理）。
-  var rolloverFrom = null;
-  function startRollover(id) {
+  // ── 到期處理（結算）──
+  // 定期到期唔係一個開關，而係一次結算：實收幾多、幾多續存、幾多提走，
+  // 係三件獨立嘅事，所以要有專用面板去記清楚。
+  var settleId = null;              // 正在結算嘅定期
+  var rolloverFrom = null;          // 續存來源 id（表單儲存時用）
+  var pendingSettle = null;         // 結算結果，等新一筆儲存咗先寫落去
+  var settleBack = $('settleBack');
+
+  function round2(n) { return Math.round(n * 100) / 100; }
+
+  function openSettle(id) {
     var d = deposits.find(function (x) { return x.id === id; });
     if (!d) return;
+    settleId = id;
     var it = interestOf(d);
-    var newAmt = (+d.amount || 0) + (it ? it.amount : 0);
+    var principal = +d.amount || 0;
+    var expect = principal + (it ? it.amount : 0);
+
+    $('settleHead').innerHTML =
+      '<div class="st-bank">' + esc(d.bank) + '</div>' +
+      '<div class="st-line">' + esc(d.maturity) + ' 到期　·　本金 <b>' +
+        esc(d.currency) + ' ' + fmt2(principal) + '</b></div>' +
+      (it ? '<div class="st-line">預計利息 <b>' + esc(d.currency) + ' ' + fmt2(it.amount) + '</b></div>'
+          : '<div class="st-line">未填年利率，預計利息無法計算</div>');
+
+    $('s_actual').value = round2(expect);
+    $('s_custom').value = '';
+    $('s_custom').hidden = true;
+    settleBack.querySelector('input[value="all"]').checked = true;
+    settleBack.classList.add('open');
+    document.body.classList.add('locked');
+    updateSettle();
+  }
+
+  function closeSettle() {
+    settleBack.classList.remove('open');
+    document.body.classList.remove('locked');
+    settleId = null;
+  }
+
+  function settleKind() {
+    var r = settleBack.querySelector('input[name="sk"]:checked');
+    return r ? r.value : 'all';
+  }
+
+  // 依照揀咗嘅選項，計出續存幾多、提走幾多
+  function settleAmounts() {
+    var d = deposits.find(function (x) { return x.id === settleId; });
+    if (!d) return null;
+    var principal = +d.amount || 0;
+    var actual = parseFloat($('s_actual').value);
+    if (!isFinite(actual) || actual < 0) return null;
+    var kind = settleKind(), roll;
+    if (kind === 'all') roll = actual;
+    else if (kind === 'principal') roll = Math.min(principal, actual);
+    else if (kind === 'none') roll = 0;
+    else {
+      roll = parseFloat($('s_custom').value);
+      if (!isFinite(roll) || roll < 0) return null;
+      if (roll > actual) return null;
+    }
+    return {
+      dep: d, principal: principal, actual: actual,
+      realized: round2(actual - principal),
+      roll: round2(roll), withdrawn: round2(actual - roll), kind: kind
+    };
+  }
+
+  function updateSettle() {
+    var d = deposits.find(function (x) { return x.id === settleId; });
+    if (!d) return;
+    var principal = +d.amount || 0;
+    var cur = d.currency;
+    var actual = parseFloat($('s_actual').value);
+
+    var rz = $('s_realized');
+    if (isFinite(actual)) {
+      var diff = round2(actual - principal);
+      rz.className = 'autonote' + (diff < 0 ? ' warn' : '');
+      rz.textContent = diff >= 0
+        ? '已實現利息：' + cur + ' ' + fmt2(diff) + '（實收 − 本金）'
+        : '⚠️ 實收少於本金，虧損 ' + cur + ' ' + fmt2(-diff) + '。請確認金額。';
+    } else {
+      rz.className = 'autonote warn';
+      rz.textContent = '⚠️ 請輸入銀行實際入帳的金額。';
+    }
+
+    $('s_lblAll').textContent = isFinite(actual) ? cur + ' ' + fmt2(actual) : '';
+    $('s_lblP').textContent = cur + ' ' + fmt2(principal) +
+      (isFinite(actual) ? '，提取 ' + fmt2(Math.max(0, round2(actual - principal))) : '');
+    $('s_custom').hidden = settleKind() !== 'custom';
+
+    var a = settleAmounts(), sm = $('s_summary');
+    if (!a) {
+      sm.className = 'autonote warn';
+      sm.textContent = '⚠️ 續存金額不可以多過實收本利和。';
+    } else if (a.kind === 'none') {
+      sm.className = 'autonote';
+      sm.textContent = '全數提取 ' + cur + ' ' + fmt2(a.actual) + '，不會開新定期。';
+    } else {
+      sm.className = 'autonote';
+      sm.textContent = '續存 ' + cur + ' ' + fmt2(a.roll) +
+        (a.withdrawn > 0 ? '，提取 ' + cur + ' ' + fmt2(a.withdrawn) : '') +
+        '。下一步會帶你開新一筆定期。';
+    }
+  }
+
+  // 將結算結果寫入原本嗰筆
+  function applySettle(a, newId) {
+    var d = a.dep;
+    d.status = 'done';
+    d.doneKind = a.kind === 'none' ? 'withdraw' : (a.withdrawn > 0 ? 'partial' : 'rollover');
+    d.actualTotal = a.actual;
+    d.realizedInterest = a.realized;
+    d.withdrawn = a.withdrawn;
+    d.settledOn = todayStr();
+    if (newId) d.rolledToId = newId;
+  }
+
+  function doSettle() {
+    var a = settleAmounts();
+    if (!a) { $('s_actual').focus(); return; }
+    if (a.kind === 'none') {
+      applySettle(a, null);
+      saveDeposits();
+      closeSettle();
+      render();
+      showToast('已結算「' + a.dep.bank + '」，實收利息 ' + a.dep.currency + ' ' + fmt2(a.realized), '', null);
+      return;
+    }
+    // 要續存：帶住結算結果去開新一筆，儲存成功先一次過寫入
+    pendingSettle = a;
+    rolloverFrom = a.dep.id;
+    closeSettle();
+    prefillRollover(a.dep, a.roll);
+  }
+
+  function prefillRollover(d, amount) {
     openForm();
+    rolloverFrom = d.id;                       // openForm 會清走，要擺返
     sheetTitle.textContent = '續存（來自「' + d.bank + '」）';
+    var t = termOf(d);                         // 原本冇填存期都推算得返
     $('f_bank').value = d.bank;
-    $('f_amount').value = Math.round(newAmt * 100) / 100;
+    $('f_amount').value = round2(amount);
     $('f_currency').value = d.currency || 'USD';
     $('f_start').value = d.maturity || '';
-    $('f_durNum').value = d.durNum || '';
-    $('f_durUnit').value = d.durUnit || 'month';
+    $('f_durNum').value = t ? t.num : '';
+    $('f_durUnit').value = t ? t.unit : 'month';
     $('f_rate').value = d.rate != null ? d.rate : '';
     $('f_basis').value = String(+d.basis === 365 ? 365 : DEFAULT_BASIS);
+    $('f_plan').value = d.maturityPlan || '';
+    $('f_note').value = d.note || '';          // 備註要跟住過去
     $('f_maturity').value = calcMaturity($('f_start').value, $('f_durNum').value, $('f_durUnit').value);
-    rolloverFrom = d.id;
     updateInterestPreview();
   }
 
@@ -344,13 +512,14 @@
 
   // 圖表面板收埋嗰陣唔使即刻畫 —— 記低份資料，撳開先算
   var pendingChartList = null;
-  function renderCharts(list) {
-    if (!chartsEl || !chartsEl.classList.contains('open')) { pendingChartList = list; return; }
+  function renderCharts(list, all) {
+    if (!chartsEl || !chartsEl.classList.contains('open')) { pendingChartList = [list, all]; return; }
     pendingChartList = null;
-    drawCharts(list);
+    drawCharts(list, all);
   }
 
-  function drawCharts(list) {
+  function drawCharts(list, all) {
+    renderRealized(all || []);
     var scopeEl = $('chScope');
     scopeEl.textContent = (view.filter !== 'all' || view.q)
       ? '（只計算目前篩選的 ' + list.length + ' 筆）' : '';
@@ -415,6 +584,40 @@
     if (cur.HKD > 0) rows.push(barRow('港元 HKD', fmtHkd(cur.HKD) + '　·　' + (cur.HKD / total * 100).toFixed(1) + '%', cur.HKD / maxC));
     $('chCurrency').innerHTML = rows.join('');
     $('chCurSub').textContent = '按港元價值計　·　美元以 @ ' + rate + ' 換算';
+  }
+
+  // 每月已收利息：只計已處理嘅記錄，用實收利息。
+  // 呢個圖講嘅係「歷史上真係袋咗幾多」，所以唔受進行中／已處理嘅篩選影響，
+  // 但仍然跟搜尋關鍵字，等你可以淨係睇一間銀行。
+  function renderRealized(all) {
+    var el = $('chRealized'), q = view.q.trim().toLowerCase();
+    var done = all.filter(function (d) {
+      if (!isDone(d)) return false;
+      if (q && (d.bank + ' ' + (d.note || '')).toLowerCase().indexOf(q) < 0) return false;
+      return realizedOf(d) > 0;
+    });
+    if (!done.length) {
+      el.innerHTML = '<div class="ch-empty">尚未有已結算的定期</div>';
+      $('chRealSub').textContent = '已處理定期的實收利息，按結算月份';
+      return;
+    }
+    var byMonth = {}, total = 0;
+    done.forEach(function (d) {
+      var k = (d.settledOn || d.maturity || '').slice(0, 7);
+      if (!k) return;
+      var v = realizedHkd(d);
+      byMonth[k] = (byMonth[k] || 0) + v;
+      total += v;
+    });
+    var months = Object.keys(byMonth).sort();
+    if (!months.length) { el.innerHTML = '<div class="ch-empty">尚未有已結算的定期</div>'; return; }
+    var max = Math.max.apply(null, months.map(function (k) { return byMonth[k]; }));
+    el.innerHTML = months.map(function (k) {
+      var pt = k.split('-');
+      return barRow(pt[0] + ' 年 ' + (+pt[1]) + ' 月', fmtHkd(byMonth[k]), byMonth[k] / max);
+    }).join('');
+    $('chRealSub').textContent = '共 ' + done.length + ' 筆已結算　·　累計實收利息 ' + fmtHkd(total) +
+      (q ? '（只計符合搜尋的記錄）' : '');
   }
 
   function setChip(f, n) {
@@ -520,6 +723,27 @@
     if (d.durNum) meta.push('<span class="k">存期：</span>' + esc(d.durNum) + ' ' + unitLabel(d.durUnit));
     if (d.rate) meta.push('<span class="k">年利率：</span>' + esc(d.rate) + '%');
     if (it) meta.push('<span class="k">到期本利和：</span>' + esc(d.currency) + ' ' + fmt2((+d.amount || 0) + it.amount));
+    if (d.maturityPlan) {
+      meta.push('<span class="k">到期安排：</span>' +
+        (d.maturityPlan === 'auto' ? '自動續存' : '不續存（轉入儲蓄戶口）'));
+    }
+    // 結算記錄
+    if (isDone(d)) {
+      if (isFinite(parseFloat(d.actualTotal))) {
+        meta.push('<span class="k">實收本利和：</span>' + esc(d.currency) + ' ' + fmt2(+d.actualTotal));
+        meta.push('<span class="k">已實現利息：</span>' + esc(d.currency) + ' ' + fmt2(realizedOf(d)));
+      }
+      if (parseFloat(d.withdrawn) > 0) {
+        meta.push('<span class="k">已提取：</span>' + esc(d.currency) + ' ' + fmt2(+d.withdrawn));
+      }
+      if (d.settledOn) meta.push('<span class="k">結算日期：</span>' + esc(d.settledOn));
+    }
+    // 續存鏈：兩邊都指返對方，睇得到筆錢滾過幾多次
+    var linkTo = d.rolledToId && deposits.find(function (x) { return x.id === d.rolledToId; });
+    if (linkTo) meta.push('<span class="k">→ 續存至：</span>' + esc(linkTo.bank) + '（' + esc(linkTo.maturity) + '）');
+    var linkFrom = d.fromId && deposits.find(function (x) { return x.id === d.fromId; });
+    if (linkFrom) meta.push('<span class="k">← 續存自：</span>' + esc(linkFrom.bank) + '（' + esc(linkFrom.maturity) + '）');
+
     if (d.note) meta.push('<span class="k">備註：</span>' + esc(d.note));
 
     // 摺疊時嘅一行摘要：利息（或「—」）
@@ -528,10 +752,17 @@
       : '<span class="sum-int none">利息 —</span>';
 
     // 已到期但仍未處理 —— 講明閒置咗幾耐，唔好等佢無聲無息躺喺度
-    var idleNote = (!isDone(d) && du != null && du < 0)
-      ? '<div class="idle">⏳ 已到期 <b>' + (-du) + ' 日</b>仍未處理。若銀行沒有自動續存，' +
-        '資金期間可能只按儲蓄戶口息率計息。</div>'
-      : '';
+    // 已到期但未處理：提示內容跟「到期安排」而變，唔好一律叫人擔心
+    var idleNote = '';
+    if (!isDone(d) && du != null && du < 0) {
+      idleNote = d.maturityPlan === 'auto'
+        ? '<div class="idle plan">🔁 已到期 <b>' + (-du) + ' 日</b>。此筆設定為<b>自動續存</b>，' +
+          '記得向銀行確認新息率，然後按「到期處理」記錄新一期。</div>'
+        : '<div class="idle">⏳ 已到期 <b>' + (-du) + ' 日</b>仍未處理。' +
+          (d.maturityPlan === 'none' ? '此筆設定為<b>不續存</b>，資金應已轉入儲蓄戶口。'
+                                     : '若銀行沒有自動續存，資金期間可能只按儲蓄戶口息率計息。') +
+          '</div>';
+    }
 
     return '<div class="' + cls + (expanded[d.id] ? ' open' : '') + '" data-id="' + d.id + '">' +
       '<div class="c-head" data-id="' + d.id + '" role="button" tabindex="0"' +
@@ -558,8 +789,7 @@
     if (isDone(d)) {
       btns.push('<button class="mark" data-undone="' + d.id + '">↩︎ 復原為進行中</button>');
     } else if (du != null && du <= 0) {
-      btns.push('<button class="roll" data-roll="' + d.id + '">🔄 續存</button>');
-      btns.push('<button class="mark" data-done="' + d.id + '">✅ 標記為已處理</button>');
+      btns.push('<button class="roll" data-settle="' + d.id + '">📋 到期處理</button>');
     }
     btns.push('<button data-edit="' + d.id + '">✏️ 編輯</button>');
     btns.push('<button class="del" data-del="' + d.id + '">🗑 刪除</button>');
@@ -615,6 +845,7 @@
     $('f_currency').value = 'USD';
     $('f_durUnit').value = 'month';
     $('f_basis').value = String(DEFAULT_BASIS);
+    $('f_plan').value = '';
     if (id) {
       var d = deposits.find(function (x) { return x.id === id; });
       if (d) {
@@ -630,6 +861,7 @@
         $('f_rate').value = d.rate != null ? d.rate : '';
         $('f_basis').value = String(+d.basis === 365 ? 365 : DEFAULT_BASIS);
         $('f_interest').value = d.interest != null ? d.interest : '';
+        $('f_plan').value = d.maturityPlan || '';
         $('f_note').value = d.note || '';
       }
     } else {
@@ -736,23 +968,33 @@
       rate: $('f_rate').value !== '' ? parseFloat($('f_rate').value) : '',
       basis: +$('f_basis').value === 365 ? 365 : DEFAULT_BASIS,
       interest: $('f_interest').value !== '' ? parseFloat($('f_interest').value) : '',
+      maturityPlan: $('f_plan').value,
       note: $('f_note').value.trim()
     };
     if (!rec.bank || !(rec.amount > 0)) return;
 
     var idx = deposits.findIndex(function (x) { return x.id === rec.id; });
     if (idx >= 0) {
-      rec.status = deposits[idx].status || '';   // 編輯唔可以洗走已處理狀態
+      var old = deposits[idx];
+      // 編輯唔可以洗走狀態同結算記錄
+      rec.status = old.status || '';
+      ['doneKind','actualTotal','realizedInterest','withdrawn','settledOn','rolledToId','fromId']
+        .forEach(function (k) { if (old[k] !== undefined) rec[k] = old[k]; });
       deposits[idx] = rec;
     } else {
       deposits.push(rec);
     }
 
-    // 續存成功後，先將來源嗰筆標記為已處理
+    // 續存成功後，一次過將結算結果寫入來源，並互相記低關係
     if (rolloverFrom) {
       var src = deposits.find(function (x) { return x.id === rolloverFrom; });
-      if (src) src.status = 'done';
+      if (src) {
+        if (pendingSettle && pendingSettle.dep === src) applySettle(pendingSettle, rec.id);
+        else { src.status = 'done'; src.rolledToId = rec.id; src.settledOn = todayStr(); }
+        rec.fromId = src.id;
+      }
       rolloverFrom = null;
+      pendingSettle = null;
     }
 
     saveDeposits();
@@ -838,7 +1080,7 @@
 
   // ── 匯出 / 匯入 ──
   $('exportBtn').addEventListener('click', function () {
-    var payload = { app: 'fd-tracker', version: 3, exportedAt: new Date().toISOString(), rate: rate, deposits: deposits };
+    var payload = { app: 'fd-tracker', version: 4, exportedAt: new Date().toISOString(), rate: rate, deposits: deposits };
     var blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
     var a = document.createElement('a');
     a.href = URL.createObjectURL(blob);
@@ -878,6 +1120,12 @@
             basis: +d.basis === 365 ? 365 : DEFAULT_BASIS,
             interest: isFinite(parseFloat(d.interest)) ? parseFloat(d.interest) : '',
             status: d.status === 'done' ? 'done' : '',
+            maturityPlan: (d.maturityPlan === 'auto' || d.maturityPlan === 'none') ? d.maturityPlan : '',
+            doneKind: d.doneKind || '', settledOn: d.settledOn || '',
+            actualTotal: isFinite(parseFloat(d.actualTotal)) ? parseFloat(d.actualTotal) : '',
+            realizedInterest: isFinite(parseFloat(d.realizedInterest)) ? parseFloat(d.realizedInterest) : '',
+            withdrawn: isFinite(parseFloat(d.withdrawn)) ? parseFloat(d.withdrawn) : '',
+            rolledToId: d.rolledToId || '', fromId: d.fromId || '',
             note: d.note || ''
           };
         });
@@ -942,7 +1190,7 @@
     var open = chartsEl.classList.toggle('open');
     chToggle.setAttribute('aria-expanded', String(open));
     localStorage.setItem(CHARTS_KEY, open ? '1' : '0');
-    if (open && pendingChartList) drawCharts(pendingChartList);
+    if (open && pendingChartList) drawCharts(pendingChartList[0], pendingChartList[1]);
   });
 
   // ── 碌動時頁首縮細（加滯後範圍，避免喺臨界點閃來閃去）──
@@ -969,11 +1217,22 @@
 
   // ── FAB / sheet 事件 ──
   $('fab').addEventListener('click', function () { openForm(); });
+  // ── 到期處理面板事件 ──
+  $('settleCancel').addEventListener('click', closeSettle);
+  $('settleGo').addEventListener('click', doSettle);
+  settleBack.addEventListener('click', function (e) { if (e.target === settleBack) closeSettle(); });
+  $('s_actual').addEventListener('input', updateSettle);
+  $('s_custom').addEventListener('input', updateSettle);
+  settleBack.querySelectorAll('input[name="sk"]').forEach(function (r) {
+    r.addEventListener('change', updateSettle);
+  });
+
   $('cancelBtn').addEventListener('click', closeForm);
   sheetBack.addEventListener('click', function (e) { if (e.target === sheetBack) closeForm(); });
   document.addEventListener('keydown', function (e) {
     if (e.key !== 'Escape') return;
     if (sheetBack.classList.contains('open')) closeForm();
+    else if (settleBack.classList.contains('open')) closeSettle();
     else hideToast();
   });
 
