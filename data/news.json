@@ -1,311 +1,4 @@
 {
-  "2026-07-12": {
-    "hk": {
-      "categoryName": "本地新聞（香港）",
-      "articles": [
-        {
-          "title": "觀點 - 20260711 - 每日明報 - 明報新聞網",
-          "summary": "觀點 - 20260711 - 每日明報  明報新聞網",
-          "source": "Google News HK",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE94dkJITFJPTE96NlowSGRncDVraE5Vb3VkbHdtVWF2YWVkclY3azZmUGlVVHdnZU1ON2gyNU1TclZGRHd2UzdKT0E3TTVDZ3Zpak5wRlZabnJIYmd2dTNmc3BxWTNmdElxRmFGNWZiLTVKdjJkNDF3NzhlNA?oc=5",
-          "publishedAt": "Sat, 11 Jul 2026 20:18:55 GMT"
-        },
-        {
-          "title": "港足｜李卓軒讚岐試腳獲好評 「歐冲」生日許願：讓香港足球變好 - 體路 Sportsroad",
-          "summary": "港足｜李卓軒讚岐試腳獲好評 「歐冲」生日許願：讓香港足球變好  體路 Sportsroad",
-          "source": "Google News HK",
-          "url": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxQQVNDZGdfUGZnal9CR29DZUl0cnpmc3dxX1NVMV9oZEZaNFdTMFRhVXF3b2RwYnJabjFnS29hNEowSndRVVVQbWVjQVd4WFdPV3lWOG1jSXh5b0RUamxlYjJsUUJqMUR5QWV1WFJfWWtOc0pNcFB5X0ZTVURMR0FJc2NkT2JIQ1M0eW1LM2poM1hhTEtqYUJrVTFvXzN0NmZsVnRfM1hrV1AtZkdENDFEQmljaVdyWUFsbm9oMFUyZzlTeFlVUUlCVzlkei04YjRBOXN6NE5ZWkVTZHRVaVRHOElVc04xNmZVNkdONUVYX01kV0FGT0dLVnhtYzhuUVdZdzRvZFRGZUFseldfbTlhUGFsVzBobExnZ1JOZ0ZpRDBKYjZqeGF1TFFGWHBLam5qQlpFUXdiUVRWa0Q1OXhtTnRuNWN3TWJIbmJHVTVKTjJNbHhidUFOcjNUUzU3Qnc?oc=5",
-          "publishedAt": "Sat, 11 Jul 2026 17:20:00 GMT"
-        },
-        {
-          "title": "世界女排聯賽香港站｜25分莊宇珊獨力難支 中國女排爆冷負多明尼加 - 體路 Sportsroad",
-          "summary": "世界女排聯賽香港站｜25分莊宇珊獨力難支 中國女排爆冷負多明尼加  體路 Sportsroad",
-          "source": "Google News HK",
-          "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxNd01JVEZld2hOWUI3b3RVd2RMY2daZU8tNFZHaW12X0plX3NKa184cmM2ZEZtbHgwQmZ0YUVMejJUZVVFOHBxVFVCUDNpN08zWW5VRW82SVh5b2ttV2laSFJDNWU4LU1KNjVkVEhwWlBNVUZPcDk5OUtUQkJnUTdoZ2dsYjRoV0kwZGVzWkR3YlI0UWx5eVhvbk45T2VsNlVvOHFnM1huOGkweUU0VzJBSjB3LUR2YmJ0YXhfLS1ielRXODlWX0JSbmN5RG9lS2UyTzV3bmQ5TWZ2aWEtd3FyMC1hTDBtdnFoa2hDdF9YeF9YQjlucUhGalJTRVZESjZteVNxdklta25hcnNlU0VtVTBhaXNFd3RUc2ZsMXo2cktUUUNKOW1jcTBGV0pVWEkyTWJmRWQzWEJQMTEzMU5KLXd2Q1M4dmtzRnp3RUFJcTMwVC1FUWc?oc=5",
-          "publishedAt": "Sat, 11 Jul 2026 15:34:37 GMT"
-        },
-        {
-          "title": "世界女排聯賽香港站 加拿大2比3意大利 - i-cable.com",
-          "summary": "世界女排聯賽香港站 加拿大2比3意大利  i-cable.com",
-          "source": "Google News HK",
-          "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxNQkdUVTNldFBmampJMjBreVZDdV8waURZYWlNREVzeUNFUjBRcWxTcWdKSFpGMGZ5UGN2RHp3ODB0aEVTNDVaZC1hTXNfLWxmRE4xQnFqMjZSUlR4VFRGbVZKY1ZYR3d1VVY5WVVjUTBaX0ZWSWhDcnlXcTBFZE5mMXh0T1dCNFM0d2NMTENKOFFLQVR4aTdkT0pwNDJEMUFwZkNaS3B4OFNfZ2RIMC1HTnMwb0RscVM5YUdvbHlwUDROSk9oVFNLUEdzcTRoc29zYTVCd3JpSXdFRV9zZGFFdU9xcEV2dExfYlRhM1ZwMm0zWks3TnhzMkYzcGZ0R3dMaDlBbTFlUDhUT3o1WGRadDFmQ1VCNXJZN0V2ZXRZNE15eWItQVJ3emM2YlBQeFIySTV0M2cwR05UaTA?oc=5",
-          "publishedAt": "Sat, 11 Jul 2026 12:36:24 GMT"
-        },
-        {
-          "title": "VNL香港站 意大利落後兩局反Cup加拿大 - on.cc東網",
-          "summary": "VNL香港站 意大利落後兩局反Cup加拿大  on.cc東網",
-          "source": "Google News HK",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQWVFCZ29UWndtdExDaVdzeVBDeW5GYkZGYWQ1YjNDcTdhbDhlQ3g1WklUTFpKZzBSUVNpc21vel9feEx0MGhjLWlkWkJiQk5QUTQ2TmZJZVRsbVQzN3pnTWEzd3J3Z2ZjMEI5aTFyRUMzdEE3bGFCOFI3dktKbzJMSkl1Q19iaEc4MDd0SQ?oc=5",
-          "publishedAt": "Sat, 11 Jul 2026 11:57:30 GMT"
-        },
-        {
-          "title": "卓永興：特區政府抱著時不我待精神 積極融入和服務國家發展大局 - 香港電台新聞網",
-          "summary": "卓永興：特區政府抱著時不我待精神 積極融入和服務國家發展大局  香港電台新聞網",
-          "source": "Google News HK",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBXVjN4TlBiNk1HRmNlcHFQcFhhd0N1YS1uRUhFT2dRVXNNcWp2dTdlM0pqVC1YUEJXbVQ0MGFnYjlyejBnY253ZGZUa0dKdnZSWVdyc2VUTGJxelVncGpDX2w4UTdCYlZETEc1dnFwMA?oc=5",
-          "publishedAt": "Sat, 11 Jul 2026 11:07:00 GMT"
-        },
-        {
-          "title": "WTT香港青少年乒賽｜本地代表並列U13男單季軍 何思駿黃奕培首奪國際賽獎項 - 體路 Sportsroad",
-          "summary": "WTT香港青少年乒賽｜本地代表並列U13男單季軍 何思駿黃奕培首奪國際賽獎項  體路 Sportsroad",
-          "source": "Google News HK",
-          "url": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxQYlB4RnZRa2E0M1Q3S25CMFRaS1JMZ2loMmlsVEN0TXR0R0hncmlDTmczYjk3RURQRTlzakVTVEhHVHJHdV9QT1NBa0RiUGpUUldrNlpJQmhvZXVram42dkJhYlg1V0twaXJZSVJFRTZmWkwyWW1IczdhbmlFYWUwTW5ZU3VJV0I3QjNRZHY1QzllWFVmb0M1NXhPcmFNXzZUbmpGLWpab1ZEZUg4TGJHYVFkY1Noa3B1ZVZSbWNkTDZQQnBWOHhQSG43NUEtQ1Z1S2hKN2ktYzN2b09EUm5QNVBjSEU0cVpMQkhqcDNXU0M3T2R0SzBQQ0JMdXllX2pLWXE3OGNFM0pyYTJUT3dsUDF1V1BlUVVGSEVqeG5XZHdXVnR5bldyaGdTNFlwVUlXZTFVdkU3QTljNTlENlI5dHVobTdRNG8wc1RzWFk0czVVdmtJOUFub3hzMA?oc=5",
-          "publishedAt": "Sat, 11 Jul 2026 16:04:45 GMT"
-        },
-        {
-          "title": "世界女排聯賽香港站多米尼加共和國3比1擊敗中國- 有線寬頻i-CABLE - i-cable.com",
-          "summary": "世界女排聯賽香港站多米尼加共和國3比1擊敗中國- 有線寬頻i-CABLE  i-cable.com",
-          "source": "Google News HK",
-          "url": "https://news.google.com/rss/articles/CBMi9wJBVV95cUxNZDNsa2piVU4xanBaXzc0VE5IUFdwbXd6bnBhd1JnS0RiZGNMRHFpNFJHTHFyS2ZxWDNqakJON0VhcDZub2QwOEdrSHNOWlJRZHI0VUFkMlREOXhTUXkxMFJsQ2hfUUN0TUhUaFdSWXE1QTBzc1FlSjNHYzA0QTcxVGlNOHBkajFnelQ4OUpsUjRnMTk2TjhMempfMUJhYlJQMWVMTlA5bFdTdVRmei1kZXEzeUsycGE5UDBhOUplQ19mMlpYdE4xbzR6VDItdV83ZnFoT3EycDJ6c3FpbFRxMUhYU2d3REt2RC1QMERqQkNBcDBtdE52VHFoalowUjhfVFIxV3Fxdm1uVWU0c2ZFZ2Vray1TVHlXaXlsZ3BUa2s0NjhpUS1sYnNEc3YxcUNYSVBWdWJVT3JZVDI4UXdtRXFVN2piTUlZNHlMMDMtMmJ1X3c5NDkxbFQzNDVCWVJyUXR6dWlnNFJQNTh3bEw0NnM2V0kyQWc?oc=5",
-          "publishedAt": "Sat, 11 Jul 2026 15:36:29 GMT"
-        }
-      ]
-    },
-    "world": {
-      "categoryName": "國際新聞",
-      "articles": [
-        {
-          "title": "一週內第二次颱風登陸中國",
-          "summary": "浙江省東部近200萬人被疏散，溫州市靠近風暴路徑。",
-          "source": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/cdxd3wkp2rzo?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "Sat, 11 Jul 2026 17:41:56 GMT"
-        },
-        {
-          "title": "伊朗最高領袖呼籲為父親被殺報仇",
-          "summary": "莫吉塔巴·哈梅內伊表示，這起殺戮事件發生在美以對伊朗戰爭的第一天，報復是「不可避免的」。",
-          "source": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/cj9gkpp0dkeo?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "Sat, 11 Jul 2026 19:30:36 GMT"
-        },
-        {
-          "title": "波蘭總理承諾紀念二戰「烏克蘭民族主義者的種族滅絕」受害者",
-          "summary": "幾十年來，華沙和基輔一直因第二次世界大戰期間數千名平民被殺而爭執不下。",
-          "source": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/cze94x4361po?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "Sat, 11 Jul 2026 21:56:52 GMT"
-        },
-        {
-          "title": "美國民主黨人羅·卡納稱他被以色列武裝定居者拘留",
-          "summary": "49 歲的卡納說，他被拘留 90 分鐘時正在訪問被佔領的約旦河西岸。",
-          "source": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/c0qyk9jwq9no?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "Sat, 11 Jul 2026 18:00:09 GMT"
-        },
-        {
-          "title": "美国敦促伊朗保障霍尔木兹海峡通航　多方斡旋推动美伊恢复谈判",
-          "summary": "伊朗外长阿拉格齐周六（7月11日）抵达阿曼，就确保船只安全通过霍尔木兹海峡与阿方磋商。美国则要求伊朗公开承诺停止袭击过往船只，保障这条全球重要能源运输通道自由、安全通行。",
-          "source": "RFI 法廣",
-          "url": "https://www.rfi.fr/cn/%E4%B8%AD%E5%9B%BD/20260711-%E7%BE%8E%E5%9B%BD%E6%95%A6%E4%BF%83%E4%BC%8A%E6%9C%97%E4%BF%9D%E9%9A%9C%E9%9C%8D%E5%B0%94%E6%9C%A8%E5%85%B9%E6%B5%B7%E5%B3%A1%E9%80%9A%E8%88%AA-%E5%A4%9A%E6%96%B9%E6%96%A1%E6%97%8B%E6%8E%A8%E5%8A%A8%E7%BE%8E%E4%BC%8A%E6%81%A2%E5%A4%8D%E8%B0%88%E5%88%A4",
-          "publishedAt": "Sat, 11 Jul 2026 21:52:47 GMT"
-        },
-        {
-          "title": "美国新一轮热浪来袭 约4400万人处于高温预警之下",
-          "summary": "美国也将迎来新一轮高温天气。官方周六（7月11日）称，约4400万美国人目前处于高温预警之下，落基山脉地区和美国北部大平原正迎来新一轮热浪，部分地区最高气温预计将超过38摄氏度。",
-          "source": "RFI 法廣",
-          "url": "https://www.rfi.fr/cn/%E4%B8%AD%E5%9B%BD/20260711-%E7%BE%8E%E5%9B%BD%E6%96%B0%E4%B8%80%E8%BD%AE%E7%83%AD%E6%B5%AA%E6%9D%A5%E8%A2%AD-%E7%BA%A64400%E4%B8%87%E4%BA%BA%E5%A4%84%E4%BA%8E%E9%AB%98%E6%B8%A9%E9%A2%84%E8%AD%A6%E4%B9%8B%E4%B8%8B",
-          "publishedAt": "Sat, 11 Jul 2026 21:48:17 GMT"
-        },
-        {
-          "title": "法国超过三分之一地区发布高温红色预警 山火风险持续升高",
-          "summary": "法国目前正遭遇今年夏季最严重的一轮热浪侵袭。气象部门周六（7月11日）宣布，全国超过三分之一地区将于13日进入最高级别的高温红色预警，持续高温也使山林火灾风险急剧上升。法国多地决定取消国庆烟花表演，以降低高温和火灾风险。",
-          "source": "RFI 法廣",
-          "url": "https://www.rfi.fr/cn/%E4%B8%AD%E5%9B%BD/20260711-%E6%B3%95%E5%9B%BD%E8%B6%85%E8%BF%87%E4%B8%89%E5%88%86%E4%B9%8B%E4%B8%80%E5%9C%B0%E5%8C%BA%E5%8F%91%E5%B8%83%E9%AB%98%E6%B8%A9%E7%BA%A2%E8%89%B2%E9%A2%84%E8%AD%A6-%E5%B1%B1%E7%81%AB%E9%A3%8E%E9%99%A9%E6%8C%81%E7%BB%AD%E5%8D%87%E9%AB%98",
-          "publishedAt": "Sat, 11 Jul 2026 21:40:50 GMT"
-        },
-        {
-          "title": "台风“巴威”登陆浙江沿海 中国多地严阵以待 200万人疏散",
-          "summary": "台风“巴威”周六（7月11日）深夜登陆中国浙江沿海，登陆时最大风速达每小时145公里。中国官方在台风来袭前已疏散近200万人，并在多地采取停工停课、交通停运等防范措施，以应对可能出现的强风暴雨。上海也加强防台措施，组织转移近30万人，并启用905处防汛避灾安置场所。",
-          "source": "RFI 法廣",
-          "url": "https://www.rfi.fr/cn/%E4%B8%AD%E5%9B%BD/20260711-%E5%8F%B0%E9%A3%8E-%E5%B7%B4%E5%A8%81-%E7%99%BB%E9%99%86%E6%B5%99%E6%B1%9F%E6%B2%BF%E6%B5%B7-%E4%B8%AD%E5%9B%BD%E5%A4%9A%E5%9C%B0%E4%B8%A5%E9%98%B5%E4%BB%A5%E5%BE%85-200%E4%B8%87%E4%BA%BA%E7%96%8F%E6%95%A3",
-          "publishedAt": "Sat, 11 Jul 2026 21:29:25 GMT"
-        }
-      ]
-    },
-    "finance": {
-      "categoryName": "財經新聞",
-      "articles": [
-        {
-          "title": "【萬家福改名後1】283家門市招牌明年第一季全數更新 350項自有品牌陸續上架 - Yahoo股市",
-          "summary": "【萬家福改名後1】283家門市招牌明年第一季全數更新 350項自有品牌陸續上架  Yahoo股市",
-          "source": "Google News 財經",
-          "url": "https://news.google.com/rss/articles/CBMi2gNBVV95cUxPX25ZM1QxQ0hfcy1KUHJzdjE0QXo0NEtCTFgtcU55NDV6cWJudHhpV2l5NnF3ZUx6RUR0QVRRT0hCUkJScHNSNG1Ud1Qza2ZsOG1yQ1BCVEk5NnZFZV9mUnZQaEM4XzRDVVVLeHRhdjRMdTN4M0pGOWhXODl3Nk83ODVfVkpnOUhheHhObDB0eVAtcVF5ZFkxbHZlMzBIazJla2NiVVRIMGNsb3NlV2pwaUt0WG9uMVZSZUJmWWN4ZTB5aS11T1k2SllvRzM5bzROS3Qwd0VoVTdlVGw4cXhFMVRWOHRIaW5aOElteTNVNmd3ejNubXFVYnJjREhTV2xOM1p5dlFCOUNWOXlUazhWNmgwT3BSUVdfVHVBVEtmVm16WWsyejgyY3lHN2VpWXlIRXdWcnprMG5TQUk0ZjVKYi1lSFExUTdJYU13R0RjRXZ5eFNmOTV3a2RLQTBXWmplanlLdzIyanZQNERGVkNUSjhEMlhydU50ako1a085TG1iSXJEelJVbkxBbllXMDgyY1JPR2h0cW1UN1JvdG12R2tnWWZxeThSNlp4N3RGSWdBRWpaVmd5bnhCd1E0X0JzOElNLUpyaE9wTHFCNjY4c2hsLUdqY1NtbEE?oc=5",
-          "publishedAt": "Sat, 11 Jul 2026 14:01:06 GMT"
-        },
-        {
-          "title": "【萬家福改名後2】新自有品牌網友5大意見一次看 法國商品還買得到嗎？萬家福回應了 - Yahoo股市",
-          "summary": "【萬家福改名後2】新自有品牌網友5大意見一次看 法國商品還買得到嗎？萬家福回應了  Yahoo股市",
-          "source": "Google News 財經",
-          "url": "https://news.google.com/rss/articles/CBMimwRBVV95cUxOZkF6ZmVYNlhEdHBzQkJGTEpReE9SeVlvRVd4QS1NejlKWUczQW8xVDAzdUt3Z2J0eC1MTWxMd0xSU0hURXVLNGhJYTFkM1J5M2tjZFg1TTVEZXN4ZEZmeVJfQzZ3SjZDd3BpUWs4RVFKM0RsYkJtUlJkeS1Ud0V1dmx5ODVXQjRpVWxCZWc3MkxDYkx4TjdHbnBtZGppVGZOR2ZNeHhIT2toZXlHLV9pYVhHeTNqZmQxOHpxYUVpQUcxcUVTSDRoV1NYZTZmczZvczhpaFJoSmJhcmJKN1NZNGFBSW4zMk4wNFNkeHRFY2Q1V1dzN2ZBZENIUDVpaWVhZnhqb3JzQV9Ub2thMVhscHFtdVhPbnZOazNnWmpSa2VGakJUd2tDUXRkWFRFOUFoRDVPZ193b0M5TlloTE1sRUlEbTFDLXJqOWdPSHdpOVRkZGliY2MtX2Ryd29Jb0UxaThXT3BBVmNrakRDNncwbWI3S01JVzF6THpOdlE5X19CZDNNRXpWTEVlSFd5ZGZPb0ktbE9vRTVENHVVN0Z2RXZfYnRFMkFzcldEYVhHNjl4QVFxWm5La21RZ1Q3aFpVZUpyNzB4aFN1R21URGl4RlhMbG9MdXJzVFpNYXh1VW9tbTFfUE5mb1dja1FzOGVFNFBpUjNpMFVlR0dwR3pDUEk2dFU0cGc4TTNlbFFuUkhRUjZ6S3l1S2hMZw?oc=5",
-          "publishedAt": "Sat, 11 Jul 2026 14:01:31 GMT"
-        },
-        {
-          "title": "我的保險公司說我的屋頂掉了幾塊瓦片。損失理賠員發現風暴造成的損失達 1 萬美元。怎麼會發生這種事？",
-          "summary": "“我的房子被風吹得很厲害。”",
-          "source": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/my-insurance-company-said-my-roof-lost-a-few-tiles-loss-adjusters-found-10-000-in-storm-damage-how-could-this-happen-8e1cb8bf?mod=mw_rss_topstories",
-          "publishedAt": "Sat, 11 Jul 2026 21:45:00 GMT"
-        },
-        {
-          "title": "「我得到 1,460 美元的社會安全保障」：我 74 歲的百萬富翁前夫拒絕支付贍養費。我能做些什麼？",
-          "summary": "“我的錢很少，而我前任的財務報表顯示資產有數百萬。”",
-          "source": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/i-get-1-460-in-social-security-my-millionaire-ex-husband-74-refuses-to-pay-alimony-what-can-i-do-c5e60824?mod=mw_rss_topstories",
-          "publishedAt": "Sat, 11 Jul 2026 19:00:00 GMT"
-        },
-        {
-          "title": "「這令人心碎」：我的兄弟在 70 歲時領取了社會安全保障。在一次付款後，他死於癌症。為什麼要等到索賠？",
-          "summary": "“我一直對政府鼓勵推遲領取福利的做法持懷疑態度。”",
-          "source": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/its-heartbreaking-my-brother-claimed-social-security-at-70-he-died-from-cancer-after-one-payment-why-wait-to-claim-491669b6?mod=mw_rss_topstories",
-          "publishedAt": "Sat, 11 Jul 2026 18:46:00 GMT"
-        },
-        {
-          "title": "「哥吉拉」厄爾尼諾現象、人工智慧繁榮、川普關稅、燃料緊縮和烏克蘭戰爭等完美風暴導致物價居高不下，通膨無法逃脫 - 雅虎財經",
-          "summary": "「哥吉拉」厄爾尼諾現象、人工智慧繁榮、川普關稅、燃料緊縮和烏克蘭戰爭等完美風暴導致物價居高不下，通膨無法逃脫。",
-          "source": "Google News Finance",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQ3V4a3FpMFRzSXhDaWJYaHBFbzNWcTkwak5GQlR0ellucG44djlCTmh5WUpIYS1xWDdseno1N05UU0luQ2Q1STN6UWlrajBycnZWdzBMOFpJSmVnZmk0cnZrNll2SGhXUEhjeXljNXpZQmRmY0dsTjBGV3hHaUxHS3lGV2dwUHlwS3piTVpVTFJnbG9xOFBxV3hXSkNuWXM?oc=5",
-          "publishedAt": "Sat, 11 Jul 2026 17:19:51 GMT"
-        },
-        {
-          "title": "財政部計劃合併國有銀行 - Shafaq News |伊拉克和世界的最新突發新聞 - فق فق فف",
-          "summary": "財政部計劃合併國有銀行 - Shafaq News |伊拉克和世界的最新突發新聞",
-          "source": "Google News Finance",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQbVMzcEZXYzRvZ0F3S1gwSU9mNUVqZGx1bVo4ZFE5ZTlNNHMtaFhQSzNyZ3JEQ0p5cnl0aFNHMHNiM1dsM1F2d2RIdkdYTGNfMDV4RjlvRGlZQXZYa1YtLUhlSVhlUzY3MUctbktxTWxhd0I2QkZmVnltaXZfb19tVG9B?oc=5",
-          "publishedAt": "Sat, 11 Jul 2026 16:59:46 GMT"
-        },
-        {
-          "title": "川普的兒童帳戶剛剛贏得了民主黨對手——“實際上是一項明智的政策” - 雅虎財經",
-          "summary": "川普的兒童帳戶剛剛贏得了民主黨競爭對手的支持——「實際上是一項明智的政策」 雅虎財經",
-          "source": "Google News Finance",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRVVaR185WTNydnF5U0RhRWRxckhwSjZXd3ZhbVd3YTlFdVlUZW5Lanh3Mlp2M3hoNkNPT1ZxZERMalZKRkJvVTJFQ2FQVFp6U21XZEl0eUF6ck92TjBTUS1QNk9wNmowWk9ubTl0UFAtanJQTmJTTTNENk8xS0NkN2xSLXZaZldhdFplUVRtbUllZG9TSGhDcS1B?oc=5",
-          "publishedAt": "Sat, 11 Jul 2026 20:31:40 GMT"
-        }
-      ]
-    },
-    "ai": {
-      "categoryName": "AI 相關新聞",
-      "articles": [
-        {
-          "title": "Binarly研究人員揭露開源開機載入程式U-Boot存在6個資安漏洞，大量伺服器、網路設備、物聯網設備均可能受到影響",
-          "summary": "專精韌體與軟體供應鏈安全的資安研究機構Binarly，7月初揭露開放原始碼開機載入程式（bootloader）U-Boot存在6個漏洞，當中兩個（BRLY-2026-037、BRLY-2026-038）可能導致任意程式碼執行，其餘4個漏洞（",
-          "source": "iThome",
-          "url": "https://www.ithome.com.tw/news/177240",
-          "publishedAt": "2026-07-12  01:07:48"
-        },
-        {
-          "title": "CISA將兩款Joolma兩款延伸套件列入KEV，要求聯邦機構7月13日完成修補",
-          "summary": "本週美國網路與基礎設施安全局（CISA）再度更新已遭利用漏洞清單（KEV），加入開放原始碼內容管理系統Joomla!兩款外掛套件的漏洞，分別是：iCagenda的CVE-2026-48939，以及Balbooa Forms的CVE-2026-56291，皆因CVSS嚴重度評分為10分漏洞出現遭到積極利用的活動，所以被列入K",
-          "source": "iThome",
-          "url": "https://www.ithome.com.tw/news/177238",
-          "publishedAt": "2026-07-11  06:07:46"
-        },
-        {
-          "title": "微軟打造AI視覺化中介語言Flint，以語意規格簡化圖表生成",
-          "summary": "微軟研究院發布開源視覺化中介語言Flint，讓AI代理程式以可由人員直接修改的規格描述圖表，再由編譯器自動補齊日期解析、座標軸、色階、標籤與版面配置等細節。Flint目前能將同一份規格轉換為Vega-Lite、Apache ECharts或Chart.js格式，降低AI直接產生完整圖表規格時容易出錯及難以維護的問題。",
-          "source": "iThome",
-          "url": "https://www.ithome.com.tw/news/177236",
-          "publishedAt": "2026-07-11  07:07:37"
-        },
-        {
-          "title": "Microsoft Defender零時差漏洞RoguePlanet修補出爐",
-          "summary": "從4月開始，外號為Nightmare Eclipse的研究人員Chaotic Eclipse陸續披露多個針對Microsoft Defender與Windows內建功能的零時差漏洞，而且是以漏洞利用的概念驗證程式發表，震撼整個資安領域，這些漏洞後續大多都已獲得修補，最近於6月上半揭露的RoguePlanet漏洞CVE-2026-50656",
-          "source": "iThome",
-          "url": "https://www.ithome.com.tw/news/177237",
-          "publishedAt": "2026-07-10  11:07:42"
-        },
-        {
-          "title": "【資安週報】0706~0709，漏洞從揭露到被利用的平均時間已驟降至兩小時",
-          "summary": "漏洞攻防態勢面臨結構性轉折，資安界頻頻引用「Zero Day Clock」網站最新數據，反映漏洞揭露到被利用的時間縮短至僅2小時，而近期Citrix、Adobe的漏洞，在揭露24小時、甚至2小時內，便被資安業者觀察到出現利用的攻擊活動，亦證實上述攻擊態勢。\n另有FatFs漏洞、中國騰達路由器後門的消息亦值得特別留意，皆存在研究人員或機構通報未得到回應，導致無修補程式可用的情形，突顯物聯網設備資安風",
-          "source": "iThome",
-          "url": "https://www.ithome.com.tw/news/177217",
-          "publishedAt": "2026-07-10  06:07:56"
-        },
-        {
-          "title": "OpenAI傳應用部門主管Fidji Simo下臺",
-          "summary": "華爾街日報報導，OpenAI應用部門執行長Fidji Simo將下臺，公司或將重新尋找繼任者。\n報導指出，Simo在內部公開信中說明，其病假超出原先預期，情況也更嚴重，因此她將辭去現任應用事業群執行長一職，轉為兼任顧問。她是於4月首度披露自己罹患神經免疫方面的疾病而必須請長假。",
-          "source": "iThome",
-          "url": "https://www.ithome.com.tw/news/177233",
-          "publishedAt": "2026-07-10  02:07:47"
-        },
-        {
-          "title": "Meta升級Muse Spark 1.1，強化代理人能力並首度開放Model API",
-          "summary": "Meta周四（7/9）發表Muse Spark 1.1，升級旗下由超級實驗室（Meta Superintelligence Labs，MSL）開發的首款模型Muse Spark，提升模型在代理人任務中的規畫、協調與執行能力，並強化工具使用、程式開發、電腦操作及多模態理解。目前Muse Spark 1.1已登上Meta AI App及meta.ai的Thinking模式，Meta亦首度釋出Meta ",
-          "source": "iThome",
-          "url": "https://www.ithome.com.tw/news/177231",
-          "publishedAt": "2026-07-10  02:07:02"
-        },
-        {
-          "title": "研究揭LLM攻擊新手法HalluSquatting，可誘使AI程式開發助理安裝惡意程式",
-          "summary": "以色列特拉維夫大學（Tel Aviv University）等研究人員揭露一種名為HalluSquatting的新型大型語言模型（LLM）攻擊手法。攻擊者可先找出LLM在查找儲存庫、AI代理技能（skill）等外部資源時容易編造出的錯誤名稱，搶先註冊這些名稱，藉此建立假資源，並植入對抗性提示內容；一旦AI程式開發助理拉取這些假資源，就可能執行攻擊者控制的指令。",
-          "source": "iThome",
-          "url": "https://www.ithome.com.tw/news/177230",
-          "publishedAt": "2026-07-10  12:07:54"
-        }
-      ]
-    },
-    "china": {
-      "categoryName": "大中華新聞",
-      "articles": [
-        {
-          "title": "美政要盼川普堅定立場遏陸侵台- 兩岸新聞- 旺報 - 中時新聞網",
-          "summary": "美政要盼川普堅定立場遏陸侵台- 兩岸新聞- 旺報  中時新聞網",
-          "source": "Google News 台灣兩岸",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAyV2dFVnFQS1kwMDkydlZQZUVwMndvMTZKTWZFZVd0OXhYSEZYQ2UyZjg3RFBPQmJSNktwWUFmY2xRN0JJYjVXRFl1UmhuVlhXN0dKSHEwTjBnejhFaWE4OVVmRVI1TUJYa1Q0?oc=5",
-          "publishedAt": "Sat, 11 Jul 2026 20:10:00 GMT"
-        },
-        {
-          "title": "兩岸媒體人探訪黔東南州 感知「村裡的國際範」 - 台灣民眾電子報",
-          "summary": "兩岸媒體人探訪黔東南州 感知「村裡的國際範」  台灣民眾電子報",
-          "source": "Google News 台灣兩岸",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5iM3EycHdUZ3Q2d3hZcTE1M2hnQWtiLWk1aVZUX0diOVlRbTZHd1l2V2Q2anE5MTk1SHNPV2YzWndhZzdxbmpFOQ?oc=5",
-          "publishedAt": "Sat, 11 Jul 2026 11:31:34 GMT"
-        },
-        {
-          "title": "台資銀行助力中部企業出海 海峽兩岸（武漢）金融懇談會促成多項合作 - 台灣民眾電子報",
-          "summary": "台資銀行助力中部企業出海 海峽兩岸（武漢）金融懇談會促成多項合作  台灣民眾電子報",
-          "source": "Google News 台灣兩岸",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE42R29YeEY5MVFtUlFUYXhZZTBDVHNNUTY4Z3JrV3hFVmE5MUdjcTBIbjBkZk5PWFJQbVhuVjdKN093WGgyb085cg?oc=5",
-          "publishedAt": "Sat, 11 Jul 2026 12:30:54 GMT"
-        },
-        {
-          "title": "熱浪席捲中國西安 動物園貓熊吃冰消暑萌樣曝光 | 民視新聞網 - LINE TODAY",
-          "summary": "熱浪席捲中國西安 動物園貓熊吃冰消暑萌樣曝光 | 民視新聞網  LINE TODAY",
-          "source": "Google News 中國",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5IeVV2SkFnUGQtVTNCd1lFN2lIQ3hqTXhSeHhmUFJtVUJYZm15SEpDNVR5THB0X0VSa2s0QUpzMDJiZXctRHJKcW85dnZmNXJZdWVPX2FB?oc=5",
-          "publishedAt": "Sat, 11 Jul 2026 15:05:30 GMT"
-        },
-        {
-          "title": "中國搞笑網紅「陳土豆」台灣爆紅，為何引「兩岸和平獎」vs「統戰」爭議？ - BBC",
-          "summary": "中國搞笑網紅「陳土豆」台灣爆紅，為何引「兩岸和平獎」vs「統戰」爭議？  BBC",
-          "source": "Google News 台灣兩岸",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9wZ1BOelJ2SlJ5WUUyS3JUYWpFS3l5bV9lRV9oM2Q0RXh0SllCU3l5bGF5eHdPSm9CdFdXQjhIa2RlOE5HTEpXcUduLWx1R3liYi00MW9GUHFpbVFqVVp1dkdTd2F1d9IBa0FVX3lxTE9WeDliMXBUMWxLaWtQZUNpeTNxOGlEVk9MZGdxR2YtZWVodm9XNkJVNVYySmdfUVh2Q2R4dXhLekhLVWo0cEQyQzV6RjVvbkgzSFRaMDVmejF2MkFqemVXZy1JbE56bGFwYW93?oc=5",
-          "publishedAt": "Thu, 09 Jul 2026 04:43:29 GMT"
-        },
-        {
-          "title": "社論／只此青綠 兩岸切不斷的文化臍帶 - 翻爆",
-          "summary": "社論／只此青綠 兩岸切不斷的文化臍帶  翻爆",
-          "source": "Google News 台灣兩岸",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5xS19vUVQ5U05aQWdhVUVzYUlNWDJ1b3R5bjNKLU1STnNDbFgySk91TFV1S25ORS1aSnRqek9rZlZsM0xCUE9Xa0QzdVh5bU0?oc=5",
-          "publishedAt": "Sat, 11 Jul 2026 10:02:33 GMT"
-        },
-        {
-          "title": "台灣人赴陸失聯、遭盤查案件快速攀升 陸委會警告公務員沒事不要去中國 - RFI",
-          "summary": "台灣人赴陸失聯、遭盤查案件快速攀升 陸委會警告公務員沒事不要去中國  RFI",
-          "source": "Google News 台灣兩岸",
-          "url": "https://news.google.com/rss/articles/CBMi4gNBVV95cUxPQU5fYWFGeU9Id0tuQWpDdTdadnN4X3pPc1lQOVNVaXc1ZklFUXRLZldLaWYtdHY0ZVkxemJuUnpmM0owaGFwWURTT2N1QmVscFRVaHh5MzM2MGhkZk01ZEdKV0NZR2hwMk5XS2xESzJkZU9KbXQ5RnI5bm9rbmU3a0NOdHl2WmFwRmhfdnRLSEdLU1hfQVBpYnljdVZfVmRReHMyTWpLLVg0NTlhNF9sZ3FBWERLSkZsb2RhRTZaMUlQRkE3RFdjV0lTS1huQ0k4OWUxNlRKTklSNmFuSS1BcmM3bWVMUGVWNlhCdGtUaVNpZlV5SjRUa2p5aTlNTlVMblV5WlBFSUpXRmx2M2xmaFpUQzgtNGhiSlRvSWllajV5cmlMaGI5cjRfdnJ0ZnBHcE8wbGpIdXVtTUVhby1WeXJpUkhJVFJGVllWLWpFVF9EaXlsR3MtaHA5RmlBaFVuWHpUSjluZzI0MzVvNWtndHlmeFBVWTNyNEF3N0xsQWVMdlE5dGZmRFFoRERFVkJURlBPRktnZmtjWnRZTUUxS25oNkF5Z2JnQkdlaHI1eVZldXpFVGROUVZnNWtxYjhVWVcxaGkxT0l2ZEo1ZktLTEpxUjFoUmkzdWd6MVpoR0VlZw?oc=5",
-          "publishedAt": "Fri, 10 Jul 2026 08:39:57 GMT"
-        },
-        {
-          "title": "從「路名相望」到「產業鏈共生」 海峽兩岸汽車產業交流會在漢舉行，台商在車穀年創產值近百億元 - 元丰傳媒",
-          "summary": "從「路名相望」到「產業鏈共生」 海峽兩岸汽車產業交流會在漢舉行，台商在車穀年創產值近百億元  元丰傳媒",
-          "source": "Google News 台灣兩岸",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9POUVCOGVDRFZ0Z2NTdHBfZVltV0o5aHE5dXpLNGYtREh4bWZHOW51UmhNYUNTeE1zVlFfWTF0bEdhbmRqMEd6a3p0ckZvcktpNlRQeWZVLUlvbVpVRl91S3VHNnhDRXRW?oc=5",
-          "publishedAt": "Sat, 11 Jul 2026 09:19:27 GMT"
-        }
-      ]
-    }
-  },
   "2026-07-13": {
     "hk": {
       "categoryName": "本地新聞（香港）",
@@ -27169,6 +26862,313 @@
           "source": "Google News 台灣兩岸",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPaXQyeDlnMU1HN3NXRkNJUEVQVFVKM3RfQnMtSDRmbkxnbHZjbTBGNUpTQVQ2ek9sbnlTOHNfR3c5ZTVfcWF5VHUyd2hUckhmZnBPTFpvZmdXTG1ua2gxQlRoSUs2Q1plOHZmSjUyb2N5YnlLNV80OHU4VzFjX29FbkxkaGRqSFF3d1E?oc=5",
           "publishedAt": "Sat, 03 Oct 2026 16:02:42 GMT"
+        }
+      ]
+    }
+  },
+  "2026-10-10": {
+    "hk": {
+      "categoryName": "本地新聞（香港）",
+      "articles": [
+        {
+          "title": "「證件刷兩次、行李過兩遍機」將成歷史皇崗口岸巨變展深港融合發展縮影- 香港 - 大公文匯網",
+          "summary": "「證件刷兩次、行李過兩遍機」將成歷史皇崗口岸巨變展深港融合發展縮影- 香港  大公文匯網",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5oOS05TXNuenFvUkVlcEdkZnNIcFM3NjA2RVU4V0lYTTdaNzdhRG5LVzZBYXV3WWQxZTZ2SmJCeGNZcE9IVWxLZHFwWmVNcW4tVkMyQk9ia3NNV3QyWkhoeHlLNkVoX0lvOWpTVWp0R1Y?oc=5",
+          "publishedAt": "Fri, 09 Oct 2026 23:11:44 GMT"
+        },
+        {
+          "title": "選委會選舉｜第三天接獲225份表格參選人：以專業所長推動香港經濟轉型- 香港 - 大公文匯網",
+          "summary": "選委會選舉｜第三天接獲225份表格參選人：以專業所長推動香港經濟轉型- 香港  大公文匯網",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE05UUhaUW9LRHM4ZV9xMkpsQlNpRTV6MmV0aU9LM3JHT0pLd1VlYkRubXZhcGtKOFJjVHRHaUFjcVk3X1lWR1dkTk1hQ0oybFcwM3V4R0hFaHRvdHhESThwVkpPd21ESzMzM3pWVlRJZHM?oc=5",
+          "publishedAt": "Fri, 09 Oct 2026 23:20:31 GMT"
+        },
+        {
+          "title": "愛達郵輪「花城號」 明年以香港為母港 - 信報網站",
+          "summary": "愛達郵輪「花城號」 明年以香港為母港  信報網站",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxOcERldl9PYm9FdzNwdDg5ZjJxenVGN1U0MXd3YmJ0R1dXTjRITU13VGo0TjVHdkxJQ01WVmJLWXVoMThRUUszZ2U2b0xpMWdVZUVLWDJCYl9ZTDdjT1FnWXhxUWFuQkRqYzFaTVVmcDI0RHpqSG94YWdCT3kwdV80V2RjeVRtOTZ0UkN5dFRUR3poSWlfWWFMcHFhMS1PMl9oUWZTRW9ZMTRTbm5zdXRtR0FxVkxkLWNhbjlsVHhidkllMTZrSGdaLUlTaU9OWU5DeFZpUjkycWpaS2dqTVNLcVd2b04tTGN5Qmc2YVhrWlBvbkM5R1V6ZmliQTF3NGlNN05NTzlNSk1lYkhPTWZEY044VW1la3kteUJzSkdmVkd4TlJFd1I3VEZJdThCYWhwTjBBYg?oc=5",
+          "publishedAt": "Fri, 09 Oct 2026 18:32:47 GMT"
+        },
+        {
+          "title": "香港政府新聞網- 細看皇崗口岸聯檢大樓設計亮點 - 香港政府新聞網",
+          "summary": "香港政府新聞網- 細看皇崗口岸聯檢大樓設計亮點  香港政府新聞網",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5xNUVTbzB2Z2Z4OUdxMW1SM1ZwdS1XR1R5MXhyVF9neGtMZ21vQUUxRjBWQ1dJS0c3b0ZYNUIwQUF6SVBlTHFJZWdXcUFHczREOTd4UVoxdmlGcDJNM3llU2p4Q2ZFMTYtQjVjOHlqNTFOYWIwaDhDZg?oc=5",
+          "publishedAt": "Fri, 09 Oct 2026 15:25:23 GMT"
+        },
+        {
+          "title": "皇崗口岸開通日實施人群管理措施 - 紫荊網",
+          "summary": "皇崗口岸開通日實施人群管理措施  紫荊網",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNSXBIMDBmamVLRGxRMHRsYTM2ZkhhZXVVWHpMeVpaWGEzdEpIZlBVRnNhNXI0anNYY2ZzQ0Vfc1lXbFZCUWw4eFZTaVJvTk5paU0wSWs4RldoeHN2YVh0eVpVMGd4TXBiS3NQOC05a21YcXdZNDUyZG1nTXBET3JzdENuaXBoU29LdkxDM09ycGw?oc=5",
+          "publishedAt": "Fri, 09 Oct 2026 12:59:59 GMT"
+        },
+        {
+          "title": "新皇崗口岸10·12正式開通交通出行全攻略- 香港 - 大公文匯網",
+          "summary": "新皇崗口岸10·12正式開通交通出行全攻略- 香港  大公文匯網",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0yWWRhS2NOdkt5VHMzTEd5Mmh6M2RqeFM0QllwV0lpYlZ0c0xqVHNUUnNOVUVIV0Zic1FuR1JxSVBjMWtfSTF0cm1iRlNEY3dHc3NjRjlKZVFnVmF4Q2VhZ1l5Mkd3VG1kUzlXcGhuN1k?oc=5",
+          "publishedAt": "Fri, 09 Oct 2026 12:45:23 GMT"
+        },
+        {
+          "title": "香港政府新聞網- 為屯門懷疑受虐女童安排臨時住宿 - 香港政府新聞網",
+          "summary": "香港政府新聞網- 為屯門懷疑受虐女童安排臨時住宿  香港政府新聞網",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1JcnQ2QjNIZWhuWVFjSURNNGF2dTk1d1FhWExkOU5OTjgzQjBTbm5kaUdLeVlzcnB6b0VWNXNMRTRybWRUSHVsRGZRWk9xVHUtNGMtT3VOOXIzNGowdnpkdnpINHRtUS1zUWhwaFBqX09QZDQ5X0Y1Mg?oc=5",
+          "publishedAt": "Fri, 09 Oct 2026 12:50:52 GMT"
+        },
+        {
+          "title": "香港特區政府強烈不滿和反對歐洲議會發表所謂歐中政治關係報告- 香港 - 大公文匯網",
+          "summary": "香港特區政府強烈不滿和反對歐洲議會發表所謂歐中政治關係報告- 香港  大公文匯網",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9nZmpIM2lXMlZYUU1PUEo5RDBNazdvR2hlS1JfWGhlLVQxa3NEZ281V010VTVxdUxFOEQ2ZDlHc0g1bE5EMmVTOVVBaUQxWExoUkxSQVVzSUdQMy1KQVVxamVlbUdEamc3VDZUbG9Rbm4?oc=5",
+          "publishedAt": "Fri, 09 Oct 2026 16:18:22 GMT"
+        }
+      ]
+    },
+    "world": {
+      "categoryName": "國際新聞",
+      "articles": [
+        {
+          "title": "川普宣布購買俄羅斯柴油，澤倫斯基批評“給普丁的禮物”",
+          "summary": "烏克蘭總統表示，允許俄羅斯出售石油產品將延長一場必須結束的戰爭。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Fri, 09 Oct 2026 21:54:28 GMT"
+        },
+        {
+          "title": "美國宣布對國際刑事法院實施制裁 法院譴責“對法治的攻擊”",
+          "summary": "包括英國在內的國際法庭的幾個成員國表示，他們「強烈不同意」制裁。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cj20vkkx3rdvo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Fri, 09 Oct 2026 18:40:10 GMT"
+        },
+        {
+          "title": "JD萬斯對行刑隊的執行表示懷疑，並表示他不會觀看",
+          "summary": "行刑隊計劃對尼達爾·哈桑執行死刑，這將是 60 多年來的首次軍事處決。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/ck20r39nl3qzo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Fri, 09 Oct 2026 21:50:47 GMT"
+        },
+        {
+          "title": "巴拿馬發生7.7級強烈地震，建築物受損",
+          "summary": "隨著破壞影片在網路上流傳，鄰國收到了海嘯警報。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c620r39zdp9wo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Fri, 09 Oct 2026 21:26:30 GMT"
+        },
+        {
+          "title": "三名男子因謀殺兩名澳洲衝浪兄弟和美國朋友而被判有罪",
+          "summary": "傑克·羅賓遜和卡勒姆·羅賓遜以及他們的朋友卡特·羅德的屍體在井底被發現。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cj5ynwnye009o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Fri, 09 Oct 2026 21:55:51 GMT"
+        },
+        {
+          "title": "評論家凱蒂·扎卡里亞被選為新任白宮新聞秘書",
+          "summary": "這位保守派評論員目前在川普媒體與科技集團擔任傳播顧問。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c5rmy73zr0rro?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Fri, 09 Oct 2026 22:41:21 GMT"
+        },
+        {
+          "title": "泰國王后首次單獨駕駛戰鬥機飛行",
+          "summary": "據泰國王室稱，泰國王后蘇提達首次獨自駕駛戰鬥機飛行。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/videos/cqm263x40y37o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Fri, 09 Oct 2026 19:48:26 GMT"
+        },
+        {
+          "title": "诺贝尔和平奖：巴黎赞扬纳维·皮莱对国际刑事司法事业的“贡献”",
+          "summary": "10月9日，法国对纳维·皮莱（Navi Pillay）荣获诺贝尔和平奖表示欢迎，称这是对这位法学家致力于国际刑事司法事业的“嘉奖”，她“体现了争取平等和尊重基本权利的斗争精神”。",
+          "source": "RFI 法廣",
+          "url": "https://www.rfi.fr/cn/%E6%B3%95%E5%9B%BD/20261009-%E8%AF%BA%E8%B4%9D%E5%B0%94%E5%92%8C%E5%B9%B3%E5%A5%96-%E5%B7%B4%E9%BB%8E%E8%B5%9E%E6%89%AC%E7%BA%B3%E7%BB%B4%C2%B7%E7%9A%AE%E8%8E%B1%E5%AF%B9%E5%9B%BD%E9%99%85%E5%88%91%E4%BA%8B%E5%8F%B8%E6%B3%95%E4%BA%8B%E4%B8%9A%E7%9A%84-%E8%B4%A1%E7%8C%AE",
+          "publishedAt": "Fri, 09 Oct 2026 20:49:29 GMT"
+        }
+      ]
+    },
+    "finance": {
+      "categoryName": "財經新聞",
+      "articles": [
+        {
+          "title": "美股小紅作收！道瓊漲423點 台積電ADR逆勢跌 - 壹蘋新聞網",
+          "summary": "美股小紅作收！道瓊漲423點 台積電ADR逆勢跌  壹蘋新聞網",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQS3l1ZDBNclY5UUFCYWhySnhlaGQ0WTRlU05MNTFJWXNLZm5XRXhXaXZpd2owR05pRXhoMEJsbU1yS1VvRXNyQkhXMXlVdU8tRjJnWHhPS0ktaGxvcXI3V1ZfTDFWbS04VkJfU1lNUDVvc2ZkUklmV2tNeTM5WWRQMlJ3?oc=5",
+          "publishedAt": "Fri, 09 Oct 2026 23:16:00 GMT"
+        },
+        {
+          "title": "iPhone 18 Pro傳砍單至少15% 記憶體漲價衝擊買氣 - 壹蘋新聞網",
+          "summary": "iPhone 18 Pro傳砍單至少15% 記憶體漲價衝擊買氣  壹蘋新聞網",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQd1pnamxELTNLb1VlRnFYZWgyalpoZGdpeDB1SVRCMC1UbzgtbWF1cGNUb25ubUdFQVd1T2VlR281RkZvNGN3aXdLNVJLcFZjVmVrR3JtX3BVRnFuYUU5RzR2TE54QVJTcFRyZy1EV0IzVzNaSFRVSm9EYTd1bklNSm5n?oc=5",
+          "publishedAt": "Fri, 09 Oct 2026 16:05:00 GMT"
+        },
+        {
+          "title": "我的姐夫说服他的父母签下他们的房屋和毕生积蓄购买价值 300 万美元的大院。我幹預嗎？",
+          "summary": "“這兩處房產都將完全在他的名下。”",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/my-brother-in-law-convinced-his-parents-to-sign-over-their-home-and-savings-to-buy-a-3-million-compound-do-i-intervene-03fb96b7?mod=mw_rss_topstories",
+          "publishedAt": "Fri, 09 Oct 2026 23:15:00 GMT"
+        },
+        {
+          "title": "如何在不支付佣金的情況下提供有保障的退休收入",
+          "summary": "與股票市場不同，股票市場的未來回報絕對有保障， TIPS階梯的支出是有保證的。",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/how-to-provide-guaranteed-retirement-income-while-paying-no-commissions-b2085511?mod=mw_rss_topstories",
+          "publishedAt": "Fri, 09 Oct 2026 22:41:00 GMT"
+        },
+        {
+          "title": "川普在中期選舉前利用俄羅斯增加全球柴油供應。策略師表示，這可能「太少、太晚」。",
+          "summary": "特朗普政府已徵召俄羅斯幫助增加美國和全球柴油供應，以努力在11月美國中期選舉之前降低柴油價格。",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/trump-taps-russia-to-boost-global-diesel-supplies-ahead-of-midterms-it-may-be-too-little-too-late-says-strategist-8c789030?mod=mw_rss_topstories",
+          "publishedAt": "Fri, 09 Oct 2026 22:00:00 GMT"
+        },
+        {
+          "title": "iPhone 18 需求降溫了嗎？據報道，蘋果削減零件訂單的程度如下。",
+          "summary": "根據《日經亞洲》報道，10 月 iPhone 18 Pro 和 iPhone 18 Pro Max 的零件訂單下降了約 15%。",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/is-iphone-18-demand-cooling-off-heres-how-deep-apple-reportedly-is-cutting-component-orders-a44244ee?mod=mw_rss_topstories",
+          "publishedAt": "Fri, 09 Oct 2026 21:30:00 GMT"
+        },
+        {
+          "title": "儘管投資者對 OpenAI 的一個關鍵問題有了清晰的認識，但 AI 晶片股票仍出現波動",
+          "summary": "一份新的報告以更樂觀的角度描述了OpenAI的財務狀況。",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/nvidia-and-micron-shares-bounce-as-investors-get-clarity-on-a-key-openai-matter-ba76ed20?mod=mw_rss_topstories",
+          "publishedAt": "Fri, 09 Oct 2026 21:27:00 GMT"
+        },
+        {
+          "title": "微軟正接近一個鞏固其復興的重要里程碑",
+          "summary": "微軟市值即將重回 4 兆美元，而且新紀錄也即將到來。",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/microsoft-is-nearing-a-big-milestone-that-solidifies-its-revival-580d1ba8?mod=mw_rss_topstories",
+          "publishedAt": "Fri, 09 Oct 2026 21:24:00 GMT"
+        }
+      ]
+    },
+    "ai": {
+      "categoryName": "AI 相關新聞",
+      "articles": [
+        {
+          "title": "當威脅情報只剩大量數據，企業該相信什麼？",
+          "summary": "生成式AI降低了偵察、釣魚郵件撰寫及部分程式開發工作的門檻，使攻擊者得以更快、更大量地展開行動，企業導入模型、資料集、套件與AI工具後，擴大了軟體及AI供應鏈的風險。\n這兩股力量交織之下，企業面對的不再是單一威脅，而是速度與範圍同時擴張的攻擊環境。卡巴斯基臺灣技術總監謝長軒指出，AI能大量產出資料，決定防禦成敗的關鍵，不是誰握有最多預警訊號，而是誰能把海量資料轉化為可以立即行動的情報。\n他認為，好",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/179529",
+          "publishedAt": "2026-10-09  12:10:00"
+        },
+        {
+          "title": "美國亞利桑那州最高法院系統遭釣魚攻擊，逾百萬人個資外洩",
+          "summary": "美國亞利桑納州上周公告內部系統遭到網路釣魚攻擊，導致法院資料被駭客竊取，影響將近130萬人。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/179559",
+          "publishedAt": "2026-10-09  06:10:58"
+        },
+        {
+          "title": "惡意程式PoeLLM利用GitHub上英文詩取得C2位址，入侵逾3,400臺伺服器",
+          "summary": "美國電信業者Lumen旗下資安研究團隊Black Lotus Labs揭露PoeLLM惡意程式攻擊行動，至少從今年4月起鎖定對外開放的AI及開源服務，累計入侵超過3,400臺伺服器。遭入侵的主機被用於加密貨幣挖礦，也會掃描及攻擊其他系統。\nPoeLLM還利用存放在GitHub儲存庫中的英文詩取得指揮與控制（C2）伺服器位址，駭客只要修改詩中的關鍵字，就能讓受害主機連上新的控制伺服器。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/179558",
+          "publishedAt": "2026-10-09  06:10:06"
+        },
+        {
+          "title": "美國EY資料外洩波及高盛、英仕曼集團客戶",
+          "summary": "根據金融時報（Financial Times）報導，會計及顧問服務業者美國EY今年春天發生的資料外洩事件，已波及高盛（Goldman Sachs）、英國投資業者英仕曼集團（Man Group），以及房地產開發與投資業者鐵獅門（Tishman Speyer）的客戶。部分客戶的個人及財務資料因此外洩。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/179557",
+          "publishedAt": "2026-10-09  04:10:16"
+        },
+        {
+          "title": "Anthropic明文禁止使用者持續辱罵Claude，違規可能遭終止對話",
+          "summary": "Anthropic周四（10/8）宣布更新Claude使用政策，首度明文禁止使用者持續且無必要地辱罵、虐待或殘酷對待AI模型。新規定將於11月12日生效，主要針對反覆惡意對待Claude、且沒有明確目的的極端情況，違規者可能遭Claude主動終止對話。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/179555",
+          "publishedAt": "2026-10-09  02:10:32"
+        },
+        {
+          "title": "Google Gemini Agent可建立企業AI同事，獨立帳號參與Chat與文件協作",
+          "summary": "Google在Gemini at Work 2026大會發表企業通用AI代理Gemini Agent，可在Gmail、Google雲端硬碟、文件、試算表與日曆等Workspace服務間執行工作。使用者只要提出任務目標，Gemini就能規畫步驟、使用工具並產出文件、簡報或程式碼。Google也公布同事代理（Coworker Agent）功能，企業可建立具有獨立Workspace帳號的AI代理，以團隊",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/179552",
+          "publishedAt": "2026-10-09  02:10:02"
+        },
+        {
+          "title": "Google公布能在本地運作的AI會議筆記App",
+          "summary": "Google上周公布一款類似知名AI會議筆記軟體Granola的應用程式Google AI Edge Foresight，可讓用戶在本地端製作視訊會議筆記。\n這款應用程式是以不久前才公布的7.4億參數邊緣AI模型Google EmbeddingGemma 2為底層引擎，後者可部署在手機、筆電等裝置，能處理文字、程式碼、圖片、影片與音訊，可以文字搜尋圖片或影片片段，也能理解音訊並尋找內容相近的影音。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/179554",
+          "publishedAt": "2026-10-09  02:10:29"
+        },
+        {
+          "title": "網頁版及Windows Outlook 11月將封鎖MSIX附件",
+          "summary": "微軟上周通知IT管理員，Windows桌機版及網頁版Outlook從11月將預設封鎖MSIX格式附件，以提供安全性。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/179553",
+          "publishedAt": "2026-10-09  01:10:43"
+        }
+      ]
+    },
+    "china": {
+      "categoryName": "大中華新聞",
+      "articles": [
+        {
+          "title": "兩岸繼承｜大陸親人繼承台灣遺產 3年期限、200萬上限、不動產限制一次看 - Yahoo股市",
+          "summary": "兩岸繼承｜大陸親人繼承台灣遺產 3年期限、200萬上限、不動產限制一次看  Yahoo股市",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMi1gNBVV95cUxNSThaWEIwMHprUF9NaWNYRnJBeGI4Y1d0VGU4X0lOSDRFQk5DeXdSamZjdDZjRmpwWnpJTWFyU3ZyLWV5WWlJTzk5elVNTTd2N2JrcDdmTG9qc01FTW1Zbm5UNzFRd3IxcjNZWlBFS1JhbkRsYldoaW5XOGVUQ0hGMEJYR2U2RXVTM2V6MHNJY1kxcWMzLTVsb0FJMlFMeVZENkN3WFRuLUxEWHRsMDYxd2tHbkdDa1ZQaXZPUHNVU2lGNUN4OUVOX005WnVUcDYxYUxaX1JTZ09mSFlIZ1VkVnRPaElOOU40THk4MVNkYUhENXVRMzZkblNUNkNldndYQkFOSFgzeGg5WktIeEdOUWFPQ244bUZnbGwxYnRUTWtyVmwxY3pZY2xuTG5FVUtaa2ZZa3BKS3pib0NCTkF2VTNTQUlwV2x5eHZ2NE01Tm56TkJfQ2hnd1NFSHV0cDlIa0ZBV0p2TFV4MlFJSTB6UF83eUt4TTdVOGEtQ01GMVVzT1RERjVFQml5LVpCLTA5TkdUaGxIVWJDNU8yVkpZWm5KbWRUdmxxMlJyRC1SREE1dXBoUWRrRlM4bF8yaHdNSEtpU2djcDlnQjVpMTNnckV6bG1Mdw?oc=5",
+          "publishedAt": "Fri, 09 Oct 2026 23:36:00 GMT"
+        },
+        {
+          "title": "自由廣場》逆轉勝的影響／「洋流」衝擊首都 牽動兩岸與大選棋局 - 自由評論網",
+          "summary": "自由廣場》逆轉勝的影響／「洋流」衝擊首都 牽動兩岸與大選棋局  自由評論網",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE52Rjk2MzFQcjhOQlczT1ZHWEdCLTRpLVpDS1MycTQyTHptMUFDa0ZjUV9qVnl0alY1bVI2QjI1R29VSjhnVkp1YUFNeXZuWVlVUmh6WGFPVTLSAV5BVV95cUxOa1RwRzRTeGNkNVdqR25FMi1lbFFYYlgwTWhiRTlEaW9ScnJiWXNJTUU1ZjNNLTREQTBMaFZZQVFsdlNCd0NIckRlUTA3T0pNTm1FZnlJVHlHRWZqLVZR?oc=5",
+          "publishedAt": "Fri, 09 Oct 2026 21:30:00 GMT"
+        },
+        {
+          "title": "處理兩岸關係心法？蔡英文：克制不等同軟弱 著眼於避免誤判 - 中天新聞網",
+          "summary": "處理兩岸關係心法？蔡英文：克制不等同軟弱 著眼於避免誤判  中天新聞網",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5WQzFUN1FEV1hZY3dvdEw0ZHFvOThDOFlCNFlqc3JvcVNXamZWTG9GWkg5ZVc3SElnVUxxa2ViaHR0SUszSEdJLTRCVkUwWXBOcl9R?oc=5",
+          "publishedAt": "Fri, 09 Oct 2026 23:37:10 GMT"
+        },
+        {
+          "title": "兩岸關係 蔡英文籲領導者克制 - 中時新聞網",
+          "summary": "兩岸關係 蔡英文籲領導者克制  中時新聞網",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBGN2l0V2oxQTdQc2J4WUtORGNKZFpSVDFESE9laEtvN1VEVXJza21XNHgyalZwZUIyOVFnbVpIaFhOZXBnY3dCeHIxQXc5YUhfbjV6aVhtS3NwS2M2dHBzY1doWHVDWWVBbUNv?oc=5",
+          "publishedAt": "Fri, 09 Oct 2026 20:10:00 GMT"
+        },
+        {
+          "title": "蔡英文談兩岸：避免不必要挑釁克制不應被誤解為軟弱| 政治 - 中央社 CNA",
+          "summary": "蔡英文談兩岸：避免不必要挑釁克制不應被誤解為軟弱| 政治  中央社 CNA",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBsaXNVajJVSF90RDNQM2VDM1dGN29UUFRQc3ptSHFDS3pzME1DdzZYUTZlWnVOcEllWWpIMG5XNkdXamNjQlZKeGNFMWdrVHAtSmMtaWJDdkw2anhwYU80?oc=5",
+          "publishedAt": "Fri, 09 Oct 2026 12:45:00 GMT"
+        },
+        {
+          "title": "[中國新聞]新疆獨庫公路實施冬季封閉 - 央视网",
+          "summary": "[中國新聞]新疆獨庫公路實施冬季封閉  央视网",
+          "source": "Google News 中國",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUUk4S2JpYVdsSk45TF9LYlBkZ250LVEwbnppQVA5blJlcmlCOVpBSXdhVTBzU3FscENGcVNKc3pfcWRIVE0tVnY3dlZra1R4NWhGcTNHSWxKSF9VNjU0TU5qclFfTlNoNnMyamFBUEJsYWF2TGR0Mlg3eGk3VmdVc0xxMGVuQU5fNmR0UjRxTHo1bzZO?oc=5",
+          "publishedAt": "Fri, 09 Oct 2026 12:01:04 GMT"
+        },
+        {
+          "title": "稱對台承諾是美最大負擔 美學者籲放棄保台：兩岸和統不違台灣關係法 - UDN",
+          "summary": "稱對台承諾是美最大負擔 美學者籲放棄保台：兩岸和統不違台灣關係法  UDN",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1TWV9fbVp3RjdvREZkR3Y4a2xKTEdWN3BtZTcwZ050VkhqUVV3SjhRSVhyZVZzUkFtWEozakZOQ0pCNUVrekt4OGF3NFlIVU1j0gFWQVVfeXFMT3BYNlBkVkY2UGJEWEQ4YXFkckgyX0V4VjdubW05U3RRT1VvU2RVZWdUc3czZ0tIb3lUZFpuU2tmSjBYRzgwZWN5SE1VeVpqNHp3ZHhHYmc?oc=5",
+          "publishedAt": "Wed, 07 Oct 2026 07:42:10 GMT"
+        },
+        {
+          "title": "再拋震撼彈！兩岸和平統一不違《台灣關係法》 卡瓦納：為台開戰對美才是最大威脅 - PChome Online 新聞",
+          "summary": "再拋震撼彈！兩岸和平統一不違《台灣關係法》 卡瓦納：為台開戰對美才是最大威脅  PChome Online 新聞",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZTllOWsxLTg1YjFQY0JkdHNUN09jbUxsV09iemkxN0RES1g1RVNjRUhhSGpKdFEzYUxhb3IxV0thZXp0N2dZM05qRHpqU3c4MDdFYTVkVTVzcVBJTk5qWF94SFdlSk5VU2NGR0xxVVg2RmFWSzFfeUxzWjBPMUZQV2gzMW5ZbWxq?oc=5",
+          "publishedAt": "Thu, 08 Oct 2026 08:20:00 GMT"
         }
       ]
     }
