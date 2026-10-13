@@ -1,311 +1,4 @@
 {
-  "2026-07-16": {
-    "hk": {
-      "categoryName": "本地新聞（香港）",
-      "articles": [
-        {
-          "title": "現貨黃金報4060.07 | 即時新聞 - 新聞 - etnet 經濟通",
-          "summary": "現貨黃金報4060.07 | 即時新聞 - 新聞  etnet 經濟通",
-          "source": "Google News HK",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQN0ZDbDkyME10RE9rLWRlNDY2NzZTLTN1WXB4WjNRYXl6X00xSGVrVUYxR0MtSHhRd1oxM1V5aHprYnhjMTd3S1A3YU92MXQyQXZpdkRrSWRJV0JPR1JTWkNxU0ttR1BhVzc2OW1XR3VRNkpQUnI2NUhwdHp2ZnQyRHQ3U0dyRmVCd1RsTGloeEFhOHk0WEp0S240cTlDeFNi?oc=5",
-          "publishedAt": "Wed, 15 Jul 2026 21:01:13 GMT"
-        },
-        {
-          "title": "恒指夜期丨收報24829 高水148點 - 信報網站",
-          "summary": "恒指夜期丨收報24829 高水148點  信報網站",
-          "source": "Google News HK",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPbnNsdS1rT0F0OFJHdVdmbTZ4S0FERHBiTmZ5b0M0ZS05cUVsQ2VLZVhsdU5jZjNNWGZuT0RuT2NFR2J6ZzBza1Atc244cmQtc2dtVFBKWTlndmdXZF9ZQ2h6Z1Q4MVQwM0tXdUx1bXF4TWZlZUhIRUVEeC1VMGFkXzNRLXlNOXVLejFVZWdVMjEtaGdnQ2ZvMkR5Z0ExLWU3N1Fwa0tNVUphS2hHdlJGSDVnam9CZ2xXLXZmaXZnNVNSamtmSE5rZFJ5Ums2S1h6X3RjLW0tM1RaQ0VTSVdGX0VvNmZzaG1Fa1E?oc=5",
-          "publishedAt": "Wed, 15 Jul 2026 19:32:49 GMT"
-        },
-        {
-          "title": "【Emily】部分品種香港原生 生機處處2．0郵品今起售 - 20260716 - 港聞 - 明報新聞網",
-          "summary": "【Emily】部分品種香港原生 生機處處2．0郵品今起售 - 20260716 - 港聞  明報新聞網",
-          "source": "Google News HK",
-          "url": "https://news.google.com/rss/articles/CBMi_wJBVV95cUxOQ215RXJmUkpwUkhYNjU5bVJ4LXJZdWxxbS15WnV3OVVQUzZjUjRWMXNGMXJIWjgwcU1ZVWpYc0xTRXR2SFFsdlpmVHMtZ3RpUEJ2QVNCM3JuZVlWYV9FR0pmc2daWmtfTW9VYng2VHVjdy05emU1aENQLVdmRHdnTk05aVdKTXRvVV84eWZjbTBuUmdUbFhwU3AzT3pVVkVkckIzN2piMTlSVVRuQWItSUU0MEM1TDlrRWp3OGQ3LTNZdzRTdTY1QWhuYUkzU1U1eVJ2TzNNQXRyaEIyaF9EbnlUTzNmVEhjUUR3RzFLbnpQQ2JtX0dKc25hU2ZvTlhka1hDZmxRZ2tMSzBCaDBRSXVxREFGN2ZfRl84ZjRYWGozeXBLQlUydWVkRWxCNnRUanNwTUlsUHVFdm5KbVZFMzFlYlBiTEdWNWstYVotNE0zZHlaQ0hnQlVycVJxWGVLRG9sQnJka0x3T3lkUzhiUlN4Vm5UOTVLMjc0V0dDNA?oc=5",
-          "publishedAt": "Wed, 15 Jul 2026 20:30:00 GMT"
-        },
-        {
-          "title": "燃油附加費｜香港快運明起下調費用 香港飛內地以外來回減至241元 - i-cable.com",
-          "summary": "燃油附加費｜香港快運明起下調費用 香港飛內地以外來回減至241元  i-cable.com",
-          "source": "Google News HK",
-          "url": "https://news.google.com/rss/articles/CBMi6gJBVV95cUxOeUlQN0UtZ0RRR21JamRxSlJacC00Ukw3YkFJckFaZVJfak5EV2NuOVZkcUFOSm9QRkZZYjZBUEZrd05WdkswVGFHM1VBR3VNcEdJWXN5WUpWc1QtSzI0eUF5dVhENHNuMGxBUFVjYWRJaHg4SGVwWE5lSENtQkZmR1dUTkR6SDFpcEtjZElaZkVNQ09sb1RqNXd6WEV0OUlyTnlTcExkUnVadE56X3FGZlIzNVd5YjJ6cVlhZU9NOFMydVpIWnp1ckwxQmtqQ0J3MkNBcVNzZ3JodlhTeV8tSEtMNFAtNmtCR3d0UmM0Z0dWQjVQRjNtd29GYklHVTZlV2pLcU9SaVpRUmVuZU9YVVA1aFZoT0QtUlpVVUNYSWMxSk9CRWo3VGpfRmZZdDFIU0s0eGhxVkNRcnA1ZG9fM09TemdrZDZyb1Q5bV9vM3dueDlrOXVrbXRDTUEwZlhiVm5jdVFhLTdHQQ?oc=5",
-          "publishedAt": "Wed, 15 Jul 2026 12:37:08 GMT"
-        },
-        {
-          "title": "香港國際機場去年度客運量增15% - 信報網站",
-          "summary": "香港國際機場去年度客運量增15%  信報網站",
-          "source": "Google News HK",
-          "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPM1Q2UC0tUFl0aE1CY1dZbkxuQmFTbkZQdlpjWkRMbkN3NC1Oc00wYXBLbmwxT3VrUFFDeGg0WXo1RVFDR0kydUk0ZlJhcU1rZ09aVk4wRlAxVDBUVHpVZjFSUWhtR3A3REFkMTVxMnhfRlMtZHl6ZDZuNmd2UGJqamVFUWxwZDQyVlB4c1BKYWlIRDVhU1RyX3pURkdqSG5fT2g4WXFGZ0FpdE9pY2hJSjhieFlmbGp5TkFQLWhOcHQ0WlhpbnYwMUNHdW5pU21nOTVNOXBIWmVJVGdBSnBsU1cwR0JseUtpQ1NNcm01NzVwTWxTdk1wdS00QzNRUUgyMHhBY0NOdnpWdzNa?oc=5",
-          "publishedAt": "Wed, 15 Jul 2026 15:30:56 GMT"
-        },
-        {
-          "title": "一連七日香港書展開幕 有參與展商對銷情樂觀 - RTHK News",
-          "summary": "一連七日香港書展開幕 有參與展商對銷情樂觀  RTHK News",
-          "source": "Google News HK",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5CS29BcG9jZEgtZ1NGalBrSF9Gcm42M1NoeVZFamdFU2NBWVBpTHdEanVGRFVwRUhwazVsdk9MM1VHN2tubXpET0oxaXNPNmZHclBWSWpwTEdQby1wR1BuejRQckZMSlBvTWtjVzRuOA?oc=5",
-          "publishedAt": "Wed, 15 Jul 2026 14:40:00 GMT"
-        },
-        {
-          "title": "文創處資助業界在第三十六屆香港書展推廣香港閱讀文化（附圖） - info.gov.hk",
-          "summary": "文創處資助業界在第三十六屆香港書展推廣香港閱讀文化（附圖）  info.gov.hk",
-          "source": "Google News HK",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE8waUhRb3ZFeWFDNDlUWTI0SDNlTC1LR3BKeFg1N2tVQlRhcDhzTkN4V2t6aUJEUXhncWlWZFk1LTNWaVc4UlJoZDFFVVNaNTBDQmhMZ18tZ3paWTVlR1ZJS2V4UHc1MHJYWDJSRDdRYUVVQQ?oc=5",
-          "publishedAt": "Wed, 15 Jul 2026 13:31:54 GMT"
-        },
-        {
-          "title": "香港再有書店遭國安處搜查 拘5男女檢取涉案煽動書籍 - RFI",
-          "summary": "香港再有書店遭國安處搜查 拘5男女檢取涉案煽動書籍  RFI",
-          "source": "Google News HK",
-          "url": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxOT2pyS1g3VWQ5R0hVWk1OYmRzVm1ndGpPT3UzMkVwQXhnQy1ONV9UekNpMkwtQktSa0ZqX2RTUkxaQzgxb3UwUFhtaVBQWHlFay03bUx0X2FYeUFUNnBiczNfVVlJdXoxZ1k3V2ZxTlNFM05VZ1AxZ3BMYk9uTzlGaTlkLTBpQlluLXUxeFdZOVFZOTlLU2xpNTVORVJzajQzQzl5M0s1cF9lLVltOFBtTF9zaVlOb0dleUN3VlZyMjN0S2lxRGNjRDNjTVZUWDNjd3JsNTFicmZTV0lwckdPRTJSWThpT1V5Wnk4SDRLN1YtbWdTSTZjODBackUzWnU3MjJhMzN2LUJTR1JmSWZrU0F0bDRZaldjN3NNNWxpaUJmcHZxOE5Cc2hqbXNVTUUyZGFrU0o1MmhVZXc0UnI5TXgxcmtHNGdnekg5UTNhX1Z6M0hiSE9QTGpQelVQQzUwOTV3MFEydktENndwcktXM21ZaWpOdw?oc=5",
-          "publishedAt": "Wed, 15 Jul 2026 16:06:02 GMT"
-        }
-      ]
-    },
-    "world": {
-      "categoryName": "國際新聞",
-      "articles": [
-        {
-          "title": "經過多年爭論，法國國會議員批准了有嚴格規定的安樂死法",
-          "summary": "該法案將允許符合嚴格標準的末期成年人接受輔助死亡。",
-          "source": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/cvg7g2z4pv3o?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "Wed, 15 Jul 2026 17:29:26 GMT"
-        },
-        {
-          "title": "川普警告德黑蘭“表現得更好”，美國對伊朗發動新的打擊",
-          "summary": "美國總統川普表示，他尚未決定是否「消滅」伊朗。",
-          "source": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/c9323zgq6wvo?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "Wed, 15 Jul 2026 21:55:04 GMT"
-        },
-        {
-          "title": "阿根廷在半決賽中因福克蘭群島旗幟而面臨罰款",
-          "summary": "阿根廷球員在世界盃半決賽戰勝英格蘭隊時舉起支持阿根廷對福克蘭群島主權的橫幅慶祝，因此面臨國際足總的罰款。",
-          "source": "BBC World",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c935pgr4dklo?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "Wed, 15 Jul 2026 22:49:47 GMT"
-        },
-        {
-          "title": "皮尤研究中心顯示，現在世界上越來越多的人支持中國而不是美國",
-          "summary": "美國智庫的調查顯示，人們對習近平的信心比對唐納川普的信心更高。",
-          "source": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/cd959q11g54o?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "Wed, 15 Jul 2026 17:02:41 GMT"
-        },
-        {
-          "title": "赫格斯說，美國軍方將開始睪固酮測試",
-          "summary": "赫格斯在影片中說：“我們應該為我們的戰士提供世界上絕對最好的醫療服務，這個計劃履行了這一義務。”",
-          "source": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/cn0nlx18rz0o?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "Wed, 15 Jul 2026 22:46:02 GMT"
-        },
-        {
-          "title": "烏克蘭襲擊黑海油輪 俄羅斯襲擊造成14人死亡",
-          "summary": "據報道，烏克蘭多個地區有平民傷亡，而基輔則在黑海擊中了 20 艘俄羅斯船隻。",
-          "source": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/c8929jv8kdzo?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "Wed, 15 Jul 2026 21:21:19 GMT"
-        },
-        {
-          "title": "如果布魯伊說的是世界上最古老的語言之一呢？",
-          "summary": "這部獲獎兒童動畫片的五集首次以澳洲原住民語言發行。",
-          "source": "BBC World",
-          "url": "https://www.bbc.co.uk/news/videos/c07y7r91vz9o?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "Wed, 15 Jul 2026 18:07:05 GMT"
-        },
-        {
-          "title": "美国男性军人身体里有多少睾酮 ？美国国防部长说，到30岁就得查",
-          "summary": "美国男性军人身体里有多少睾酮 ？美国国防部长说，到30岁就得查。 皮特·赫格塞思周三宣布，作为年度健康检查的一个项目，30岁及以上的美国军人将接受睾酮缺乏症检测。赫格塞思在社交平台X上发布的一段视频， 配文中，他写道：“高睾酮（High-T）战争部”。",
-          "source": "RFI 法廣",
-          "url": "https://www.rfi.fr/cn/%E5%9B%BD%E9%99%85/20260715-%E7%BE%8E%E5%9B%BD%E7%94%B7%E6%80%A7%E5%86%9B%E4%BA%BA%E8%BA%AB%E4%BD%93%E9%87%8C%E6%9C%89%E5%A4%9A%E5%B0%91%E7%9D%BE%E9%85%AE-%E7%BE%8E%E5%9B%BD%E5%9B%BD%E9%98%B2%E9%83%A8%E9%95%BF%E8%AF%B4%EF%BC%8C%E5%88%B030%E5%B2%81%E5%B0%B1%E5%BE%97%E6%9F%A5",
-          "publishedAt": "Wed, 15 Jul 2026 21:42:10 GMT"
-        }
-      ]
-    },
-    "finance": {
-      "categoryName": "財經新聞",
-      "articles": [
-        {
-          "title": "牛市要變天了？外媒驚爆「5大致命警訊」齊發 - Yahoo股市",
-          "summary": "牛市要變天了？外媒驚爆「5大致命警訊」齊發  Yahoo股市",
-          "source": "Google News 財經",
-          "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxQN1A0VnZRQUlobWVOMExwbkFva1Bkdm5pRmRnMjNjV1hydGJINVk1UV9lckN5R1ZKb0gtTFQ3a2JnRXhOcUN3akUzVjhNVG9HclFVY1BtSENzZHBLRlVEblZBbmZTd21XS2tvek5HZkFSQWpwbk9HcDgxZkExb245Y0x6UWVEbDZHSjRxaDJEWUFFUDFTS0M4SzJsOVJTNWVtZERBMVVIbFRmUVExWXhjVm9nUFpoRmVyV0pjX1FTX0U2NVJlMWtEaGNmOEFnamVPdWRoS2xucDBhd0d0MkZtc1JzN2lhbUp4TFRuQ19GVjR4TnV6MHE4ZUpYRjNNbWlfOFRUei14b05laTdINmxsM2g5MTdDcmZzU1NiaklfdURRLTFmRGs4dlFEYTE?oc=5",
-          "publishedAt": "Wed, 15 Jul 2026 21:55:59 GMT"
-        },
-        {
-          "title": "巴菲特：當前股市越來越像賭場 很難找到「價值」 - 世界新聞網",
-          "summary": "巴菲特：當前股市越來越像賭場 很難找到「價值」  世界新聞網",
-          "source": "Google News 財經",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE01c3ByMzR3RHB3Y2dvMnNXbFlNbDQ3MnUxQTVKR0ZtdUlHbXA0VGRtUGRfY3ZZM2hlZU5FT3l6MUJuQTZURE1xYjh5SUl3TnhZcHpXMzVmTXdoU1o2bmlaSE1B0gFnQVVfeXFMT1FMQzdZMXZhNThEVWd4dmtUMEkwWlhMSVRoakhuX0lnZVR1Sm1qMUVHM3hjR190QXJJSEpRVm9TeVJ5UzhEWkdBMkdGVG5jZUx4LVRTMzNTV2xPeEF0X1BKY3Ezb0RhRQ?oc=5",
-          "publishedAt": "Wed, 15 Jul 2026 19:30:50 GMT"
-        },
-        {
-          "title": "通膨降溫激勵美股收高！費半獨跌逾2% 台積電ADR小跌 - 壹蘋新聞網",
-          "summary": "通膨降溫激勵美股收高！費半獨跌逾2% 台積電ADR小跌  壹蘋新聞網",
-          "source": "Google News 財經",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNOHZpZnB0UmhVS3M5bUlfUjRFd1ZUdHlnSjViOFN1ZV9ZQzdEYjAxaHZjMi1DZUFQZk9BOEhQTDd0SlVsRUFzdVBtWWE4SzlIYmNGS3hIeU5Da0N1c1Qtc0h3OEtSRmp1Y05PM0NtQmJCaVg3TVZmTWpTVmNtbXhWX293?oc=5",
-          "publishedAt": "Wed, 15 Jul 2026 22:18:00 GMT"
-        },
-        {
-          "title": "6月ETF定期定額扣款首破300億！0050占逾4成居冠 穩坐國民ETF - 壹蘋新聞網",
-          "summary": "6月ETF定期定額扣款首破300億！0050占逾4成居冠 穩坐國民ETF  壹蘋新聞網",
-          "source": "Google News 財經",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWmtnelUyZ1QwZUg0WXNkRkdfcUw3c08tZ25QU2ExYWVENE1UVnFTQloxM3lBclZKNlNxQUE2Wm9LODZoY01jWXdaQkRWczRNbkxVeXJSbXRRV1Z1YlR0dFhzc3dsa3BnZFZUaVNwcXpoRWZPOU8xWWVLakZtalBibEJ3?oc=5",
-          "publishedAt": "Wed, 15 Jul 2026 17:07:00 GMT"
-        },
-        {
-          "title": "美通膨降溫帶動AI股反彈 00990A漲逾4%領跑主動式ETF - 壹蘋新聞網",
-          "summary": "美通膨降溫帶動AI股反彈 00990A漲逾4%領跑主動式ETF  壹蘋新聞網",
-          "source": "Google News 財經",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOaXlzandCYlA1YmhFS2tfQ2FMMFF6YU5KYkVIVkRnWXpnSDdmaEdOM09TdHl0UzB1R2VMRGhFY2poRmdoWEFXUmsyWWtacHlSQnRNelFENzU0RjBVaEtRWXIyZ3pYNUVvVmh0cnhxTHJXWWU1R2ItTm9pdk85bktGcVdn?oc=5",
-          "publishedAt": "Wed, 15 Jul 2026 17:00:00 GMT"
-        },
-        {
-          "title": "台股飆！21家券商上半年都賺錢 最狂1年暴增33倍 - Yahoo股市",
-          "summary": "台股飆！21家券商上半年都賺錢 最狂1年暴增33倍  Yahoo股市",
-          "source": "Google News 財經",
-          "url": "https://news.google.com/rss/articles/CBMipANBVV95cUxQb3lYZ3dqampsbGt5cG84VUNMNEZQWUp3ak9GQ0hjM0wzeklOck4xclhzVV84cHIyajZxVm5qRDFvZTVJQWVreE1BQWJzMWY0WnpWZVVRS2pPXzJMWjZlelcwa0htZm9LdWt0MHZLVlVBS3ZVVU0wSWs1WXFJT3c1N0JVaGJDdjZFekVkdGxxWHp2Q29LX2p1aThzWG5OVFhJZWJid19vellScDE0bHBoRVUteUR1Wno0cXM4dEZBMVhoZXRhYTBZU0N2R3MzUHdYVm9CUkIzN2FDNVhFLU5ReUZXSEltTUZmTFFYb2JzOC1yR1FyNFp3ZzRVS3Rfc3R2Vm5pb2FDZkllUzBOdWNkbFhYY0w2TE1XekNZdGdMT3NTTk05c2syTEdKa1JpRzAtUjJCVnFiVFBPaHpLVUc2MjVOLVZpTDlHV1AxLW94OURGLVp1bkV4NnJWZl9NZkRGSTl0ZEl2ZGx4U1RnZzNOeGdhczNzLWpEV05SbGZvd0VvNzRBV3IxS3FzNFA0MHhMbjFvMEJiSC1xb0N5eWsxMTFMMkw?oc=5",
-          "publishedAt": "Wed, 15 Jul 2026 11:28:23 GMT"
-        },
-        {
-          "title": "富邦景氣循環多元資產基金獲准成立 全球配置打造韌性投資組合 - 壹蘋新聞網",
-          "summary": "富邦景氣循環多元資產基金獲准成立 全球配置打造韌性投資組合  壹蘋新聞網",
-          "source": "Google News 財經",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPNVkwV29CLVVwNGUwcDNfa1F5MUR6clRBamJVS2R6ZUhsaUV2ZnRPMjV1OWFFT21mYUVNZ2xEb2N3MDlsYWJ0R21fc0pBWm94dnNlRnliUGxoVDFfMlZQb2FRWWJoS2FucXFGc3pQMmxfQlQ1cVYtelpDTGdWeXh2X3Jn?oc=5",
-          "publishedAt": "Wed, 15 Jul 2026 16:56:00 GMT"
-        },
-        {
-          "title": "00408A上市首日收紅！成6月唯一未破發主動式ETF 台股下半年續攻 - 壹蘋新聞網",
-          "summary": "00408A上市首日收紅！成6月唯一未破發主動式ETF 台股下半年續攻  壹蘋新聞網",
-          "source": "Google News 財經",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQM2pseVdIbTNsNTdVN1NZQ1Q3NUhBQ1R2LXZZYnNtNXFGOHBRTGhRdnJXam51VUU0VFhxWS1nZkhldWdVeGZsUmRpVW1GcXNxMk13dUx5Z3p1UkttNW5zZkprYlBTYi1Ua0t4NUUwV0xza3VQQ0FyVnlzYktmY0xfUTdn?oc=5",
-          "publishedAt": "Wed, 15 Jul 2026 16:50:00 GMT"
-        }
-      ]
-    },
-    "ai": {
-      "categoryName": "AI 相關新聞",
-      "articles": [
-        {
-          "title": "AWS宣布2026進入Agent AI元年，打造從開發、資安到知識管理的企業AI代理平臺",
-          "summary": "生成式AI快速發展兩年後，AWS認為，企業AI競爭已逐漸從大型語言模型（LLM）本身，轉向如何讓AI真正走進企業流程、完成工作。在今年AWS Summit Taipei大會首日的主題演說中，AWS正式宣告2026將是「Agent AI元年」，並一口氣推出涵蓋AI代理開發、執行、知識管理、軟體維運與資安治理等多項新能力，希望打造企業部署AI Agent的完整平臺。",
-          "source": "iThome",
-          "url": "https://www.ithome.com.tw/news/177348",
-          "publishedAt": "2026-07-15  11:07:25"
-        },
-        {
-          "title": "Adobe修補12款產品漏洞，ColdFusion與Commerce更新優先度最高",
-          "summary": "Adobe於7月14日發布資安公告，修補12款產品的漏洞，涵蓋影音創作工具Audition、Media Encoder、Premiere Pro、After Effects與Animate，平面設計與素材管理產品Illustrator與Bridge，企業應用平臺Adobe Commerce與Adobe Experience Manager，以及開發與管理工具ColdFusion、Content C",
-          "source": "iThome",
-          "url": "https://www.ithome.com.tw/news/177334",
-          "publishedAt": "2026-07-15  12:07:32"
-        },
-        {
-          "title": "聚焦自主AI代理交易，FIDO聯盟啟動Agentic Commerce標準制定，OpenAI亦加入理事會推動AI代理驗證",
-          "summary": "致力於建構安全無密碼世界的FIDO聯盟，近年在金融支付方面的推動與合作相當積極，從早年與國際信用卡組織EMVCo合作，到支持Payment Passkey與W3C安全支付確認（SPC）候選標準，2026年再度迎來重大發展，當中最受矚目的趨勢，莫過於針對自主AI代理交易行為建立可信基礎，因為已有市場數據指出：2030年AI代理商務（Agentic Commerce）規模將上看5兆美元。",
-          "source": "iThome",
-          "url": "https://www.ithome.com.tw/news/177321",
-          "publishedAt": "2026-07-15  12:07:06"
-        },
-        {
-          "title": "NIST發布ICT供應商盡職調查指南，提出5類調查項目",
-          "summary": "美國國家標準暨技術研究院（NIST）於7月8日發布《網路安全供應鏈風險管理：盡職調查評估快速入門指南》，文件編號為NIST SP 1326，主要內容是針對組織在採購資訊與通訊科技（ICT）產品與服務，或管理既有系統時，該如何做好評估供應商與產品的供應鏈風險。",
-          "source": "iThome",
-          "url": "https://www.ithome.com.tw/news/177333",
-          "publishedAt": "2026-07-15  12:07:58"
-        },
-        {
-          "title": "CISA將SonicWall防火牆、微軟ADFS與SharePoint資安漏洞列KEV",
-          "summary": "7月14日美國網路安全與基礎設施安全局（CISA）發布公告，表示他們已掌握微軟及SonicWall本週修補的部分資安漏洞被積極利用的跡象，將這些",
-          "source": "iThome",
-          "url": "https://www.ithome.com.tw/news/177332",
-          "publishedAt": "2026-07-15  12:07:10"
-        },
-        {
-          "title": "Grok Build被發現偷偷把用戶整個程式庫上傳到雲端，馬斯克承諾將刪除",
-          "summary": "研究人員發現SpaceXAI的AI程式撰寫工具Grok Build會偷偷將用戶Git程式庫及其他紀錄，甚至是開發中的專案上傳到雲端平臺。消息公開後，馬斯克承諾將把這些資料刪除，SpaceXAI並增加零資料保留設定（zero data retention，ZDR）。",
-          "source": "iThome",
-          "url": "https://www.ithome.com.tw/news/177331",
-          "publishedAt": "2026-07-15  12:07:26"
-        },
-        {
-          "title": "紐約州發出全美首個暫停資料中心進駐令",
-          "summary": "紐約州州長Kathy Hochul周二（7/14）簽署行政命令，宣布暫停核准新的超大規模（Hyperscale）資料中心進駐，禁令最長1年，成為全美首個對大型資料中心實施州級暫停令的州政府。",
-          "source": "iThome",
-          "url": "https://www.ithome.com.tw/news/177330",
-          "publishedAt": "2026-07-15  11:07:24"
-        },
-        {
-          "title": "SonicWall修補防火牆已遭利用的滿分漏洞",
-          "summary": "7月14日SonicWall針對SMA1000設備發布資安公告，指出6210、7210、8200v等部分機種當中，存在CVE-2026-15409、CVE-2026-15410兩個漏洞，影響12.4.3-03245至12.5.0-02800等多個版本，造成的危險程度CVSS評分達到滿分10分，而且已出現積極利用的漏洞攻擊活動，由於沒有其他替代緩解措施，該公司呼籲用戶應儘速升級至12.4.3-034",
-          "source": "iThome",
-          "url": "https://www.ithome.com.tw/news/177329",
-          "publishedAt": "2026-07-15  11:07:34"
-        }
-      ]
-    },
-    "china": {
-      "categoryName": "大中華新聞",
-      "articles": [
-        {
-          "title": "兩岸青少年暑期體育交流熱持續昇溫 - taiwan-reports.com",
-          "summary": "兩岸青少年暑期體育交流熱持續昇溫  taiwan-reports.com",
-          "source": "Google News 台灣兩岸",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9GVV91eElNbE1EV002eVo0R0NRVHpEN0tEWjJRZEZsUU1hMmR4VXMwRHd2Y0wzVzNPUm41YjRYdl9NXzZ1YjY2a3dQMm5mNmRnQ05aRklrYm1aUQ?oc=5",
-          "publishedAt": "Wed, 15 Jul 2026 21:53:19 GMT"
-        },
-        {
-          "title": "兩岸遭遇颱風暴雨 台灣城市畫面引熱議（視頻） - 新唐人電視台",
-          "summary": "兩岸遭遇颱風暴雨 台灣城市畫面引熱議（視頻）  新唐人電視台",
-          "source": "Google News 台灣兩岸",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1sVVFzZVc2ZlVySDJudHNoUWJnR0VZejJiY3FZTEpkZ2JzeW5ua2ZaQ1d4SWIxSms4bHU5dzhfS1hQb011dGZDcEFrNVdQWEoxMVRhNmpTbjF2VlB1WU9ObNIBZkFVX3lxTE5DU1dTSjViMU9iVC1UWVZndGZQR1phTldjU2dNNmlxREI3MHVZYXc2T3FmeHNvZnczay1sVU41UTNyenNSSXhkS0JJS3JReUlycjVnUnFMSmlYM3RtUUw1Q1dWalNTQQ?oc=5",
-          "publishedAt": "Wed, 15 Jul 2026 18:33:02 GMT"
-        },
-        {
-          "title": "紀念解嚴39周年 台灣民主化未竟之業！統左派政團：兩岸和解、社會再解嚴 - 兩岸犇報",
-          "summary": "紀念解嚴39周年 台灣民主化未竟之業！統左派政團：兩岸和解、社會再解嚴  兩岸犇報",
-          "source": "Google News 台灣兩岸",
-          "url": "https://news.google.com/rss/articles/CBMi1gNBVV95cUxNeWRBSW5WNE03X1ZzZFduZWlNTVFFNG1XY2FoT1ZqUjRVLWpha0szS0FuTzQ0ZDdfSDNUaVVqc284REY5SEh4Rkw2RVNnWXp0ZktqV0VuZXJCVENzdDZvcmRYMFNWLWFwd3hJMkFURzNIVnRadU0xUE8wOHFJdDV5UEdWZG5NRHA3YTNEZFNtR2ZkSFZISUVnbWlidVRhOWhvN1IzSkg2RU9LUlBURTRnaWE4bHd1UkY0ZXpqaHRvUURmUjZyZElSeGJYeFdOMWJobWRudGhEaGU0VWJQdWZncjZiQmJ4Mms4eXNwaDI1MzlscXF0cEhNS3k0ZUR5NzFLVjF6Zk9oaEx0Rno0RzBnT3o3R2JYZTAtQ3FESGd1R3pLQjRTeExJLUNVbmdnR2wxdENBeDliTVdBdDVIVUtzdlM1ZFZsU2xlcUVnc0pwTm5BUnF1cXpaT2lTSnlwd2hBeF8zMnJKcDN1VE9QS1JSQ1h4Qm9TNTlpamtlU1ZiT2NHLTlYYmtaSUJjQkhXODRIOTdmdHEzRjVua3ZJWUhuZ3cydUVxWXNwRjdFak9DZWdWRWthZjFfTGFyVlFZQzdSNDNNbENGdFdncWhoQmtoMDZkMTNPQQ?oc=5",
-          "publishedAt": "Wed, 15 Jul 2026 13:08:52 GMT"
-        },
-        {
-          "title": "兩岸資訊戰與台灣韌性：網軍假借名義文攻武嚇 - rti.org.tw",
-          "summary": "兩岸資訊戰與台灣韌性：網軍假借名義文攻武嚇  rti.org.tw",
-          "source": "Google News 台灣兩岸",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9JcmRadWpUUUV5WVQ2dW5CTlJXUEx5WHhRRGhacU0zZFEyU2lnUGt4ZXhTUHhvWElpdnV5UVNBUkpteXVOelZvbDc5cEFZSHV1TmUtMlc2OXFTdWlGdEdLQQ?oc=5",
-          "publishedAt": "Wed, 15 Jul 2026 15:30:09 GMT"
-        },
-        {
-          "title": "颱風掀兩岸淹水對比！中國網友驚呆：台灣街道「乾淨到看得到魚」 - NOWnews今日新聞",
-          "summary": "颱風掀兩岸淹水對比！中國網友驚呆：台灣街道「乾淨到看得到魚」  NOWnews今日新聞",
-          "source": "Google News 台灣兩岸",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1fdHdWSE5yM2tVWU9LWUEtYlAxMDFRa2hQZjlRV3lWejFYNTlTQ2lCVGhNR2xkeFA0MHNMaEd0ejZLc2p4eEFYRmNlSlrSAVJBVV95cUxNN1ZkTUpoZmQ5M3lWWWtJa0l4YVJ6Sms1QjBjQ2RXdjFNNWluNmZYVnkxdVlYUjJHMWN0QWduVFZBV0g3R0FYQnRYbXRsbzlBWDd3?oc=5",
-          "publishedAt": "Wed, 15 Jul 2026 12:10:54 GMT"
-        },
-        {
-          "title": "國台辦主任宋濤：堅決抵制「文化台獨」等政治操弄 - 經濟日報",
-          "summary": "國台辦主任宋濤：堅決抵制「文化台獨」等政治操弄  經濟日報",
-          "source": "Google News 台灣兩岸",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE94RURLN3dwUnBRRHg2a1Z4WmJtYUpYZUN6dTh1clZrY2xGQVFCaTN4ME9ZME9nSWh0a0k4bVpZaU54cm55QlJpUkFoRXVmb2tzQl9xbEptUnZnUdIBX0FVX3lxTE5VdzVxTTAwOVNLNmNIekZLSEw1RE5vVnJWLWRQNndsaWt4bmtlNWx0Y3lqQ0pnLUxibUhhUmJRRHJGNUE2QVpybld0bnV6TFVYUlc5TmM2UjR6MjBiQ2JR?oc=5",
-          "publishedAt": "Wed, 15 Jul 2026 11:14:10 GMT"
-        },
-        {
-          "title": "赴陸失聯 國台辦指編造 陸委會：有憑有據 - UDN",
-          "summary": "赴陸失聯 國台辦指編造 陸委會：有憑有據  UDN",
-          "source": "Google News 台灣兩岸",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4zX1pFaUlTQWQ4R05yUWpHR0RFaWZsVi1FSUlXVGpFcUVxd2ZVRWhUU1VXSFpXUGNtMlZSS19CcXpTSDdMTWdVSDZObXRwT0Rt0gFWQVVfeXFMTWhMZkdGVVRIRy13Y2p5TW9TUzd6Q2NjX05zN25WMTc3b2Y4emQ0NnBXRXBzT3VWRzRiZVRmdXBOYmhwWVVCWkxfOHMtU1M5Q0h2M29OY3c?oc=5",
-          "publishedAt": "Wed, 15 Jul 2026 16:00:00 GMT"
-        },
-        {
-          "title": "海峽兩岸青年文化月在蘇州揭幕 3500名台青參與70多項活動 - 中時新聞網",
-          "summary": "海峽兩岸青年文化月在蘇州揭幕 3500名台青參與70多項活動  中時新聞網",
-          "source": "Google News 台灣兩岸",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8tNHYxb1g1b1EtbG5fSXUzVk9GS19lRzViSWtDM3hfeENHUkFVQWNYR1lZZDJYNXJxR3lQUWxoclZIZDhpTnJRc29ycG9MeW4xR3JVS1ZPaGNGc0s2TzZfM2Y0dzd5Qnk1SU53dHRn?oc=5",
-          "publishedAt": "Wed, 15 Jul 2026 12:35:23 GMT"
-        }
-      ]
-    }
-  },
   "2026-07-17": {
     "hk": {
       "categoryName": "本地新聞（香港）",
@@ -27283,6 +26976,313 @@
           "source": "Google News 台灣兩岸",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1tV2t4eUNBYUVpMzJLUklPMG9TSUc5b1JVMURYU0NCSHFRVUNCSmE3elZ6VkxNQ09OdTV3STFsazFhRkktdUo0dTJlZ1lyUQ?oc=5",
           "publishedAt": "Mon, 12 Oct 2026 05:56:00 GMT"
+        }
+      ]
+    }
+  },
+  "2026-10-14": {
+    "hk": {
+      "categoryName": "本地新聞（香港）",
+      "articles": [
+        {
+          "title": "香港政府新聞網- 特首寄語學生弘揚紅軍長征精神 - 香港政府新聞網",
+          "summary": "香港政府新聞網- 特首寄語學生弘揚紅軍長征精神  香港政府新聞網",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBZMWh0eW9ZUUNBVUVfTHQxQUw3U0dZMlYxckd6dFNyeGplQlBSTmJzc1NWSERJVXNIanNMcDF6YW5JdUl5VGhMMDVMR01YZnY2OGoxNmY5dmszbEw1LXloaTFpY2xZU3c0dmV4Ym9CX3dMMEhwM21VQw?oc=5",
+          "publishedAt": "Tue, 13 Oct 2026 14:44:02 GMT"
+        },
+        {
+          "title": "李家超：香港要敢於打破壁壘 引資本注入創科領域 - 香港電台新聞網",
+          "summary": "李家超：香港要敢於打破壁壘 引資本注入創科領域  香港電台新聞網",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE90OXJZUTZPSG5md3Y3U0pEdEs1dVZNR1RMN1hqYTFYYTkyT19MN2JEZWJaN2UyMWFzbE1yT2k2YjM2VzBVRVlhU0c3bngzcXF4QWJIOURfa0ZTa2RXbjdiREZkQnZhbjZCRzFhWkl5VQ?oc=5",
+          "publishedAt": "Tue, 13 Oct 2026 11:33:00 GMT"
+        },
+        {
+          "title": "榮耀在港開第7間體驗店 目標今年開10間 - 信報網站",
+          "summary": "榮耀在港開第7間體驗店 目標今年開10間  信報網站",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxOcnFlVmZySXV2SjRnWWZoTkNBeFlJY2o4M0NUUkRSUkZlT3dEUER0U0VkMnpQRXJpVDhTUUJrT2V6TWhqTlk4VTZwNnNyaHQxWG95RzY3SW9qclJlN1NXOTNvVXA1bExuZGZnUGtVbVdhR0xaODNFS0xDVWNEekhNelpVNkNkU2pRTW0xSWN5NDUxQVlkQkdKODlZeHU3YXlxQTNLV3BiV25CU2JjbHZqc3ZuSmxkLW9jRHBjT2N2SDJmclF4M2JVc2NvQUNzQmpudGpteXVmbFJkYWlEVFNsU2RpR1VJODNJZlV4NVNsX25KZ05DaHZLOFdRWTNkeWhYOVQtVlpBLWVaWTExRXRIdlVfSnpjSDloNnBBUlpCanVDalFYcDRqOWVRakg3eXM?oc=5",
+          "publishedAt": "Tue, 13 Oct 2026 14:46:02 GMT"
+        },
+        {
+          "title": "鄭欽文大威落實出戰香港公開賽 - Now 新聞",
+          "summary": "鄭欽文大威落實出戰香港公開賽  Now 新聞",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1FUnJZZjViSjJkTUptWWNyOS1pZzFXclNadW1sVldQeDlhOXRMWU9rRjFJN21lcVB1OWo2VmhWSG1fS01pZDJab0FGSUt3Qm92WUV1Z1ViZ0lOMFNJVFpnSWZ4bnRhb2Z4c25fM2ZwT01nWHpJYUE?oc=5",
+          "publishedAt": "Tue, 13 Oct 2026 12:37:12 GMT"
+        },
+        {
+          "title": "（有片）專訪｜陳茂波：香港優勢獨特無可比擬將擴大新興市場經貿布局- 香港 - 大公文匯網",
+          "summary": "（有片）專訪｜陳茂波：香港優勢獨特無可比擬將擴大新興市場經貿布局- 香港  大公文匯網",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5JUXczdUpjNXFuMkllSjRwNndBYTdOdVdrSnB1ZmdDUDFNYlJYUmRGSUFkQkZZMXl6eUJOM1ZzS21qWnBlSUhVZXFHekxFZlJzaGxpdlJXalBVM2ZHRTE2VlRQcDNDa3ZwWFRrY1hMWFE?oc=5",
+          "publishedAt": "Tue, 13 Oct 2026 13:11:58 GMT"
+        },
+        {
+          "title": "陳茂波：香港專業服務要將內地企業優勢轉化為國際競爭力 - 香港電台新聞網",
+          "summary": "陳茂波：香港專業服務要將內地企業優勢轉化為國際競爭力  香港電台新聞網",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE84N2xSdlVyX0hqdVVtMkhYRWdCV1Bkb05ZaUhHdlhicHVjM0tVeTk0R1hzem9mc0RvR0R0bTg2RnlLS0F4NDd0cUFRaGVaMUUzTVE4b1EyRVBwSXZJa0dJdFdscV9jZHMtVnN5Z1M3VQ?oc=5",
+          "publishedAt": "Tue, 13 Oct 2026 13:17:00 GMT"
+        },
+        {
+          "title": "海關檢獲約32萬件懷疑藥劑製品 市值約1800萬元 - 香港電台新聞網",
+          "summary": "海關檢獲約32萬件懷疑藥劑製品 市值約1800萬元  香港電台新聞網",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB3LTJyVXhhWlFxMm5Uc1BjY2xLSmhEN2JuSHc3U0pKTEtwQkppUkZDTmswVjh0VEY3LUFXUWh4dWhIZ1BiRFgxSnRBWExwZk9BYWt1aFU5dUZKc3FUYXZ4dDlyak1mdUV2UzFkT1dTOA?oc=5",
+          "publishedAt": "Tue, 13 Oct 2026 14:52:00 GMT"
+        },
+        {
+          "title": "吉澳安龍太平清醮人頭湧湧 荷蘭大學生讚夠吸引 能真正探索香港 - 香港01",
+          "summary": "吉澳安龍太平清醮人頭湧湧 荷蘭大學生讚夠吸引 能真正探索香港  香港01",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMiyANBVV95cUxPaVBySlZzMTlCY25UM2Rhcm81bnc0aXhCdmxoNUZUZFJsSnpXTEsya3RvcGItX1h3Y2c2Z0V4U3dBMTdZZzdiOG5KSU91M25NNkt3ZmVQeXJrMF9YSGM0WjZvbVRIUmF0LWtQOG42cnZEbG9zOTZVMkJXbjB6dzBBWWNSeHplSVNMRWVaNzkyVDF1ZVBfNG5lVGxfX3IxWHdZcUxsRXRNelRMQmdUUHA0ckpYQ1R4R1hRR0FHRGZaeDY3V2tsNnV5S0tqSE9keHpZbWVpc0dnY0pYQ0xGd0VETVBPNjNVNG5YQ09fTEgwbEYtSUx3QVlDcUh6STZoSjM4NHJMd2JRMXVHZUtjcGMzQUo1dVhFN2Q1YXMzMWhqS0JHUWNFVEtiZzVoTEhpc1RyVHl6YVdldHEtdDV6M2VldmxkVXFIRy1VX0MzQXlFSHFyY3ZUX0JCdi1pUURZdGlLLWdEeG9TdDNRb2xXUmloM2xOams3V0tKZGFtbEl4dF9BbENVV2Z6VVJIbEhCb0U1LVhfVU1LMzZQR056UTBuNTlwMFh4STJSRjgyVjAtWG0zLTJSbFVHV2plMjZmV3NKeVZLU21LNmg?oc=5",
+          "publishedAt": "Tue, 13 Oct 2026 13:25:33 GMT"
+        }
+      ]
+    },
+    "world": {
+      "categoryName": "國際新聞",
+      "articles": [
+        {
+          "title": "梵蒂岡表示，教宗被診斷出患有肺癌，但手術成功",
+          "summary": "梵蒂岡表示，教宗利奧成功地切除了右肺下葉。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Tue, 13 Oct 2026 20:46:06 GMT"
+        },
+        {
+          "title": "沙特男子被控在OpenAI辦公室種植「精密」錄音設備",
+          "summary": "檢察官說，該裝置包裹在衛生紙中，被發現插入行政會議室電視背面的USB端口。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cwg5jq4vlddzo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Tue, 13 Oct 2026 21:42:49 GMT"
+        },
+        {
+          "title": "沙特聯軍攻擊也門燃料庫後在利雅得附近攔截導彈",
+          "summary": "沙特領導的聯軍在也門襲擊了胡塞控制的首都薩那附近的一個燃料庫。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/crx2d60y1py3o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Tue, 13 Oct 2026 22:29:55 GMT"
+        },
+        {
+          "title": "前幫派老大因策劃謀殺Tupac Shakur而被判處40年徒刑",
+          "summary": "戴維斯上個月被判有罪，因為他在這位已故饒舌巨星在1996年的一次駕駛射擊中死亡。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c60rln2jvv2zo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Tue, 13 Oct 2026 19:51:14 GMT"
+        },
+        {
+          "title": "康奈爾大學因幫派性侵犯指控而禁止所有兄弟會派對",
+          "summary": "學校面臨著如何處理一名名叫Jane Doe的女子提出的襲擊指控的騷動。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cw8dzg094zd9o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Tue, 13 Oct 2026 18:25:28 GMT"
+        },
+        {
+          "title": "特朗普因涉嫌腐敗而罷免金伯利·吉爾福伊爾（ Kimberly Guilfoyle ）為美國駐希臘大使",
+          "summary": "Guilfoyle表示，有關不當行為的指控是虛假的，擔任大使是「一生的榮譽」。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cr5ynplvpg7lo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Tue, 13 Oct 2026 19:23:28 GMT"
+        },
+        {
+          "title": "澤倫斯基說，俄羅斯空襲襲擊了基輔的重要發電廠",
+          "summary": "烏克蘭總統表示，彈道導彈襲擊「沒有來自我們合作夥伴的早期警告」。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/ck20r9qpw505o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Tue, 13 Oct 2026 22:14:33 GMT"
+        },
+        {
+          "title": "阿根廷瞄準英國對福克蘭羣島石油勘探的法律索賠",
+          "summary": "向國際海事法庭提起的訴訟是福克蘭羣島爭端升級的最新進展。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cmp3g14p3z2ko?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Tue, 13 Oct 2026 17:36:43 GMT"
+        }
+      ]
+    },
+    "finance": {
+      "categoryName": "財經新聞",
+      "articles": [
+        {
+          "title": "投資人消化通膨報告歐洲股市收跌| 全球財經| 全球 - UDN",
+          "summary": "投資人消化通膨報告歐洲股市收跌| 全球財經| 全球  UDN",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9pb3cxUFVrbWNTVlVZUl80OTRfcWE5SC1BX0UwMVFjdnFSWmxpcVQ5X1c5clQ1dV9ITjlfS1ZSWG1qMERfcVFINWhqaDZwVjVY?oc=5",
+          "publishedAt": "Tue, 13 Oct 2026 18:17:53 GMT"
+        },
+        {
+          "title": "台積電法說會前瞻｜9大法人目標價一次看 估明年EPS挑戰150元 - 壹蘋新聞網",
+          "summary": "台積電法說會前瞻｜9大法人目標價一次看 估明年EPS挑戰150元  壹蘋新聞網",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNcDNTMXBjYy1DSXB2M0RYNk83RXVUam9yOS1UZHdoWE1ickJGbEZlWXQtanh2S0s2YzFUV1ZKYndQbVBsSWM0SlFwVkFwYjNLSTk3VmtTc0RJSFpOTWRCZkt3RW5Eay1jbnRDeVE4QkYtWTZRSy1vSUxhTTNtV29Ra1NR?oc=5",
+          "publishedAt": "Tue, 13 Oct 2026 21:00:00 GMT"
+        },
+        {
+          "title": "道瓊跌逾180點！AI投資疑慮衝擊美股 台積電ADR逆勢收紅 - 壹蘋新聞網",
+          "summary": "道瓊跌逾180點！AI投資疑慮衝擊美股 台積電ADR逆勢收紅  壹蘋新聞網",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQQnJwbE1WR21XV0Q2cGR1N1AxWjQ0YTh5NmhPRXlSbGVXRlZuckxCbi1nTHZuaTR1QUxkUE5aY01za2lNc0Jhenk5TERJRG1xVUhwclNyZFJNZnpzRFl6aDQxaGpoX2pYWnU3NEtfUlNIZFdkMXhUbkFuclhaaURnU3ZR?oc=5",
+          "publishedAt": "Tue, 13 Oct 2026 22:46:00 GMT"
+        },
+        {
+          "title": "英特爾公司 (INTC) 互動股市圖表 - Yahoo 財經",
+          "summary": "英特爾公司 (INTC) 互動股市圖表  Yahoo 財經",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAxNEFhejlqaENIUmtpdlVMRnd1Y01xMm8wOVJRYzRXTjkzT0NUeGZxSmloMVY1NmNyQjg2OHVhYTNSNjR5eWhCaTJOS1l3eE9UeldOWW5ydWxlZw?oc=5",
+          "publishedAt": "Tue, 13 Oct 2026 19:59:07 GMT"
+        },
+        {
+          "title": "美債「疊券」風險增溫 金管會控管準則今年底上路 - 壹蘋新聞網",
+          "summary": "美債「疊券」風險增溫 金管會控管準則今年底上路  壹蘋新聞網",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWnMxeGtDNTNqaFdEbkVrM1dWMm1tallKMy1tWkFIZWwtMXdZYlB0U2xTMFlOWEo3NV9Gb2otYm8yckpIU0VkR0dEdU0tb0RMQUl5cDRBSWlDcm1lM0JRSWpCRTJ3T2l3VVR4VHd5eVJJb01ZWjh1d09wajFKTDFPdmV3?oc=5",
+          "publishedAt": "Tue, 13 Oct 2026 18:15:00 GMT"
+        },
+        {
+          "title": "台積電法說會前瞻｜2奈米、CPO商機誰受惠？這幾家受惠股浮現 - 壹蘋新聞網",
+          "summary": "台積電法說會前瞻｜2奈米、CPO商機誰受惠？這幾家受惠股浮現  壹蘋新聞網",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQQXFvVXlrUTlKa2hZSXNWc2duUmhsbGdqcEd5UnBVTndEOUFSNHRRM0lCQmZRN1kwVHRCUDhKTFFGcGdXZkhlMzd2MzJadmtacVNtSGFUbm51RmxzajVHS2lIa2RlSzFZY0FnVTVoNFBTWmswLVZDNjlMN0ZjVWlyRkRR?oc=5",
+          "publishedAt": "Tue, 13 Oct 2026 21:00:00 GMT"
+        },
+        {
+          "title": "日月光擴展PowerSiP平台！瞄準GPU、TPU與ASIC供電需求 - 壹蘋新聞網",
+          "summary": "日月光擴展PowerSiP平台！瞄準GPU、TPU與ASIC供電需求  壹蘋新聞網",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcWdZNTdvTFRJV1Z2X3V1OUt5NW5lRzNvc2NfdmFBV1oyRnJ1clR4cWNURUFBa2l6NEprMnl0TW52b2RTNlBtV192TlZ2WFdvRFFBbWhrTGRXN1Q0dlpPX2xVbVdwcHg5VTFYSlZoeXoxWkZ1OXpHazRXN0FfMmxIYzF3?oc=5",
+          "publishedAt": "Tue, 13 Oct 2026 22:02:00 GMT"
+        },
+        {
+          "title": "工具機公會聚焦3大行動方向 經部攜手業者布局前瞻高階商機 - 壹蘋新聞網",
+          "summary": "工具機公會聚焦3大行動方向 經部攜手業者布局前瞻高階商機  壹蘋新聞網",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOOXRQdmRQYlRJaGpJZl8yaGtTc0JweXZIMnhJNjhVWGhJZmZwZjF0bTdDY2pvVVl4R2JaVnlWZHdoME5ZNHp1UXJQOUpTMFBJYjI2QXJRVUwzWnEyV3I3VmZuMHdMLVIwdk95LWpnYzZDQ0JMYkE5V0s0RGZtQ3ZzNExn?oc=5",
+          "publishedAt": "Tue, 13 Oct 2026 18:42:00 GMT"
+        }
+      ]
+    },
+    "ai": {
+      "categoryName": "AI 相關新聞",
+      "articles": [
+        {
+          "title": "企業數位大小章搬上手機！行動工商憑證如何改變驗證、簽章與授權管理",
+          "summary": "今年5月18日，經濟部推出了行動工商憑證，讓企業不必再依賴實體晶片卡與讀卡機，就能透過手機完成身分驗證及數位簽章。行動工商憑證不只是改變使用方式，更將傳統分散在各應用系統的憑證查驗，轉為集中驗證架構，並支援依網站及期限設定行動附卡授權，讓企業更容易管理數位身分與憑證使用權限。\n經濟部商業發展署資訊室主任丁珕日前也在2026數位政府高峰會上揭露了打造行動工商憑證背後的歷程。目前超過190套公共服務系",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/179617",
+          "publishedAt": "2026-10-13  12:10:21"
+        },
+        {
+          "title": "逾1.6萬個Supabase資料庫暴露於公開網路，恐洩漏敏感資料",
+          "summary": "資安業者UpGuard於10月1日發布報告，指出該公司掃描約30萬個使用Supabase資料庫的網域後，發現16,326個資料庫存在設定錯誤，資料表可被公開讀取。Supabase是提供託管PostgreSQL資料庫及後端服務的平臺，常用於為網站與行動應用程式提供後端支援，而UpGuard發現的逾1.6萬個暴露Supabase資料庫中，超過一半含有個人識別資訊，部分還包含明文密碼、身分驗證權杖及一次",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/179616",
+          "publishedAt": "2026-10-13  12:10:47"
+        },
+        {
+          "title": "Ledger硬體加密貨幣錢包設備驚傳被植入隱藏晶片，遭竊資產超過一億美元",
+          "summary": "法國硬體加密貨幣錢包設備Ledger驚傳用戶的資產遭不明原因洗劫一空，引起全球高度關注。10月9日Ledger定調是經銷商CryptoBillis銷售的設備有問題並著手調查，呼籲近3個月從該經銷商購置硬體錢包的客戶，應將資產移轉到新錢包，並更換通關密語（seed）。此起事故迄今有超過300個錢包的資產遭竊，損失超過1億美元。而這些錢包遭竊的原因，竟是裝置被植入額外的元件，一旦用戶啟用，就會將通關密",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/179658",
+          "publishedAt": "2026-10-13  06:10:44"
+        },
+        {
+          "title": "SQLite 3.54命令列新增磁碟空間分析指令，舊分析工具將退場",
+          "summary": "資料庫SQLite開發團隊發布3.54.0版，將資料庫磁碟空間分析功能整合進命令列，開發者可直接查看資料表與索引占用多少磁碟空間，不必另外執行分析工具。新版也改善查詢效率，官方測試顯示效能約提升4%，並停止支援Windows XP及Windows CE等舊系統。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/179647",
+          "publishedAt": "2026-10-13  06:10:50"
+        },
+        {
+          "title": "Let&#039;s Encrypt明年將TLS憑證效期從90天縮至64天，2028年再降至45天，憑證續期自動化更顯重要",
+          "summary": "公開TLS憑證效期近年持續朝縮短方向發展，Let's Encrypt於10月7日宣布，自2027年2月10日起，預設TLS憑證效期將由目前的90天縮短為64天，後續還將進一步縮短。這項漸進式調整，主要是為了縮短金鑰外洩或憑證誤簽後的風險暴露時間。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/179650",
+          "publishedAt": "2026-10-13  06:10:10"
+        },
+        {
+          "title": "GovTech月報第57期：美國聯邦政府採用AI打造全新政府服務入口網，民眾用自然語言就能尋找政府服務；行政院將研議建立食品識別與資料交換機制",
+          "summary": "重點新聞(9/12~10/12)\nAI 政府入口網",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/179645",
+          "publishedAt": "2026-10-13  05:10:05"
+        },
+        {
+          "title": "LINE官方帳號將內建AI代理平台，先提供3款店家AI代理角色，也將支援MCP協定",
+          "summary": "LINE今天在年度記者會宣布，LINE官方帳號服務推出AI代理平台，可以讓店家打造自己的商家AI代理，先推出三款AI代理角色，包括預約、銷售和客服Agent，目前和品牌合作展開POC驗證，2027年第一季正式推出，目前還沒公布收費方案。AI代理先開放串接LINE技術合作夥伴，也計畫支援MCP協定。目前還沒公布收費模式。\nLINE官方帳號早期以行銷推廣為主，2019年全面開放API串接，2023年推",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/179642",
+          "publishedAt": "2026-10-13  04:10:33"
+        },
+        {
+          "title": "德國政府公布PQC遷移指引，高風險系統最晚2030年完成轉換、整體遷移目標2035年",
+          "summary": "德國政府正式提出後量子密碼學（Post-Quantum Cryptography，PQC）的國家遷移時程與方向。10月12日，德國聯邦內政部（BMI）、數位化與國家現代化部（BMDS）及聯邦資訊安全辦公室（BSI）共同公布PQC遷移指引，承接歐盟2025年發布的PQC轉型路線圖，進一步訂出德國國內的準備工作與遷移時程。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/179641",
+          "publishedAt": "2026-10-13  04:10:09"
+        }
+      ]
+    },
+    "china": {
+      "categoryName": "大中華新聞",
+      "articles": [
+        {
+          "title": "台近六成青年不支持「倚美謀獨」 期盼兩岸交流和協商思考統一方案- 中國 - 大公文匯網",
+          "summary": "台近六成青年不支持「倚美謀獨」 期盼兩岸交流和協商思考統一方案- 中國  大公文匯網",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAyWmVscnI4VHM5R1pURUxkcE13d0xhNTluWm1YWDROdnNUMXQyelRCZXdLS3Z5d2lkcXd2aHI5RXZkZDhsd0h1Z08wWVJqWFoySnBDQW1iaWY2ZmNTUl9kQVhBT0ZsUkIwQnB2OGZ2UTkxR1JM?oc=5",
+          "publishedAt": "Tue, 13 Oct 2026 20:23:10 GMT"
+        },
+        {
+          "title": "賴清德調整兩岸措辭 中國用舊政治標籤回應 - 鏡報",
+          "summary": "賴清德調整兩岸措辭 中國用舊政治標籤回應  鏡報",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5WR1Y3V3dVaVNyRnRoUVdWakN5czM1TXFCTWs4SHRGbGUzUkRDNzM4Vk91UkFndXgxcmhWRzlhelpSTmFJLXJRNUk5SXlHZDg4X3c?oc=5",
+          "publishedAt": "Tue, 13 Oct 2026 22:20:00 GMT"
+        },
+        {
+          "title": "海納百川》兩岸共慶台灣光復 偏重方向歧異（劉性仁） - 中時新聞網",
+          "summary": "海納百川》兩岸共慶台灣光復 偏重方向歧異（劉性仁）  中時新聞網",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBOQUJVaGNmYkxPRWRVSkhVdkEycEp3QzhuVXRFZnNsOWhsOG5zR3UzOU1KSXFqaUhhdnpINW9ZeWY4aEJldzJkZ0h3Y0Z6bE81UHF0emJzQnVyc1l3VDFadzI3WjNlYnM?oc=5",
+          "publishedAt": "Tue, 13 Oct 2026 14:20:57 GMT"
+        },
+        {
+          "title": "國際警戒俄不明肺炎 台灣嚴密監測兩岸人員往來 - 新唐人亞太電視台",
+          "summary": "國際警戒俄不明肺炎 台灣嚴密監測兩岸人員往來  新唐人亞太電視台",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5XVnk0d1NKTl85WGQ3UGpGbURzSEtSMDRpczVQWTV3bWU3UXgwZXNaSFpkUHMwaEtUTllUaWxfVE02WG1TanVFQ3VFbVN1cExRVkFqX2FJZmpYSU1TeFZ6cy1lMGc?oc=5",
+          "publishedAt": "Tue, 13 Oct 2026 12:22:20 GMT"
+        },
+        {
+          "title": "圖解》「這麼多」年輕人一面倒支持兩岸談判！最新民調台灣人不單靠美國，學者驚呼「風向變了」 | 楊騰凱 | 新聞 - 風傳媒",
+          "summary": "圖解》「這麼多」年輕人一面倒支持兩岸談判！最新民調台灣人不單靠美國，學者驚呼「風向變了」 | 楊騰凱 | 新聞  風傳媒",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1tV2t4eUNBYUVpMzJLUklPMG9TSUc5b1JVMURYU0NCSHFRVUNCSmE3elZ6VkxNQ09OdTV3STFsazFhRkktdUo0dTJlZ1lyUQ?oc=5",
+          "publishedAt": "Mon, 12 Oct 2026 05:56:00 GMT"
+        },
+        {
+          "title": "美前副國務卿坎伯：川習正積極討論台灣問題 兩岸現狀是美中成就 - UDN",
+          "summary": "美前副國務卿坎伯：川習正積極討論台灣問題 兩岸現狀是美中成就  UDN",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB4YkFNMXRERnhWdUlzcGwtNDFXd3EwZ2xGYTUzYzhEYnBfQjN1V2pjeFJsbUdPbVpVMTYzbzdQbzhrOVdoUjBLdDY1NFZoWTYw0gFWQVVfeXFMTlV1Q2tFMjB1Y19TYWlrTHJUTzM1cUE1N21OT01lbU9aQk5zSF81T01jZ3RWVXhDYTJmc2FvZjlJUjVwWFdnVHhybS02TDZ2ZmpHRlZieFE?oc=5",
+          "publishedAt": "Mon, 12 Oct 2026 00:59:39 GMT"
+        },
+        {
+          "title": "兩岸若開戰川普恐放生台灣？作家示警台海「最壞劇本」：這2年是關鍵 - Yahoo新聞",
+          "summary": "兩岸若開戰川普恐放生台灣？作家示警台海「最壞劇本」：這2年是關鍵  Yahoo新聞",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMinANBVV95cUxQT3lELUJfYm1QSFdiaVFfcFlDaGlJYnd2ekszTzdwazZHWkFXZ2QzWTJQdnhzb2hsQlBvaUtaX29ZenlNb0M4bW5TaXFoZmIwTm5CR2o2YXV0TXJVV0NvOTBaVDVIcGpjMGM4S0FJZU1melUtdUtKNmVPMkxpWGk1djVoNFY4SmJjZnFIakZxQkFDTDg1LUo4TXBFaVN5R1dzaERYd1VjVEdNTjdZTVVGclZpNXZkcDRaQ0JIN2F2RXlNcHQtamoxMWxVeTczVEJndU5CNDU0RnJpOFF5bFdxSFFwcHdDRlF5QldXLXVXWGtkWmh3UHJ4TmstNFB0NEtoazB5dEdWVlpHQXIzM2p0cEZUSWpWRTBqZ3ZaSVJtUTlneWNOTEFNX24zR19CNDYwbWRtRjBDZHpPMUpaSFNDZUxoOE5NcXJncGpXVlFOZ0o3WWNlSF9CWmw4S2xhZ3NjVnIwQ0xBVlZTTExBTFoxQ1JJNlZYMnBnSTlJa0xiQmZhbmxnZWN0V2daRndjT0E5RGNrOXlnVWJyUGZq?oc=5",
+          "publishedAt": "Mon, 12 Oct 2026 05:46:58 GMT"
+        },
+        {
+          "title": "從「山巔之城」到「世界科技島」 台灣要走出政治對立、兩岸僵局與民生失衡 - 蕃新聞",
+          "summary": "從「山巔之城」到「世界科技島」 台灣要走出政治對立、兩岸僵局與民生失衡  蕃新聞",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE02UnZza2VZVDFjNW53NnMweHVEZTBpYm9UUVhoeGZpdHRFbHdGNlFiMmhLRnhrZ01iR1gwc2lFY21icmdIWWltOVhGS3BaZmZSU2c?oc=5",
+          "publishedAt": "Mon, 12 Oct 2026 13:58:00 GMT"
         }
       ]
     }
