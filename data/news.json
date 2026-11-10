@@ -1,197 +1,4 @@
 {
-  "2026-08-12": {
-    "hk": {
-      "categoryName": "本地新聞（香港）",
-      "articles": []
-    },
-    "world": {
-      "categoryName": "國際新聞",
-      "articles": [
-        {
-          "title": "哥倫比亞地震造成 180 人死亡，救援人員全力搜尋倖存者",
-          "summary": "哥倫比亞週二經歷了多次餘震，人們仍在努力營救被困在瓦礫和建築物中的倖存者。",
-          "source": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/c20dqd9qwq4o?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "Tue, 11 Aug 2026 19:09:52 GMT"
-        },
-        {
-          "title": "美國稱直升機發射飛彈使突破伊朗封鎖的船隻失靈",
-          "summary": "美國中央司令部表示，其直升機擊中了阿曼灣一艘懸掛巴拿馬國旗的貨船的發動機艙。",
-          "source": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/cvg8lyyyjedo?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "Tue, 11 Aug 2026 21:14:56 GMT"
-        },
-        {
-          "title": "特勤局將美國總統隱藏在眾目睽睽之下的“騙局”",
-          "summary": "精心設計的欺騙行動和誘餌經常被用來欺騙對美國總統的潛在威脅。",
-          "source": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/c9d84874dzjo?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "Tue, 11 Aug 2026 20:39:42 GMT"
-        },
-        {
-          "title": "俄羅斯釋放健康狀況不佳的前美國海軍陸戰隊員",
-          "summary": "川普表示，2022 年被捕的羅伯特吉爾曼 (Robert Gilman) 出於人道主義原因被釋放，據報道他曾處於類似緊張症的狀態。",
-          "source": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/cvgj4m8e1ryo?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "Tue, 11 Aug 2026 17:02:22 GMT"
-        },
-        {
-          "title": "歐爾班當選匈牙利總統免職前法官",
-          "summary": "自五月初上任以來，匈牙利新政府不失時機地廢除了維克多·歐爾班的遺產。",
-          "source": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/clyed7rem5no?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "Tue, 11 Aug 2026 18:34:39 GMT"
-        },
-        {
-          "title": "路易吉·曼吉奧內謀殺案審判將由匿名陪審團進行",
-          "summary": "由於媒體對該案的強烈關注，監督州謀殺案審判的法官裁定 12 人陪審團將保持匿名。",
-          "source": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/cgje05wd1v4o?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "Tue, 11 Aug 2026 19:12:54 GMT"
-        },
-        {
-          "title": "哥倫比亞兄弟在建築物廢墟中尋找地震倖存者的痛苦",
-          "summary": "BBC Mundo 前往卡利托雷斯德爾利莫納爾 (Torres del Limonar) 倒塌建築現場，救援人員在那裡奮力營救倖存者。",
-          "source": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/czxerlglgw5o?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "Tue, 11 Aug 2026 21:34:55 GMT"
-        },
-        {
-          "title": "习近平为何以顶级规格纪念江泽民百年诞辰",
-          "summary": "北京超高规格纪念江泽民百年诞辰活动周二拉开序幕，中国中央电视台11日至16日陆续播出12集纪录片『江泽民』。根据香港明报报道，17日将举行“顶级规格”的“江泽民同志诞辰100周年纪念大会”。届时，中共总书记习近平将发表讲话。除此之外，中共宣传部等多部门将联合举办江泽民思想研讨会，预料还将发行纪念邮票。",
-          "source": "RFI 法廣",
-          "url": "https://www.rfi.fr/cn/%E4%B8%AD%E5%9B%BD/20260811-%E4%B9%A0%E8%BF%91%E5%B9%B3%E4%B8%BA%E4%BD%95%E4%BB%A5%E9%A1%B6%E7%BA%A7%E8%A7%84%E6%A0%BC%E7%BA%AA%E5%BF%B5%E6%B1%9F%E6%B3%BD%E6%B0%91%E7%99%BE%E5%B9%B4%E8%AF%9E%E8%BE%B0",
-          "publishedAt": "Tue, 11 Aug 2026 22:32:13 GMT"
-        }
-      ]
-    },
-    "finance": {
-      "categoryName": "財經新聞",
-      "articles": [
-        {
-          "title": "「我意外地賺到了一些錢」：將 20,000 美元投入 CD 是明智之舉嗎？",
-          "summary": "“我希望讓我的受益人獲得資金的過程盡可能簡單。”",
-          "source": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/i-unexpectedly-came-into-some-money-is-putting-20-000-into-cds-a-smart-move-6c410458?mod=mw_rss_topstories",
-          "publishedAt": "Tue, 11 Aug 2026 22:30:00 GMT"
-        },
-        {
-          "title": "隨著人工智慧需求的成長，Lumentum 的銷售額成長了一倍多",
-          "summary": "儘管 Lumentum 公佈了井噴式的盈利和樂觀的預測，但其股價盤後基本持平。",
-          "source": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/lumentum-sees-sales-more-than-double-as-ai-demand-swells-6ebe6ef1?mod=mw_rss_topstories",
-          "publishedAt": "Tue, 11 Aug 2026 22:22:00 GMT"
-        },
-        {
-          "title": "100萬美元夠一個家庭退休嗎？答案不斷改變。",
-          "summary": "“一些讀者和夫婦會很高興能拿到一半的錢退休。”",
-          "source": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/is-1-million-enough-for-a-household-to-retire-the-answer-keeps-changing-aee84a83?mod=mw_rss_topstories",
-          "publishedAt": "Tue, 11 Aug 2026 22:00:00 GMT"
-        },
-        {
-          "title": "超微財報帶來更多好消息，股價節節攀升",
-          "summary": "幾週前，該公司因盈利能力有所改善而給華爾街留下了深刻的印象。超微的最新預測也超出了預期。",
-          "source": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/super-micros-earnings-report-brings-more-good-news-and-the-stock-is-climbing-30e5ca89?mod=mw_rss_topstories",
-          "publishedAt": "Tue, 11 Aug 2026 21:49:00 GMT"
-        },
-        {
-          "title": "CoreWeave 股價飆升，獲利顯示人工智慧勢頭強勁",
-          "summary": "這家人工智慧雲端供應商的收入和利潤超出了預期，其執行長歡呼「一個重要的轉折點」。",
-          "source": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/coreweaves-stock-soars-as-earnings-show-major-ai-momentum-d3a5bede?mod=mw_rss_topstories",
-          "publishedAt": "Tue, 11 Aug 2026 21:17:00 GMT"
-        },
-        {
-          "title": "我在 Airbnb 的公用洗衣機裡發現了一張 100 美元的鈔票。我該怎麼辦？",
-          "summary": "“房東已經好幾個月沒來過這裡了，所以我猜這是以前的房客。”",
-          "source": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/im-dreaming-of-cocktails-at-chateau-marmont-i-found-100-in-my-airbnbs-communal-washer-what-should-i-do-9694ecca?mod=mw_rss_topstories",
-          "publishedAt": "Tue, 11 Aug 2026 21:15:00 GMT"
-        },
-        {
-          "title": "「市場顯然很火紅」：我應該從我的經紀帳戶中取出 1,000 美元來償還我的汽車貸款嗎？",
-          "summary": "“我很好奇是否有缺點。”",
-          "source": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/the-market-is-obviously-on-fire-is-it-a-mistake-to-take-1-000-from-my-brokerage-account-to-pay-my-car-loan-65800d1f?mod=mw_rss_topstories",
-          "publishedAt": "Tue, 11 Aug 2026 21:00:00 GMT"
-        },
-        {
-          "title": "我們住在一個農場裡，為退休儲蓄了 220 萬美元。我們已經準備好在國外退休了。我們負擔得起嗎？",
-          "summary": "“我們的生活並不奢侈，有時我們都認為也許我們可以升級一些東西。”",
-          "source": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/we-live-on-a-farm-and-have-2-2-million-saved-for-retirement-were-ready-to-retire-abroad-can-we-afford-it-85e56105?mod=mw_rss_topstories",
-          "publishedAt": "Tue, 11 Aug 2026 20:58:00 GMT"
-        }
-      ]
-    },
-    "ai": {
-      "categoryName": "AI 相關新聞",
-      "articles": [
-        {
-          "title": "研究人員揭露Gemini AI代理對代理攻擊手法，可竊取敏感資料並竄改GitHub拉取請求",
-          "summary": "隨著AI代理應用走向多代理協作，AI代理形成的攻擊面也隨之擴大，當不同AI代理擁有不同權限、又能相互傳遞指令與工作內容時，攻擊者可能透過其中一個AI代理影響另一個代理，形成新的代理對代理（Agent-to-Agent）攻擊途徑。",
-          "source": "iThome",
-          "url": "https://www.ithome.com.tw/news/178024",
-          "publishedAt": "2026-08-11  12:08:48"
-        },
-        {
-          "title": "開源商業智慧平臺Metabase修補遭到利用的零時差漏洞",
-          "summary": "8月6日開源商業智慧平臺Metabase提出警告，表示他們在雲端版本Metabase Cloud當中，發現有人利用未知的零時差漏洞的攻擊活動，Metabase隨即封鎖用於攻擊的端點，並迅速識別及修補弱點。雲端環境已完成修補，Metabase Cloud用戶無須進行額外操作；對於自行部署的Metabase，該公司推出0.58.24、0.59.21、0.60.17、0.61.11、0.62.9，以及0",
-          "source": "iThome",
-          "url": "https://www.ithome.com.tw/news/178023",
-          "publishedAt": "2026-08-11  12:08:48"
-        },
-        {
-          "title": "OpenAI Daybreak拆成Blue與Red兩級，後者找出逾400項作業系統核心漏洞",
-          "summary": "OpenAI周一（8/10）宣布，把提供給資安人員使用的Daybreak計畫分成Blue與Red兩種存取級別。其中，Daybreak Red採用全新的資安專用模型GPT-5.6-Cyber，並已在某款熱門作業系統核心找到逾400項可能造成權限提升的漏洞。",
-          "source": "iThome",
-          "url": "https://www.ithome.com.tw/news/178022",
-          "publishedAt": "2026-08-11  11:08:12"
-        },
-        {
-          "title": "擁有超過35萬活躍安裝量的WordPress外掛開發商BdThemes遭供應鏈攻擊，WordPress暫停相關外掛下載",
-          "summary": "WordPress外掛開發商BdThemes近日遭遇供應鏈攻擊，資安業者Wordfence指出，攻擊者採取不同於傳統供應鏈攻擊的手法，並未竄改WordPress.org程式碼庫的任何外掛程式碼，而是入侵上游基礎設施，利用外掛程式元件的跨網站指令碼（XSS）漏洞，透過API從遠端驅動攻擊，Wordfence評估這項XSS漏洞的CVSS嚴重性評分為5.4分，但攻擊者手法十分隱蔽，可避開磁碟完整性掃描與",
-          "source": "iThome",
-          "url": "https://www.ithome.com.tw/news/178021",
-          "publishedAt": "2026-08-11  11:08:07"
-        },
-        {
-          "title": "中國駭客Storm-1175散布勒索軟體StormEncryptor，疑利用N-central弱點滲透受害組織",
-          "summary": "上週N-able修補與公布N-central身分驗證漏洞CVE-2026-18577，並透露已出現遭到利用的跡象，資安公司Huntress與Sophos發現有客戶受害，揭露攻擊者活動的過程，現在有駭客組織傳出加入漏洞利用的行列。",
-          "source": "iThome",
-          "url": "https://www.ithome.com.tw/news/178020",
-          "publishedAt": "2026-08-11  11:08:50"
-        },
-        {
-          "title": "ThreatLocker募資1.9億美元，強化零信任與AI安全",
-          "summary": "成立於2017年的美國資安業者ThreatLocker，主要提供零信任資安技術，旗下產品採取預設拒絕（deny-by-default）的控管方式，由企業制定允許規則，決定哪些應用程式能夠執行，並限制應用程式與使用者存取系統資源的權限。該公司宣布完成1.9億美元F輪募資，資金將用於強化零信任平臺與AI安全能力，並拓展國際市場。",
-          "source": "iThome",
-          "url": "https://www.ithome.com.tw/news/178019",
-          "publishedAt": "2026-08-11  11:08:06"
-        },
-        {
-          "title": "N‑central身分驗證漏洞遭到積極利用，攻擊者藉此存取受害組織網域控制器等重要設施",
-          "summary": "N-able於7月底至8月初，揭露N‑central身分驗證繞過漏洞CVE-2026-18556、CVE-2026-18577，美國網路安全與基礎設施安全局（CISA）於8月4日表示，已掌握CVE-2026-18577遭積極利用的證據，而這段期間，有資安公司發現相關攻擊活動，並提出警告。",
-          "source": "iThome",
-          "url": "https://www.ithome.com.tw/news/178018",
-          "publishedAt": "2026-08-11  11:08:53"
-        },
-        {
-          "title": "DeadLock勒索軟體打造分散式勒索基礎設施，降低對單一伺服器依賴",
-          "summary": "微軟威脅情報團隊公開DeadLock勒索軟體分析，攻擊者利用Polygon區塊鏈、Session通訊網路與Wasabi雲端儲存服務，分散勒索協商與資料外洩所需的系統。DeadLock自2025年7月出現，截至2026年7月已在外洩網站公布超過80個受害組織，半數以上位於歐洲。",
-          "source": "iThome",
-          "url": "https://www.ithome.com.tw/news/178048",
-          "publishedAt": "2026-08-11  09:08:06"
-        }
-      ]
-    },
-    "china": {
-      "categoryName": "大中華新聞",
-      "articles": []
-    }
-  },
   "2026-08-13": {
     "hk": {
       "categoryName": "本地新聞（香港）",
@@ -27283,6 +27090,313 @@
           "source": "Google News 中國",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5JcUxxTmNJQXcxQmNqUTRndnNXUVIxQ3N0am5PdkZrSHYzMTN6UmU0UG9pQ3JPWWs4RTY3Z0VQY0hxS0R2Q0hfN1ZBSzc3bFB0Wk5kcE1n?oc=5",
           "publishedAt": "Mon, 09 Nov 2026 01:08:16 GMT"
+        }
+      ]
+    }
+  },
+  "2026-11-10": {
+    "hk": {
+      "categoryName": "本地新聞（香港）",
+      "articles": [
+        {
+          "title": "異動股 | 藥明康德高開逾6%，獲美國國防部移除出1260H中國軍工企業名單 - etnet 經濟通",
+          "summary": "異動股 | 藥明康德高開逾6%，獲美國國防部移除出1260H中國軍工企業名單  etnet 經濟通",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWGFEZG14LU1hVXQ0cUV5TUtyem5Vd1JyblFjYlEzMVpJY21hVUF6eENhVXUxZlVWSkViR2ZkZVUtenRYMmI3TzlJX2dEbFRWQVpWWEp0MWxTc2Q2dWQtbm01V1Bta19OclBjTTlqNFdhZkRFRjFfTmlxZ0t2b0lqWHpFd2kzTVZCNFczbTl2RHVEbUNt?oc=5",
+          "publishedAt": "Tue, 10 Nov 2026 01:36:00 GMT"
+        },
+        {
+          "title": "選委會選舉｜19人競逐17席紡織製衣界候選人：強化跨國供應鏈樞紐- 香港 - 大公文匯網",
+          "summary": "選委會選舉｜19人競逐17席紡織製衣界候選人：強化跨國供應鏈樞紐- 香港  大公文匯網",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE92dWNFNE9WQzhCUUFBZ3NOQ3c3WkI2M1c0U0ZyUDRqMzUwZ2tMOVhWUklxbndESjQ1aTltM3FaNHV1M1JpdG1tOXhxcEF0OW12RHRKZzRLMmYya0VTcV9wZ1hSOWozU29jVjFIdVFQY00?oc=5",
+          "publishedAt": "Mon, 09 Nov 2026 23:48:17 GMT"
+        },
+        {
+          "title": "走遍神州｜香港導演北上拍出「人」的故事 入圍央視孵化項目 - i-CABLE",
+          "summary": "走遍神州｜香港導演北上拍出「人」的故事 入圍央視孵化項目  i-CABLE",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMihgNBVV95cUxOV1hpZlVneV8wbDhCbzV6MW96cTdlaWpiZU1HMEFoN0U4U3ZNYTRVNWtYX2NIbXAxcnhHUWx2dVEyOURia29uMUxkTlYwQmVxaVA2WVBmTVlUOHc1N0cwd2NXN1NaMnBQV01WWnZMN0xPV05TTjI5Q2lMdTJLYlNyVXhRRTlpN1YyaHVOd0xxeWVOR2toUXhvVlROTU5tbExkTklIZDB5VlRObHpZUENPTWZtNWFPWXJXX2dSeThjcEtTU3hzUTlkY1NHSkJMWnBKX0NlUTVzLUVWb092NTRXTldWRWhjRldMMElxT0xuWlRQUmxMVlhoeVk0LWxnY1FfakZ1S1BpZHlYRXRZWnkwN0U4dXVoOVRxU250SGVtYXBSSzBaLWwtU01GVDhhWGFfTGY1SGN0ejZJaXJMVlcwT1Brb0E0WmllRzN2RlZ2aElBRHhRZzVsOGFhcnhBRDNrWUlJaGl0T0pzWTRwOXlvWGU3MzNhU3lHeTZBX3psVWl3SmtJSmc?oc=5",
+          "publishedAt": "Tue, 10 Nov 2026 01:01:12 GMT"
+        },
+        {
+          "title": "美股 | 道指收市飆1104點，納指及標指升逾2%，英偉達逆市跌逾4% - etnet 經濟通",
+          "summary": "美股 | 道指收市飆1104點，納指及標指升逾2%，英偉達逆市跌逾4%  etnet 經濟通",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMndSbjFxMzAwMUhIdFdDZ25iMGRBRVJkX0VJcXVpV2ZpOE4xN1ZZT0ZlRHZfcmFiU1BJSHRMaDFzVS01TF9QcktzSkpMRFZiWlZDMmdxcG9sVDFQVkNNaUNWVWxZRnZ3d2MtZEpqcjlJWjY0TjkySjJDaU9DamVYSzkxdFhOdkJwRlVNVmJsb2tUaFdF?oc=5",
+          "publishedAt": "Tue, 10 Nov 2026 01:02:00 GMT"
+        },
+        {
+          "title": "選委會同鄉社團界別60候選人自動當選出席見面會展示履職初心- 香港 - 大公文匯網",
+          "summary": "選委會同鄉社團界別60候選人自動當選出席見面會展示履職初心- 香港  大公文匯網",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8td3Y0RGUtSWlpRWl4V1l3VjFZMm5PMVg3dnhmcXZOQllfMzItd3ZSeEE4eXQ1elFmWTRwV2w3R3k0c2I2b1piYWhfY3BibFIwMjdwMUk1eHcxUlpmWXJzV1pYRW1hcVl0NXRfUjgwTE4?oc=5",
+          "publishedAt": "Tue, 10 Nov 2026 00:18:41 GMT"
+        },
+        {
+          "title": "現貨黃金報4127.01 | 即時新聞 - 新聞 - etnet 經濟通",
+          "summary": "現貨黃金報4127.01 | 即時新聞 - 新聞  etnet 經濟通",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZjdDZVZoejQzQ2h3RWN3SDRPTzVVbHBXREJQa1pxUEVvNlpWX1ZUN0N5LVdFWnZaRmpNWkZKeTQwdzNnbE82M25WclByZTBZdFM5bUZMdm5IZVI4dlk4UzVKZThzODJqYk9ZU0ZnTDlCZ1lTRlNMX0praXA3OWdMZXVXaWEyaUp5Mks1bmhseTIzd0tTb09Ud2kwczdYWmI2?oc=5",
+          "publishedAt": "Tue, 10 Nov 2026 02:02:27 GMT"
+        },
+        {
+          "title": "香港政府新聞網- 環保署籲提防虛假回收補貼計劃 - 香港政府新聞網",
+          "summary": "香港政府新聞網- 環保署籲提防虛假回收補貼計劃  香港政府新聞網",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5kTWF5bnFPeDlwV0FlTnczN2tLdkF5cEZSYzg4cUNXX2l1ZC1xZFY5TlZ3NU9xMUlaU0VjNGV4eDB1T2t6WFFsbV9JdWFwdU45X1RBWHhDY2N1ajd0aGQ0OTYyRUNwZ0JaeFlUSGpQWUs1S0dqWXVnNQ?oc=5",
+          "publishedAt": "Mon, 09 Nov 2026 18:50:09 GMT"
+        },
+        {
+          "title": "立法會將審議《北部都會區發展條例草案》 - 香港商报",
+          "summary": "立法會將審議《北部都會區發展條例草案》  香港商报",
+          "source": "Google News HK",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9JYWFDYWxITGxfaVNEQ2V0MG4tYUhRY1l3Tk8wUjAtc1lSRG9DQUlMbE1ETFlWa0puVHBYTHJuRlg0TlFpUzI4Y29tMUltTlZOSDZjM0FMNmlmSFBncnFzSjJaZjVGUjZJd2FPQ0RHWi0wdw?oc=5",
+          "publishedAt": "Mon, 09 Nov 2026 15:11:30 GMT"
+        }
+      ]
+    },
+    "world": {
+      "categoryName": "國際新聞",
+      "articles": [
+        {
+          "title": "川普稱聯邦調查局正在調查英偉達老闆與中國間諜的戀情",
+          "summary": "美國總統表示，他週一與黃仁勳進行了交談，並向他詢問了與被指控的間諜的風流韻事。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Tue, 10 Nov 2026 01:44:53 GMT"
+        },
+        {
+          "title": "美國官員表示，交戰雙方以「一定彈性」恢復烏克蘭和談",
+          "summary": "基輔、華盛頓和莫斯科均派代表團前往阿拉伯聯合大公國，參加自二月以來的首次三邊會談。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Tue, 10 Nov 2026 00:09:49 GMT"
+        },
+        {
+          "title": "虐待倖存者說，仍然經營模特經紀公司的愛潑斯坦同事“讓我處於危險之中”",
+          "summary": "一名女子說，一名機構老闆派她去性犯罪者位於佛羅裡達海灘的家中拍照。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cm86z6w59gggo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Tue, 10 Nov 2026 00:14:03 GMT"
+        },
+        {
+          "title": "共和黨國會議員將強制對國防部長赫格塞斯進行彈劾投票",
+          "summary": "這項努力可能會失敗，但眾議員托馬斯·馬西希望在民主黨明年啟動自己的彈劾程序之前推動川普解僱赫格塞斯。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cwr5y58jjp8ro?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Tue, 10 Nov 2026 01:38:49 GMT"
+        },
+        {
+          "title": "澳洲航空將外包 850 個當地工作崗位，其中大部分職位將轉移到印度",
+          "summary": "這家澳洲航空公司表示，此舉旨在實現 IT 系統現代化，並注意到人工智慧的影響。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cry838v4qzvyo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Tue, 10 Nov 2026 01:55:22 GMT"
+        },
+        {
+          "title": "土耳其鋼鐵廠爆炸造成至少17人死亡",
+          "summary": "目擊者稱，爆炸震動了地面，有人認為阿利亞加的 Habas Demir Celik 工廠附近發生了地震。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cq2d6d5z9y5jo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Mon, 09 Nov 2026 20:42:04 GMT"
+        },
+        {
+          "title": "法官駁回駁回林賽克蘭西謀殺案的動議",
+          "summary": "該裁決意味著案件可以繼續推進，新審判中的指控可能會減少。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/ck1l3le7q29vo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Mon, 09 Nov 2026 23:28:53 GMT"
+        },
+        {
+          "title": "涉嫌殺害查理柯克的兇手的審判日期定於 2028 年 6 月",
+          "summary": "泰勒羅賓遜 (Tyler Robinson) 對與 2025 年殺害保守派活動人士有關的嚴重謀殺罪和其他六項指控表示不認罪。",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cq0mem8d2p3xo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "Mon, 09 Nov 2026 21:48:38 GMT"
+        }
+      ]
+    },
+    "finance": {
+      "categoryName": "財經新聞",
+      "articles": [
+        {
+          "title": "個股概覽 | 個股 - 股市 - CMoney",
+          "summary": "個股概覽 | 個股 - 股市  CMoney",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBfVGtPUmhQeF9nalNLNm9zTGJWQlREWTlFa2dVeEhkNElpN1d0OXlyaFF3U3NaYnBodklvejVEU1YtdkNl?oc=5",
+          "publishedAt": "Tue, 10 Nov 2026 01:04:34 GMT"
+        },
+        {
+          "title": "《金屬》股市回穩 LME基本金屬多數上漲 - Yahoo股市",
+          "summary": "《金屬》股市回穩 LME基本金屬多數上漲  Yahoo股市",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOSE82VWswMlVieTJLTUVsZ2ZvLTVrSjl6SElFOU1vUWRXdFQzMTZhejZKcWh1Yko0YmpHZkI1X3FSUlpxMFhyYjJ1a00xbmlfb3psbm1FVUlUMWx2WFdWZE5SbnJ1U21oNmloVjQ2MFp6aEJxRFlkbDZ1QjltU0FCOE5Vc0dxLUNPMldrZ1BpUU44X0FKNDBYOEN4ZjFlRDRwYjVGdkdycEdKR2NZYU1GTTNrbDJzekU3VmpCb1lmS3poNWx2MXlNR1RPdXRnYWtmY0h4ZzItVVpCT2lkVGpyU0VhZnRfQzBtYnFMdGdIRFVJR3BGSm42TWZRQXp6ZWxqSTRVcmhJM0NKUQ?oc=5",
+          "publishedAt": "Mon, 09 Nov 2026 22:15:00 GMT"
+        },
+        {
+          "title": "輝達遭血洗、美股卻嗨翻天！道瓊暴漲千點 台積電 ADR逆勢大漲3.51% - 壹蘋新聞網",
+          "summary": "輝達遭血洗、美股卻嗨翻天！道瓊暴漲千點 台積電 ADR逆勢大漲3.51%  壹蘋新聞網",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPY3FfaFBteWlycW1pQlJRSGlfd3lmR3pDOFM3cEFZbkhqTVZlUGZIWEpNa0NfZmlZUWxEMVRoZGk5c1hxLTRyWXlObF83aXQzZmpXaWMyOFJkbGExS2dqd2tLaTNjWUJJX2c5WUdJeFNhQjIyUTJqMUJ2ZjhuMW16MnN3?oc=5",
+          "publishedAt": "Mon, 09 Nov 2026 22:35:00 GMT"
+        },
+        {
+          "title": "台達電營收首破700億元！一字鎖再閃第二紅燈 分析師曝：反彈別跌破這條線 - Yahoo股市",
+          "summary": "台達電營收首破700億元！一字鎖再閃第二紅燈 分析師曝：反彈別跌破這條線  Yahoo股市",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMi4ANBVV95cUxNM2dBNkRrRFk0TWJVTVNMSE5xbDZicnNuYW43NjVaZ1RjWlF2QkZvQzI5b3hwV0JENUkxZnlCdWhVUkV2cGZGc1d2OTBIMGx1VDJhbl9VYkgzeHdDdHBlRWNSaFR2cl8tXzlPeUZxeG1FNC1ONG1tRjZCV2J6YU0teWJaQ1NmSkFqUWV5Ulp6SWQycHBKUVR4RENjcWo5RE1uWWFVXy1DVy1SandpTjRBa0QtNmpLTGg0Y19sNjVzT1pFUGY4WEpHVUdtWHZhUWZfX05hbkNWb2M0QUFMcnJBYU1WVkNmUzFiMXhQdjFCNDM5MmVmNVVPYm5DMzF2TUNGWGk0V3phcVRjWlhCdGlKa0t0NUVaNmg0MlpzNFgwWTNUMW5mTmo5S2JpT0FIdjJiWUwtbU1NMDd6dlVKNHVpLVJvSDdSaU9tX1YxN2FTekxUQXZZWHlBVXRCaTYzNVBWR0k1NTN2cEI3ZVJBZEE1NmZ6WUJNQmxIaklWVzlwYVA5MUxwaWEwTVN0V2tVWGNXa3hobWFYRkxmaW1DZlJURFY1dW5CYnZmcUItaTdFUGN1WU1FR0JsYnZWVXpiSDcwSVM4Zkp5RTNNZkZtbHRuX0lIS0gtUjUtbzFkUS1ILUU?oc=5",
+          "publishedAt": "Tue, 10 Nov 2026 01:47:44 GMT"
+        },
+        {
+          "title": "台積電營收出爐前...股價漲45元「市值重返59兆元大關」 1天增加一家南亞科 - Yahoo股市",
+          "summary": "台積電營收出爐前...股價漲45元「市值重返59兆元大關」 1天增加一家南亞科  Yahoo股市",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMiywNBVV95cUxQSlI1Nms0Y2NBUG1BdGpvMVduYk9RM1NLd0h1WlBkekZsS0NxTkY3LWRZWVNPOXBKSGtwQmJtLUFjZDBYMnE5aEx0LWlyS0VWWTRDWWxrYVhjT3FPMlRoRVh6QnNFcXZ5WlRvVUhIeFhVZkdZbEpqVkhXUXFzaGY0ZTZ3QVFfNnEtT0NMUUh1VWlfRVZrOUVCWEFzR3lnU19HRkJ6SjFTZ2RHb1VRQThVNktpeEE3cTdscnFpN0l0djdGblVCb0RiRVp5aVJZQklndEdEYnE4TXkxZTdjRUZ1SzgzbnlSZ0tCTUVHUGk2WFdFUEFhNERpWHBlWXpxSDI5X2NzdzdBOG52Y2NCSm43ZG1xSUM2VzBLUUNaMXlEOWkzNTBSSXBFcHdMMF9DeXltSFBUQWd1amJGNzZXWGRSLVVSYXVQZU5aLVNZMkJwX1UxbjNqaEtUdlB0R3g4c0t4RVd1Y0x4MGtuUXEtM0dNcTU4ZmVTSE82RFlTV2RpT3hUVDdoZ2FiLVZrTFFGRGYzV1p1dGVTUnhmbV9GTnU2WlhVX3Rpc2RTMUxhVC01a2VEVVFRcHpXOWtYWkF0OWlTclhMemZXN0pMV0k?oc=5",
+          "publishedAt": "Tue, 10 Nov 2026 01:38:32 GMT"
+        },
+        {
+          "title": "不甩黃仁勳桃色風波 台股再飆千點「2交易日反彈逾5千點」 - Yahoo股市",
+          "summary": "不甩黃仁勳桃色風波 台股再飆千點「2交易日反彈逾5千點」  Yahoo股市",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMiiwNBVV95cUxQNkxMU1Q1M1VPTmZXTEZrMnhpZmVvQ1Y4dFN3aWFEUjhfQkVpYWpWOFlleDNtdWEwOUtWYllRT1BCN0dsTnFrSnJOWXNfRkhudU1FUTJCa3dMaW9OY3BCUDVJaUpabEtjUGRaVXVJaF9GQ0QybDVKZEJyWTNWMThMRGs0ZFJ3S2hobVczZ1UweWc5a29adzNCTS1OY21nQkZ4Wms1aTBUd091Rm5UNlJVZy1yaGg5UUhqck91cXFEVzNvUzlybWlITW82VVJ4S09yS3FXMk9VZGFfazhGOWI2U2xzNE4taXdhN19CYkp3S29MTl80TDdZTkhMMkxGalE5NUxaalkzRFpxUEE5al8zbk5BTm1ULWFMMTFkV1R6bGFXSThZNG9iTGVaX3NsbWRNRW1CYUJqNkJCTHVpZ2pqTlJDV0VnLWJuM0YyY0JTQndYRmVsU1ZicVBjOFRBUnRRUWNPamItY2dSM1pSQ01oN0FXZDlFTWFjSlgycEk1eHgySnYtNlBIUWt1MA?oc=5",
+          "publishedAt": "Tue, 10 Nov 2026 01:21:18 GMT"
+        },
+        {
+          "title": "光電股多檔飆漲停！玉晶光亮燈大立光漲逾7% 分析師提醒別追高 - Yahoo股市",
+          "summary": "光電股多檔飆漲停！玉晶光亮燈大立光漲逾7% 分析師提醒別追高  Yahoo股市",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMiogNBVV95cUxNQXdmRUpTVDRna3BoaDN3UU1EMVdQbGlJejdrYldlWjNjS2hKczFySHNMeThvRjkzOWZfcXZVWjF2NktyUVIxQ2pUQ3pWb3lsYzFsSW1xX0RjUHZxRmV4UVBjTVVyMF9zYUZfbFBPMWJGa0pHZUZTVHkzaEtaenJaWTJyTE1WNkxfc2VUQW42LTdzcE1pNktpQ3B4TEhPMTA5eU5EempvTmJXMUJkelgxNEUzYkFHUkEyeFp0WVhSV1NENnhUOUZBSjNrWVl0b0dZT1RGZ3FkSWhwSmsxMzNmOVJBbGlpX1laeHE2Y05FMXZIZG5oYkhTUWVmYXFoSFlaeS1EVmsySEI4QjNjdTBNSzdOWDRVajFQeXNEekZibnI0Z0RrVUVYQ24zR3B6RW02N3BmcUNBN2VJbTVNZ3FqRnhtNkNfTWVKa0pUMnBPTFk5R3QxbWp3bkI0dmxuWnFWY1R1MzBxUHNVRG5waWpKd1BsRS0zRlp6QmV3NVhSWEdDMGMyZ2RaQmJ3S2FPZHVJSjdRSk1uemUtLVctbWJIS1NB?oc=5",
+          "publishedAt": "Tue, 10 Nov 2026 02:03:45 GMT"
+        },
+        {
+          "title": "黃仁勳認婚外情 輝達開盤股價大跌逾8% - 壹蘋新聞網",
+          "summary": "黃仁勳認婚外情 輝達開盤股價大跌逾8%  壹蘋新聞網",
+          "source": "Google News 財經",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZWZSdGFyeFhsX3BTS0RyelJPQ3cxc0FFMXdyVjQzOExtQ2d1dUFuRGJENXI1SmdUb3pJNUthdVh5eUk1TXJoa3RxRzNaR2dTTmRxZlV0VzFmX1FRNGRpenV5dFVuX1Bxa2xSRlp0S0dqQVhtMDhVYnJfSXhwUGJIQ1lR?oc=5",
+          "publishedAt": "Mon, 09 Nov 2026 14:58:00 GMT"
+        }
+      ]
+    },
+    "ai": {
+      "categoryName": "AI 相關新聞",
+      "articles": [
+        {
+          "title": "SEGA集團因日本Arara資安事件外洩資料220萬筆",
+          "summary": "日本遊戲大廠SEGA上周公告，因委外的郵件發送服務商Arara發生資安事件影響，SEGA遊戲製作及SEGA玩具製造部門SEGA FAVE外洩客戶電子郵件地址將近220萬筆。\nSEGA指出，近日接獲負責公司集團下SEGA及SEGA FAVE部分電子報發送的Arara通知，Arara的郵件發送系統遭第三方未授權存取，導致用於發送電子報的訂閱客戶電子郵件地址及部分個資外洩。\n根據分析，已確認外流的客戶資",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/180353",
+          "publishedAt": "2026-11-10  10:11:53"
+        },
+        {
+          "title": "曜亞子公司線上購物平臺遭委外廠商資安事件波及，訂單資料遭異常存取",
+          "summary": "11月9日晚間生技醫療公司曜亞（4138）於股市公開資訊觀測站發布資安重訊，旗下重要子公司曜胜生技的線上商店「DR CYJ購物網」，受到委外服務廠商順立智慧（Cyberbiz）資安事件影響，購物平臺訂單相關資料遭未經授權異常存取。根據初步評估，此次事件對曜胜財務及業務尚無重大影響。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/180352",
+          "publishedAt": "2026-11-10  10:11:27"
+        },
+        {
+          "title": "崇越子公司安永生活電商委外服務商發生異常資料存取，清查受影響範圍",
+          "summary": "11月9日半導體材料整合服務商崇越（5434）於股市公開資訊觀測站發布資安重訊，旗下子公司安永生活的電商平臺委外服務商順立智慧，近期發生異常資料存取情形。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/180351",
+          "publishedAt": "2026-11-10  09:11:23"
+        },
+        {
+          "title": "DigiCert發生資料外洩，起因是伺服器遷移出錯",
+          "summary": "憑證管理公司DigiCert於11月5日證實發生資料外洩事件，因伺服器遷移過程中的設定錯誤，導致原本僅供內部使用的業務系統暴露於網際網路，攻擊者利用系統授權控管漏洞，未經授權存取部分封存客戶資料，外洩資訊包含個人聯絡資料及身分證明文件。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/180342",
+          "publishedAt": "2026-11-10  09:11:01"
+        },
+        {
+          "title": "Nous Research改造Qwen模型，注入西方價值並減少政治偏差",
+          "summary": "美國AI研究新創Nous Research上周五（11/6）發表Arete-27B，透過後訓練改造阿里巴巴的Qwen3.8-27B模型，強化言論自由、民主、自由市場及個人隱私等西方價值觀，以減少政治敏感議題上的偏差，同時保留模型原有能力。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/180350",
+          "publishedAt": "2026-11-10  08:11:50"
+        },
+        {
+          "title": "法國將10月冷凍、冷藏設備網攻歸因於伊朗網軍，波及700多處零售據點、損失數千萬歐元",
+          "summary": "法國政府11月9日宣布，將10月11日晚間至12日凌晨針對境內大型零售業者發動的網路攻擊，正式歸因於伊朗革命衛隊旗下的網路攻擊單位Shahid Kaveh。攻擊者鎖定法國700多處零售據點的冷凍、冷藏設備控制器，將設備的除霜溫度設定調高，造成大量食品損失，並至少引發15起火災。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/180349",
+          "publishedAt": "2026-11-10  08:11:47"
+        },
+        {
+          "title": "整合開發環境GoLand 2026.3讓AI代理直接操作效能分析器，追查Go程式瓶頸",
+          "summary": "JetBrains發布Go語言整合開發環境GoLand 2026.3，開放效能分析工具供AI代理操作。開發者只要描述API回應緩慢、CPU使用率過高或記憶體持續增加等問題，AI代理便可啟動程式、收集效能資料，找出耗費資源的函式與程式碼位置。目前已支援Claude Code、Codex及Junie。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/180347",
+          "publishedAt": "2026-11-10  08:11:00"
+        },
+        {
+          "title": "AI加快漏洞發現與攻擊速度，2027年企業資安面臨四大變化",
+          "summary": "隨著AI加快漏洞發現與攻擊速度，漏洞公開後可能很快就遭到利用，企業若仍按照固定週期修補漏洞，可能無法及時因應攻擊。",
+          "source": "iThome",
+          "url": "https://www.ithome.com.tw/news/180299",
+          "publishedAt": "2026-11-10  08:11:00"
+        }
+      ]
+    },
+    "china": {
+      "categoryName": "大中華新聞",
+      "articles": [
+        {
+          "title": "兩岸黑白講》最熟悉的語言最陌生的彼此- 兩岸 - 工商時報",
+          "summary": "兩岸黑白講》最熟悉的語言最陌生的彼此- 兩岸  工商時報",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0xekEzdTc0MkRhQ2lENkhGWXhlcl9VT0ktZ1BsWVdKVXZkdDBRSXREM0dsUjNaZFZuOEVfV3JlTG0wcHE1MTdDeFNJYjN1TFFTMXpQUENycnM5amVIWGxz?oc=5",
+          "publishedAt": "Mon, 09 Nov 2026 23:14:00 GMT"
+        },
+        {
+          "title": "海峽兩岸機博會在福建龍岩開幕 - https://www.taiwan-reports.com/",
+          "summary": "海峽兩岸機博會在福建龍岩開幕  https://www.taiwan-reports.com/",
+          "source": "Google News 台灣兩岸",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAySzZFY2JwbER4cmo5UG1Wb1NvanhHdWplN3czYml4c2dCT0I0VzJvcTlJUDhiYlFzRlpYUW45WXBKMF9aQm4wbXdsU3NmZHdhLUxTX3ZIQmQ5dw?oc=5",
+          "publishedAt": "Mon, 09 Nov 2026 20:54:39 GMT"
+        },
+        {
+          "title": "保證能拿到晶片！黃仁勳外遇女間諜黃樂爆向中國金主兜售「百億AI計畫」：阿里巴巴也是客戶 - Yahoo股市",
+          "summary": "保證能拿到晶片！黃仁勳外遇女間諜黃樂爆向中國金主兜售「百億AI計畫」：阿里巴巴也是客戶  Yahoo股市",
+          "source": "Google News 中國",
+          "url": "https://news.google.com/rss/articles/CBMingRBVV95cUxPT01IUHlpeGpYRnRCcjU1NzU4WHRabEtmLUdlbFJPQ3hMUE04dzI3TGlzcVZxWVRmekpmU19OdkpKT01yNVlHbGlzNjRibndrLWxsMG5nS0ZYdGstUkhvMVVjSzJNUXd5ZHhZM1lfUE55UWZaWWhqYUpFVTZObzhEYUVhVkY0eFN4NWhZTENuMWNDSTQyYnA0Nm8zN1BpYjFIRVFEdzVOOEo4LS1WVml5MDV0SkNmb3lERzRGdjNBVHV3NlFVdTNCY0E5SGtzbTM0UVFiYU5yOXAtN0Q3OGZpS2UtRlg3LVU3Q0ZOTGJZS1VJTC1kVVB6d0Q1R002TFM2cVJhMmZSa3pzSEFqUzN4YUlOQ0xJbXAzXzdaUUpTdFFNcl80T3ZNUmNvU1lfOWh0eVZXOTVxamlnYWxKME1FY2ZlZGFJVl93WEFxOG8xZms2U3EzV3lnVmVzSEd1STRILVVNTzBNcUV3R3Vkajg0REZkNVhnY091M1lYLVotLWZmaWNzUzlxRkR4dXhtOWUzdW1aVjkwbmlFTjA1X0FxXzdiSzVLcExLUDVFSDJmZVJNZS01bC1lTGJQTHJvckNtTVJuZFdZSzBlMnRTcWxodk5tVkFDQlhTVkh1dUh1SUFpQVdGVmlBMDNKdGxRYUxILXd2cTlVUmdBYjM0NmtnNktQNE5nMTZEbTdGcTZzSjRodGxXazlEbGlJOVIyQQ?oc=5",
+          "publishedAt": "Tue, 10 Nov 2026 00:23:56 GMT"
+        },
+        {
+          "title": "埃及椰棗的“中國機遇”（進博會故事） --新聞報道-中國共產黨新聞網 - 共产党新闻网",
+          "summary": "埃及椰棗的“中國機遇”（進博會故事） --新聞報道-中國共產黨新聞網  共产党新闻网",
+          "source": "Google News 中國",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9zZFVyVjFhbjhZTjRleVFvLXYybXJ4Wk15Q3p2cmlQSE15eVFwdjFsbUlvUGtYN0ZWM0RsS2E1U2ZQZUF3Yl9wT2o2akF4Y0ZvMEQ1TlBTanJ6Mkh1NWtKaW9OQUVuQmQ5TkVDQWlXdlE?oc=5",
+          "publishedAt": "Tue, 10 Nov 2026 00:47:00 GMT"
+        },
+        {
+          "title": "孫中山誕辰160周年 中共辦紀念大會 習近平將講話 - 世界新聞網",
+          "summary": "孫中山誕辰160周年 中共辦紀念大會 習近平將講話  世界新聞網",
+          "source": "Google News 中國",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE56NDk5VHp3LXZMRzdqLTVoanJveGpmRENseEtjY3pxaVRKQkRRZ2hNSndzclJ3VVgxUWJyMHdfdTF6aHJXRmc0RXNMbHRVS0F3ZDk0ejVqU1d1Si02Z1lXbUJR0gFnQVVfeXFMUHFPYlhUSUtqS0lTSGhydWZiYWtCMEQ2aTBadGtaOEZJQjNjYXJPZUtqN0RwYlN1NzR5am5fNzFhbGRPZ0FaNmJ4aTFXTUNaZlFnZDFtWlMydE44RGUyWmswb2l5Mk1BZw?oc=5",
+          "publishedAt": "Tue, 10 Nov 2026 01:53:43 GMT"
+        },
+        {
+          "title": "中國APEC峰會邀請函惹議！卓揆強硬表態：台灣立場不變 | 民視新聞網 - LINE TODAY",
+          "summary": "中國APEC峰會邀請函惹議！卓揆強硬表態：台灣立場不變 | 民視新聞網  LINE TODAY",
+          "source": "Google News 中國",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9yVV96OU1vRGFPRHJsNU5vSkRRdkhRRDhrR0VvRzVJRnZheU1nM2tZMzJBb1ZWdUE2T2ZhZnBRWjBJUVpzR2c0RVM3SVVnVDdqLXFXRldB?oc=5",
+          "publishedAt": "Tue, 10 Nov 2026 01:44:18 GMT"
+        },
+        {
+          "title": "Apple智能獲准在中國應用於iPad和MacBook - Yahoo股市",
+          "summary": "Apple智能獲准在中國應用於iPad和MacBook  Yahoo股市",
+          "source": "Google News 中國",
+          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOQ0pHQldKQWpPdWdHUWZuNmNYeVBpZU12ZUJjZjJuWmw2QjBxTDFfaUFla2VZN0hxVF9BTkpOV1BaazlpSTlub0RMLUZrYWdrMEQ4R2Q0Q3ZoSGUwdjFrYnFsdmVuRVQxckRaMmRPSVBqYUZVZTRkRVRYV3ZISjlRYjYwUmM2OURqaW43dHBRVzd6TGpzakJjdmN4eVVveThMajZZRlRoNmR5RlVtdHVvODRNcmViME43SXNYVmdJLVloQm8wQUw4aGdKUDVOWkYwSlFvQlE2RGpjSzBKT2ZWT1MtdGxKWGF4UjgtU0l1UHNLV1M3?oc=5",
+          "publishedAt": "Mon, 09 Nov 2026 23:56:43 GMT"
+        },
+        {
+          "title": "“為全球醫藥科技創新注入強勁動力”（見証·中國機遇） --新聞報道-中國共產黨新聞網 - 共产党新闻网",
+          "summary": "“為全球醫藥科技創新注入強勁動力”（見証·中國機遇） --新聞報道-中國共產黨新聞網  共产党新闻网",
+          "source": "Google News 中國",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE40aXBVYlFidmEtT1NYVjByUUNZSUVIajN6MUZtOVozRTYzUWN1QmFGTGd5WkxMNkRlZ0poT29IUFVlZVVIM2NXUUlvc0VEUUl0VUdEVF9Vc2V3anUybGZJd3dSWElwN3I1SDAwTmg4eVQ?oc=5",
+          "publishedAt": "Tue, 10 Nov 2026 00:47:00 GMT"
         }
       ]
     }
